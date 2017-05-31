@@ -1,0 +1,27 @@
+"Test Type";"Manual"
+"Method Name:";"C:\INSTRON\user\template\Pablor.mtM"
+"Name:";""
+"Operator ID:";""
+"Company:";""
+"Lab name:";""
+"Test date:";"31/03/2017"
+"Temperature:";""
+"Humidity:";""
+"Note 1:";""
+"Note 2:";""
+"Note 3:";""
+"Geometry:";"Rectangular"
+"Table:";1
+" ";"Load Peak 1 N";"Load Peak 2 N";"Load Peak 3 N";"Load Peak 4 N";"Load Peak 5 N"
+"1";2844.56;"-";"-";"-";"-"
+"2";1639.02;2423.27;"-";"-";"-"
+"3";2537.82;2661.92;"-";"-";"-"
+"Mean";2340.47;2542.60;0.00;0.00;0.00
+"Standard Deviation";626.53;168.75;0.00;0.00;0.00
+"Coefficient of Variation";26.77;6.64;0.00;0.00;0.00
+"Median";2537.82;2542.60;0.00;0.00;0.00
+"Mean + Standard Deviation";2967.00;2711.35;0.00;0.00;0.00
+"Mean - Standard Deviation";1713.94;2373.84;0.00;0.00;0.00
+"Minimum";1639.02;2423.27;0.00;0.00;0.00
+"Maximum";2844.56;2661.92;0.00;0.00;0.00
+"Range";1205.54;238.65;0.00;0.00;0.00

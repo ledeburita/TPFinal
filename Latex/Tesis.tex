@@ -1,0 +1,1041 @@
+%\documentclass[a4paper,10pt]{book}
+%\usepackage[utf8]{inputenc}
+%\usepackage[T1]{fontec}
+
+\documentclass[a4paper,12pt,fleqn,twoside,openany]{book}
+\usepackage{layout}
+% Set equal margins on book style
+\setlength{\voffset}{0pt}
+\setlength{\headsep}{25pt}
+\setlength{\footskip}{25pt}
+\setlength{\oddsidemargin}{0.7in}
+\setlength{\evensidemargin}{0pt}
+\setlength{\marginparwidth}{10pt}
+
+\usepackage[margin=1in]{geometry}
+
+%\documentclass[a4paper,12pt,oneside,openright]{report}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{graphicx}
+
+
+
+
+% Uso las fuentes iwona para el texto y para matemática.
+\usepackage[T1]{fontenc}
+\usepackage[math]{iwona}
+\linespread{1.05}
+
+%\usepackage{savetrees}
+
+% No se cuales de estos son realmente necesarios.
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{multicol}
+% Me pone el número de figura en negrita.
+\usepackage[bf]{caption}
+\usepackage{subcaption}
+% Paquete para que las figuras no se vayan al final de los capítulos
+\usepackage{afterpage}
+
+% Para tener tablas más lindas
+\usepackage{booktabs}
+%\newcommand{\ra}[1]{\renewcommand{\arraystretch}{#1}}
+\renewcommand{\arraystretch}{1.3}
+% \usepackage{biblatex}
+
+% Pongo lindo el header
+%\usepackage{fancyhdr}
+%\pagestyle{fancyplain}
+%\fancyhf{} % clear all header and footer fields
+%\fancyhead[LE,RO]{\thepage}
+%\fancyhead[LO]{\slshape \rightmark}
+%\fancyhead[RE]{\slshape \leftmark}
+%\fancypagestyle{plain}{% en los inicios de capitulo
+%	\fancyhead{} % get rid of headers
+%	\renewcommand{\headrulewidth}{0pt} % and the line
+%	\fancyfoot[C]{\thepage} % add page number
+%}
+
+
+
+\begin{document}
+
+%\section{Introducción}
+
+\tableofcontents
+
+\chapter*{Resumen}
+
+\chapter{Introducción}
+
+\section{Transformación Martensítica}
+
+Las transformaciones de fase se dividen en dos grupos:  con difusión y sin difusión, dependiendo de si hay un movimiento de átomos de largo alcance o no,
+respectivamente. Las transformaciones sin difusión también reciben el nombre de displacivas, que a su vez se dividen en transformaciones no macroscópicas
+(implican movimientos atómicos menores a un parámetro de red), y macroscópicas (más de un parámetro de red).
+
+%\paragraph{}
+
+La transformación martensítica corresponde a una transformación de fase displaciva y sin difusión en estado sólido. 
+En estas transformaciones se produce un reacomodamiento de los átomos que se mueven cooperativamente distancias menores a un parámetro de red 
+por lo que no ocurre difusión de largo alcance. Esto hace que la fase inicial y la fase martensítica tengan la misma composición. 
+En la figura \ref{fig:CuZn} se muestra el diagrama de equilibrio Cu-Zn, y puede verse que si se comienza con una fase $\beta$ y se enfría lo 
+suficientemente lento para permitir difusión, ocurre un reacomodamiento de los átomos, obteniéndose dos fases estables $\alpha$ y $\gamma$. 
+Para obtener una transformación martensítica, debe enfriarse muy rápidamente la aleación desde la fase $\beta$, para evitar que los átomos puedan 
+difundir y formar fases de equilibrio.
+
+%\paragraph{}
+
+La fase martensítica se forma por nucleación y crecimiento de placas, las cuales nuclean de forma heterogénea en bordes de grano y defectos de la red. 
+Cada aguja crece en distintas direcciones, según las tensiones que se generen en la red, hasta alcanzar otro borde de grano o placa de martensita. 
+Además, si bien la red sufre una distorsión en cada placa, la suma de todas las distorsiones del material es nula. 
+La interfase entre la placa de martensita y la austenita avanza a la velocidad del sonido, lo que hace que la transformación no dependa del 
+tiempo, sino únicamente de la temperatura. Esta interfase se llama plano de hábito, pertenece a ambas fases 
+simultáneamente y no está distorsionado. Este plano se acomoda por medio de cizalladura o por maclas de la martensita. 
+El hecho de que la deformación total del material sea nula no implica que no haya una deformación en la red. En la martensita se ven pequeñas 
+deformaciones (menores a un parámetro de red) para que la estructura martensítica pueda acomodarse sin deformar la austenita. 
+Duering \cite{duering} muestra una analogía para explicar esto: Si tenemos una pared compuesta de ladrillos, no podemos cambiar la forma de un solo ladrillo. 
+Deben deformarse los alrededores o el ladrillo se acomoda a la forma del hueco disponible en la pared.
+
+%\paragraph{}
+
+Las primeras agujas de martensita se forman al enfriar rápidamente la fase matriz a la temperatura Martensite start ($M_{s}$). 
+A medida que disminuye la temperatura se van formando nuevas agujas y crecen las ya existentes hasta que se llega a una temperatura 
+a la cual ya no se forma martensita, Martensite finish ($M_{f}$). Esto no significa que la estructura sea completamente martensítica. 
+Como la transformación implica una expansión de la red, la formación de varias placas puede dejar la austenita remanente comprimida, 
+sin espacio para transformar. También puede ocurrir lo inverso, transformar desde una estructura martensítica a la fase inicial 
+por un aumento de la temperatura, pasando las temperaturas Austenite start ($A_{s}$) y Austenite finish ($A_{f}$).
+
+%\paragraph{}
+  
+%\cite{duering} 
+
+Otra forma de inducir la transformación martensítica es por medio de una tensión aplicada, es equivalente al calentamiento y enfriamiento pero en 
+sentido contrario. Enfriar a una temperatura entre $M_{s}$ y $M_{f}$ es equivalente a aplicar una tensión cada vez mayor, mientras que calentar para revertir la 
+transformación equivale a una disminución en la fuerza aplicada. La martensita que se forma por arriba de $M_{s}$ por medio de una 
+tensión aplicada recibe el nombre de martensita inducida por tensión (SIM)
+  
+%\subsection{Memoria de forma}  
+
+
+Como dijimos anteriormente la martensita se acomoda al espacio disponible por maclado o cizalladura. Dependiendo del o de los mecanismos que ocurran se obtendrán 
+distintas morfologías y propiedades. En la transformación por maclado, donde existe una simetría entre la estructura de la fase matriz y la nueva, los cristales 
+están conectados por movimientos menores a un parámetro de red, mientras que en la transformación por deslizamiento (o reconstructiva) ocurre un movimiento 
+infinitesimal de los átomos, y por ende, la rotura y formación de los enlaces atómicos. Estos dos mecanismos son utilizados por los aceros, 
+elementos puros y estructuras como el CsCl \cite{duering, elliott}. El hecho de romper enlaces y formar nuevos hace que las transformaciones de estos 
+elementos sea irreversible. Por otro lado las aleaciones con memoria de forma como Cu-Zn-Al o Cu-Zn-Ti sólo sufren un cambio de forma por maclado y no por 
+deslizamiento, lo que hace que esta deformación sea reversible. Además el plano de hábito en la transformación por maclado tiene mayor movilidad. Esto hace que 
+al aplicar o retirar una tensión (o enfriar o calentar) la interfase se mueva fácilmente a medida que ocurre la transformación a martensita, o retransformación 
+a austenita.
+
+%\setlength\fboxsep{0pt}
+%\setlength\fboxrule{0.5pt}
+%\includegraphics[scale=0.5]{path3336.png}
+
+
+
+%\begin{figure}
+%    \centering
+%    \includegraphics[width=0.4\textwidth]{path.png}
+%    \afterpage{\noindent\includegraphics[width=0.4\textwidth]{path.png}}
+%    \caption{Awesome Image}
+%    \label{fig:awesome_image}
+%\end{figure}
+
+
+
+
+
+
+%\cite{duering} 
+El avance de la transformación martensítica se puede seguir midiendo diferentes parámetros como la variación de resistencia eléctrica, 
+el cambio de longitud o de volumen en función de la temperatura. Otra forma de medir la transformación martensítica de manera precisa es realizando 
+%% no me hace la llamada a la figura!
+una curva de tensión vs deformación, la cual puede verse un esquema en la Fig. \ref{fig:TensDefSMA}. En la sección marcada con I la curva 
+corresponde a la deformación elástica de la aleación. En la sección II, Cuando se alcanza una tensión 
+suficiente para iniciar la transformación, la pendiente comienza a disminuir debido al movimiento de las interfases de las agujas de martensita. 
+Como dijimos, estas interfases son bastante móviles por lo que a medida que transforma, aparece un plateau en la curva de tensión deformación. 
+Una vez que la transformación avanza y se encuentran las interfases de las distintas placas o llegan a un borde de grano, su movilidad se reduce y 
+comienza la deformación elástica de la martensita, lo cual se ve como un nuevo aumento en la tensión de fluencia, como puede verse en la sección III. 
+Finalmente, la martensita deforma por deslizamiento. Es muy importante caracterizar el rango de tensiones en el que la martensita deja de deformar 
+por maclado y pasa a 
+deformarse por deslizamiento ya que al mantenernos en este rango, las transformaciones son reversibles y pueden aprovecharse las propiedades de 
+memoria de forma.
+
+%\textbf{Gráfico tensión vs deformación}
+\begin{figure}[h]
+ \centering
+ \includegraphics[width=0.4\textwidth]{SigmavsDef.eps}
+ \caption{Esquema de una curva tensión deformación de una aleación con memoria de forma. Las regiones I, II y III corresponden a las distintas etapas 
+ de deformación de la aleación.}
+ \label{fig:TensDefSMA}
+ \end{figure}
+
+
+Hay que aclarar que la zona II, en la cual ocurre la transformación, no siempre será perfectamente horizontal. Al aplicar una tensión a un material, 
+este se deforma debido al movimiento de dislocaciones en las direcciones compactas de la red cuando esta alcanza la tensión crítica resuelta. La deformación no ocurre 
+en el sentido de la carga aplicada, sino que se deforma en la direcciones compactas. El único caso en que la deformación ocurre en la dirección de la tensión aplicada 
+es cuando ambas coinciden. De esta manera, al aplicar una tensión genérica, la parte que actúa en la deformación se llama tensión crítica resuelta ($\tau_{R}$) que corresponde a la 
+proyección de la tensión aplicada en las direcciones compactas. Si el material es un monocristal, alcanzará la fluencia plástica cuando alcance la tensión crítica en 
+las direcciones compactas de esta configuración, en este caso veremos el plateau en el segmento de transformación. Si en cambio el material es policristalino, cada uno 
+de los granos tendrá una tensión distinta en sus direcciones compactas. Si se va aumentando la carga, primero llegará a la tensión crítica de algunos granos con orientación 
+más favorable y luego alcanzará la tensión crítica en granos con orientaciones menos favorables. Por esto se necesitarán mayores tensiones para deformar un material policristalino.
+
+La Ley de Smidth calcula la tensión en las direcciones compactas en función de la tensión aplicada y la orientación de la red cristalina. Si se tiene una probeta de 
+sección A, y se le aplica un esfuerzo F, la tensión aplicada será:
+\begin{equation}
+ \tau = \frac{F}{A}
+\end{equation}
+Si $\lambda$ es el ángulo entre la tensión aplicada y la dirección de deslizamiento o cizalladura, el esfuerzo cortante efectivo que actúa en este plano será:
+\begin{equation}
+ F_{R}= F cos(\lambda)
+\end{equation}
+El área correspondiente al plano donde se ubica la dirección compacta es:
+\begin{equation}
+ A_{R}=\frac{A}{cos(\phi)}
+\end{equation}
+Donde $\phi$ es el ángulo entre la tensión aplicada y la normal al plano compacto. Por lo anterior, la tensión resuelta que actúa en el plano de direcciones compactas será:
+\begin{equation}
+ \tau_{R}=\frac{F_{R}}{A_{R}}= \frac{Fcos(\lambda) }{\frac{A}{cos(\phi)}}=\frac{F}{A} cos(\lambda)cos(\phi) = \tau cos(\lambda)cos(\phi)
+\end{equation}
+
+
+
+Por encima de la Ms, la formación de martensita a través de una tensión aplicada sigue un comportamiento lineal \cite{pierre}. Esto es, a mayor temperatura, se 
+necesitará una mayor tensión. Por otro lado si se extrapola hasta que la tensión necesaria sea cero se llega a la Ms. Este comportamiento se describe con una ecuación 
+análoga a la de Clausius-Clapeyron, la cual describe la transformación de una fase a otra:
+
+\begin{equation}
+ \frac{dP}{dT}=\frac{\Delta S}{\Delta V}
+\end{equation}
+
+Donde P, T, $\Delta$S y $\Delta$V son la presión, la temperatura, el cambio de entropía al transformar y el cambio de volumen, respectivamente. En la línea formada por este gráfico 
+coexisten ambas fases. Para la transformación martensítica se utiliza una ecuación equivalente:
+
+\begin{equation}
+ \frac{d \tau_{R}}{dT}=\frac{\Delta S}{\Delta V} 
+\end{equation}
+
+donde $\tau_{R}$, T, $\Delta S$ y $\Delta V$ son la tensión resuelta, la temperatura, el cambio de entropía y el cambio de volumen respectivamente.
+
+
+
+
+%\begin{figure}
+%    \centering
+%    \includegraphics[width=0.4\textwidth]{path.png}
+%    \afterpage{\noindent \includegraphics[width=0.4\textwidth]{clapeyron.png}}
+%    \caption{Awesome Image}
+%    \label{fig:awesome_image}
+%\end{figure}
+
+
+\begin{figure}[h]
+ \centering
+ \includegraphics[width=0.4\textwidth]{clapeyron.eps}
+ \caption{Esquema de como varía la tensión de transformación con la temperatura. Puede verse que cuando la tensión es nula, la temperatura de
+ transformación corresponde a la $M_s$}
+\end{figure}
+
+
+
+%\textbf{Gráfico tensión vs T}
+
+
+
+Por encima de Ms y aplicando una tensión, a medida que avanza la transformación, su avance de hace más dificultoso. Al superar una determinada temperatura, la tensión necesaria para 
+formar martensita es mayor a la necesaria para mover las dislocaciones. La temperatura a la cual ocurre esto es la $M_d$, y es la mayor temperatura a la cual se puede 
+obtener martensita por deformación plástica. Por este motivo las aleaciones con memoria de forma a partir de la formación de SIM, se utilizan en el rango entre Ms y Md.
+Para las aleaciones de Cu-Zn-Al, a $T > 50K$, $\Delta S$ es prácticamente independiente de la temperatura \cite{pierre}, por lo que consideramos que tiene un comportamiento 
+prácticamente lineal. Puede verse que cuando no hay tensiones aplicadas la temperatura de transformación coincide con la Ms.
+
+
+
+\section{Pseudoelasticidad}
+
+Al graficar la fracción martensítica en función de la tensión aplicada, puede verse que presenta una histéresis, por lo que al transformar y 
+retransformar en sentido inverso, la curva no “sigue un mismo camino”. El proceso de transformación martensítica es termoelástico, es decir, la transformación 
+no se da únicamente por una fuerza impulsora química, sino que se almacena y libera energía elástica. A medida que avanza la transformación con tensiones aplicadas, 
+se almacena energía elástica al transformar y se libera al retransformar en sentido inverso. Otras causas del almacenamiento de energía elástica son la fricción que produce el 
+movimiento de interfaces y la creación de defectos. El área encerrada en la curva es la energía consumida en un ciclo de transformación y retransformación dándole a los 
+materiales con memoria de forma la propiedad de amortiguadores.
+
+%\begin{figure}[h]
+% \centering
+% \includegraphics[width=0.4\textwidth]{nT.eps}
+% \caption{Esquema de un gráfico de fracción transformada ($n$) en función de la temperatura (T)}
+% \label{fig:nT}
+% \end{figure}
+
+%\textbf{Gráfico tensión vs deformación}
+\begin{figure}[h]
+ \centering
+ \includegraphics[width=0.9\textwidth]{pseudoel.eps}
+ \caption{A la izquierda esquema de un material que transforma y vuelve al estado inicial al aplicar y retirar una carga respectivamente.
+ A la derecha mismo esquema de transformación donde puede verse la energía consumida al realizar un ciclo de carga y descarga.}
+ \label{fig:pseudoel}
+ \end{figure}
+ 
+Stoiber \cite{stoiber} atribuye el gasto de energía en la transformación a los siguientes fenómenos:
+\begin{itemize}
+ \item[$\circ$] Procesos como nucleación
+ \item[$\circ$] Procesos de no equilibrio inducidos por esfuerzos externos (temperatura o tensiones) que actúan como fuerza impulsora para la 
+ transformación
+ \item[$\circ$] Contribuciones irreversibles como trabajo de fricción para mover interfases
+ \item[$\circ$] Envejecimiento y estabilización de fases (por ejemplo a altas temperaturas) 
+\end{itemize}
+
+La histéresis puede verse en la zona de transformación donde se consume y se libera energía al transformar y retransformar respectivamente. 
+También se ve en la zona donde ya se transformó a martensita y se consume energía en el movimiento de interfases entre martensita y austenita (planos de hábito). 
+
+
+\section{Memoria de forma}
+
+ Al enfriar una muestra de austenita a una temperatura inferior a $M_{f}$ la muestra transformará a martensita. Por otro lado al calentarla a una temperatura mayor 
+a $A_{f}$ volverá a transformar a austenita. Si la muestra de martensita (por debajo de $M_{s}$) se deforma plásticamente y luego se calienta por encima de $A_{f}$, recuperará su 
+forma original a medida que transforma a austenita. Si luego se enfría nuevamente no habrá un cambio de forma. Este efecto se llama “memoria de forma” ya que ocurre 
+una sola vez, a menos que se vuelva a deformar la muestra en la fase martensítica. La figura \ref{fig:memoria} muestra un esquema del efecto de memoria de forma. Existe otra propiedad llamada memoria de forma doble en la que la muestra al 
+enfriarse desde austenita a martensita recuperará el estado inicial de deformación. Este comportamiento es mucho más complejo y no se tratará en este trabajo.
+
+
+\begin{figure}[h]
+ \centering
+ \includegraphics[width=0.8\textwidth]{memoria.eps}
+ \caption{Esquema del efecto de memoria de forma. Al enfriar la probeta pasa a estado martensítico. Si luego se deforma y posteriormente se calienta
+ la estructura vuelve a su forma inicial.} 
+ \label{fig:memoria}
+ \end{figure}
+
+Al enfriar la austenita puede transformar formando agujas de martensita con orientaciones distintas. El efecto de memoria de forma se basa en que la 
+austenita tiene mayor cantidad de simetrías que la martensita. Así la austenita puede transformar de distintas formas a martensita, pero existe sólo 
+una forma en que la martensita transforma a austenita. Esto hace que al retransformar desde la martensita deformada a austenita recupere su forma 
+original.
+
+Si la transformación se produce térmicamente, se van formando muchos tipos de martensita en distintas 
+direcciones, acomodándose a las tensiones y al espacio disponible en la red. Cuando se producen por una tensión aplicada, las agujas se forman deslizando
+planos en la dirección de mayor tensión resuelta. Así todas las agujas de martensita quedan alineadas en la misma dirección. Esto hace que al calentar y 
+transformar a austenita todo se mueva en la misma dirección y recupere la forma original. Puede ocurrir que se formen dos placas en distinta dirección 
+y se crucen, esto hace que en el punto donde se crucen “ queden enganchadas”, análogo a lo que ocurre con las dislocaciones, generando un impedimento 
+para que las láminas deslicen al reacomodarse. Un efecto similar se dá por el envejecimiento y estabilización de la martensita. Estos son efectos que 
+deben evitarse ya que van en detrimento de las propiedades de memoria de forma.
+
+
+\section{Aleación Cu-Zn-Al}
+
+
+\begin{figure}[h]
+ \centering
+ \includegraphics[width=0.8\textwidth]{CuZn.png}
+ \caption{Diagrama de equilibrio Cu-Zn \cite{CuZn}} 
+ \label{fig:CuZn}
+ \end{figure}
+
+
+En el diagrama de fases estables de la aleación Cu-Zn pueden verse las distintas fases $\alpha$, $\beta$, $\gamma$ y otras más complejas. La fase que nos 
+interesa es la $\beta$, estable a alta temperatura y con una concentración electrónica de 1.48, la cual posee una estructura BCC de tipo A2, esto es, 
+los átomos se encuentran desordenados ocupando cualquier posición de la red. Siguiendo el gráfico de equilibrio de la Figura \ref{fig:CuZn} si se realiza 
+un enfriamiento lento 
+la fase $\beta$ se descompone en dos fases de equilibrio $\alpha$ y $\gamma$. Si se realiza un enfriamiento rápido los átomos sufren un ordenamiento 
+de primeros vecinos, esto es, continúan con una estructura bcc pero los átomos ocupan las posiciones similares a una red de CsCl (estructura B2). 
+Finalmente ocurre un ordenamiento a segundos vecinos llegando a un ordenamiento de tipo L21. Las estructuras martensíticas de la aleación Cu-Zn-Al 
+poseen estructuras muy complejas llamadas Long Period Stacking Order (LPSO). Dependiendo de la secuencia de apilamiento de planos 
+compactos se obtendrán distintos tipos de martensita. La secuencia de planos compactos que compone la martensita depende de la composición de la 
+aleación. Por ejemplo, si se parte de la fase beta L21 se llega a una estructura martensítica 18R, en cambio si se parte de una estructura B2 se 
+obtendrá un apilamiento de 9 planos compactos llamado 9R. La fase de nuestro interés para obtener una aleación con propiedades de memoria de forma 
+es la 18R, la cual puede formar en la transformación $\beta \dashrightarrow 18R$ veinticuatro variantes martensíticas dependiendo del orden de apilamiento 
+de los planos compactos. No entraremos en detalle respecto de la estructura de las fases, sino que se presentan de manera ilustrativa.
+
+La aleación de Cu-Zn-Al es muy susceptible a cambios de composición, por ende un cambio muy pequeño en la cantidad de un aleante puede cambiar en gran medida la Ms. 
+Como se ve en el diagrama estable Cu Zn, a altas temperaturas y con una composición electrónica e/a de alrededor de 1.48 la aleación se compone de una fase $\beta$ (bcc). 
+La concentración electrónica de nuestra aleación está dada por la expresión:
+\begin{equation}
+ \frac{e}{a} = 1+C_{Zn}+2C_{Al}
+\end{equation}
+donde $C_{x}$ es la concentración atómica de cada elemento y va desde cero hasta uno. La $M_{s}$ también puede escribirse en función de las concentraciones, existen 
+distintas fórmulas empíricas que pueden usarse. Para una concentración electrónica de $\frac{e}{a}=1.48$ la que mejor ajusta es la siguiente:
+
+\begin{equation}
+Ms[K]=2686-6400C_{Zn}-9000C_{Al} \label{Ms} 
+\end{equation}
+Si además usamos que:
+\begin{equation}
+     C_{Cu}+C_{Zn}+C_{Al}=1
+\end{equation}
+podemos obtener las concentraciones necesarias para una determinada $M_{s}$ buscada. Esto es muy útil ya que buscamos tener una $M_{s}$ menor a la temperatura ambiente, para 
+luego poder deformar y obtener un comportamiento pseudoelástico a temperatura ambiente. Si la $M_{s}$ es mayor, la muestra deberá deformarse a mayor temperatura, lo 
+cual exige la utilización de un equipo más complejo capaz de controlar simultáneamente tensiones y temperatura.
+
+% Corregir llamda de la tabla************************************************************************
+
+En la tabla \ref{tab:mstab} puede verse como una leve variación en el contenido de distintos aleantes cambia muy marcadamente la Ms. Además hay que 
+tener en cuenta que al fundir la aleación, el Zn se volatiliza y se pierde fácilmente, lo que como dijimos genera un gran cambio en la Ms de la aleación. Esto 
+puede contrarrestarse agregando una cantidad de Zn extra para compensar el que se perderá en la fundición.
+
+\begin{table} \label{tab:mstab}
+\begin{center}
+\begin{tabular}{@{}llll@{}}  \toprule
+$Cu (g)$ & $Zn (g)$ & $Al (g)$ & $M_s$ ($C^\circ$)\\ \midrule
+12.53 & 2.81  & 1.287 & -34.08\\
+12.53 & 2.53 ($-10 \%$) & 1.287 & 25.97\\
+12.53 & 2.38 ($-15 \%$) & 1.287 & 87.87\\
+12.53 & 1.61 & 1.287 & 285.6 \\
+\bottomrule
+\end{tabular}
+\caption{En esta tabla se muestra como la variación de pequeñas cantidades de Zn puede generar grandes cambios en la $M_s$. Los datos se obtuvieron utilizando 
+la fórmula \ref{Ms}}
+
+\end{center}
+\end{table}
+
+Además de la composición, las temperaturas de transformación varían dependiendo de la historia térmica que sufrió la aleación, ya que influye en la estabilización 
+de las distintas fases. Por ejemplo en un austenizado (fase beta) a mayor temperatura se produce un mayor crecimiento de granos, lo que lleva a un aumento en las 
+temperaturas de transformación (Hall-Petch). Otro factor importante es el envejecimiento a altas temperaturas. A partir de los 120 grados la martensita comienza 
+a estabilizarse, disminuir su energía libre, lo que genera que las temperaturas y tensiones de transformación se modifiquen (As y Af aumentan). Como la estabilización 
+de las fases se produce por difusión, los parámetros que la controlan son las temperaturas, tensiones aplicadas y la concentración de vacancias. Queda claro que las 
+primeras dos variables pueden controlarse fácilmente, mientras que para la concentración de vacancias es más complejo.
+
+A altas temperaturas, donde se encuentra el campo de la fase $\beta$, la aleación presenta un rápido crecimiento de grano. Las interfaces son frágiles, y propensas 
+a falla por fisuras intergranulares. En la bibliografía pueden encontrarse distintos elementos que actúan como refinadores de grano. Generalmente actúan formando 
+precipitados que facilitan la nucleación heterogénea y dificultan el crecimiento de grano. Es por esto que no generan un cambio en las temperaturas de 
+transformación. Rit Elst et. al \cite{ritelst} realizó un estudio con diferentes refinadores: Co, Ti y B. Encontró que el que producía un mayor efecto era el B, 
+ya que formaba precipitados de $AlB_{2}$. Con una cantidad entre 0.04 y 0.6 de B, obtuvo un tamaño de grano de $D_{beta}$ entre 50 y 100 $\mu m$. Los otros elementos 
+demostraron tener un menor efecto de reducción. Basándonos en este trabajo se utilizó en el presente trabajo $AlB_{2}$ como refinador.
+
+Otra forma de disminuir el tamaño de grano es por medio de trabajado mecánico. Resulta evidente que la esponja tendrá su morfología final desde la colada de la 
+fundición, por lo que no puede trabajarse mecánicamente. Además no es posible realizar un enfriamiento rápido. Las esferas de sílica gel son malas conductoras de 
+calor. Si se busca enfriar rápidamente la estructura luego de colada, se obtendrá una capa exterior con granos finos, pero el interior igualmente tardará en 
+enfriarse. Por esto queda como única opción para reducir el tamaño de grano la utilización de refinadores.
+
+
+\section{Esponjas metálicas}
+
+Los materiales celulares están compuestos por un conjunto de celdas que se repiten formando una estructura porosa. Existen muchos tipos de sólidos celulares 
+con propiedades muy distintas, por ejemplo, esponjas poliméricas como el poliestireno expandido (más conocido como tergopor), el honeycomb utilizado dentro 
+de paneles sandwich de materiales compuestos, paneles de aluminio poroso en automóviles y muchos otros. Presentan muy buenas propiedades como por ejemplo 
+baja densidad, buena aislación térmica y una buena capacidad de absorción de energía.
+
+Básicamente los materiales celulares pueden agruparse según distintas características como el material que compone la estructura y la geometría de las 
+celdas. Las estructuras son llamadas abiertas o cerradas cuando las celdas están interconectadas entre si o no respectivamente. La forma de las celdas 
+puede ser esféricas, elipsoidales, o continuas (como el honeycomb). Estas últimas presentan una gran anisotropía en sus propiedades, mientras que otras 
+esponjas son más isotrópicas cuanto más esféricos son los poros. Generalmente las propiedades de los materiales celulares se describen a partir de las 
+propiedades del material de la estructura. 
+
+La principal característica morfológica que influye en las propiedades mecánicas es la relación entre la densidad de la esponja y la densidad 
+del sólido llamada densidad aparente($\rho^* / \rho_s$) \cite{cellular}. Por otro lado las propiedades mecánicas no están relacionadas al tamaño 
+de las celdas si no a la relación entre el espesor y el largo de las paredes de las mismas.  
+
+Al aplicar una carga a una esponja y realizar un gráfico tensión vs deformación se distinguen tres tramos, los cuales presentan un comportamiento 
+distinto. Inicialmente se ve un segmento que pareciera ser recto, o sea comportamiento elástico. En el caso de esponjas con celdas abiertas, este tramo 
+es más marcado, y la deformación elástica se debe a que las paredes de las celdas se flexionan por pandeo. En las esponjas con estructuras cerradas el 
+comportamiento es más complejo, y la deformación se debe a la flexión de las paredes y el estiramiento de las superficies de los poros. En esta primera 
+instancia la pendiente es inferior al modulo de Young de la esponja (E) debido a que ocurre una microdeformación plástica en los puntos más débiles de la 
+estructura. Para poder medir el modulo de Young se realiza una carga, y luego se mide la pendiente en un ciclo de descarga.
+En el segundo tramo de la curva tensión deformación, puede verse un plateau de deformación debido al colapso de la estructura. Las paredes de las celdas 
+comienzan a ceder por fluencia o fracturas. Este palteau se mantiene hasta llegar a una deformación de densificación, donde la estructura ya se encuentra 
+comprimida y el módulo elástico aumenta abruptamente. Hay que tener en cuenta que la anisotropía en la forma de las celdas puede llevar a una gran diferencia 
+en las propiedades de la esponja en distintas direcciones.
+
+Hay distintas formas con las cuales pueden caracterizarse las propiedades mecánicas de las estructuras celulares. Una forma muy utilizada es por medio 
+de elementos finitos. Otra forma
+es a partir de un análisis micromecánico simplificando la estructura como un conjunto de columnas (celdas abiertas), o un conjunto 
+de celdas $tetrakaidecahedral?$. Si bien esta segunda opción supone una gran simplificación de la estructura se llegan a resultados que concuerdan con los 
+resultados obtenidos experimentalmente. Las principales propiedades mecánicas se describen a partir de la densidad específica según:
+
+\begin{equation}
+\frac{F^*}{F_s}=A \left(\frac{\rho^*}{\rho_s}\right)^n \label{props} 
+\end{equation}
+Donde $F^*$ es la propiedad de la esponja que se quiere caracterizar, $F_s$ es la característica del material sólido, $\rho^*$ y $\rho_s$ son las 
+densidades de la esponja y del sólido respectivamente, $A$ es una constante relacionada a la geometría de la esponja y $n$ otra constante. De acuerdo 
+a la ecuación \ref{props} el módulo de Young E y el módulo de corte G \cite{duering} serán:
+\begin{equation}
+\frac{E^*}{E_s}=C_1 \left(\frac{\rho^*}{\rho_s}\right)^2 \label{propsE}  
+\end{equation}
+%\begin{equation}
+% \frac{G^*}{G_s}=C_2 \left(\frac{\rho^*}{\rho_s}\right)^2
+%\end{equation}
+
+Donde la constante $C_1$ depende de las características geométricas de la esponja. 
+%Por otro lado el módulo de Poisson no depende de la 
+%estructura, a partir de mediciones \cite{gibson} se concluyó que su valor está al rededor de $\frac{1}{3}$ para la mayoría de las esponjas. 
+Además hay una diferencia entre el módulo E en tensión y compresión, siendo el primero levemente inferior. La ecuación \ref{props} también pude utilizarse 
+para describir otras propiedades como la tensión de transformación y la energía disipada/absorbida en ciclos de compresión en el caso de esponjas 
+compuestas por materiales con memoria de forma como veremos en la sección \ref{sec:SMF} de este capítulo. 
+
+La tensión a la cual ocurre el colapso de la estructura $(\sigma^*_{pl})$ y la tensión de fluencia del material que la compone $(\sigma_{ys})$ 
+están relacionadas con la densidad relativa según:
+\begin{equation}
+ \frac{\sigma^*_{pl}}{\sigma_{ys}}=C_3 \left(\frac{\rho^*}{\rho_s} \right)^{\frac{3}{2}}
+\end{equation}
+Donde nuevamente $C_3$ depende de las características geométricas de la estructura. A partir de varias mediciones se llegó a que $C_3 \sim 0.3$ para
+la mayoría de las esponjas \cite{gibson}. 
+Es muy importante conocer el valor de $\sigma^*_{pl}$ ya que es la carga a la cual la estructura comienza a colapsar.  Las esponjas metálicas tienen 
+un poder de amortiguamiento de entre cinco y diez veces el del material sólido \cite{design} lo que las hace una muy buena opción para aplicaciones 
+donde se busca amortiguar cargas. 
+
+Generalmente la deformación se produce como bandas perpendiculares a la tensión aplicada. Estas bandas suelen tener el espesor de una celda, 
+y en ellas la tensión alcanza la tensión de fluencia mientras que en las zonas externas se mantiene en el rango elástico. Las bandas donde se 
+concentra la deformación se endurecen, llegan a un punto en que ya no siguen deformándose, por lo tanto o aumentan su espesor o se forman nuevas bandas.
+
+Al comprimir una probeta, las caras exteriores de la misma no sostendrán carga ya que son superficies con menos restricciones.
+La carga es soportada por las partes en el interior de la estructura. Gibson \cite{gibson} realizó ensayos variando el tamaño de la muestra 
+y concluyó que cuando la esponja tiene 
+dimensiones infinitas (mucho mayores a las dimensiones de las celdas) el módulo de Young tiende al valor del módulo del material sólido. A medida que 
+las dimensiones disminuyen y se acercan al tamaño de algunas celdas comienzan a actuar los efectos 
+de borde, las superficies de la celda comienzan a actuar como concentradores de tensiones y el módulo de Young de la esponja disminuye respecto al del 
+material sólido. Es por esto que todas las muestras de esponjas a ensayarse deben tener dimensiones de por lo menos seis a siete celdas, de esta 
+forma se asegura la performance de la esponja no se vea afectada por los efectos de borde.
+
+%\newline %\newline
+%\textbf{Modulo de young respecto del tamaño de la esponja respecto del tamaño de la celda}
+%\newline %\newline
+
+\begin{figure}[h]
+ \centering
+ \includegraphics[width=0.5\textwidth]{Etam.eps}
+ \caption{Esquema de como varía el Módulo de Young relativo de la esponja. $L$ es el largo de la esponja y $d$ es el tamaño de los poros de 
+ la estructura celular. }
+\end{figure}
+
+%Además si las cargas se aplican de forma cíclica la esponja fallará por fatiga. La principal causa son pequeñas fisuras que nuclean y van creciendo a 
+%medida que aumenta la cantidad de ciclos a la cual se somete la estructura. También ocurre otro mecanismo llamado creep por ciclado, donde la estructura 
+%se va acortando por deformación plástica bajo un esfuerzo cíclico de compresión con un valor medio distinto de cero, y la formación de fisuras frágiles 
+%en tensión.
+
+Fatiga es un fenómeno que ocurre cuando se somete una estructura a una tensión cíclica, la cual oscila entre dos valores determinados. Estos valores 
+pueden ser ambos positivos, ambos negativos o de distintos signos. Se utiliza un parámetro $R$ que relaciona ambas tensiones según:
+\begin{equation}
+ R=\frac{|\sigma_{min} |}{| \sigma_{max} |}
+\end{equation}
+Los ensayos de fatiga consisten en someter a una probeta a cargas cíclicas $(\Delta \sigma = \sigma_{max} - \sigma_{min})$ y evaluar su comportamiento. 
+La probeta puede no sufrir ningún daño, nuclear pequeñas fisuras, o romperse de forma frágil. En un ensayo de fatiga se evalúa para que cantidad de 
+ciclos $(N_f)$ comienzan a nuclearse estas fisuras. 
+%Es un resultado conocido que, a temperatura ambiente, la cantidad de ciclos donde falla la estructura no depende de la frecuencia a la cual se aplican las cargas, sino del valor 
+%máximo de tensiones aplicadas. 
+En ensayos con esfuerzos cíclicos en tensión se define el límite como el número de ciclos a la cual se producen fisuras en la estructura que la llevan a 
+la rotura con un determinado $\Delta\sigma$. En ensayos de compresión el límite se define como el número de ciclos para el cual comienza el colapso 
+de la estructura. 
+ 
+Luego se realiza un gráfico $\Delta \sigma$  vs.  $N_f$. Este gráfico aporta información muy importante ya que para las aleaciones metálicas generalmente 
+se llega a una determinada tensión para la cual, utilizando valores inferiores, no ocurrirá la falla del material. Además, por convención, 
+se dice que el material tendrá vida infinita si no falla antes de los $1x10^7$ ciclos. Tanto en compresión como en tracción se obtienen curvas que 
+siguen las siguientes etapas. Una primera etapa donde aumenta la deformación progresivamente, hasta que alcanza una segunda etapa donde se mantiene 
+constante. Finalmente cuando se llega a un número de ciclos $N_T$ la deformación aumenta abruptamente. 
+
+\begin{figure}[h]
+ \centering
+ \includegraphics[width=0.6\textwidth]{fatiga.eps}
+ \caption{Esquema de un ensayo de fatiga de una estructura celular donde $N$ es el número de ciclos de deformación. También se muestra como con el aumento de la tensión máxima aplicada disminuye el 
+ número de ciclos para el cual se produce la falla de la estructura.} 
+ \label{fig:memoria}
+ \end{figure}
+
+Si se aplica una tensión cíclica con un valor medio positivo, en la etapa dos, las esponjas metálicas sufren un alargamiento debido a un efecto de 
+creep cíclico. Luego se nuclea una fisura en el punto más débil de la estructura, la cual continua creciendo con muy poca deformación plástica. 
+Por otro lado en un ensayo de compresión, luego de un período de incubación, ocurre una mayor cantidad de deformación plástica que en el caso 
+anterior. Se cree que el mecanismo que ocurre es una combinación de fracturas en las paredes de las celdas y en la estructura, sumado a un creep 
+cíclico. Ashby \cite{design} clasifica los distintos tipos de deformación que pueden ocurrir de la siguiente manera:
+\begin{itemize}
+ \item[$\circ$] Fisuras se producen en todo el material, y no se diferencia una banda de deformación acumulada. 
+ \item[$\circ$] La deformación se concentra en distintas bandas. Primero en el punto más débil de la estructura se deforma una banda, una vez que la deformación 
+ alcanza un cierto valor se forma una nueva banda en otro punto débil de la estructura. Los sitios donde se forman las bandas de deformación están relacionados 
+ con la estructura de la misma. 
+ Por ejemplo los sitios de la esponja con mayor densidad pueden mantenerse íntegros, sin deformación plástica.   
+ \item[$\circ$] Se forma una única banda de deformación la cual se engrosa al aumentar los ciclos.
+ \end{itemize}
+
+Como regla general \cite{design} Al utilizar tensiones más altas, la cantidad de ciclos a la cual se produce la fisura disminuye. Al igual que para los 
+materiales sólidos la vida del material está más relacionado con la tensión máxima aplicada que con la diferencia de tensiones en cada ciclo. 
+
+
+
+%\subsection{creep}
+
+%Para usos a alta temperatura es importante conocer el comportamiento de creep a alta temperatura. Se puede ver a partir de entender el pandeo de las paredes de la estructura que 
+%forma la estructura abierta. Puede explicarse como :
+%\begin{equation}
+% \dot{\varepsilon}=\varepsilon \left( \frac{\sigma}{\sigma_0} \right) ^n
+%\end{equation}
+
+%$\dot{\varepsilon}$, $\sigma_0$ y n son constantes del material sólido que compone la esponja.
+
+%\...\...\...\...\... sigue calculando los valores de creep para la esponja
+
+%\subsection{fatiga}
+
+
+
+
+
+\section{Esponjas con memoria de forma }
+\label{sec:SMF}
+
+Como dijimos las esponjas metálicas tienen una capacidad de absorción mucho mayor al del mismo metal sólido. Si a esto se le suma la absorción en energía 
+debido a la pseudoplasticidad generada por la transformación martensítica, tenemos una estructura con gran capacidad de amortiguamiento y muy bajo 
+peso. En otras palabras, la energía que se utilizaba en una esponja no pseudoelástica para deformar plásticamente, se utiliza ahora para la transformación
+martensítica. Como esta transformación es reversible una vez que se relaja la tensión aplicada la estructura vuelve a austenita recuperando su forma 
+inicial. En una curva compresión-deformación se identifican distintas regiones correspondientes a cada uno de estos comportamientos. Inicialmente un 
+segmento lineal correspondiente a la deformación elástica por pandeo de la estructura. Luego hay un cambio en la pendiente, donde comienza a ocurrir 
+la transformación martensítica por la tensión aplicada. En este segmento el comportamiento también es prácticamente lineal. Si ahora se libera la carga 
+aplicada, la estructura volverá a su forma original. Puede verse que la curva de deformación en un sentido y otro no “siguen un mismo camino”, esto es, 
+la curva presenta una histéresis (comportamiento pseudoelástico). 
+
+
+%\begin{figure}[h]
+% \centering
+% \includegraphics[width=\textwidth]{esponjaCuyMSA.png}
+% \caption Quiero que el gráfico vaya aca!
+%\end{figure}
+
+%\textbf{Gráficos deformación esponja de Cu y Esponja Cu Zn Al}
+
+\begin{figure}[h]
+ \centering
+ \includegraphics[width=1\textwidth]{EspA100yEspCu.png}
+ \caption{(****Luego pongo mis gráficos****) A la izquierda se muestra una curva de tensión deformación de una esponja de Cu, y a la derecha de una esponja 
+ de Cu-Zn-Al pseudoelástica.} 
+ \label{fig:memoria}
+ \end{figure}
+
+
+Al realizar un esfuerzo en un material macizo la tensión a la cual cambia la pendiente de la curva tensión deformación se llama tensión crítica. Esta 
+tensión esta relacionada con la tensión necesaria para la formación de martensita. Como vimos anteriormente esta tensión aumenta linealmente con la temperatura según la 
+ecuación de Clausius Clapeyron. Cuando se alcanza un determinado valor de temperatura, la tensión crítica comienza a disminuir. Este descenso corresponde a que ahora la tensión crítica 
+coincide con la tensión de fluencia del material. Esto puede corroborarse extrapolando la pendiente de este segmento hasta temperatura ambiente, y se encuentra que a esta 
+temperatura la tensión crítica coincide con la tensión de fluencia del material. En este punto como la tensión crítica para formar martensita es mucho menor, el 
+material formará martensita antes de deformarse. A temperaturas mucho más altas, el material se deformará y no transformará a martensita.
+
+Cuando describimos el comportamiento de los materiales con memoria de forma vimos que en la curva tensión deformación hay un plateau durante el cual la tensión se 
+mantiene constante a medida que avanza la transformación martensítica. Al ver el gráfico de deformación de una esponja con material pseudo elástico no aparece este plateau, 
+sino que ocurre un cambio en la pendiente (a partir de la tensión crítica). Esto se debe a que el plateau aparece en el caso de deformarse una probeta monocristalina. 
+La esponja está compuesta por distintos granos, cada uno con una orientación distinta, por lo que la tensión resuelta en cada uno es distinta. Así cada grano transformará 
+a distintos niveles de tensión aplicada. Además la deformación comienza en puntos cercanos a los poros, ya que actúan como concentradores de tensiones. Resumiendo, 
+aumentando la tensión aplicada se logra transformaciones en los granos orientados menos favorablemente, y además la deformación llega a regiones ubicadas más lejos 
+de los concentradores de tensiones.
+La transformación de granos con direcciones preferenciales también colabora en la falla del material de forma intergranular. Esto ocurre ya que los granos que no se encuentran
+en direcciones favorables no se pueden acomodar al movimiento de los granos que si transforman. Aunque estas fallas generan una disminución en la performance de las esponjas,
+no es significativa ya que estas fisuras pueden tomarse como nuevos poros de la estructura \cite{bertolino2010}. Claramente este comportamiento se da mientras el tamaño de las fisuras no es muy 
+grande.
+
+Las propiedades de las esponjas con memoria de forma, como el módulo de Young E, Tensión de transformación y la energía absorbida/disipada en un ciclo de 
+transformación también pueden describirse según la ecuación \ref{props}. Por ejemplo Gibson \cite{gibson} calcula para esponjas metálicas, utilizando la 
+ecuación \ref{propsE}, A=0.98 y n=2. Mientras que Bertolino \cite{bertolino2011} llega experimentalmente a que esta ecuación es aplicable a esponjas 
+con memoria de forma, encontrando por ejemplo que para la ecuación \ref{propsE} $A=1$ y $n=2.31$, valores muy cercanos a los anteriores.
+
+
+
+% ****************************************************************************************************************************************************
+% **************************************************************************************************************************************************** 
+% ****************************************************************************************************************************************************
+
+\chapter{Procedimiento Experimental}
+
+
+
+\section{Preparación de la aleación}
+
+
+Como material de partida para la aleación se utilizaron metales de pureza comercial y se fabricaron lingotes de 80 g con una composición electrónica de 
+$e/a=1.48$. Como se mostró anteriormente las propiedades de la aleación pueden variar ampliamente 
+con pequeños cambios en la composición, por lo que cada uno de los metales se pesaron con balanza de precisión (con una mínima división de 0,001 g). 
+Luego se les realizó un pulido químico con las siguientes soluciones:
+\begin{itemize}
+ \item[$\circ$] Cu: $50 \%$ ácido nítrico (al $65 \%$) - $50 \%$ agua
+ \item[$\circ$] Zn: $60 \%$ ácido nítrico (al $65 \%$) - $40 \%$ agua
+ \item[$\circ$] Al: $60 \%$ água - $30 \%$ ácido clorhídrico (al 37 \%) - $10 \%$ ácido fluorhídrico (al $48 \%$)
+\end{itemize}
+
+Una vez pesados y pulidos cada uno de los metales, se colocaron en una ampolla de cuarzo con una atmósfera de argón. Luego se colocó la ampolla en 
+un horno resistivo a una temperatura superior a la temperatura de fusión de cada uno de los metales. Por último se abrió la ampolla, y se extrajo un 
+lingote de la aleación buscada la cual se pesa para verificar que no se hayan perdido grande cantidades de material en el proceso. 
+
+Antes de ser utilizada, la aleación ya fabricada se sumerge unos segundos en una solución de $50 \%$ ácido nítrico (al $65 \%$) y $50 \%$ agua para 
+quitar óxidos e impurezas que hayan quedado del proceso de fundición y posterior fraccionamiento.
+
+
+\section{Tamaño de grano}
+
+Para que las agujas de martensita no tengan tantos obstáculos que impidan su crecimiento, se busca un tamaño de grano relativamente grande. Por otro 
+lado, al someter la estructura de las esponjas a esfuerzos de compresión, si el grano es muy grande se producen fisuras intergranulares. Esto genera 
+una disminución en las propiedades de memoria de forma. También se busca un menor tamaño de grano para mejorar las propiedades mecánicas de la aleación.
+El principal método de endurecimiento de estas aleaciones es el refinamiento de la estructura por medio de trabajado mecánico. Como la estructura 
+celular de las esponjas se obtiene en la solidificación del metal fundido, resulta evidente que no es posible utilizar este método, quedando como 
+única opción el refinamiento de grano por medio del agregado de algún compuesto refinador. A partir de la bibliografía consultada se concluyó que el 
+mejor compuesto a utilizar es el B, el cual se agregó como $AlB_2$ en forma de polvo. Se utilizaron diferentes métodos para realizar la mezcla:
+\begin{itemize}
+\item[$\circ$] En principio se agregó a la aleación el $AlB_2$ envuelto en papel de aluminio y una porción de Cu para contrarrestrar el cambio en la 
+composición de la aleación por el papel de  aluminio. Se encapsulo en una ampolla de cuarzo con una sobrepresión de argón y se fundió en un horno de 
+inducción.
+\item[$\circ$] Se prensaron pastillas de aproximadamente 4 mm de diámetro y 4 mm de alto de viruta de la aleación ya fabricada y el $AlB_2$. Se 
+colocaron todas las pastillas en un tubo de cuarzo de diámetro 6 mm, y se calentó en un horno resistivo a una temperatura superior a la temperatura 
+de fusión de la aleación. De esta forma se busco obtuvo un cilindro con el diámetro del tubo de cuarzo.
+\item[$\circ$] Se molieron 8 g de la aleación en forma de viruta con distintas cantidades de $AlB_2$ en un molino, el cual posee una cámara de 
+aproximadamente 20 cm de diámetro y 2,9 cm de alto, de acero endurecido. Adentro de la cámara de molienda se colocaron 8 g de aleación y 5 bolillas 
+de acero de 22,5 mm de diámetro, quedando una relación bolillas-material de aproximadamente 42. Además dentro de la cámara se utilizó una atmósfera 
+con sobrepresión de Ar de aproximadamente 5 atm para evitar que el polvo se oxide en la molienda. Una vez finalizada la molienda se retiró el Ar, y 
+como la aleación se pega a las paredes y bolillas fue necesario retirarlo con una herramienta raspando los bordes.
+Luego se retiró el polvo ya molido de la cámara de molienda y se colocó en un tubo de cuarzo. Finalmente se fundió en un horno resistivo para fundir 
+y obtener un clavo igual a los anteriores.
+\end{itemize}
+
+
+ \begin{figure}
+    \centering
+    \begin{subfigure}{0.3\textwidth}
+        \includegraphics[width=\textwidth]{Img/Procedimiento/PastViruta.jpg}
+	\caption{Esquema del dispositivo}. 
+	\label{fig:CuatroPuntas}
+    \end{subfigure}
+    ~ %add desired spacing between images, e. g. ~, \quad, \qquad, \hfill etc. 
+      %(or a blank line to force the subfigure onto a new line)
+    \begin{subfigure}{0.3\textwidth}
+        \includegraphics[width=\textwidth]{Img/Procedimiento/PastMolienda.jpg}
+        \caption{Foto del dispositivo utilizado}
+        \label{fig:cuatropuntasyextensometro}
+    \end{subfigure}
+    \begin{subfigure}{0.1\textwidth}
+        \includegraphics[width=\textwidth]{Img/Procedimiento/ClavoPolvo.jpg}
+        \caption{Foto del dispositivo utilizado}
+        \label{fig:cuatropuntasyextensometro}
+    \end{subfigure}
+  \end{figure}
+
+\section{Fabricación de esponjas}
+
+Para la obtención de una morfología de tipo esponja se siguieron los siguiententes pasos que pueden verse en la figura \ref{fig:proceso}. Se partió de un 
+lingote de aleación de Cu-Zn-Al fabricados con el método 
+descripto anteriormente. Este lingote se colocó en un crisol de grafito, y se calentó hasta fundir en un horno de inducción. Una vez que la aleación se 
+encontraba en estado líquido se colocaron encima las esferas de sílica gel previamente secadas en una estufa por varias horas (segunda etapa de la figura 
+\ref{fig:proceso}). estas esferas que quedan
+flotando en la superficie del metal líquido, se presionan con un pistón de manera que el metal líquido se infiltre entre las esferas (tercera etapa de la 
+figura \ref{fig:proceso}). De esta forma se obtiene 
+un lingote cilíndrico compuesto por las esferas de sílica gel y una matriz metálica. 
+Una vez enfriado se tornea la muestra para retirar una fina capa superficial (tercera etapa de la figura \ref{fig:proceso}). Luego se coloca este cilindro 
+en una solución de ácido sulfhídrico al $50\%$
+y se deja reposar durante varios días. Para acelerar el proceso se puede renovar la solución de ácido ya que la misma se va neutralizando a medida que 
+ataca la sílica. También se puede utilizar un agitador magnético que mantenga la solución fluyendo. Una vez que se observa que no hay más sílica en la 
+estructura se enjuaga para retirar cualquier resto de solución de ácido sulfhídrico que pueda quedar retenida dentro. 
+Por último se cortan los extremos y se desbastan para asegurar que los mismos son dos superficies perfectamente paralelas para que puedan realizarse los
+ensayos mecánicos correctamente. Además si se desea obtener micrografía se puede atacar con ácido nítrico al $50\%$ para que la estructura quede libre de 
+cualquier óxido que pueda formarse en todo el proceso
+
+
+\begin{figure}[h]
+ \centering
+ \includegraphics[width=1\textwidth]{proceso.eps}
+ \caption{Esquema del proceso de fabricación de una esponja} 
+ \label{fig:proceso}
+ \end{figure}
+
+\section{Caracterización y Ensayos}
+
+
+
+\subsection{Medición de $Ms$}
+
+Como dijimos trabajamos con material al cual se induce la transformación martensítica por medio de esfuerzos mecánicos. Esto hace que se deba trabajar entre las temperaturas 
+$M_s$ y $M_d$. 
+Si se trabaja con una temperatura inferior a $M_s$, la aleación formará martensita estable al enfriarse. Por otro lado si se utilizan temperaturas muy altas, la martensita 
+formada  por las tensiones mecánicas se estabilizará por un proceso de envejecimiento. Estos dos factores van en detrimento de las propiedades de memoria de forma por lo que 
+conocer la $M_s$ de la aleación es muy importante para que ocurra la 
+transformación y retransformación de la aleación al aplicar y retirar tensiones. Además se busca una Ms baja, para poder trabajar a temperatura ambiente y que no sea necesaria 
+la utilización de equipos más complejos. 
+Por este motivo se midió la $M_s$ de distintas muestras de aleación que fueron fabricadas anteriormente por el grupo de investigación y que luego se utilizarían en los distintos 
+ensayos.
+
+Se soldó en lados opuestos de la muestra los cables de una termocupla tipo , la cual se conectó a una punta fría y luego a una fuente de tensión la 
+cual tomaba la medición de tensión de la termocupla y la compartía a la computadora. Se utilizaron un calentador a $150 C^\circ$ aproximadamente y un termo 
+con nitrógeno liquido para generar rampas
+de enfriamiento y calentamiento respectivamente. Durante estas rampas si se grafica la velocidad de cambio de temperatura en función de la temperatura se
+distinguen "picos" en el momento en el que ocurre la transformación. Este método equivale a realizar una medición con un calorímetro diferencial, y permite 
+encontrar $M_s$ al enfriar y $A_s$ al calentar la muestra. 
+
+\begin{figure}[h]
+ \centering
+ \includegraphics[width=0.5\textwidth]{Img/Procedimiento/Ms.eps}
+ \caption{Esquema del dispositivo utilizado para medir resistencia con el método de las cuatro puntas}. 
+ \label{fig:Ms}
+ \end{figure}
+
+
+\subsection{Metalografía}
+
+Como la aleación de CuZnAl no presenta una alta dureza es relativamente fácil de preparar metalográficamente. Hay que tener en cuenta que la aleación 
+transformará a martensita tanto por temperatura como por deformación. Por este motivo se realizan cortes de muestras utilizando una cortadora 
+$****cortadora****$ ya que esta no genera deformación. También debe realizarse el desbaste con suavidad para que este no genere una transformación martensítica 
+en la superficie. Por otro lado hay que controlar que el agua utilizada para lavar las muestras no sea muy fría en el caso 
+que la Ms del material esté cercana a la temperatura ambiente. 
+Generalmente se inicia el desbaste con una lija de carburo de silicio, empezando desde un granulado tamaño 400 y se va subiendo hasta un número 1000. 
+Luego se realiza un pulido con alúmina de 1 $\mu m$. Finalmente se ataca unos pocos segundos con una solución de $50 \% $ de ácido nítrico para revelar 
+bordes de grano. 
+
+\subsection{Compresión}
+
+% Deformacion real e ingenieril
+
+% https://books.google.com.ar/books?id=gilYI9_KKAoC&pg=PA60&lpg=PA60&dq=deformacion+real+e+ingenieril&source=bl&ots=mocOuVvrLx&sig=-0en3S3S9Pv8Ty2yMc08LHGR7zs&hl=en&sa=X&ved=0ahUKEwix953zr-DTAhUBgpAKHRsoAaMQ6AEIXjAK#v=onepage&q=deformacion%20real%20e%20ingenieril&f=false
+
+En el caso de las esponjas tanto de Cu-Zn-Al y de Cu puro se procedió de la siguiente mantera. Una vez fabricadas las esponjas como explicado anteriormente, 
+se cortaron los bordes con una cortadora $****cortadora*****$ y luego se desbastaron para que ambos extremos sean perferctamente paralelas. Esto es muy 
+importante para que la deformación sea homogénea en el cilindro a ensayar, y no se concentre por ejemplo en un lado de la misma. 
+Previo al ensayo se realizó un recocido a 800 $C^\circ$ durante media hora y un enfriamiento a temperatura ambiente durante media hora más para borrar cualquier 
+rastro de martensita anterior y asegurar que todas las muestras empiecen con la misma estructura. 
+Para realizar el ensayo se utilizó una jaula inversora que transforma el movimiento de tracción de las mordazas del equipo en compresión de la probeta. La 
+temperatura de los ensayos se modificó con una cámara térmica perteneciente a la máquina de tracción la cual puede enfriar a temperaturas bajo cero o 
+calentar por encima de los 170 $C^\circ$.
+La deformación de la muestra se registró con un extensómetro marca Instrom de 12,5 mm de largo el cual se adhiere a la muestra utilizando combinaciones de 
+resortes de distinta longitud dependiendo del diámetro de la muestra a ensayar. En el caso de la esponja de Cu, como se deformó hasta comprimirse 
+completamente no fué posible utilizar el extensómetro, por lo que se registro la deformación a partir del movimiento de los cabezales de la máquina, y luego 
+se graficó la deformación real de la muestra dada por la expresión \ref{defreal}
+
+\begin{equation}
+d \varepsilon = \frac{dl}{l}  \longrightarrow  \varepsilon =ln \left(\frac{l}{l_0}\right) \label{defreal} 
+\end{equation}
+
+Si bien el horno posee un controlador de temperatura, para tener una medición
+más precisa de la temperatura de la muestra se utilizó una termocupla adherida a la superficie de la jaula de compresión.
+
+
+\begin{figure}[h]
+ \centering
+ \includegraphics[width=0.2\textwidth]{Img/Procedimiento/jaula.jpg}
+ \caption{Dispositivo de compresión utilizado en los ensayos} 
+ \label{fig:jaula}
+ \end{figure}
+
+
+\subsection{Fatiga}
+
+\subsection{Resistencia}
+
+% http://users.df.uba.ar/sgil/labo3_uba/guias/cuatro_punta2k6_l3.pdf
+
+Para medir la resistencia de una muestra se utilizó el método de las cuatro puntas, también conocido como método de Método de Kelvin. En la figura puede 
+verse el dispositivo utilizado. A la muestra se le sueldan cuatro cables, con los dos exteriores se le inyecta una corriente conocida y con los otros dos 
+cables se mide la tensión en la muestra. En todas las mediciones realizadas se utilizó una corriente de 200 mA.
+Este método permite realizar mediciones de resistencia muy pequeños ya que como varía la corriente en distintos sentidos permite despreciar la resistencia de 
+los cables y potenciales que se forman en la interfaz entre el cable y la muestra. Si la corriente circula en un sentido, la tensión leída será:
+
+\begin{equation}
+ V^+= \varepsilon_A +I^+ . R - \varepsilon_B 
+\end{equation}
+
+Donde $\varepsilon_A$ y $\varepsilon_B$ son las resistencias de cada cable. Si ahora la corriente circula en sentido contrario:
+
+\begin{equation}
+ V^-= \varepsilon_A -I^- . R - \varepsilon_B 
+\end{equation}
+
+De esta forma si el equipo registra la tensión leída en cada sentido se cancelan las resistencias de los cables y los contactos y los potenciales 
+en los contactos, quedando la resistencia buscada:
+
+\begin{equation}
+ V^+ - V^-= [I^+ + I^-] R \longrightarrow R=\frac{V^+ - V^-}{2.(I^+ + I^-)}
+\end{equation}
+
+Sabiendo que la corriente aplicada es siempre 200 mA, y conociendo las dimensiones de las probetas utilizadas se llega a la resistividad dada por la 
+ecuación $***ecuacion resistividad****$ la cual permite comparar los resultados de los distintos ensayos.
+
+\begin{equation}
+ \rho = R . \frac{A}{l}
+\end{equation}
+Donde $\rho$ es la resistividad normalizada, R es la resistencia medida de la probeta, A es la sección y l la longitud entre los cables que miden la tensión.
+
+%\begin{figure}[h]
+%\centering
+% \includegraphics[width=0.5\textwidth]{Img/Procedimiento/cpfoto.png}
+% \caption{Esquema del dispositivo utilizado para medir resistencia con el método de las cuatro puntas}. 
+% \label{fig:CuatroPuntas}
+% \end{figure}
+
+%\begin{figure}[h]
+% \centering
+% \includegraphics[width=0.2\textwidth]{Img/Procedimiento/cpfoto.jpg}
+% \caption{Dispositivo de compresión utilizado en los ensayos} 
+% \label{fig:jaula}
+ %\end{figure}
+ 
+ 
+ \begin{figure}
+    \centering
+    \begin{subfigure}{0.4\textwidth}
+        \includegraphics[width=\textwidth]{Img/Procedimiento/CuatroPuntas1.eps}
+	\caption{Esquema del dispositivo}. 
+	\label{fig:CuatroPuntas}
+    \end{subfigure}
+    ~ %add desired spacing between images, e. g. ~, \quad, \qquad, \hfill etc. 
+      %(or a blank line to force the subfigure onto a new line)
+    \begin{subfigure}{0.4\textwidth}
+        \includegraphics[width=\textwidth]{Img/Procedimiento/cpfoto.jpg}
+        \caption{Foto del dispositivo utilizado}
+        \label{fig:cuatropuntasyextensometro}
+    \end{subfigure}
+\end{figure}
+
+
+%\begin{figure}
+%    \centering
+%    \begin{subfigure}[b]{0.3\textwidth}
+%        \includegraphics[width=\textwidth]{Img/Procedimiento/CuatroPuntas1.eps}
+%        \caption{A gull}
+%        \label{fig:gull}
+%    \end{subfigure}
+%   ~ %add desired spacing between images, e. g. ~, \quad, \qquad, \hfill etc. 
+      %(or a blank line to force the subfigure onto a new line)
+%    \begin{subfigure}[b]{0.3\textwidth}
+%        \includegraphics[width=\textwidth]{Img/Procedimiento/cpfoto.png}
+%        \caption{A tiger}
+%        \label{fig:tiger}
+%    \end{subfigure}
+%    \caption{Pictures of animals}\label{fig:animals}
+%\end{figure}
+ 
+
+En el gráfico \ref{fig:RvsTClavo5} puede verse la variación en la resistencia en un ciclo de enfriamiento y calentamiento donde se ve que la martensita
+presenta una resistencia mucho mayor a la austenita. La medición de la resistencia a medida que transforma la aleación es muy útil, ya que permite seguir 
+de manera detallada el avance de transformación si se conoce la resistencia inicial en estado austenítico, y el valor de la resistencia cuando la 
+muestra se encuentra en estado completamente martensítico. Puntos intermedios entre estos dos extremos darían informacion acerca de la fracción transformada.
+También puede verse que cuando la aleación se encuentra en estado austenitico o martensítico la resistencia varía linealmente con la temperatura como es 
+de esperarse para cualquier aleación metálica. 
+
+\begin{figure}[h]
+ \centering
+ \includegraphics[width=0.8\textwidth]{Img/Resultados/RvsTClavo5.eps}
+ \caption{Variación de la resistencia de una probeta de Cu-Zn-Al sólida al variar la temperatura}. 
+ \label{fig:RvsTClavo5}
+ \end{figure}
+
+Se calcularon las variaciones en la resistencia debido al cambio de volumen al comprimir, y a la dilatación o compresión térmica. En ambos casos estas 
+variaciones son despreciables por lo que no se tomarán en cuenta. También se graficó la variación en la medición del extensómetro por cambios de 
+temperatura y también resultó despreciable por lo que tampoco serán utilizados.
+
+
+
+
+
+
+% ****************************************************************************************************************************************************
+% ****************************************************************************************************************************************************
+% ****************************************************************************************************************************************************
+
+\chapter{Resultados y discusión}
+
+\section{Tamaño de grano}
+
+\begin{itemize}
+\item[$\circ$] En primer lugar se colocó en una ampolla una muestra de la aleación y se agregó $AlB_2$ envuelto en papel de aluminio, para evitar que al 
+realizar vacío en la ampolla el mismo sea succionado por el equipo. También se agrego Cu para compensar la composición de la aleación. No se agregó Zn 
+ya que la proporción en la aleación es muy baja y no se veía significativamente afectado. Se realizó la fundición con un horno de inducción. A partir 
+de un análisis metalográfico se concluyó que no se obtuvo un refinamiento significativo del tamaño de grano. Esto puede deberse a que el $AlB_2$ no se 
+mezcló completamente.
+\item[$\circ$] Para intentar mejorar la incorporación del $AlB_2$ y no agregar otros compuestos que modifiquen la composición de la aleación (Al y Cu) 
+se fabricaron pastillas prensando virutas de la aleación ya fabricada y el polvo de $AlB_2$. Se colocaron en una ampolla las pastillas prensadas y un 
+pedazo de aleación. Esta vez se realizó la fundición en un horno resistivo buscando tener un mayor control de la temperatura. El resultado fue un botón 
+de la aleación rodeado del polvo refinador que no fue incorporado por la misma. 
+\item[$\circ$] Buscando mejorar la incorporación del refinador se fabricó viruta de la aleación, se mezcló con el $AlB_2$ y se realizó una molienda de 
+la mezcla con bolas de acero en una atmósfera de argón para intentar inducir la mezcla por los esfuerzos mecánicos. También se produjo un refinamiento 
+del $AlB_2$, lo cual podría ser un factor que ayude a la incorporación. Finalizada la moliendo se obtuvo un polvo muy fino, el cual se prensó como 
+pastillas, se colocaron en un tubo de cuarzo con atmósfera de Ar y se fundieron en un horno resistivo. Como resultado se obtuvo un clavo de aproximadamente 
+6 mm de diámetro donde en sectores se distingue que el metal escurrió dejando el polvo refinador como ocurrió en las muestras anteriores. En otros 
+sectores más homogéneos se encontró una significativa disminución del tamaño de grano. De este segmento se obtuvo una probeta 
+cilíndrica por electro erosión y se realizaron ensayos de compresión. %\textbf{resultados de mañana??}
+\end{itemize}
+
+
+
+\section{Variación de Resistencia por deformación en Cu}
+
+En el gráfico \ref{fig:ResDefCu} puede verse en rojo la variación teórica de la resistencia a medida que la probeta de Cu se comprime y varía su volumen (por el módulo de Poisson).
+En azul la medición de la resistencia al comprimir la probeta. Puede verse que la pendiente de la curva teórica es mayor. Esta diferencia puede deberse 
+al aumento de la resistencia debido a la deformación plástica lo que genera una pendiente bastante menor.
+
+De todas formas las pendientes de estas curvas es muy chica, y despreciable al compararlas con la variación de la resistencia con la temperatura tanto en Austenita 
+como en Martensita. Por este motivo lo despreciamos al trabajar en ciclos térmicos.
+
+\begin{figure}[h]
+ \centering
+ \includegraphics[width=0.8\textwidth]{Img/Resultados/ResDefCu.eps}
+ \caption{Variación de la resistencia de una probeta de Cu en función de la deformación a temperatura ambiente. En rojo el valor teórico correspondiente únicamente a la resistencia por cambio de volumen. 
+ En azul el valor medido de resistencia para cada porcentaje de deformación}. 
+ \label{fig:ResDefCu}
+ \end{figure}
+
+
+
+
+% ****************************************************************************************************************************************************
+% ****************************************************************************************************************************************************
+% ****************************************************************************************************************************************************
+
+
+\chapter{Conclusiones}
+
+
+\begin{thebibliography}{3}
+
+\bibitem{duering} 
+T W Duering, K N Melton, D St{\"o}ckel, C M Wayman 
+\textit{Engineering Aspects of Shape memory Alloys}. 
+Butterworth-Heinemann Ltd, 1990.
+ 
+\bibitem{elliott} 
+Ryan S. Elliott, John A. Shaw, Nicolas Triantafyllidis
+\textit{Stability of thermally-induced martensitic
+transformations in bi-atomic crystals}.
+Journal of the Mechanics and Physics of Solids
+50 (2002) 2463 – 2493
+
+\bibitem{pierre} 
+Larochette, Pierre Arneodo 
+\textit{Efectos de la difusión en cristales martensíticos de Cu-Zn-Al}. 
+Comisión Nacional de Energía Atómica, Universidad Nacional de Cuyo, 2003.
+
+\bibitem{stoiber} 
+Stoiber Johannes 
+\textit{Hysteresis Effects During Martensitic Phase Transformations in Cu-Zn-Al Shape Memory Alloys}. 
+Ecole Polytechnique Federale de Lausanne, 1993.
+
+\bibitem{ritelst} 
+Rit Elst, J V Humbeeck, Marcel Meeus and Luc Delaey
+\textit{Grain Refinement During olidification of $\beta$-Cu Based Alloys}.
+Z. Metallkde Bd. 77 (1986) H. 7
+
+\bibitem{gibson} 
+L. J. Gibson
+\textit{Mechanical Behavior of Metallic Foams}.
+Annu. Rev. Mater. Sci. 2000. 30:191–227
+
+\bibitem{design} 
+M.F. Ashby, A.G. Evans, N.A. Fleck, L.J. Gibson,
+J.W. Hutchinson and H.N.G. Wadley
+\textit{Metal Foams: A Design Guide}. 
+Butterworth Heinemann, 2000.
+
+
+\bibitem{cellular} 
+Lorna J. Gibson, Michael F. Ashby  
+\textit{Cellular solids}. 
+Cambridge Sollid State Science Series, 1997.
+
+\bibitem{bertolino2010} 
+G. Bertolino, P. Arneodo Larochette, E.M. Castrodeza, C. Mapelli, A. Baruj , H.E. Troiani
+\textit{Mechanical properties of martensitic Cu–Zn–Al foams in the pseudoelastic regime}.
+Materials Letters 64 (2010) 1448–1450
+
+\bibitem{bertolino2011} 
+G. Bertolino, A. Gruttadauria, P. Arneodo Larochette, E.M. Castrodeza, A. Baruj, H.E. Troian
+\textit{Cyclic pseudoelastic behavior and energy dissipation in as-cast Cu-Zn-Al foams of
+different densities}.
+Intermetallics 19 (2011) 577e585
+
+\bibitem{CuZn} 
+Wikimedia Commons
+\\\texttt{https://commons.wikimedia.org/wiki/File:Cu-Zn-phase-diagram-greek.svg}
+\end{thebibliography}
+
+
+
+
+\end{document}

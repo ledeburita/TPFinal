@@ -1,0 +1,49 @@
+<ExtendedSpectrumData>
+  <SpectrumLabel Label="Lapiz1 | Area 2 | EDS Spot 4" />
+  <Geometry WorkingDistance="10.33" />
+  <PeakStrips HasIntensities="True" HasWeightFractions="True" HasEZafWeightFractions="True" CarbonCoatThickness="0" HasFixedRatio="False" HasRoughSample="False" QuantMethod="eZAF 70deg Tilt" SampleType="Element" StandardType="None">
+    <PeakStrip>
+      <Atom>13</Atom>
+      <Shell>1</Shell>
+      <NetIntensity>279.6864</NetIntensity>
+      <IntensityError>0.009158038</IntensityError>
+      <WeightFraction>0.05717827</WeightFraction>
+      <Uncertainty>0.09321151</Uncertainty>
+    </PeakStrip>
+    <PeakStrip>
+      <Atom>29</Atom>
+      <Shell>1</Shell>
+      <NetIntensity>1237.364</NetIntensity>
+      <IntensityError>0.004342767</IntensityError>
+      <WeightFraction>0.4396646</WeightFraction>
+      <Uncertainty>0.02330645</Uncertainty>
+    </PeakStrip>
+    <PeakStrip>
+      <Atom>30</Atom>
+      <Shell>2</Shell>
+      <NetIntensity>1050.24</NetIntensity>
+      <IntensityError>0.003691003</IntensityError>
+      <WeightFraction>0.5031571</WeightFraction>
+      <Uncertainty>0.0698505</Uncertainty>
+    </PeakStrip>
+  </PeakStrips>
+  <BackgroundRegions Color="LightSkyBlue">
+    <Region>
+      <Start>2.28</Start>
+      <End>2.56</End>
+    </Region>
+    <Region>
+      <Start>4.28</Start>
+      <End>4.56</End>
+    </Region>
+    <Region>
+      <Start>10.45</Start>
+      <End>10.73</End>
+    </Region>
+    <Region>
+      <Start>12.23</Start>
+      <End>12.51</End>
+    </Region>
+  </BackgroundRegions>
+  <Processing ICCShelfFactor="0.20" ICCTailFactor="0.20" ICCShiftFactor="0.50" />
+</ExtendedSpectrumData>

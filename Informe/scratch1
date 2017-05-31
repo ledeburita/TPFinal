@@ -1,0 +1,187 @@
+\documentclass[a4paper,10pt]{scrartcl}
+\usepackage[utf8]{inputenc}
+
+% Set equal margins on book style
+\setlength{\voffset}{0pt}
+\setlength{\headsep}{25pt}
+\setlength{\footskip}{25pt}
+\setlength{\oddsidemargin}{0.7in}
+\setlength{\evensidemargin}{0pt}
+\setlength{\marginparwidth}{10pt}
+
+\usepackage[margin=1in]{geometry}
+
+%\documentclass[a4paper,12pt,oneside,openright]{report}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{graphicx}
+\usepackage{subfigure}
+
+% Uso las fuentes iwona para el texto y para matemática.
+\usepackage[T1]{fontenc}
+\usepackage[math]{iwona}
+\linespread{1.05}
+
+%\usepackage{savetrees}
+
+% No se cuales de estos son realmente necesarios.
+\usepackage{amssymb}
+\usepackage{titling}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{multicol}
+% Me pone el número de figura en negrita.
+\usepackage[bf]{caption}
+
+% Paquete para que las figuras no se vayan al final de los capítulos
+\usepackage{afterpage}
+
+% Para tener tablas más lindas
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{multicol}
+\usepackage{colortbl}
+\usepackage[dvipsnames]{xcolor}
+
+
+%opening
+\title{Informe de avance del trabajo "Diseño, fabricación y caracterización de esponjas pseudoelásticas"}
+\posttitle{\par\end{center}}
+\author{Prado, Lucia H.}
+\date{}
+\postdate{\par\end{center}}
+\begin{document}
+
+\maketitle
+
+\section{Planificación}
+
+
+\begin{center}
+
+\begin{tabular}[]{|l|c|c|c|c|c|c|c|c|c|c|c|c|}
+\hline
+\multirow{2}{4cm}{Tareas} & \multicolumn{12}{c|}{Tareas}\\  %&  &  &  &  &  &  &  &  &  &  & \\
+\cline{2-13} 
+  & \multicolumn{2}{c|}{1} & \multicolumn{2}{c}{2} & \multicolumn{2}{|c|}{3} & \multicolumn{2}{c}{4} & \multicolumn{2}{|c|}{5} & \multicolumn{2}{c|}{6}\\ 
+ \hline
+Estudio bibliográfico del tema &  \cellcolor{Emerald!35} &  \cellcolor{Emerald!35} &  \cellcolor{Emerald!35} &  &  &  &  &  &  &  &  & \\ \hline
+Producción de esponjas base Cu &  &  \cellcolor{Emerald!35} &  \cellcolor{Emerald!35} &  \cellcolor{Emerald!35} &  \cellcolor{Emerald!35} &  \cellcolor{Emerald!35} &  \cellcolor{Emerald!35} &  &  &  &  & \\ \hline
+Caracterización química, morfológica y microestructural de las esponjas &  & \cellcolor{Emerald!35} & \cellcolor{Emerald!35} & \cellcolor{Emerald!35} & \cellcolor{Emerald!35} & \cellcolor{Emerald!35} & \cellcolor{Emerald!35} & \cellcolor{Emerald!35} &  &  &  & \\ \hline
+Caracterización del comportamiento mecánico de distintas esponjas &  &  &  \cellcolor{Emerald!35} &  \cellcolor{Emerald!35} &  \cellcolor{Emerald!35} &  \cellcolor{Emerald!35} &  \cellcolor{Emerald!35} &  \cellcolor{Emerald!35} &  \cellcolor{Emerald!35} &  \cellcolor{Emerald!35} &  & \\ \hline
+Caracterización de las muestras ensayadas mecánicamente &  &  &  &  \cellcolor{Emerald!35} &  \cellcolor{Emerald!35} &  \cellcolor{Emerald!35} &  \cellcolor{Emerald!35} &  \cellcolor{Emerald!35} &  \cellcolor{Emerald!35} &  \cellcolor{Emerald!35} &  & \\ \hline
+Estudio de posibilidades de mejora del material (esponjas) &  &  &  &  &  &  &  \cellcolor{Emerald!35} &  \cellcolor{Emerald!35} &  \cellcolor{Emerald!35} &  \cellcolor{Emerald!35} &  \cellcolor{Emerald!35} & \\ \hline
+Análisis de resultados &  &  &  &  &  &  &  \cellcolor{Emerald!35} &  \cellcolor{Emerald!35} &  \cellcolor{Emerald!35} &  \cellcolor{Emerald!35} &  \cellcolor{Emerald!35} & \\ \hline
+Redacción del trabajo final &  &  &  &  &  &  &  &  \cellcolor{Emerald!35} &  \cellcolor{Emerald!35} &  \cellcolor{Emerald!35} &  \cellcolor{Emerald!35} & \cellcolor{Emerald!35} \\ \hline
+\end{tabular}
+\end{center}
+
+
+
+De acuerdo con los obtetivos y el cronograma presentado en la propuesta de trabajo, en el primer período de trabajo se cubrieron los siguientes puntos:
+
+ \begin{itemize}
+ \item[$\circ$] Se realizó un análisis de la bibliografía disponible, el cual comprendió el estudio de aleaciones con memoria de forma, materiales celulares 
+ y la combinación de los mismos. Simultáneamente se redactó la introducción teórica del informe escrito.
+ \item[$\circ$] Se caracterizaron lingotes de la aleación fabricados anteriormente por el grupo de investigación.
+ \item[$\circ$] Se modificaron y utilizaron distintas esponjas fabricadas previamente por el grupo de investigación.
+ \item[$\circ$] Se realizaron ensayos de composición (EDX), estructura (RX), temperaturas de transformación ($M_s$), microscopía óptica y SEM,
+ \item[$\circ$] Se realizaron ensayos de compresión de distintas esponjas variando la temperatura y porcentaje de deformación.
+\end{itemize}
+
+ 
+ En el tiempo restante de trabajo se continuará con: 
+ \begin{itemize}
+ \item[$\circ$]La producción de esponjas de Cu-Zn-Al.
+ \item[$\circ$]Caracterización química, morfológica y microestructural de las esponjas fabricadas.
+ \item[$\circ$]Caracterización mecánica de las distintas esponjas.
+ \item[$\circ$]Estudio de las posibilidades de mejora de las esponjas fabricadas. 
+ \item[$\circ$]Análisis de los resultados
+ \item[$\circ$]Redacción del trabajo.
+ \end{itemize}
+ 
+ En base al trabajo realizado hasta el día de la fecha no se prevee un cambio en los objetivos que se presentaron en la propuesta inicial.
+
+\section{Descripción detallada de los ensayos realizados}
+
+ A continuación se presenta brevemente el marco teórico y los ensayos realizados hasta el momento de manera más detallada.
+
+ \subsection{Sobre la aleación Cu-Zn-Al}
+ 
+La propiedad de memoria de forma de las aleaciones se debe a que al aplicar un esfuerzo mecánico, utiliza la energía mecánica para transformar a martensita y al 
+retirarse la carga la aleación retransforma a austenita recuperando su forma inicial. Para realizar transformación se parte de una fase $\beta$ la cual puede transformar a muchas 
+ variantes de martensita, pero no todas sirven para obtener el comportamiento buscado. La transformación que se utiliza es la de $\beta$ a martensita 18R, la cual se obtiene 
+ utilizando una composición electrónica $\frac{e}{a}$ de 1.48. La transformación martensítica puede verse en el gráfico tensión deformación, donde se distingue la etapa de formación y 
+ crecimiento de placas como un plató en la curva. Además esta curva presenta una histéresis, debido a la energía perdida principalmente por la fricción que se produce al 
+ mover la interfase entre la martensita y la austenita. Este comportamiento se llama pseudoelástico, y es el responsable de las propiedades de amortiguamiento de estas aleaciones.
+ 
+ %\begin{itemize}
+ %\item 
+ Como dijimos trabajamos con material al cual se induce la transformación martensítica por medio de esfuerzos mecánicos. Esto hace que se deba trabajar entre las temperaturas 
+ $M_s$ y $M_d$. 
+ Si se trabaja con una temperatura inferior a $M_s$, la aleación formará martensita estable al enfriarse. Por otro lado si se utilizan temperaturas muy altas, la martensita 
+ formada  por las tensiones mecánicas se estabilizará por un proceso de envejecimiento. Estos dos factores van en detrimento de las propiedades de memoria de forma por lo que 
+ conocer la $M_s$ de la aleación es muy importante para que ocurra la 
+ transformación y retransformación de la aleación al aplicar y retirar tensiones. Además se busca una Ms baja, para poder trabajar a temperatura ambiente y que no sea necesaria 
+ la utilización de equipos más complejos. 
+ Por este motivo se midió la $M_s$ de distintas muestras de aleación que fueron fabricadas anteriormente por el grupo de investigación y que luego se utilizarían en los distintos 
+ ensayos. 
+ %\end{itemize}
+
+ Otro factor muy importante es el tamaño de grano de la aleación. Para que las agujas de martensita no tengan tantos obstáculos que impidan su crecimiento, se busca un tamaño de grano 
+ relativamente grande. Por otro lado, al someter la estructura de las esponjas a esfuerzos de compresión, si el grano es muy grande se producen fisuras intergranulares. 
+ Esto genera una disminución en las propiedades de memoria de forma. También se busca un menor tamaño de grano para mejorar las propiedades mecánicas de la aleación. 
+ El principal 
+ método de endurecimiento de estas aleaciones es el refinamiento de la estructura por medio de trabajado mecánico. Como la estructura celular de las esponjas se obtiene a partir 
+ de la colada, resulta evidente que no es posible utilizar este método, quedando como única opción el refinamiento de grano por medio del agregado de algún compuesto refinador. 
+ A partir de la bibliografía consultada se concluyó que el mejor compuesto a utilizar es el B, es cual se agregó como $AlB_2$ en forma de polvo.
+ 
+ Al calentar las aleaciones a temperaturas superiores a $800^\circ C$ el Zn se sublima y se pierde de la aleación. La perdida de pequeñas cantidades de Zn pueden generar 
+ grandes cambios en la $M_s$ por lo que debe evitarse. También debe evitarse la oxidación de la aleación. Por este motivo se realizó un encapsulado en ampolla de cuartzo
+ con una sobrepresión de Ar de todas la muestras que se trabajaron a alta temperatura. 
+
+
+\begin{itemize}
+\item[$\circ$] En primer lugar se colocó en una ampolla una muestra de la aleación y se agregó $AlB_2$ envuelto en papel de aluminio, para evitar que al realizar vacío en la ampolla 
+el mismo sea succionado por el equipo. También se agrego Cu para compensar la composición de la aleación. No se agregó Zn ya que la proporción en la aleación es muy baja y no 
+se veía significativamente afectado. Se realizó la fundición con un horno de inducción. A partir de un análisis metalográfico se concluyó que no se obtuvo un refinamiento 
+significativo del tamaño de grano. Esto puede deberse a que el $AlB_2$ no se mezcló completamente.
+\item[$\circ$] Para intentar mejorar la incorporación del $AlB_2$ y no agregar otros compuestos que modifiquen la composición de la aleación (Al y Cu) se fabricaron pastillas prensando
+virutas de la aleación ya fabricada y el polvo de $AlB_2$. Se colocaron en una ampolla las pastillas prensadas y un pedazo de aleación. Esta vez se realizó la 
+fundición en un horno resistivo buscando tener un mayor control de la temperatura. El resultado fue un botón de la aleación rodeado del polvo refinador que no fue incorporado 
+por la misma. 
+\item[$\circ$] Buscando mejorar la incorporación del refinador se fabricó viruta de la aleación, se mezcló con el $AlB_2$ y se realizó una molienda de la mezcla con bolas de acero en 
+una atmósfera de Ar para intentar inducir la mezcla por los esfuerzos mecánicos. También se produjo un refinamiento del $AlB_2$, lo cual podría ser un factor que ayude a la 
+incorporación. Finalizada la moliendo se obtuvo un polvo muy fino, el cual se prensó como pastillas, se colocaron en un tubo de cuarzo con atmósfera de Ar y se fundieron en 
+un horno resistivo. Como resultado se obtuvo un clavo de aproximadamente 6 mm de diámetro donde en sectores se distingue que el metal escurrió dejando el polvo refinador 
+como ocurrió en las muestras anteriores. En otros sectores más homogéneos se encontró una significativa disminución del tamaño de grano. De este segmento se obtuvo una probeta 
+cilíndrica por electro erosión y se realizaron ensayos de compresión. %\textbf{resultados de mañana??}
+\end{itemize}
+ 
+
+ \subsection{Esponjas}
+ 
+ Para obtener una estructura celular se funde la aleación en un crisol de grafito y se sumergen presionando con un pistón esferas de sílica gel ($SiO_2$). 
+ Luego la estructura obtenida se sumerge en una mezcla de ácido fluorhídrico que deshace las esferas de sílica gel pero no ataca la aleación. Así se obtiene la estructura 
+ de Cu-Zn-Al con huecos esféricos que forman una estructura abierta.
+ 
+ Para caracterizar la incidencia del tamaño de grano, mientras se continua buscando una forma de refinarlo, se realizó el crecimiento de los mismos en otra muestra. Para esto 
+ se colocó un cilindro de aleación con las esferas de sílica (estructura previa al ataque con ácido fluorhídrico) y se realizó el mismo tratamiento utilizado para la 
+ crecimiento de monocristales. Este método se basa en la fundición localizada de un segmento de la muestra, al cual se encuentra con un gradiente de temperatura que permite la 
+ solidificación controlada a medida que la muestra avanza con este gradiente de temperatura. Como las esferas de sílica promueven la nucleación heterogénea no se espera 
+ obtener un monocristal, pero si una estructura con mayor tamaño de grano.
+ Una vez concluido el tratamiento se abrió la ampolla y se detectó un fuerte olor a ácido sulfhídrico. Se concluyó que el azufre proviene de impurezas que quedan de la 
+ fabricación de las esferas de sílica gel. Al tornear la muestra para obtener un cilindro que luego se pueda ensayar se encontró que la estructura estaba muy deteriorada y que no podría 
+ utilizarse para ningún ensayo. Esto pudo deberse al la formación del ácido sulfhídrico al fundir la muestra.
+ 
+ 
+ Por otro lado se utilizaron esponjas ya fabricadas, las cuales únicamente se les atacó las esferas de sílica con ácido fluorhídrico. Luego se debastaron los extremos para 
+ obtener caras paralelas y poder realizar ensayos de compresión. Estos ensayos se realizaron con una jaula que invierte el esfuerzo de tracción del equipo a un esfuerzo de 
+ compresión. Antes de cada ensayo se realizó un recocido a $800^\circ C$ y un enfriamiento a temperatura ambiente de 30 minutos cada uno para garantizar que la estructura 
+ inicial era la misma para todas las probetas. Se realizaron ciclos de carga y descarga hasta $1 \%$ y $2\%$ de deformación. También se fueron variando las temperaturas (entre 
+ temperatura ambiente y $100^\circ C$) para caracterizar la incidencia de la diferencia de temperatura respecto de la $M_s$. Se trabajó con aleaciones de Ms cercanas a los 
+ $10^\circ C$. Como era esperado, se encontró que las probetas ensayadas a temperaturas cercanas a la ambiente recuperaban un $50 \%$ de deformación mientras que a 
+ mayor temperatura se recupera cada vez más. 
+ 
+
+\end{document}

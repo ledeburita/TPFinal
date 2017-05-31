@@ -1,0 +1,25 @@
+"Test Type";"Manual"
+"Method Name:";"C:\INSTRON\user\template\CYCLE.MTM"
+"Name:";""
+"Operator ID:";""
+"Company:";""
+"Lab name:";""
+"Test date:";"04/04/2017"
+"Temperature:";""
+"Humidity:";""
+"Note 1:";""
+"Note 2:";""
+"Note 3:";""
+"Geometry:";"Rectangular"
+"Table:";1
+" ";"Load Peak 1 N";"Load Peak 2 N";"Load Peak 3 N";"Load Peak 4 N";"Load Peak 5 N"
+"1";4154.46;4047.76;5889.83;5940.23;"-"
+"Mean";4154.46;4047.76;5889.83;5940.23;0.00
+"Standard Deviation";0.00;0.00;0.00;0.00;0.00
+"Coefficient of Variation";0.00;0.00;0.00;0.00;0.00
+"Median";4154.46;4047.76;5889.83;5940.23;0.00
+"Mean + Standard Deviation";0.00;0.00;0.00;0.00;0.00
+"Mean - Standard Deviation";0.00;0.00;0.00;0.00;0.00
+"Minimum";4154.46;4047.76;5889.83;5940.23;0.00
+"Maximum";4154.46;4047.76;5889.83;5940.23;0.00
+"Range";0.00;0.00;0.00;0.00;0.00

@@ -1,0 +1,65 @@
+<ExtendedSpectrumData>
+  <SpectrumLabel Label="Lili | Area 21 | EDS Spot 3" />
+  <Geometry WorkingDistance="10.09" />
+  <PeakStrips HasIntensities="True" HasWeightFractions="True" HasEZafWeightFractions="True" CarbonCoatThickness="0" HasFixedRatio="False" HasRoughSample="False" QuantMethod="eZAF 70deg Tilt" SampleType="Element" StandardType="None">
+    <PeakStrip>
+      <Atom>5</Atom>
+      <Shell>1</Shell>
+      <NetIntensity>21.50539</NetIntensity>
+      <IntensityError>0.02500967</IntensityError>
+      <WeightFraction>0.3828543</WeightFraction>
+      <Uncertainty>0.1151868</Uncertainty>
+    </PeakStrip>
+    <PeakStrip>
+      <Atom>8</Atom>
+      <Shell>1</Shell>
+      <NetIntensity>63.58561</NetIntensity>
+      <IntensityError>0.0174561</IntensityError>
+      <WeightFraction>0.07160506</WeightFraction>
+      <Uncertainty>0.1000616</Uncertainty>
+    </PeakStrip>
+    <PeakStrip>
+      <Atom>13</Atom>
+      <Shell>1</Shell>
+      <NetIntensity>78.21886</NetIntensity>
+      <IntensityError>0.01817349</IntensityError>
+      <WeightFraction>0.03698792</WeightFraction>
+      <Uncertainty>0.08785391</Uncertainty>
+    </PeakStrip>
+    <PeakStrip>
+      <Atom>26</Atom>
+      <Shell>1</Shell>
+      <NetIntensity>36.51147</NetIntensity>
+      <IntensityError>0.04921</IntensityError>
+      <WeightFraction>0.0215289</WeightFraction>
+      <Uncertainty>0.08455646</Uncertainty>
+    </PeakStrip>
+    <PeakStrip>
+      <Atom>29</Atom>
+      <Shell>1</Shell>
+      <NetIntensity>297.7236</NetIntensity>
+      <IntensityError>0.008026247</IntensityError>
+      <WeightFraction>0.3928687</WeightFraction>
+      <Uncertainty>0.02683624</Uncertainty>
+    </PeakStrip>
+    <PeakStrip>
+      <Atom>30</Atom>
+      <Shell>1</Shell>
+      <NetIntensity>58.42458</NetIntensity>
+      <IntensityError>0.03109982</IntensityError>
+      <WeightFraction>0.09415513</WeightFraction>
+      <Uncertainty>0.0504145</Uncertainty>
+    </PeakStrip>
+  </PeakStrips>
+  <BackgroundRegions Color="LightSkyBlue">
+    <Region>
+      <Start>3.15</Start>
+      <End>3.43</End>
+    </Region>
+    <Region>
+      <Start>9.97</Start>
+      <End>10.25</End>
+    </Region>
+  </BackgroundRegions>
+  <Processing ICCShelfFactor="0.20" ICCTailFactor="0.20" ICCShiftFactor="0.50" />
+</ExtendedSpectrumData>

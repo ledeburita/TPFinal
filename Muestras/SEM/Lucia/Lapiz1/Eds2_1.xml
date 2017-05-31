@@ -1,0 +1,27 @@
+<ExtendedSpectrumData>
+  <SpectrumLabel Label="Lapiz1 | Area 2 | EDS Spot 2" />
+  <Geometry WorkingDistance="10.33" />
+  <BackgroundRegions Color="LightSkyBlue">
+    <Region>
+      <Start>1.41</Start>
+      <End>1.69</End>
+    </Region>
+    <Region>
+      <Start>3.41</Start>
+      <End>3.69</End>
+    </Region>
+    <Region>
+      <Start>5.41</Start>
+      <End>5.69</End>
+    </Region>
+    <Region>
+      <Start>7.41</Start>
+      <End>7.69</End>
+    </Region>
+    <Region>
+      <Start>9.965</Start>
+      <End>10.245</End>
+    </Region>
+  </BackgroundRegions>
+  <Processing ICCShelfFactor="0.20" ICCTailFactor="0.20" ICCShiftFactor="0.50" />
+</ExtendedSpectrumData>

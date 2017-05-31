@@ -1,0 +1,61 @@
+<ExtendedSpectrumData>
+  <SpectrumLabel Label="Lapiz1 | Area 1 | EDS Spot 2" />
+  <Geometry WorkingDistance="10.33" />
+  <PeakStrips HasIntensities="True" HasWeightFractions="True" HasEZafWeightFractions="True" CarbonCoatThickness="0" HasFixedRatio="False" HasRoughSample="False" QuantMethod="eZAF 70deg Tilt" SampleType="Element" StandardType="None">
+    <PeakStrip>
+      <Atom>5</Atom>
+      <Shell>1</Shell>
+      <NetIntensity>19.65919</NetIntensity>
+      <IntensityError>0.02752441</IntensityError>
+      <WeightFraction>0.2381539</WeightFraction>
+      <Uncertainty>0.1224757</Uncertainty>
+    </PeakStrip>
+    <PeakStrip>
+      <Atom>13</Atom>
+      <Shell>1</Shell>
+      <NetIntensity>450.4529</NetIntensity>
+      <IntensityError>0.006542741</IntensityError>
+      <WeightFraction>0.1219479</WeightFraction>
+      <Uncertainty>0.08096319</Uncertainty>
+    </PeakStrip>
+    <PeakStrip>
+      <Atom>29</Atom>
+      <Shell>1</Shell>
+      <NetIntensity>792.9873</NetIntensity>
+      <IntensityError>0.005699575</IntensityError>
+      <WeightFraction>0.528958</WeightFraction>
+      <Uncertainty>0.02413375</Uncertainty>
+    </PeakStrip>
+    <PeakStrip>
+      <Atom>30</Atom>
+      <Shell>1</Shell>
+      <NetIntensity>136.206</NetIntensity>
+      <IntensityError>0.02473793</IntensityError>
+      <WeightFraction>0.1109403</WeightFraction>
+      <Uncertainty>0.04356726</Uncertainty>
+    </PeakStrip>
+  </PeakStrips>
+  <BackgroundRegions Color="LightSkyBlue">
+    <Region>
+      <Start>1.9</Start>
+      <End>2.18</End>
+    </Region>
+    <Region>
+      <Start>3.9</Start>
+      <End>4.18</End>
+    </Region>
+    <Region>
+      <Start>7.36</Start>
+      <End>7.64</End>
+    </Region>
+    <Region>
+      <Start>9.965</Start>
+      <End>10.245</End>
+    </Region>
+    <Region>
+      <Start>12.23</Start>
+      <End>12.51</End>
+    </Region>
+  </BackgroundRegions>
+  <Processing ICCShelfFactor="0.20" ICCTailFactor="0.20" ICCShiftFactor="0.50" />
+</ExtendedSpectrumData>

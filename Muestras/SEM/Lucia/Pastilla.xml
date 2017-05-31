@@ -1,0 +1,57 @@
+<ExtendedSpectrumData>
+  <SpectrumLabel Label="Lili | Area 21 | EDS Spot 1" />
+  <Geometry WorkingDistance="10.09" />
+  <PeakStrips HasIntensities="True" HasWeightFractions="True" HasEZafWeightFractions="True" CarbonCoatThickness="0" HasFixedRatio="False" HasRoughSample="False" QuantMethod="eZAF 70deg Tilt" SampleType="Element" StandardType="None">
+    <PeakStrip>
+      <Atom>5</Atom>
+      <Shell>1</Shell>
+      <NetIntensity>15.50647</NetIntensity>
+      <IntensityError>0.02927455</IntensityError>
+      <WeightFraction>0.4093573</WeightFraction>
+      <Uncertainty>0.119843</Uncertainty>
+    </PeakStrip>
+    <PeakStrip>
+      <Atom>13</Atom>
+      <Shell>1</Shell>
+      <NetIntensity>51.12519</NetIntensity>
+      <IntensityError>0.02265188</IntensityError>
+      <WeightFraction>0.03654959</WeightFraction>
+      <Uncertainty>0.09397133</Uncertainty>
+    </PeakStrip>
+    <PeakStrip>
+      <Atom>29</Atom>
+      <Shell>1</Shell>
+      <NetIntensity>232.8281</NetIntensity>
+      <IntensityError>0.009389115</IntensityError>
+      <WeightFraction>0.4443362</WeightFraction>
+      <Uncertainty>0.02828938</Uncertainty>
+    </PeakStrip>
+    <PeakStrip>
+      <Atom>30</Atom>
+      <Shell>1</Shell>
+      <NetIntensity>46.99784</NetIntensity>
+      <IntensityError>0.03279873</IntensityError>
+      <WeightFraction>0.1097569</WeightFraction>
+      <Uncertainty>0.05205082</Uncertainty>
+    </PeakStrip>
+  </PeakStrips>
+  <BackgroundRegions Color="LightSkyBlue">
+    <Region>
+      <Start>1.87</Start>
+      <End>2.15</End>
+    </Region>
+    <Region>
+      <Start>3.87</Start>
+      <End>4.15</End>
+    </Region>
+    <Region>
+      <Start>5.87</Start>
+      <End>6.15</End>
+    </Region>
+    <Region>
+      <Start>9.969999</Start>
+      <End>10.25</End>
+    </Region>
+  </BackgroundRegions>
+  <Processing ICCShelfFactor="0.20" ICCTailFactor="0.20" ICCShiftFactor="0.50" />
+</ExtendedSpectrumData>

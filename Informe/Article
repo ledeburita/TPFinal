@@ -1,0 +1,18 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[utf8]{inputenc}
+
+%opening
+\title{Informe de avance}
+\author{Prado, Lucia H.}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+
+\end{abstract}
+
+\section{Ensayos}
+
+\end{document}
