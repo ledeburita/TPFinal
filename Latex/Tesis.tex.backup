@@ -154,7 +154,7 @@ a austenita.
 El avance de la transformación martensítica se puede seguir midiendo diferentes parámetros como la variación de resistencia eléctrica, 
 el cambio de longitud o de volumen en función de la temperatura. Otra forma de medir la transformación martensítica de manera precisa es realizando 
 %% no me hace la llamada a la figura!
-una curva de tensión vs deformación, la cual puede verse un esquema en la Fig. \ref{fig:TensDefSMA}. En la sección marcada con I la curva 
+una curva de tensión vs deformación, la cual puede verse un esquema en la figura. \ref{fig:TensDefSMA}. En la sección marcada con I la curva 
 corresponde a la deformación elástica de la aleación. En la sección II, Cuando se alcanza una tensión 
 suficiente para iniciar la transformación, la pendiente comienza a disminuir debido al movimiento de las interfases de las agujas de martensita. 
 Como dijimos, estas interfases son bastante móviles por lo que a medida que transforma, aparece un plateau en la curva de tensión deformación. 
@@ -573,7 +573,7 @@ materiales sólidos la vida del material está más relacionado con la tensión 
 \label{sec:SMF}
 
 Como dijimos las esponjas metálicas tienen una capacidad de absorción mucho mayor al del mismo metal sólido. Si a esto se le suma la absorción en energía 
-debido a la pseudoplasticidad generada por la transformación martensítica, tenemos una estructura con gran capacidad de amortiguamiento y muy bajo 
+debido a la pseudoelasticidad generada por la transformación martensítica, tenemos una estructura con gran capacidad de amortiguamiento y muy bajo 
 peso. En otras palabras, la energía que se utilizaba en una esponja no pseudoelástica para deformar plásticamente, se utiliza ahora para la transformación
 martensítica. Como esta transformación es reversible una vez que se relaja la tensión aplicada la estructura vuelve a austenita recuperando su forma 
 inicial. En una curva compresión-deformación se identifican distintas regiones correspondientes a cada uno de estos comportamientos. Inicialmente un 
@@ -594,7 +594,7 @@ la curva presenta una histéresis (comportamiento pseudoelástico).
 \begin{figure}[h]
  \centering
  \includegraphics[width=1\textwidth]{EspA100yEspCu.png}
- \caption{(****Luego pongo mis gráficos****) A la izquierda se muestra una curva de tensión deformación de una esponja de Cu, y a la derecha de una esponja 
+ \caption{A la izquierda se muestra una curva de tensión deformación de una esponja de Cu, y a la derecha de una esponja 
  de Cu-Zn-Al pseudoelástica.} 
  \label{fig:memoria}
  \end{figure}
@@ -644,7 +644,7 @@ Luego se les realizó un pulido químico con las siguientes soluciones:
 \begin{itemize}
  \item[$\circ$] Cu: $50 \%$ ácido nítrico (al $65 \%$) - $50 \%$ agua
  \item[$\circ$] Zn: $60 \%$ ácido nítrico (al $65 \%$) - $40 \%$ agua
- \item[$\circ$] Al: $60 \%$ água - $30 \%$ ácido clorhídrico (al 37 \%) - $10 \%$ ácido fluorhídrico (al $48 \%$)
+ \item[$\circ$] Al: $60 \%$ agua - $30 \%$ ácido clorhídrico (al 37 \%) - $10 \%$ ácido fluorhídrico (al $48 \%$)
 \end{itemize}
 
 Una vez pesados y pulidos cada uno de los metales, se colocaron en una ampolla de cuarzo con una atmósfera de argón. Luego se colocó la ampolla en 
@@ -672,7 +672,7 @@ cobre para contrarrestar el cambio en la composición por el aluminio. La ampoll
 \item[Método II:] Se prensaron pastillas de aproximadamente $4mm$ de diámetro y $4mm$ de alto de viruta de la aleación y polvo de $AlB_2$. Se 
 colocaron todas las pastillas en una ampolla de cuarzo con una atmósfera de argón. Por último se fundió en un horno resistivo a una temperatura superior 
 a la temperatura de fusión de la aleación. Se obtuvo un botón como que se mostró en el $Método I$.
-\item[Método III:] Para este tercer método se utilizó un molino de bolas. Este equipo posee una cámara de acero endurecido de aproximadamente $20 cm$ de diámetro y $2,9 cm$ de alto. Adentro de la cámara de molienda se colocó viruta de aleación y $5$ bolillas de acero de $22,5 mm$ de diámetro, quedando una relación volumen de bolillas y cantidad de material de aproximadamente $42$. Además dentro de la cámara se utilizó una atmósfera con sobrepresión de Ar de 
+\item[Método III:] Para este tercer método se utilizó un molino de bolas. Este equipo posee una cámara de acero endurecido de aproximadamente $20 cm$ de diámetro y $2,9 cm$ de alto. Adentro de la cámara de molienda se colocó viruta de aleación y $5$ bolillas de acero de $22,5 mm$ de diámetro, quedando una relación volumen de bolillas y cantidad de material de aproximadamente $42$. Además dentro de la cámara se utilizó una atmósfera con sobre presión de argón de 
 $5 atm$ para evitar que el polvo se oxide en la molienda.
 Se molieron $8g$ de la aleación en forma de viruta con distintas cantidades de $AlB_2$.  Una vez finalizada la molienda se retiró el argón, y 
 como la aleación se pega a las paredes y bolillas fue necesario retirarlo con una herramienta raspando los bordes.
@@ -680,10 +680,48 @@ Luego se retiró el polvo ya molido de la cámara y se prensaron pastillas de $4
 \item[Método IV:] Se realizó el mismo procedimiento que en el $Método III$. Esta vez se colocó el polvo suelto en el tubo de cuarzo, como puede verse en la foto $***Foto****$ y se colocó una única pastilla en la parte superior para que evitar la pérdida de polvo al hacerse vacío para luego llenar con argón. El conjunto se fundió en un horno resistivo y se obtuvo un clavo de $6 mm$ de diámetro y $60 mm$ de largo 
 \end{description}
 
+Acá va una tabla con el detalle de las composiciones
 
 %TODO Tabla con las distintas cantidades de aleación y refinador
 
-$***Tabla con las distintas cantidas de aleación y refinador***$
+
+
+\begin{table} %\label{tab:mstab}
+\begin{center}
+\begin{tabular}{@{}llllllll@{}}  \toprule
+Muestra & $CuZnAl (g)$ & $Cu (g)$ & $Al (g)$ & $AlB_2$ & $wt \% AlB_2$ & Método & Observaciones \\ \midrule
+L1B1 &   &  & 0,0495 & & & I & Horno de inducción\\
+L1B2 &   &  & & & & I &Horno Resistivo\\
+L2B1 & 14,129  & - & -  & 0,1520 & 0,5 & II &Horno Resistivo \\
+L2B2 & 18,383 & - & -  & 0,2052 & 0,5 &II & Horno Resistivo \\
+Clavo 1 & 8 & - & - & 0,5 & 0,5 & III & Horno Resistivo \\
+Clavo 2 & 8 & - & - & 0,05 & 0,05 &III & Horno Resistivo \\
+Clavo 3 & 8 & - & - & - & - &  IV & Horno Resistivo \\
+Clavo 4 & 8 & - & - & 0,005 & 0,005 &IV & Horno Resistivo \\
+\bottomrule
+\end{tabular}
+\caption{En esta tabla se muestra detallan las composiciones utilizadas en cada muestra, asi como el horno utilizado para la fundición}
+
+\end{center}
+\end{table}
+
+% \begin{table} \label{tab:muestras}
+% \begin{center}
+% \begin{tabular}{@{}llllll@{}}  \toprule
+% $ Muestra $ & $Cu-Zn-Al (g)$ & $Al (g)$ & $Cu$ & $AlB_2$ & $wt\% AlB_2$  \\ \midrule
+% 12.53 & 2.81  & 1.287 & -34.08&a&a\\
+% 12.53 & 2.53 ($-10 \%$) & 1.287 & 25.97 & a & a\\
+% 12.53 & 2.38 ($-15 \%$) & 1.287 & 87.87 & a & a\\
+% 12.53 & 1.61 & 1.287 & 285.6 & a & a \\
+% \bottomrule
+% \end{tabular}
+% \caption{En esta tabla se muestra como la variación de pequeñas cantidades de Zn puede generar grandes cambios en la $M_s$. Los datos se obtuvieron utilizando 
+% la fórmula \ref{tablamuestras}}
+% \end{center}
+% \end{table}
+
+
+
 
  \begin{figure}[h]
     \centering
@@ -714,7 +752,7 @@ $***Tabla con las distintas cantidas de aleación y refinador***$
         \caption{Método IV}
         \label{fig:ClavoPolvo}
     \end{subfigure}
- \caption{Distintos métodos utilizados para refinar la estructura de la aleación de Cu-Zn-Al con $AlB_2$} 
+ \caption{Distintos métodos utilizados para refinar la estructura de la aleación de Cu-Zn-Al con polvo de $AlB_2$} 
     \end{figure}
 
 \section{Fabricación de esponjas} \label{FabricacionEsponjas}
@@ -757,11 +795,13 @@ ensayos mecánicos correctamente. Si se desean obtener micrografías ópticas o 
 
 \subsection{Medición de temperatura de transición martensítica}
 
-Para que la transformación martensítica avance y retroceda al aplicar y retirar cargas respectivamente,  se debe trabajar entre las temperaturas $M_s$ y $M_d$. Si se trabaja con una temperatura inferior a $M_s$, la aleación formará martensita estable al enfriarse. Por otro lado si se utilizan temperaturas muy altas, la martensita formada  por las tensiones mecánicas se estabilizará por un proceso de envejecimiento, y no ocurrira una retransformación a austenita al retirar las cargas. Estos dos factores van en detrimento de las propiedades de memoria de forma, por lo que conocer la $M_s$ de la aleación.  
+Para que la transformación martensítica avance y retroceda al aplicar y retirar cargas respectivamente,  se debe trabajar entre las temperaturas $M_s$ y $M_d$. Si se trabaja con una temperatura inferior a $M_s$, la aleación formará martensita estable al enfriarse. Por otro lado si se utilizan temperaturas muy altas, la martensita formada  por las tensiones mecánicas se estabilizará por un proceso de envejecimiento, y no ocurrirá una retransformación a austenita al retirar las cargas. Estos dos factores van en detrimento de las propiedades de memoria de forma, por lo que conocer la $M_s$ de la aleación es muy importante.
+
 Debido a esto, previo a cada ensayo se realizó una medición de la temperatura de transformación martensítica del material de la muestra.
-% TODO: Completar el tipo de termocupla. No se entiende el Procedimiento. Revisar el siguiente párrafo.
-Para llevar a cabo las mediciones se soldó a la muestra una termocupla tipo K (nickel-cromo). La termocupla se conecto a una punta fria, y este a su vez a un voltímetro que registraba las mediciones en una computadora. Con un termo con nitrógeno líquido y un calentador de laboratorio a 150 $C^\circ$  se realizaron rampas de calentamiento y enfriamiento. 
-Como se muestra en el gráfico \ref{fig:Ms}, si se grafica la velocidad de calentamiento o enfriamiento en función de la temperatura se verá un pico a la temperatura que ocurra la transformación martensítica. Lo mismo ocurrirá cuando ocurra la transformación de martensita a austenita. De esta forma se puede medir tanto la $M_s$ como la $A_s$
+Para llevar a cabo las mediciones se soldó a la muestra una termocupla tipo K (nickel-cromo). La termocupla se conecto a una punta fría, y este a su vez a un voltímetro que registraba las mediciones en una computadora. Con un termo con nitrógeno líquido y un calentador de laboratorio a 150 $C^\circ$  se realizaron rampas de calentamiento y enfriamiento. 
+Como se muestra en el gráfico \ref{fig:Ms}, si se gráfica la velocidad de calentamiento o enfriamiento en función de la temperatura, se verá un pico a la temperatura que ocurra la transformación martensítica. Lo mismo sucederá en la transformación inversa de martensita a austenita. De esta forma se puede medir tanto la $M_s$ como la $A_s$.
+
+
 
 \begin{figure}[h]
  \centering
@@ -778,7 +818,7 @@ martensítica en la superficie. Por otro lado hay que controlar que el agua util
 que la $M_s$ del material esté cercana a la temperatura ambiente. 
 
 Generalmente se inicia el desbaste con una lija de carburo de silicio, empezando desde un granulado tamaño 400 y se va subiendo hasta un número 1000. 
-Luego se realiza un pulido con alúmina de 1 $\mu m$. Finalmente se ataca durante unos $5$ segundos con una solución de $50 \% $ de ácido nítrico para revelar bordes de grano y la estructura. 
+Luego se realiza un pulido con alúmina de 1 $\mu m$. Finalmente se ataca durante unos $5$ segundos con una solución de $50 \% $ de ácido nítrico para revelar bordes de grano y la microestructura. 
 
 Para las muestras que se analizaron en SEM, fue necesario un ataque con ácido nítrico durante una mayor cantidad de tiempo que el utilizado en las micrografías para que pueda distinguirse la rugosidad de la superficie generada por la microestructura.
 
@@ -788,11 +828,11 @@ Para las muestras que se analizaron en SEM, fue necesario un ataque con ácido n
 
 % https://books.google.com.ar/books?id=gilYI9_KKAoC&pg=PA60&lpg=PA60&dq=deformacion+real+e+ingenieril&source=bl&ots=mocOuVvrLx&sig=-0en3S3S9Pv8Ty2yMc08LHGR7zs&hl=en&sa=X&ved=0ahUKEwix953zr-DTAhUBgpAKHRsoAaMQ6AEIXjAK#v=onepage&q=deformacion%20real%20e%20ingenieril&f=false
 
-Para ensayar esponjas, tanto de Cu-Zn-Al como de Cu puro, se procedió de la siguiente mantera. Una vez fabricadas las esponjas como se explicó en la sección  \ref{FabricacionEsponjas}, se cortaron los bordes con una cortadora de precisión IsoMet y luego se desbastaron para que ambos extremos sean perferctamente planos y paralelos. Esto es muy importante para que al comprimir la deformación sea homogénea en toda la muestra y no se concentre, por ejemplo, en un costado. Previo al ensayo se realizó un recocido a 800 $^\circ C$ durante media hora y un enfriamiento a temperatura ambiente durante media hora más para borrar cualquier rastro de martensita anterior y asegurar que todas las muestras empiecen con la misma estructura. 
+Para ensayar esponjas, tanto de Cu-Zn-Al como de Cu puro, se procedió de la siguiente mantera. Una vez fabricadas las esponjas como se explicó en la sección  \ref{FabricacionEsponjas}, se cortaron los bordes con una cortadora de precisión IsoMet y luego se desbastaron para que ambos extremos sean perfectamente planos y paralelos. Esto es muy importante para que al comprimir la deformación sea homogénea en toda la muestra y no se concentre, por ejemplo, en un costado. Previo al ensayo se realizó un recocido a 800 $^\circ C$ durante media hora y un enfriamiento a temperatura ambiente durante media hora más para borrar cualquier rastro de martensita anterior y asegurar que todas las muestras empiecen con la misma estructura. 
 
 Los ensayos se realizaron en una máquina de ensayos mecánicos Instron 1123. Se utilizó una jaula inversora que transforma el movimiento de tracción de las mordazas del equipo en compresión de la probeta, la cual puede verse en la figura \ref{fig:jaula}. La 
 temperatura de los ensayos se modificó con una cámara térmica Instron perteneciente a la máquina de tracción, la cual puede enfriar y calentar la muestra.
-La deformación de la muestra se registró con un extensómetro marca Instrom de $12,5 mm$ de largo el cual se adhiere a la muestra utilizando combinaciones de 
+La deformación de la muestra se registró con un extensómetro marca Instron de $12,5 mm$ de largo el cual se adhiere a la muestra utilizando combinaciones de 
 resortes de distinta longitud dependiendo del diámetro de la muestra a ensayar. En el caso de la esponja de Cu, como se deformó hasta comprimirse 
 completamente no fue posible utilizar el extensómetro, por lo que se registro la deformación a partir del movimiento de los cabezales de la máquina, y luego 
 se graficó la deformación real de la muestra dada por la expresión \ref{defreal}
@@ -812,7 +852,7 @@ más precisa de la temperatura de la muestra se utilizó una termocupla tipo K (
  \end{figure}
 
 
-Para ensayar los clavos con distintos tamaños de grano, se procedió de manera muy similar. Primero se emparejaron los bordes con una cortadora por electro erosión. Esta máquina erosiona la superficie sin generar deformación en el material, y permite obtener cilindros con superficies muy parejas. Luego de emparejar las superficies, se cortaron las probetas con aproximadamente $25 mm$ de largo y se emparejaron las puntas para que queden perfectamente paralelas. 
+Para ensayar los clavos con distintos tamaños de grano, se procedió de manera muy similar. Primero se emparejaron los bordes con una cortadora por electro erosión. Esta máquina erosiona la superficie sin generar deformación en el material, y permite obtener cilindros con superficies muy parejas. Luego de emparejar las superficies, se cortaron las probetas de aproximadamente $25 mm$ de largo y se emparejaron las puntas para que queden perfectamente paralelas. 
 Los ensayos de compresión se llevaron a cabo de la misma forma que las esponjas. 
  
  
@@ -823,11 +863,11 @@ Los ensayos de compresión se llevaron a cabo de la misma forma que las esponjas
 
 % http://users.df.uba.ar/sgil/labo3_uba/guias/cuatro_punta2k6_l3.pdf
 
-Para medir la resistencia de las muestra se utilizó el método de las cuatro puntas, también conocido como método de Kelvin. En la figura 
+Para medir la resistencia de las muestras se utilizó el método de las cuatro puntas, también conocido como método de Kelvin. En la figura 
 \ref{fig:CuatroPuntas} puede 
 verse el dispositivo utilizado. A la muestra se le soldaron cuatro cables alineados, con los dos exteriores se le inyecta una corriente conocida y con los 
 otros dos cables interiores se mide la tensión en la muestra. Este método permite realizar mediciones de resistencia muy pequeños, ya que como varía
-el sentido de la correinte permite eliminar los potenciales generados en las soldaduras de los cables a la muestra.
+el sentido de la corriente permite eliminar los potenciales generados en las soldaduras de los cables a la muestra.
 Como el voltímetro que lee la tensión con los cables interiores posee una resistencia muy alta, podemos considerar que por este cable no circula una corriente
 y entonces la medición de tensión será precisa. 
 
@@ -835,39 +875,25 @@ Si la corriente circula en un sentido, la tensión leída por el voltímetro ser
 \begin{equation}
  V^+= v_A +I^+ . R - V_B 
 \end{equation}
-Donde $V_A$ y $V_B$ son las resistencias de cada cable. Si ahora la corriente circula en sentido contrario la tensión que leída será:
+Donde $v_A$ y $v_B$ son los potenciales que se generan en las soldaduras de los cables a la muestra. Si ahora la corriente circula en sentido contrario la tensión leída será:
 \begin{equation}
  V^-= V_A -I^- . R - V_B 
 \end{equation}
 
-El equipo registra entonces las tensiónes con la corriente circulando en un sentido y en el otro. Si estas tensiones se restan, se cancelarán los potenciales 
-de las soldaduras. Como conocemos la corriente que circula (la impone el usuario del equipo), y estamos midiendo la tensión, podemos obtener la resistencia de la 
-muestra. 
+El equipo registra entonces las tensiones con la corriente circulando en un sentido y en el otro. Si estas tensiones se restan, se cancelarán los potenciales 
+de las soldaduras, quedando:  
 \begin{equation}
  V^+ - V^-= [I^+ + I^-] R \longrightarrow R=\frac{V^+ - V^-}{2.(I^+ + I^-)}
 \end{equation}
 
-Sabiendo que la corriente aplicada es siempre 200 mA, y conociendo las dimensiones de las probetas utilizadas se llega a la resistividad dada por la 
-ecuación \ref{resist} la cual permite comparar los resultados de los distintos ensayos ya que normaliza los parámetros geométricos.
+Sabiendo que la corriente aplicada es siempre 200 mA, y conociendo las dimensiones de las probetas utilizadas, se llega a la resistividad dada por la 
+ecuación \ref{resist} la cual permite comparar los resultados de los distintos ensayos de distintas muestras, ya que normaliza los parámetros geométricos.
 
 \begin{equation}
  \rho = R . \frac{A}{l} \label{resist} 
 \end{equation}
 Donde $\rho$ es la resistividad, $R$ es la resistencia medida de la probeta, $A$ es la sección y $l$ la longitud entre los cables que miden la tensión.
 
-%\begin{figure}[h]
-%\centering
-% \includegraphics[width=0.5\textwidth]{Img/Procedimiento/cpfoto.png}
-% \caption{Esquema del dispositivo utilizado para medir resistencia con el método de las cuatro puntas}. 
-% \label{fig:CuatroPuntas}
-% \end{figure}
-
-%\begin{figure}[h]
-% \centering
-% \includegraphics[width=0.2\textwidth]{Img/Procedimiento/cpfoto.jpg}
-% \caption{Dispositivo de compresión utilizado en los ensayos} 
-% \label{fig:jaula}
- %\end{figure}
  
  
  \begin{figure}
@@ -887,41 +913,26 @@ Donde $\rho$ es la resistividad, $R$ es la resistencia medida de la probeta, $A$
 \end{figure}
 
 
-%\begin{figure}
-%    \centering
-%    \begin{subfigure}[b]{0.3\textwidth}
-%        \includegraphics[width=\textwidth]{Img/Procedimiento/CuatroPuntas1.eps}
-%        \caption{A gull}
-%        \label{fig:gull}
-%    \end{subfigure}
-%   ~ %add desired spacing between images, e. g. ~, \quad, \qquad, \hfill etc. 
-      %(or a blank line to force the subfigure onto a new line)
-%    \begin{subfigure}[b]{0.3\textwidth}
-%        \includegraphics[width=\textwidth]{Img/Procedimiento/cpfoto.png}
-%        \caption{A tiger}
-%        \label{fig:tiger}
-%    \end{subfigure}
-%    \caption{Pictures of animals}\label{fig:animals}
-%\end{figure}
- 
-
-En el gráfico \ref{fig:RvsTClavo5} puede verse la variación en la resistencia en un ciclo de enfriamiento y calentamiento donde se ve que la martensita
-presenta una resistencia mucho mayor a la austenita. La medición de la resistencia a medida que transforma la aleación es muy útil, ya que permite seguir 
-de manera detallada el avance de transformación si se conoce la resistencia inicial en estado austenítico, y el valor de la resistencia cuando la 
-muestra se encuentra en estado completamente martensítico. Puntos intermedios entre estos dos extremos darán informacion acerca de la fracción transformada.
+En el gráfico \ref{fig:RvsTClavo5} puede verse la variación de la resistencia en un ciclo de enfriamiento y calentamiento, cuando transforma a martensita y austenita respectivamente. Puede verse que la martensita presenta una resistencia mucho mayor a la austenita. La medición de la resistencia a medida que transforma la aleación es muy útil, ya que permite seguir 
+de manera detallada el avance de transformación. Si se conoce la resistencia inicial en estado austenítico, y el valor de la resistencia cuando la 
+muestra se encuentra en estado completamente martensítico, puntos intermedios entre estos dos extremos darán información acerca de la fracción transformada.
 También puede verse que cuando la aleación se encuentra en estado austenítico o martensítico la resistencia varía linealmente con la temperatura, como es 
 de esperarse para cualquier aleación metálica. 
 
 \begin{figure}[h]
  \centering
- \includegraphics[width=0.8\textwidth]{Img/Resultados/RvsTClavo5.eps}
- \caption{Variación de la resistencia de una probeta de Cu-Zn-Al sólida al variar la temperatura}. 
+ \includegraphics[width=0.6\textwidth]{Img/Resultados/RvsTClavo5.eps}
+ \caption{Ejemplo de la variación de la resistencia en función de la temperatura al transformar en un ciclo de enfriamiento y calentamiento.} 
  \label{fig:RvsTClavo5}
  \end{figure}
 
 Se calcularon las variaciones en la resistencia debido al cambio de volumen al comprimir, y a la dilatación o compresión térmica. En ambos casos estas 
 variaciones son despreciables por lo que no se tomarán en cuenta. También se graficó la variación en la medición del extensómetro por cambios de 
-temperatura y también resultó despreciable por lo que tampoco serán utilizados. $*****Despues agrego etalles de los cálculos para mostrar que son despreciables******$
+temperatura y también resultó despreciable por lo que tampoco serán utilizados. 
+
+
+
+DESPUÉS AGREGO EN UN APÉNDICE EL DETALLE DE LOS CÁLCULOS QUE MUESTRA QUE SON DESPRECIABLES
 
 
 
