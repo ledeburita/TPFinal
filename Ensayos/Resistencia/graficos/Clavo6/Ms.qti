@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE qti>
+<qti app="QtiPlot" version="0.9.9.10" dpi="96" arch="Gnu64" script="muParser" windows="2" expand="1">
+	<window type="1" name="Table1" date="2457912.6254956" x="0" y="0" w="1320" h="788">
+		<tab rows="30" cols="2" labels="0">
+			<col name="Carga" type="6" num="0" prec="13" plot="1" width="100" stat="0" data="50;450;800;1200;0;0;0;0;"/>
+			<col name="Ms" type="6" num="0" prec="13" plot="2" width="100" stat="0" data="17;16.71;15.4;11.7;20.55;14.03;10.76;10.05;"/>
+		</tab>
+	</window>
+	<window type="3" name="Graph1" date="2457912.6286653" x="628" y="181" w="520" h="482" active="1" dpi="96">
+		<layout cw="512" ch="434" w="400" h="300" left="5" right="5" top="5" bottom="5" rows="1" cols="1" vSpace="5" hSpace="5" hAlign="0" vAlign="0" align="0" common="0" link="0" scale="1" sPrint="0" cmPrint="0" atUnits="1" atdIndex="0" atPolicy="4" alMode="0" luMode="2"/>
+		<tab x="5" y="5" w="502" h="424" autoscale="1" maxMajorTicks="20" gap="1" scaleFont="1">
+			<page x="0.00976562" y="0.0115207" w="0.980469" h="0.976959"/>
+			<title text="Title" color="#000000" font="Ubuntu,13,-1,5,75,0,0,0,0,0" align="4228" fmw="38.1719"/>
+			<frame bg="#ffffff,0"/>
+			<canvas x="56" y="79" w="400" h="300" fixRatio="0" bg="#ffffff,0"/>
+			<grid xAxis="2" yAxis="0">
+				<majx lc="#a0a0a4" lw="1" ls="0"/>
+				<minx lc="#a0a0a4" lw="1" ls="1"/>
+				<majy lc="#a0a0a4" lw="1" ls="0"/>
+				<miny lc="#a0a0a4" lw="1" ls="1"/>
+			</grid>
+			<curve type="1" z="21" table="Table1" x="Carga" y="Ms" from="0" to="-1" line="0" lc="#000000" lw="1" ls="0" brc="#000000" brs="0">
+				<symbol style="1" size="7" lc="#000000" lw="1" ls="0" brc="#000000"/>
+			</curve>
+			<axis id="0" on="1" type="0" format="0" prec="6" lw="1">
+				<div from="8" to="22" step="0" maj="8" min="5" type="0"/>
+				<ticks maj="1" majl="9" min="1" minl="5"/>
+				<title text="%(?Y)" color="#000000" font="Ubuntu,11,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="42.1406"/>
+				<labels space="4" font="Ubuntu,11,-1,5,50,0,0,0,0,0"/>
+			</axis>
+			<axis id="1" on="1" type="0" format="0" prec="6" lw="1">
+				<div from="11" to="18" step="0" maj="8" min="5" type="0"/>
+				<ticks maj="1" majl="9" min="1" minl="5"/>
+				<title text="%(?Y)" color="#000000" font="Ubuntu,11,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="42.1406"/>
+				<labels space="4" font="Ubuntu,11,-1,5,50,0,0,0,0,0"/>
+			</axis>
+			<axis id="2" on="1" type="0" format="0" prec="6" lw="1">
+				<div from="-200" to="1400" step="0" maj="9" min="5" type="0"/>
+				<ticks maj="1" majl="9" min="1" minl="5"/>
+				<title text="%(?X)" color="#000000" font="Ubuntu,11,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="41.3594"/>
+				<labels space="4" font="Ubuntu,11,-1,5,50,0,0,0,0,0"/>
+			</axis>
+			<axis id="3" on="1" type="0" format="0" prec="6" lw="1">
+				<div from="0" to="1400" step="0" maj="8" min="5" type="0"/>
+				<ticks maj="1" majl="9" min="1" minl="5"/>
+				<title text="%(?X)" color="#000000" font="Ubuntu,11,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="41.3594"/>
+				<labels space="4" font="Ubuntu,11,-1,5,50,0,0,0,0,0"/>
+			</axis>
+			<item type="2" x="1067.1679197995" y="21.438127090301" frame="1" lc="#000000" lw="1" ls="0" bg="#ffffff,0" onTop="1" at="0" on="1" auto="1" font="Ubuntu,11,-1,5,50,0,0,0,0,0" text="\l(1)%(1)"/>
+		</tab>
+	</window>
+</qti>

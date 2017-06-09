@@ -690,8 +690,8 @@ Acá va una tabla con el detalle de las composiciones
 \begin{center}
 \begin{tabular}{@{}llllllll@{}}  \toprule
 Muestra & $CuZnAl (g)$ & $Cu (g)$ & $Al (g)$ & $AlB_2$ & $wt \% AlB_2$ & Método & Observaciones \\ \midrule
-L1B1 &   &  & 0,0495 & & & I & Horno de inducción\\
-L1B2 &   &  & & & & I &Horno Resistivo\\
+L1B1 & 18,866  & 0,1878 & 0,0495 & 0,0021 & 0,005 & I & Horno de inducción\\
+L1B2 & 18,564  & 0,1878 & 0,0495 & 0,2099 & 0,5 & I &Horno Resistivo\\
 L2B1 & 14,129  & - & -  & 0,1520 & 0,5 & II &Horno Resistivo \\
 L2B2 & 18,383 & - & -  & 0,2052 & 0,5 &II & Horno Resistivo \\
 Clavo 1 & 8 & - & - & 0,5 & 0,5 & III & Horno Resistivo \\
@@ -945,48 +945,59 @@ DESPUÉS AGREGO EN UN APÉNDICE EL DETALLE DE LOS CÁLCULOS QUE MUESTRA QUE SON 
 
 \chapter{Resultados y discusión}
 
-% 
-% 
-% \section{Tamaño de grano}
-% 
-% \begin{itemize}
-% \item[$\circ$] En primer lugar se colocó en una ampolla una muestra de la aleación y se agregó $AlB_2$ envuelto en papel de aluminio, para evitar que al 
-% realizar vacío en la ampolla el mismo sea succionado por el equipo. También se agrego Cu para compensar la composición de la aleación. No se agregó Zn 
-% ya que la proporción en la aleación es muy baja y no se veía significativamente afectado. Se realizó la fundición con un horno de inducción. A partir 
-% de un análisis metalográfico se concluyó que no se obtuvo un refinamiento significativo del tamaño de grano. Esto puede deberse a que el $AlB_2$ no se 
-% mezcló completamente.
-% \item[$\circ$] Para intentar mejorar la incorporación del $AlB_2$ y no agregar otros compuestos que modifiquen la composición de la aleación (Al y Cu) 
-% se fabricaron pastillas prensando virutas de la aleación ya fabricada y el polvo de $AlB_2$. Se colocaron en una ampolla las pastillas prensadas y un 
-% pedazo de aleación. Esta vez se realizó la fundición en un horno resistivo buscando tener un mayor control de la temperatura. El resultado fue un botón 
-% de la aleación rodeado del polvo refinador que no fue incorporado por la misma. 
-% \item[$\circ$] Buscando mejorar la incorporación del refinador se fabricó viruta de la aleación, se mezcló con el $AlB_2$ y se realizó una molienda de 
-% la mezcla con bolas de acero en una atmósfera de argón para intentar inducir la mezcla por los esfuerzos mecánicos. También se produjo un refinamiento 
-% del $AlB_2$, lo cual podría ser un factor que ayude a la incorporación. Finalizada la moliendo se obtuvo un polvo muy fino, el cual se prensó como 
-% pastillas, se colocaron en un tubo de cuarzo con atmósfera de Ar y se fundieron en un horno resistivo. Como resultado se obtuvo un clavo de aproximadamente 
-% 6 mm de diámetro donde en sectores se distingue que el metal escurrió dejando el polvo refinador como ocurrió en las muestras anteriores. En otros 
-% sectores más homogéneos se encontró una significativa disminución del tamaño de grano. De este segmento se obtuvo una probeta 
-% cilíndrica por electro erosión y se realizaron ensayos de compresión. %\textbf{resultados de mañana??}
-% \end{itemize}
-% 
-% 
-% 
-% \section{Variación de Resistencia por deformación en Cu}
-% 
-% En el gráfico \ref{fig:ResDefCu} puede verse en rojo la variación teórica de la resistencia a medida que la probeta de Cu se comprime y varía su volumen (por el módulo de Poisson).
-% En azul la medición de la resistencia al comprimir la probeta. Puede verse que la pendiente de la curva teórica es mayor. Esta diferencia puede deberse 
-% al aumento de la resistencia debido a la deformación plástica lo que genera una pendiente bastante menor.
-% 
-% De todas formas las pendientes de estas curvas es muy chica, y despreciable al compararlas con la variación de la resistencia con la temperatura tanto en Austenita 
-% como en Martensita. Por este motivo lo despreciamos al trabajar en ciclos térmicos.
-% 
-% \begin{figure}[h]
-%  \centering
-%  \includegraphics[width=0.8\textwidth]{Img/Resultados/ResDefCu.eps}
-%  \caption{Variación de la resistencia de una probeta de Cu en función de la deformación a temperatura ambiente. En rojo el valor teórico correspondiente únicamente a la resistencia por cambio de volumen. 
-%  En azul el valor medido de resistencia para cada porcentaje de deformación}. 
-%  \label{fig:ResDefCu}
-%  \end{figure}
-% 
+
+
+\section{Tamaño de grano}
+
+\begin{itemize}
+\item[$\circ$] En primer lugar se colocó en una ampolla una muestra de la aleación y se agregó $AlB_2$ envuelto en papel de aluminio, para evitar que al 
+realizar vacío en la ampolla el mismo sea succionado por el equipo. También se agrego Cu para compensar la composición de la aleación. No se agregó Zn 
+ya que la proporción en la aleación es muy baja y no se veía significativamente afectado. Se realizó la fundición con un horno de inducción. A partir 
+de un análisis metalográfico se concluyó que no se obtuvo un refinamiento significativo del tamaño de grano. Esto puede deberse a que el $AlB_2$ no se 
+mezcló completamente.
+\item[$\circ$] Para intentar mejorar la incorporación del $AlB_2$ y no agregar otros compuestos que modifiquen la composición de la aleación (Al y Cu) 
+se fabricaron pastillas prensando virutas de la aleación ya fabricada y el polvo de $AlB_2$. Se colocaron en una ampolla las pastillas prensadas y un 
+pedazo de aleación. Esta vez se realizó la fundición en un horno resistivo buscando tener un mayor control de la temperatura. El resultado fue un botón 
+de la aleación rodeado del polvo refinador que no fue incorporado por la misma. 
+\item[$\circ$] Buscando mejorar la incorporación del refinador se fabricó viruta de la aleación, se mezcló con el $AlB_2$ y se realizó una molienda de 
+la mezcla con bolas de acero en una atmósfera de argón para intentar inducir la mezcla por los esfuerzos mecánicos. También se produjo un refinamiento 
+del $AlB_2$, lo cual podría ser un factor que ayude a la incorporación. Finalizada la moliendo se obtuvo un polvo muy fino, el cual se prensó como 
+pastillas, se colocaron en un tubo de cuarzo con atmósfera de Ar y se fundieron en un horno resistivo. Como resultado se obtuvo un clavo de aproximadamente 
+6 mm de diámetro donde en sectores se distingue que el metal escurrió dejando el polvo refinador como ocurrió en las muestras anteriores. En otros 
+sectores más homogéneos se encontró una significativa disminución del tamaño de grano. De este segmento se obtuvo una probeta 
+cilíndrica por electro erosión y se realizaron ensayos de compresión. %\textbf{resultados de mañana??}
+\end{itemize}
+
+
+
+
+\begin{description}
+ \item[L1B1 y L2B2:] La aleación se fundió pero no incorporó el refinador en la aleación. No se vio una disminución en el tamaño de grano.
+ \item[L2B1 y L2B2:] en el botón uno no se incorporó el $AlB_2$. Además en el lingote quedaron pegadas las pastillas con el polvo que perdieron la aleación. El boton dos lo fabricamos igual pero controlamos la temperatura para que el polvo no transforme. No se vio reducción en el tamaño de grano. \item[Clavo 1] Se cortaron secciones para ver el tamaño de grano. Quedaron las pastillas con el polvo que perdieron aleación. entre $50-200 \mu$.
+ \item[Clavo 2] Tamaño entre $50 y 250 \mu$. Hay más cantidad de granos pequeños. Quedaron pastillas que perdieron aleación. 
+ \item[Clavo 3]
+ \item[Clavo 4] Granos entre $50 y 100 \mu$ La estructura es muy porosa y hay "cúmulos" de óxidos.  
+ \end{description}
+
+ Falta ver 
+
+\section{Variación de Resistencia por deformación en Cu}
+
+En el gráfico \ref{fig:ResDefCu} puede verse en rojo la variación teórica de la resistencia a medida que la probeta de Cu se comprime y varía su volumen (por el módulo de Poisson).
+En azul la medición de la resistencia al comprimir la probeta. Puede verse que la pendiente de la curva teórica es mayor. Esta diferencia puede deberse 
+al aumento de la resistencia debido a la deformación plástica lo que genera una pendiente bastante menor.
+
+De todas formas las pendientes de estas curvas es muy chica, y despreciable al compararlas con la variación de la resistencia con la temperatura tanto en Austenita 
+como en Martensita. Por este motivo lo despreciamos al trabajar en ciclos térmicos.
+
+\begin{figure}[h]
+ \centering
+ \includegraphics[width=0.8\textwidth]{Img/Resultados/ResDefCu.eps}
+ \caption{Variación de la resistencia de una probeta de Cu en función de la deformación a temperatura ambiente. En rojo el valor teórico correspondiente únicamente a la resistencia por cambio de volumen. 
+ En azul el valor medido de resistencia para cada porcentaje de deformación}. 
+ \label{fig:ResDefCu}
+ \end{figure}
+
 
 
 
