@@ -82,48 +82,49 @@
 			<item type="2" x="-804.878048780488" y="0.0118757763975155" frame="1" lc="#000000" lw="1" ls="0" bg="#ffffff,0" onTop="1" at="0" on="1" auto="1" font="Ubuntu,11.8561,-1,5,50,0,0,0,0,0" text="\l(1)%(1)&#10;\l(2)%(2)"/>
 		</tab>
 	</window>
-	<window type="3" name="Graph2" date="2457913.4556199" x="138" y="154" w="578" h="482" dpi="96">
-		<layout cw="570" ch="434" w="400" h="300" left="5" right="5" top="5" bottom="5" rows="1" cols="1" vSpace="5" hSpace="5" hAlign="0" vAlign="0" align="0" common="0" link="0" scale="1" sPrint="0" cmPrint="0" atUnits="1" atdIndex="0" atPolicy="4" alMode="0" luMode="2"/>
-		<tab x="5" y="5" w="560" h="424" autoscale="1" maxMajorTicks="20" gap="1" scaleFont="1">
-			<page x="0.00877193" y="0.0115207" w="0.982456" h="0.976959"/>
-			<title text="Title" color="#000000" font="Ubuntu,13,-1,5,75,0,0,0,0,0" align="4228" fmw="38.1719"/>
+	<window type="3" name="Graph2" date="2457913.4556199" x="138" y="154" w="1486" h="596" active="1" dpi="96">
+		<layout cw="1478" ch="548" w="400" h="300" left="5" right="5" top="5" bottom="5" rows="1" cols="1" vSpace="5" hSpace="5" hAlign="0" vAlign="0" align="0" common="0" link="0" scale="1" sPrint="0" cmPrint="0" atUnits="1" atdIndex="0" atPolicy="4" alMode="0" luMode="2"/>
+		<tab x="13" y="6" w="1452" h="535" autoscale="1" maxMajorTicks="20" gap="1" scaleFont="1">
+			<page x="0.00879567" y="0.0109489" w="0.982409" h="0.976277"/>
+			<title text="E  -  1200 N " color="#000000" font="Ubuntu,16.4033,-1,5,75,0,0,0,0,0" align="4228" fmw="118.953"/>
 			<frame bg="#ffffff,0"/>
-			<canvas x="85" y="79" w="400" h="300" fixRatio="0" bg="#ffffff,0"/>
+			<canvas x="75" y="98" w="1291" h="381" fixRatio="0" bg="#ffffff,0"/>
 			<grid xAxis="2" yAxis="0">
 				<majx lc="#a0a0a4" lw="1" ls="0"/>
 				<minx lc="#a0a0a4" lw="1" ls="1"/>
 				<majy lc="#a0a0a4" lw="1" ls="0"/>
 				<miny lc="#a0a0a4" lw="1" ls="1"/>
 			</grid>
-			<curve type="0" z="21" table="Temperatura" x="T(s)" y="Vprom(s)" from="0" to="-1" line="1" lc="#000000" lw="1" ls="0" brc="#000000" brs="0"/>
+			<curve type="0" z="21" table="Temperatura" x="T(s)" y="Vprom(s)" from="0" to="-1" line="1" lc="#000000" lw="1.5" ls="0" brc="#000000" brs="0" yAxis="1"/>
+			<curve type="0" z="22" table="Temperatura" x="T(s)" y="strain" from="0" to="-1" line="1" lc="#ff0000" lw="1.5" ls="0" brc="#000000" brs="0"/>
 			<axis id="0" on="1" type="0" format="0" prec="6" lw="1">
-				<div from="0.0095" to="0.012" step="0" maj="6" min="5" type="0"/>
-				<ticks maj="1" majl="9" min="1" minl="5"/>
-				<title text="%(?Y)" color="#000000" font="Ubuntu,11,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="42.1406"/>
-				<labels space="4" font="Ubuntu,11,-1,5,50,0,0,0,0,0"/>
+				<div from="-3" to="0.5" step="0" maj="5" min="5" type="0"/>
+				<ticks maj="1" majl="11" min="1" minl="6"/>
+				<title text="Strain" color="#000000" font="Ubuntu,13.8797,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="54.6562"/>
+				<labels space="4" font="Ubuntu,13.8797,-1,5,50,0,0,0,0,0"/>
 			</axis>
 			<axis id="1" on="1" type="0" format="0" prec="6" lw="1">
 				<div from="0.0095" to="0.012" step="0" maj="6" min="5" type="0"/>
-				<ticks maj="1" majl="9" min="1" minl="5"/>
-				<title text="%(?Y)" color="#000000" font="Ubuntu,11,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="42.1406"/>
-				<labels space="4" font="Ubuntu,11,-1,5,50,0,0,0,0,0"/>
+				<ticks maj="1" majl="11" min="1" minl="6"/>
+				<title text="Resistencia" color="#000000" font="Ubuntu,13.8797,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="103.844"/>
+				<labels space="4" font="Ubuntu,13.8797,-1,5,50,0,0,0,0,0"/>
 			</axis>
 			<axis id="2" on="1" type="0" format="0" prec="6" lw="1">
-				<div from="-40" to="80" step="0" maj="7" min="5" type="0"/>
-				<ticks maj="1" majl="9" min="1" minl="5"/>
-				<title text="%(?X)" color="#000000" font="Ubuntu,11,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="41.3594"/>
-				<labels space="4" font="Ubuntu,11,-1,5,50,0,0,0,0,0"/>
+				<div from="-40" to="60" step="0" maj="6" min="5" type="0"/>
+				<ticks maj="1" majl="11" min="1" minl="6"/>
+				<title text="Temperatura" color="#000000" font="Ubuntu,13.8797,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="117.328"/>
+				<labels space="4" font="Ubuntu,13.8797,-1,5,50,0,0,0,0,0"/>
 			</axis>
 			<axis id="3" on="1" type="0" format="0" prec="6" lw="1">
 				<div from="-40" to="80" step="0" maj="7" min="5" type="0"/>
-				<ticks maj="1" majl="9" min="1" minl="5"/>
-				<title text="%(?X)" color="#000000" font="Ubuntu,11,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="41.3594"/>
-				<labels space="4" font="Ubuntu,11,-1,5,50,0,0,0,0,0"/>
+				<ticks maj="1" majl="11" min="1" minl="6"/>
+				<title text="%(?X)" color="#000000" font="Ubuntu,13.8797,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="52.3906"/>
+				<labels space="4" font="Ubuntu,13.8797,-1,5,50,0,0,0,0,0"/>
 			</axis>
-			<item type="2" x="-36.9924812030075" y="0.0119163879598662" frame="1" lc="#000000" lw="1" ls="0" bg="#ffffff,0" onTop="1" at="0" on="1" auto="1" font="Ubuntu,11,-1,5,50,0,0,0,0,0" text="\l(1)%(1)"/>
+			<item type="2" x="-30.9302325581395" y="0.398684210526315" frame="1" lc="#000000" lw="1" ls="0" bg="#ffffff,0" onTop="1" at="0" on="1" auto="1" font="Ubuntu,13.8797,-1,5,50,0,0,0,0,0" text="\l(1)%(1)&#10;\l(2)%(2)"/>
 		</tab>
 	</window>
-	<window type="3" name="Graph3" date="2457913.4557734" x="919" y="163" w="546" h="482" active="1" dpi="96">
+	<window type="3" name="Graph3" date="2457913.4557734" x="919" y="163" w="546" h="482" dpi="96">
 		<layout cw="538" ch="434" w="400" h="300" left="5" right="5" top="5" bottom="5" rows="1" cols="1" vSpace="5" hSpace="5" hAlign="0" vAlign="0" align="0" common="0" link="0" scale="1" sPrint="0" cmPrint="0" atUnits="1" atdIndex="0" atPolicy="4" alMode="0" luMode="2"/>
 		<tab x="5" y="5" w="528" h="424" autoscale="1" maxMajorTicks="20" gap="1" scaleFont="1">
 			<page x="0.00929368" y="0.0115207" w="0.981413" h="0.976959"/>

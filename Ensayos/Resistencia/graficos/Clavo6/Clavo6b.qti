@@ -152,9 +152,9 @@
 		</tab>
 	</window>
 	<window type="3" name="800Npendientes" date="2457912.5953322" w="1241" h="730" state="1" dpi="96">
-		<layout cw="1233" ch="682" w="400" h="300" left="5" right="5" top="5" bottom="5" rows="1" cols="1" vSpace="5" hSpace="5" hAlign="0" vAlign="0" align="0" common="0" link="0" scale="1" sPrint="0" cmPrint="0" atUnits="1" atdIndex="0" atPolicy="4" alMode="0" luMode="2"/>
+		<layout cw="510" ch="410" w="400" h="300" left="5" right="5" top="5" bottom="5" rows="1" cols="1" vSpace="5" hSpace="5" hAlign="0" vAlign="0" align="0" common="0" link="0" scale="1" sPrint="0" cmPrint="0" atUnits="1" atdIndex="0" atPolicy="4" alMode="0" luMode="2"/>
 		<tab x="11" y="8" w="1211" h="666" autoscale="1" maxMajorTicks="20" gap="1" scaleFont="1">
-			<page x="0.00892133" y="0.0117302" w="0.982157" h="0.97654"/>
+			<page x="0.0215686" y="0.0195122" w="2.37451" h="1.62439"/>
 			<title text="Title" color="#000000" font="Ubuntu,20.4198,-1,5,75,0,0,0,0,0" align="4228" fmw="60.6406"/>
 			<frame bg="#ffffff,0"/>
 			<canvas x="141" y="115" w="938" h="488" fixRatio="0" bg="#ffffff,0"/>
