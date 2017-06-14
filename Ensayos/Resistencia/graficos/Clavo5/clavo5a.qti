@@ -116,7 +116,7 @@
 			<item type="2" x="134.878819810327" y="0.00456896551724138" frame="1" lc="#000000" lw="1" ls="0" bg="#ffffff,0" onTop="1" at="0" on="1" auto="1" font="Ubuntu,8.69104,-1,5,50,0,0,0,0,0" text="\l(1)%(1)"/>
 		</tab>
 	</window>
-	<window type="3" name="Graph4" date="2457899.5728675" x="21" y="247" w="908" h="424" active="1" dpi="96">
+	<window type="3" name="Graph4" date="2457899.5728675" x="903" y="515" w="908" h="424" active="1" dpi="96">
 		<layout cw="900" ch="376" w="400" h="300" left="5" right="5" top="5" bottom="5" rows="1" cols="1" vSpace="5" hSpace="5" hAlign="0" vAlign="0" align="0" common="0" link="0" scale="1" sPrint="0" cmPrint="0" atUnits="1" atdIndex="0" atPolicy="4" alMode="0" luMode="2"/>
 		<tab x="9" y="4" w="882" h="367" autoscale="1" maxMajorTicks="20" gap="1" scaleFont="1">
 			<page x="0.01" y="0.0106383" w="0.98" h="0.976064"/>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE qti>
+<qti app="QtiPlot" version="0.9.9.10" dpi="96" arch="Gnu64" script="muParser" windows="2" expand="1" log="[13/06/17 12:47&#9;Plot: ''EspA'']&#10;Linear Regression of dataset: Table1_Load, using function: A*x+B&#10;Sort: No&#10;Weighting Method: No weighting&#10;From x = 2.5000000000000e+01 to x = 1.0000000000000e+02 (4 data points)&#10;--------------------------------------------------------------------------------------&#10;B (y-intercept) = 7.5849112426036e+02 +/- 1.4191005676521e+02&#10;A (slope) = 2.5360157790927e+01 +/- 2.2561673501342e+00&#10;--------------------------------------------------------------------------------------&#10;Chi^2/doF = 1.6129859960552e+04&#10;R^2 = 0.9844171148897&#10;Adjusted R^2 = 0.9532513446691&#10;RMSE (Root Mean Squared Error) = 127.0033856263&#10;RSS (Residual Sum of Squares) = 32,259.7199211&#10;---------------------------------------------------------------------------------------&#10;">
+	<window type="1" name="Table1" date="2457916.7841695" x="0" y="0" w="627" h="196">
+		<tab rows="30" cols="5" labels="0">
+			<col name="Esponja" type="6" num="0" prec="13" plot="1" width="100" stat="0" data="A;A;A;A;"/>
+			<col name="Temperatura" type="6" num="0" prec="6" plot="2" width="100" stat="0" data="Ambiente;40;60;100;"/>
+			<col name="T" type="6" num="0" prec="13" plot="1" width="100" stat="0" data="25;40;60;100;"/>
+			<col name="Load" type="6" num="0" prec="13" plot="2" width="100" stat="0" data="1449;1805;2126;3360;"/>
+			<col name="Strain" type="6" num="0" prec="13" plot="2" width="100" stat="0" data="-0.0867;-0.-0.13;-0.106;-0.13;"/>
+		</tab>
+	</window>
+	<window type="3" name="EspA" date="2457917.5324631" x="803" y="0" w="722" h="654" active="1" dpi="96">
+		<layout cw="714" ch="606" w="400" h="300" left="5" right="5" top="5" bottom="5" rows="1" cols="1" vSpace="5" hSpace="5" hAlign="0" vAlign="0" align="0" common="0" link="0" scale="1" sPrint="0" cmPrint="0" atUnits="1" atdIndex="0" atPolicy="4" alMode="0" luMode="2"/>
+		<tab x="6" y="7" w="701" h="592" autoscale="1" maxMajorTicks="20" gap="1" scaleFont="1">
+			<page x="0.00840336" y="0.0115512" w="0.981793" h="0.976898"/>
+			<title text="Title" color="#000000" font="Ubuntu,18.1509,-1,5,75,0,0,0,0,0" align="4228" fmw="53.8906"/>
+			<frame bg="#ffffff,0"/>
+			<canvas x="100" y="105" w="513" h="428" fixRatio="0" bg="#ffffff,0"/>
+			<grid xAxis="2" yAxis="0">
+				<majx lc="#a0a0a4" lw="1" ls="0"/>
+				<minx lc="#a0a0a4" lw="1" ls="1"/>
+				<majy lc="#a0a0a4" lw="1" ls="0"/>
+				<miny lc="#a0a0a4" lw="1" ls="1"/>
+			</grid>
+			<curve type="1" z="21" table="Table1" x="T" y="Load" from="0" to="-1" line="0" lc="#000000" lw="1" ls="0" brc="#000000" brs="0">
+				<symbol style="1" size="9" lc="#0000ff" lw="1" ls="0" brc="#000000"/>
+			</curve>
+			<curve type="19" z="22" name="LinearFit1" f="0" y="A*x+B" from="25" to="100" points="2" line="1" lc="#ff0000" lw="1" ls="0" brc="#000000" brs="0">
+				<param name="A" val="25.360157790927"/>
+				<param name="B" val="758.491124260355"/>
+			</curve>
+			<axis id="0" on="1" type="0" format="0" prec="6" lw="1">
+				<div from="1000" to="3500" step="0" maj="6" min="5" type="0"/>
+				<ticks maj="1" majl="13" min="1" minl="7"/>
+				<title text="%(?Y)" color="#000000" font="Ubuntu,15.3585,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="55.8906"/>
+				<labels space="4" font="Ubuntu,15.3585,-1,5,50,0,0,0,0,0"/>
+			</axis>
+			<axis id="1" on="1" type="0" format="0" prec="6" lw="1">
+				<div from="1000" to="3500" step="0" maj="6" min="5" type="0"/>
+				<ticks maj="1" majl="13" min="1" minl="7"/>
+				<title text="%(?Y)" color="#000000" font="Ubuntu,15.3585,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="55.8906"/>
+				<labels space="4" font="Ubuntu,15.3585,-1,5,50,0,0,0,0,0"/>
+			</axis>
+			<axis id="2" on="1" type="0" format="0" prec="6" lw="1">
+				<div from="20" to="110" step="0" maj="10" min="5" type="0"/>
+				<ticks maj="1" majl="13" min="1" minl="7"/>
+				<title text="%(?X)" color="#000000" font="Ubuntu,15.3585,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="56.1562"/>
+				<labels space="4" font="Ubuntu,15.3585,-1,5,50,0,0,0,0,0"/>
+			</axis>
+			<axis id="3" on="1" type="0" format="0" prec="6" lw="1">
+				<div from="20" to="110" step="0" maj="10" min="5" type="0"/>
+				<ticks maj="1" majl="13" min="1" minl="7"/>
+				<title text="%(?X)" color="#000000" font="Ubuntu,15.3585,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="56.1562"/>
+				<labels space="4" font="Ubuntu,15.3585,-1,5,50,0,0,0,0,0"/>
+			</axis>
+			<item type="2" x="22.2556390977444" y="3416.38795986622" frame="1" lc="#000000" lw="1" ls="0" bg="#ffffff,0" onTop="1" at="0" on="1" auto="1" font="Ubuntu,15.3585,-1,5,50,0,0,0,0,0" text="\l(1)%(1)&#10;\l(2)%(2)"/>
+		</tab>
+	</window>
+</qti>
