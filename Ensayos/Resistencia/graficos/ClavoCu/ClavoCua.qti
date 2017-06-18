@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE qti>
-<qti app="QtiPlot" version="0.9.9.10" dpi="96" arch="Gnu64" script="muParser" windows="12" expand="1" log="[29/05/17 12:16&#9;Plot: ''Graph4'']&#10;Linear Regression of dataset: Table1_ResistMedida, using function: A*x+B&#10;Sort: No&#10;Weighting Method: No weighting&#10;From x = -3.0210200000000e+00 to x = -1.6641900000000e-01 (5 data points)&#10;--------------------------------------------------------------------------------------&#10;B (y-intercept) = 1.0183444301438e-05 +/- 7.4796106159191e-08&#10;A (slope) = 7.1517980887389e-08 +/- 4.3233673514672e-08&#10;--------------------------------------------------------------------------------------&#10;Chi^2/doF = 1.0052605099358e-14&#10;R^2 = 0.477027726358&#10;Adjusted R^2 = -0.04594454728408&#10;RMSE (Root Mean Squared Error) = 1.002626804916e-07&#10;RSS (Residual Sum of Squares) = 3.015781529807e-14&#10;---------------------------------------------------------------------------------------&#10;[29/05/17 12:20&#9;Plot: ''Graph4'']&#10;Linear Regression of dataset: Table1_ResistMedida, using function: A*x&#10;Sort: No&#10;Weighting Method: No weighting&#10;From x = -3.0210200000000e+00 to x = -1.6641900000000e-01 (5 data points)&#10;--------------------------------------------------------------------------------------&#10;A (slope) = -4.6397629744084e-06 +/- 1.7644863628443e-06&#10;--------------------------------------------------------------------------------------&#10;Chi^2/doF = 4.6592961782509e-11&#10;R^2 = -3,230.908799531&#10;Adjusted R^2 = -4,308.211732707&#10;RMSE (Root Mean Squared Error) = 6.825903733756e-06&#10;RSS (Residual Sum of Squares) = 1.8637184713e-10&#10;---------------------------------------------------------------------------------------&#10;[29/05/17 12:20&#9;Plot: ''Graph4'']&#10;Exponential decay of dataset: Table1_ResistMedida, using function: y0+A*exp(-x/t)&#10;Sort: No&#10;Weighting Method: No weighting&#10;Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001&#10;From x = -3.0210200000000e+00 to x = -1.3787299000000e-01 (5 data points)&#10;--------------------------------------------------------------------------------------&#10;A (amplitude) = -1.1179630742964e-18 +/- 3.6580457748424e-15&#10;t (e-folding time) = 1.1543294398611e-01 +/- 1.4431825114742e+01&#10;y0 (offset) = 1.0136365928338e-05 +/- 2.4871250621905e-08&#10;--------------------------------------------------------------------------------------&#10;Scale Errors with sqrt(Chi^2/doF) = 4.3055838096819e-08&#10;Chi^2/doF = 1.8538051942195e-15&#10;R^2 = 0.9357056399657&#10;Adjusted R^2 = 0.742822559863&#10;RMSE (Root Mean Squared Error) = 4.305583809682e-08&#10;RSS (Residual Sum of Squares) = 3.707610388439e-15&#10;---------------------------------------------------------------------------------------&#10;Iterations = 257&#10;Status = success&#10;---------------------------------------------------------------------------------------&#10;[29/05/17 12:22&#9;Plot: ''Graph4'']&#10;Linear Regression of dataset: Table1_ResistMedida, using function: A*x+B&#10;Sort: No&#10;Weighting Method: No weighting&#10;From x = -3.0210200000000e+00 to x = -1.6641900000000e-01 (5 data points)&#10;--------------------------------------------------------------------------------------&#10;B (y-intercept) = 1.0183444301438e-05 +/- 7.4796106159191e-08&#10;A (slope) = 7.1517980887389e-08 +/- 4.3233673514672e-08&#10;--------------------------------------------------------------------------------------&#10;Chi^2/doF = 1.0052605099358e-14&#10;R^2 = 0.477027726358&#10;Adjusted R^2 = -0.04594454728408&#10;RMSE (Root Mean Squared Error) = 1.002626804916e-07&#10;RSS (Residual Sum of Squares) = 3.015781529807e-14&#10;---------------------------------------------------------------------------------------&#10;[29/05/17 12:25&#9;Plot: ''Graph4'']&#10;Linear Regression of dataset: Table1_ResistMedida, using function: A*x+B&#10;Sort: No&#10;Weighting Method: No weighting&#10;From x = -3.0210200000000e+00 to x = -1.6641900000000e-01 (4 data points)&#10;--------------------------------------------------------------------------------------&#10;B (y-intercept) = 1.0176460510114e-05 +/- 2.3527337621996e-08&#10;A (slope) = 9.4966918427613e-08 +/- 1.4272980923717e-08&#10;--------------------------------------------------------------------------------------&#10;Chi^2/doF = 9.9155633724155e-16&#10;R^2 = 0.9567760006713&#10;Adjusted R^2 = 0.8703280020139&#10;RMSE (Root Mean Squared Error) = 3.148898755504e-08&#10;RSS (Residual Sum of Squares) = 1.983112674483e-15&#10;---------------------------------------------------------------------------------------&#10;[29/05/17 12:25&#9;Plot: ''Graph4'']&#10;Linear Regression of dataset: Table1_ResistMedida, using function: A*x+B&#10;Sort: No&#10;Weighting Method: No weighting&#10;From x = -3.0210200000000e+00 to x = -1.6641900000000e-01 (4 data points)&#10;--------------------------------------------------------------------------------------&#10;B (y-intercept) = 1.0176460510114e-05 +/- 2.3527337621996e-08&#10;A (slope) = 9.4966918427613e-08 +/- 1.4272980923717e-08&#10;--------------------------------------------------------------------------------------&#10;Chi^2/doF = 9.9155633724155e-16&#10;R^2 = 0.9567760006713&#10;Adjusted R^2 = 0.8703280020139&#10;RMSE (Root Mean Squared Error) = 3.148898755504e-08&#10;RSS (Residual Sum of Squares) = 1.983112674483e-15&#10;---------------------------------------------------------------------------------------&#10;[29/05/17 12:27&#9;Plot: ''Graph4'']&#10;Linear Regression of dataset: Table1_ResistTeorica, using function: A*x+B&#10;Sort: No&#10;Weighting Method: No weighting&#10;From x = -3.0210200000000e+00 to x = -1.6641900000000e-01 (5 data points)&#10;--------------------------------------------------------------------------------------&#10;B (y-intercept) = 1.1310879901924e-05 +/- 9.1471218051543e-10&#10;A (slope) = 1.8642182245553e-07 +/- 5.2872227984876e-10&#10;--------------------------------------------------------------------------------------&#10;Chi^2/doF = 1.5034520037078e-18&#10;R^2 = 0.9999758691567&#10;Adjusted R^2 = 0.9999517383134&#10;RMSE (Root Mean Squared Error) = 1.226153336132e-09&#10;RSS (Residual Sum of Squares) = 4.510356011126e-18&#10;---------------------------------------------------------------------------------------&#10;[29/05/17 12:28&#9;Plot: ''Graph4'']&#10;Linear Regression of dataset: Table1_ResistMedida, using function: A*x+B&#10;Sort: No&#10;Weighting Method: No weighting&#10;From x = -3.0210200000000e+00 to x = -1.6641900000000e-01 (4 data points)&#10;--------------------------------------------------------------------------------------&#10;B (y-intercept) = 1.0176460510114e-05 +/- 2.3527337621996e-08&#10;A (slope) = 9.4966918427613e-08 +/- 1.4272980923717e-08&#10;--------------------------------------------------------------------------------------&#10;Chi^2/doF = 9.9155633724155e-16&#10;R^2 = 0.9567760006713&#10;Adjusted R^2 = 0.8703280020139&#10;RMSE (Root Mean Squared Error) = 3.148898755504e-08&#10;RSS (Residual Sum of Squares) = 1.983112674483e-15&#10;---------------------------------------------------------------------------------------&#10;[29/05/17 12:28&#9;Plot: ''Graph4'']&#10;Linear Regression of dataset: Table1_ResistMedida, using function: A*x+B&#10;Sort: No&#10;Weighting Method: No weighting&#10;From x = -3.0210200000000e+00 to x = -1.6641900000000e-01 (5 data points)&#10;--------------------------------------------------------------------------------------&#10;B (y-intercept) = 1.0183444301438e-05 +/- 7.4796106159191e-08&#10;A (slope) = 7.1517980887389e-08 +/- 4.3233673514672e-08&#10;--------------------------------------------------------------------------------------&#10;Chi^2/doF = 1.0052605099358e-14&#10;R^2 = 0.477027726358&#10;Adjusted R^2 = -0.04594454728408&#10;RMSE (Root Mean Squared Error) = 1.002626804916e-07&#10;RSS (Residual Sum of Squares) = 3.015781529807e-14&#10;---------------------------------------------------------------------------------------&#10;[29/05/17 14:18&#9;Plot: ''Graph4'']&#10;Linear Regression of dataset: Table1_ResistTeorica, using function: A*x+B&#10;Sort: No&#10;Weighting Method: No weighting&#10;From x = -3.0210200000000e+00 to x = -1.6641900000000e-01 (5 data points)&#10;--------------------------------------------------------------------------------------&#10;B (y-intercept) = 1.1310879901924e-05 +/- 9.1471218051543e-10&#10;A (slope) = 1.8642182245553e-07 +/- 5.2872227984876e-10&#10;--------------------------------------------------------------------------------------&#10;Chi^2/doF = 1.5034520037078e-18&#10;R^2 = 0.9999758691567&#10;Adjusted R^2 = 0.9999517383134&#10;RMSE (Root Mean Squared Error) = 1.226153336132e-09&#10;RSS (Residual Sum of Squares) = 4.510356011126e-18&#10;---------------------------------------------------------------------------------------&#10;[29/05/17 14:19&#9;Plot: ''Graph4'']&#10;Linear Regression of dataset: Table1_ResTeoricaMovida, using function: A*x+B&#10;Sort: No&#10;Weighting Method: No weighting&#10;From x = -3.0210200000000e+00 to x = -1.6641900000000e-01 (5 data points)&#10;--------------------------------------------------------------------------------------&#10;B (y-intercept) = 1.0165406901924e-05 +/- 9.1471218051543e-10&#10;A (slope) = 1.8642182245553e-07 +/- 5.2872227984876e-10&#10;--------------------------------------------------------------------------------------&#10;Chi^2/doF = 1.5034520037078e-18&#10;R^2 = 0.9999758691567&#10;Adjusted R^2 = 0.9999517383134&#10;RMSE (Root Mean Squared Error) = 1.226153336132e-09&#10;RSS (Residual Sum of Squares) = 4.510356011126e-18&#10;---------------------------------------------------------------------------------------&#10;">
-	<window type="1" name="Table1" date="2457899.4252763" x="10" y="57" w="813" h="778">
+<qti app="QtiPlot" version="0.9.9.10" dpi="96" arch="Gnu64" script="muParser" windows="16" expand="1" log="[29/05/17 12:16&#9;Plot: ''Graph4'']&#10;Linear Regression of dataset: Table1_ResistMedida, using function: A*x+B&#10;Sort: No&#10;Weighting Method: No weighting&#10;From x = -3.0210200000000e+00 to x = -1.6641900000000e-01 (5 data points)&#10;--------------------------------------------------------------------------------------&#10;B (y-intercept) = 1.0183444301438e-05 +/- 7.4796106159191e-08&#10;A (slope) = 7.1517980887389e-08 +/- 4.3233673514672e-08&#10;--------------------------------------------------------------------------------------&#10;Chi^2/doF = 1.0052605099358e-14&#10;R^2 = 0.477027726358&#10;Adjusted R^2 = -0.04594454728408&#10;RMSE (Root Mean Squared Error) = 1.002626804916e-07&#10;RSS (Residual Sum of Squares) = 3.015781529807e-14&#10;---------------------------------------------------------------------------------------&#10;[29/05/17 12:20&#9;Plot: ''Graph4'']&#10;Linear Regression of dataset: Table1_ResistMedida, using function: A*x&#10;Sort: No&#10;Weighting Method: No weighting&#10;From x = -3.0210200000000e+00 to x = -1.6641900000000e-01 (5 data points)&#10;--------------------------------------------------------------------------------------&#10;A (slope) = -4.6397629744084e-06 +/- 1.7644863628443e-06&#10;--------------------------------------------------------------------------------------&#10;Chi^2/doF = 4.6592961782509e-11&#10;R^2 = -3,230.908799531&#10;Adjusted R^2 = -4,308.211732707&#10;RMSE (Root Mean Squared Error) = 6.825903733756e-06&#10;RSS (Residual Sum of Squares) = 1.8637184713e-10&#10;---------------------------------------------------------------------------------------&#10;[29/05/17 12:20&#9;Plot: ''Graph4'']&#10;Exponential decay of dataset: Table1_ResistMedida, using function: y0+A*exp(-x/t)&#10;Sort: No&#10;Weighting Method: No weighting&#10;Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001&#10;From x = -3.0210200000000e+00 to x = -1.3787299000000e-01 (5 data points)&#10;--------------------------------------------------------------------------------------&#10;A (amplitude) = -1.1179630742964e-18 +/- 3.6580457748424e-15&#10;t (e-folding time) = 1.1543294398611e-01 +/- 1.4431825114742e+01&#10;y0 (offset) = 1.0136365928338e-05 +/- 2.4871250621905e-08&#10;--------------------------------------------------------------------------------------&#10;Scale Errors with sqrt(Chi^2/doF) = 4.3055838096819e-08&#10;Chi^2/doF = 1.8538051942195e-15&#10;R^2 = 0.9357056399657&#10;Adjusted R^2 = 0.742822559863&#10;RMSE (Root Mean Squared Error) = 4.305583809682e-08&#10;RSS (Residual Sum of Squares) = 3.707610388439e-15&#10;---------------------------------------------------------------------------------------&#10;Iterations = 257&#10;Status = success&#10;---------------------------------------------------------------------------------------&#10;[29/05/17 12:22&#9;Plot: ''Graph4'']&#10;Linear Regression of dataset: Table1_ResistMedida, using function: A*x+B&#10;Sort: No&#10;Weighting Method: No weighting&#10;From x = -3.0210200000000e+00 to x = -1.6641900000000e-01 (5 data points)&#10;--------------------------------------------------------------------------------------&#10;B (y-intercept) = 1.0183444301438e-05 +/- 7.4796106159191e-08&#10;A (slope) = 7.1517980887389e-08 +/- 4.3233673514672e-08&#10;--------------------------------------------------------------------------------------&#10;Chi^2/doF = 1.0052605099358e-14&#10;R^2 = 0.477027726358&#10;Adjusted R^2 = -0.04594454728408&#10;RMSE (Root Mean Squared Error) = 1.002626804916e-07&#10;RSS (Residual Sum of Squares) = 3.015781529807e-14&#10;---------------------------------------------------------------------------------------&#10;[29/05/17 12:25&#9;Plot: ''Graph4'']&#10;Linear Regression of dataset: Table1_ResistMedida, using function: A*x+B&#10;Sort: No&#10;Weighting Method: No weighting&#10;From x = -3.0210200000000e+00 to x = -1.6641900000000e-01 (4 data points)&#10;--------------------------------------------------------------------------------------&#10;B (y-intercept) = 1.0176460510114e-05 +/- 2.3527337621996e-08&#10;A (slope) = 9.4966918427613e-08 +/- 1.4272980923717e-08&#10;--------------------------------------------------------------------------------------&#10;Chi^2/doF = 9.9155633724155e-16&#10;R^2 = 0.9567760006713&#10;Adjusted R^2 = 0.8703280020139&#10;RMSE (Root Mean Squared Error) = 3.148898755504e-08&#10;RSS (Residual Sum of Squares) = 1.983112674483e-15&#10;---------------------------------------------------------------------------------------&#10;[29/05/17 12:25&#9;Plot: ''Graph4'']&#10;Linear Regression of dataset: Table1_ResistMedida, using function: A*x+B&#10;Sort: No&#10;Weighting Method: No weighting&#10;From x = -3.0210200000000e+00 to x = -1.6641900000000e-01 (4 data points)&#10;--------------------------------------------------------------------------------------&#10;B (y-intercept) = 1.0176460510114e-05 +/- 2.3527337621996e-08&#10;A (slope) = 9.4966918427613e-08 +/- 1.4272980923717e-08&#10;--------------------------------------------------------------------------------------&#10;Chi^2/doF = 9.9155633724155e-16&#10;R^2 = 0.9567760006713&#10;Adjusted R^2 = 0.8703280020139&#10;RMSE (Root Mean Squared Error) = 3.148898755504e-08&#10;RSS (Residual Sum of Squares) = 1.983112674483e-15&#10;---------------------------------------------------------------------------------------&#10;[29/05/17 12:27&#9;Plot: ''Graph4'']&#10;Linear Regression of dataset: Table1_ResistTeorica, using function: A*x+B&#10;Sort: No&#10;Weighting Method: No weighting&#10;From x = -3.0210200000000e+00 to x = -1.6641900000000e-01 (5 data points)&#10;--------------------------------------------------------------------------------------&#10;B (y-intercept) = 1.1310879901924e-05 +/- 9.1471218051543e-10&#10;A (slope) = 1.8642182245553e-07 +/- 5.2872227984876e-10&#10;--------------------------------------------------------------------------------------&#10;Chi^2/doF = 1.5034520037078e-18&#10;R^2 = 0.9999758691567&#10;Adjusted R^2 = 0.9999517383134&#10;RMSE (Root Mean Squared Error) = 1.226153336132e-09&#10;RSS (Residual Sum of Squares) = 4.510356011126e-18&#10;---------------------------------------------------------------------------------------&#10;[29/05/17 12:28&#9;Plot: ''Graph4'']&#10;Linear Regression of dataset: Table1_ResistMedida, using function: A*x+B&#10;Sort: No&#10;Weighting Method: No weighting&#10;From x = -3.0210200000000e+00 to x = -1.6641900000000e-01 (4 data points)&#10;--------------------------------------------------------------------------------------&#10;B (y-intercept) = 1.0176460510114e-05 +/- 2.3527337621996e-08&#10;A (slope) = 9.4966918427613e-08 +/- 1.4272980923717e-08&#10;--------------------------------------------------------------------------------------&#10;Chi^2/doF = 9.9155633724155e-16&#10;R^2 = 0.9567760006713&#10;Adjusted R^2 = 0.8703280020139&#10;RMSE (Root Mean Squared Error) = 3.148898755504e-08&#10;RSS (Residual Sum of Squares) = 1.983112674483e-15&#10;---------------------------------------------------------------------------------------&#10;[29/05/17 12:28&#9;Plot: ''Graph4'']&#10;Linear Regression of dataset: Table1_ResistMedida, using function: A*x+B&#10;Sort: No&#10;Weighting Method: No weighting&#10;From x = -3.0210200000000e+00 to x = -1.6641900000000e-01 (5 data points)&#10;--------------------------------------------------------------------------------------&#10;B (y-intercept) = 1.0183444301438e-05 +/- 7.4796106159191e-08&#10;A (slope) = 7.1517980887389e-08 +/- 4.3233673514672e-08&#10;--------------------------------------------------------------------------------------&#10;Chi^2/doF = 1.0052605099358e-14&#10;R^2 = 0.477027726358&#10;Adjusted R^2 = -0.04594454728408&#10;RMSE (Root Mean Squared Error) = 1.002626804916e-07&#10;RSS (Residual Sum of Squares) = 3.015781529807e-14&#10;---------------------------------------------------------------------------------------&#10;[29/05/17 14:18&#9;Plot: ''Graph4'']&#10;Linear Regression of dataset: Table1_ResistTeorica, using function: A*x+B&#10;Sort: No&#10;Weighting Method: No weighting&#10;From x = -3.0210200000000e+00 to x = -1.6641900000000e-01 (5 data points)&#10;--------------------------------------------------------------------------------------&#10;B (y-intercept) = 1.1310879901924e-05 +/- 9.1471218051543e-10&#10;A (slope) = 1.8642182245553e-07 +/- 5.2872227984876e-10&#10;--------------------------------------------------------------------------------------&#10;Chi^2/doF = 1.5034520037078e-18&#10;R^2 = 0.9999758691567&#10;Adjusted R^2 = 0.9999517383134&#10;RMSE (Root Mean Squared Error) = 1.226153336132e-09&#10;RSS (Residual Sum of Squares) = 4.510356011126e-18&#10;---------------------------------------------------------------------------------------&#10;[29/05/17 14:19&#9;Plot: ''Graph4'']&#10;Linear Regression of dataset: Table1_ResTeoricaMovida, using function: A*x+B&#10;Sort: No&#10;Weighting Method: No weighting&#10;From x = -3.0210200000000e+00 to x = -1.6641900000000e-01 (5 data points)&#10;--------------------------------------------------------------------------------------&#10;B (y-intercept) = 1.0165406901924e-05 +/- 9.1471218051543e-10&#10;A (slope) = 1.8642182245553e-07 +/- 5.2872227984876e-10&#10;--------------------------------------------------------------------------------------&#10;Chi^2/doF = 1.5034520037078e-18&#10;R^2 = 0.9999758691567&#10;Adjusted R^2 = 0.9999517383134&#10;RMSE (Root Mean Squared Error) = 1.226153336132e-09&#10;RSS (Residual Sum of Squares) = 4.510356011126e-18&#10;---------------------------------------------------------------------------------------&#10;[16/06/17 09:41&#9;Plot: ''Graph4'']&#10;Linear Regression of dataset: VolCte_ResistTeorica, using function: A*x+B&#10;Sort: No&#10;Weighting Method: No weighting&#10;From x = -3.0210200000000e+00 to x = -1.6641900000000e-01 (5 data points)&#10;--------------------------------------------------------------------------------------&#10;B (y-intercept) = 2.8277230678719e-06 +/- 2.2799674733902e-10&#10;A (slope) = 5.5666365157009e-08 +/- 1.3178676595655e-10&#10;--------------------------------------------------------------------------------------&#10;Chi^2/doF = 9.3406682194378e-20&#10;R^2 = 0.9999831859697&#10;Adjusted R^2 = 0.9999663719394&#10;RMSE (Root Mean Squared Error) = 3.056250680071e-10&#10;RSS (Residual Sum of Squares) = 2.802200465831e-19&#10;---------------------------------------------------------------------------------------&#10;[16/06/17 09:43&#9;Plot: ''Graph6'']&#10;Linear Regression of dataset: Table3_Poison, using function: A*x+B&#10;Sort: No&#10;Weighting Method: No weighting&#10;From x = -3.0210200000000e+00 to x = -1.6641900000000e-01 (5 data points)&#10;--------------------------------------------------------------------------------------&#10;B (y-intercept) = 1.1310879901923e-05 +/- 9.1471217970838e-10&#10;A (slope) = 1.8642182245387e-07 +/- 5.2872227938227e-10&#10;--------------------------------------------------------------------------------------&#10;Chi^2/doF = 1.5034520010549e-18&#10;R^2 = 0.9999758691568&#10;Adjusted R^2 = 0.9999517383135&#10;RMSE (Root Mean Squared Error) = 1.22615333505e-09&#10;RSS (Residual Sum of Squares) = 4.510356003166e-18&#10;---------------------------------------------------------------------------------------&#10;[16/06/17 09:44&#9;Plot: ''Graph6'']&#10;Linear Regression of dataset: Table3_VolCte, using function: A*x+B&#10;Sort: No&#10;Weighting Method: No weighting&#10;From x = -3.0210200000000e+00 to x = -1.6641900000000e-01 (5 data points)&#10;--------------------------------------------------------------------------------------&#10;B (y-intercept) = 2.8277230678718e-06 +/- 2.2799674740597e-10&#10;A (slope) = 5.5666365156975e-08 +/- 1.3178676599524e-10&#10;--------------------------------------------------------------------------------------&#10;Chi^2/doF = 9.3406682249234e-20&#10;R^2 = 0.9999831859697&#10;Adjusted R^2 = 0.9999663719394&#10;RMSE (Root Mean Squared Error) = 3.056250680969e-10&#10;RSS (Residual Sum of Squares) = 2.802200467478e-19&#10;---------------------------------------------------------------------------------------&#10;[16/06/17 09:44&#9;Plot: ''Graph6'']&#10;Linear Regression of dataset: Table3_Medida, using function: A*x+B&#10;Sort: No&#10;Weighting Method: No weighting&#10;From x = -3.0210200000000e+00 to x = -1.6641900000000e-01 (5 data points)&#10;--------------------------------------------------------------------------------------&#10;B (y-intercept) = 1.0183446525579e-05 +/- 7.4788389544067e-08&#10;A (slope) = 7.1523070923665e-08 +/- 4.3229213153885e-08&#10;--------------------------------------------------------------------------------------&#10;Chi^2/doF = 1.0050530978471e-14&#10;R^2 = 0.4771147144857&#10;Adjusted R^2 = -0.04577057102853&#10;RMSE (Root Mean Squared Error) = 1.002523365237e-07&#10;RSS (Residual Sum of Squares) = 3.015159293541e-14&#10;---------------------------------------------------------------------------------------&#10;">
+	<window type="1" name="Poisson" date="2457899.4252763" x="10" y="57" w="1251" h="240">
 		<tab rows="32" cols="8" labels="0">
 			<col name="strainmax" type="6" num="0" prec="13" plot="1" width="100" stat="0" data="-0.166419;-0.503368;-1.20873;-2.024;-3.02102;"/>
 			<col name="Vprom(mV)" type="6" num="0" prec="13" plot="2" width="100" stat="0" data="0.00202707613585;0.002026559652856;0.002019146141792;0.002036303202101;0.001975327691471;"/>
 			<col name="ResistMedida" type="6" num="0" prec="6" plot="2" width="158" formula="(col(&quot;Vprom&quot;)/0.2)*1E-3" stat="0" muparser="1" data="1.013538067925e-05;1.013279826428e-05;1.009573070896e-05;1.0181516010505e-05;9.876638457355e-06;"/>
-			<col name="LargoEntreCables" type="6" num="0" prec="13" plot="2" width="136" formula="18.486+((18.486/100)*col(&quot;strainmax&quot;))" stat="0" muparser="1" data="18.45523578366;18.39294739152;18.2625541722;18.11184336;17.9275342428;"/>
+			<col name="LargoEntreCables" type="6" num="0" prec="13" plot="2" width="162" formula="18.486+((18.486/100)*col(&quot;strainmax&quot;))" stat="0" muparser="1" data="18.45523578366;18.39294739152;18.2625541722;18.11184336;17.9275342428;"/>
 			<col name="Radio" type="6" num="0" prec="13" plot="2" width="100" formula="(5.9648+((5.9648/100)*(-0.34*col(&quot;strainmax&quot;))))/2" stat="0" muparser="1" data="2.98408751528704;2.98750423205888;2.9946567155968;3.00292368384;3.0130336261632;"/>
 			<col name="Seccion" type="6" num="0" prec="13" plot="2" width="100" formula="pi*(col(&quot;Radio&quot;)^2)" stat="0" muparser="1" data="27.9751860856449;28.0392847472427;28.1737050387777;28.3294708784524;28.5205456268749;"/>
 			<col name="ResistTeorica" type="6" num="0" prec="13" plot="2" width="198" formula="((1.71E-5)*col(&quot;LargoEntreCables&quot;))/col(&quot;Seccion&quot;)" stat="0" muparser="1" data="1.12808733759424e-05;1.12170978407686e-05;1.10844376312874e-05;1.09325205114074e-05;1.07487717648364e-05;"/>
-			<col name="ResTeoricaMovida" type="6" num="0" prec="13" plot="2" width="100" formula="col(&quot;ResistTeorica&quot;)-((1.1280873e-5)-1.01354e-5)" stat="0" muparser="1" data="1.01354003759424e-05;1.00716248407686e-05;9.93896463128744e-06;9.78704751140742e-06;9.60329876483635e-06;"/>
+			<col name="ResTeoricaMovida" type="6" num="0" prec="13" plot="2" width="164" formula="col(&quot;ResistTeorica&quot;)-((1.1280873e-5)-1.01354e-5)" stat="0" muparser="1" data="1.01354003759424e-05;1.00716248407686e-05;9.93896463128744e-06;9.78704751140742e-06;9.60329876483635e-06;"/>
 		</tab>
 	</window>
 	<window type="1" name="ClavoCub" date="2457899.4260587" w="789" h="950" state="1" label="/home/lucia/Tesis/Ensayos/Resistencia/resistencia/ClavoCu/ClavoCub.dat" title="2">
@@ -69,7 +69,19 @@
 			<col name="4" type="6" num="0" prec="13" plot="2" width="100" stat="0" data="0.00202707613585;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;0.002026559652856;"/>
 		</tab>
 	</window>
-	<window type="3" name="V" date="2457899.4880634" x="236" y="29" w="1529" h="449" dpi="96">
+	<window type="1" name="VolCte" date="2457919.6928887" x="2" y="311" w="1251" h="240">
+		<tab rows="32" cols="8" labels="0">
+			<col name="strainmax" type="6" num="0" prec="13" plot="1" width="100" stat="0" data="-0.166419;-0.503368;-1.20873;-2.024;-3.02102;"/>
+			<col name="Vprom(mV)" type="6" num="0" prec="13" plot="2" width="100" stat="0" data="0.00202707613585;0.002026559652856;0.002019146141792;0.002036303202101;0.001975327691471;"/>
+			<col name="ResistMedida" type="6" num="0" prec="6" plot="2" width="158" formula="(col(&quot;Vprom&quot;)/0.2)*1E-3" stat="0" muparser="1" data="1.013538067925e-05;1.013279826428e-05;1.009573070896e-05;1.0181516010505e-05;9.876638457355e-06;"/>
+			<col name="LargoEntreCables" type="6" num="0" prec="13" plot="2" width="162" formula="18.486+((18.486/100)*col(&quot;strainmax&quot;))" stat="0" muparser="1" data="18.45523578366;18.39294739152;18.2625541722;18.11184336;17.9275342428;"/>
+			<col name="Radio" type="6" num="0" prec="13" plot="2" width="100" formula="((5.9648^2)*(18.486/col(&quot;LargoEntreCables&quot;)))^0.5" stat="0" muparser="1" data="5.96976948374077;5.97986936191568;6.00117929331184;6.02609583221303;6.05699311967359;"/>
+			<col name="Seccion" type="6" num="0" prec="13" plot="2" width="100" formula="pi*(col(&quot;Radio&quot;)^2)" stat="0" muparser="1" data="111.960542967319;112.339701459762;113.141798208807;114.083264627376;115.256130092642;"/>
+			<col name="ResistTeorica" type="6" num="0" prec="13" plot="2" width="198" formula="((1.71E-5)*col(&quot;LargoEntreCables&quot;))/col(&quot;Seccion&quot;)" stat="0" muparser="1" data="2.81871205280511e-06;2.79971725318895e-06;2.76016186138635e-06;2.71479364188601e-06;2.65982239127297e-06;"/>
+			<col name="ResTeoricaMovida" type="6" num="0" prec="13" plot="2" width="164" formula="col(&quot;ResistTeorica&quot;)-((1.1280873e-5)-1.01354e-5)" stat="0" muparser="1" data="1.01354003759424e-05;1.00716248407686e-05;9.93896463128744e-06;9.78704751140742e-06;9.60329876483635e-06;"/>
+		</tab>
+	</window>
+	<window type="3" name="V" date="2457899.4880634" w="1529" h="449" state="1" dpi="96">
 		<layout cw="1521" ch="401" w="400" h="300" left="5" right="5" top="5" bottom="5" rows="1" cols="1" vSpace="5" hSpace="5" hAlign="0" vAlign="0" align="0" common="0" link="0" scale="1" sPrint="0" cmPrint="0" atUnits="1" atdIndex="0" atPolicy="4" alMode="0" luMode="2"/>
 		<tab x="13" y="5" w="1495" h="392" autoscale="1" maxMajorTicks="20" gap="1" scaleFont="1">
 			<page x="0.00854701" y="0.0124688" w="0.982906" h="0.977556"/>
@@ -111,7 +123,7 @@
 			<item type="2" x="76.6917293233083" y="0.00218901098901099" frame="1" lc="#000000" lw="1" ls="0" bg="#ffffff,0" onTop="1" at="0" on="1" auto="1" font="Ubuntu,10.1698,-1,5,50,0,0,0,0,0" text="\l(1)%(1)&#10;\l(2)%(2)"/>
 		</tab>
 	</window>
-	<window type="3" name="strain" date="2457899.4937879" x="0" y="29" w="1542" h="498" dpi="96">
+	<window type="3" name="strain" date="2457899.4937879" w="1542" h="498" state="1" dpi="96">
 		<layout cw="1534" ch="450" w="400" h="300" left="5" right="5" top="5" bottom="5" rows="1" cols="1" vSpace="5" hSpace="5" hAlign="0" vAlign="0" align="0" common="0" link="0" scale="1" sPrint="0" cmPrint="0" atUnits="1" atdIndex="0" atPolicy="4" alMode="0" luMode="2"/>
 		<tab x="14" y="5" w="1505" h="440" autoscale="1" maxMajorTicks="20" gap="1" scaleFont="1">
 			<page x="0.00912647" y="0.0111111" w="0.981095" h="0.977778"/>
@@ -150,44 +162,6 @@
 				<labels space="4" font="Ubuntu,11.4151,-1,5,50,0,0,0,0,0"/>
 			</axis>
 			<item type="2" x="74.1279069767442" y="0.37220447284345" frame="1" lc="#000000" lw="1" ls="0" bg="#ffffff,0" onTop="1" at="0" on="1" auto="1" font="Ubuntu,11.4151,-1,5,50,0,0,0,0,0" text="\l(1)%(1)"/>
-		</tab>
-	</window>
-	<window type="3" name="Cargas" date="2457899.4999692" x="74" y="39" w="790" h="476" dpi="96">
-		<layout cw="782" ch="428" w="400" h="300" left="5" right="5" top="5" bottom="5" rows="1" cols="1" vSpace="5" hSpace="5" hAlign="0" vAlign="0" align="0" common="0" link="0" scale="1" sPrint="0" cmPrint="0" atUnits="1" atdIndex="0" atPolicy="4" alMode="0" luMode="2"/>
-		<tab x="7" y="5" w="767" h="418" autoscale="1" maxMajorTicks="20" gap="1" scaleFont="1">
-			<page x="0.00895141" y="0.0116822" w="0.980818" h="0.976636"/>
-			<title text="Title" color="#000000" font="Ubuntu,14.0976,-1,5,75,0,0,0,0,0" align="4228" fmw="42.6562"/>
-			<frame bg="#ffffff,0"/>
-			<canvas x="82" y="44" w="678" h="326" fixRatio="0" bg="#ffffff,0"/>
-			<grid xAxis="2" yAxis="0">
-				<majx lc="#a0a0a4" lw="1" ls="0"/>
-				<minx lc="#a0a0a4" lw="1" ls="1"/>
-				<majy lc="#a0a0a4" lw="1" ls="0"/>
-				<miny lc="#a0a0a4" lw="1" ls="1"/>
-			</grid>
-			<curve type="0" z="21" table="Smoothed4" x="tiempo" y="strain max def" from="0" to="-1" line="1" lc="#000000" lw="1" ls="0" brc="#000000" brs="0"/>
-			<curve type="0" z="22" table="Smoothed4" x="tiempo" y="V en picos def" from="0" to="-1" line="1" lc="#ff0000" lw="1" ls="0" brc="#000000" brs="0"/>
-			<axis id="0" on="1" type="0" format="0" prec="6" lw="1">
-				<div from="-0.213846153846154" to="0.0815384615384613" step="0" maj="7" min="5" type="0"/>
-				<ticks maj="1" majl="10" min="1" minl="5"/>
-				<title text="%(?Y)" color="#000000" font="Ubuntu,11.9288,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="44.8906"/>
-				<labels space="4" font="Ubuntu,11.9288,-1,5,50,0,0,0,0,0"/>
-			</axis>
-			<axis id="1" on="1" type="0" format="0" prec="6" lw="1">
-				<div from="-0.213846153846154" to="0.0815384615384613" step="0" maj="7" min="5" type="0"/>
-				<ticks maj="1" majl="10" min="1" minl="5"/>
-			</axis>
-			<axis id="2" on="1" type="0" format="0" prec="6" lw="1">
-				<div from="251.470588235294" to="503.676470588235" step="0" maj="6" min="5" type="0"/>
-				<ticks maj="1" majl="10" min="1" minl="5"/>
-				<title text="%(?X)" color="#000000" font="Ubuntu,11.9288,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="44.125"/>
-				<labels space="4" font="Ubuntu,11.9288,-1,5,50,0,0,0,0,0"/>
-			</axis>
-			<axis id="3" on="1" type="0" format="0" prec="6" lw="1">
-				<div from="251.470588235294" to="503.676470588235" step="0" maj="6" min="5" type="0"/>
-				<ticks maj="1" majl="10" min="1" minl="5"/>
-			</axis>
-			<item type="2" x="254.078330002607" y="0.152430769230769" frame="1" lc="#000000" lw="1" ls="0" bg="#ffffff,0" onTop="1" at="0" on="1" auto="1" font="Ubuntu,11.9288,-1,5,50,0,0,0,0,0" text="\l(1)%(1)&#10;\l(2)%(2)"/>
 		</tab>
 	</window>
 	<window type="3" name="Graph3" date="2457902.4750001" w="1343" h="712" state="1" dpi="96">
@@ -231,22 +205,22 @@
 			<item type="2" x="0.877890841813136" y="11672.3404255319" frame="1" lc="#000000" lw="1" ls="0" bg="#ffffff,0" onTop="1" at="0" on="1" auto="1" font="Ubuntu,16.8373,-1,5,50,0,0,0,0,0" text="\l(1)%(1)"/>
 		</tab>
 	</window>
-	<window type="3" name="Graph4" date="2457902.5084982" x="360" y="168" w="1114" h="730" active="1" dpi="96">
+	<window type="3" name="Graph4" date="2457902.5084982" x="691" y="104" w="1114" h="730" dpi="96">
 		<layout cw="1106" ch="682" w="400" h="300" left="5" right="5" top="5" bottom="5" rows="1" cols="1" vSpace="5" hSpace="5" hAlign="0" vAlign="0" align="0" common="0" link="0" scale="1" sPrint="0" cmPrint="0" atUnits="1" atdIndex="0" atPolicy="4" alMode="0" luMode="2"/>
-		<tab x="17" y="16" w="1051" h="658" autoscale="1" maxMajorTicks="20" gap="1" scaleFont="1">
-			<page x="0.0153707" y="0.0234604" w="0.950271" h="0.964809"/>
+		<tab x="17" y="-6" w="1051" h="680" autoscale="1" maxMajorTicks="20" gap="1" scaleFont="1">
+			<page x="0.0153707" y="-0.00879765" w="0.950271" h="0.997067"/>
 			<frame bg="#ffffff,0"/>
-			<canvas x="147" y="16" w="908" h="586" fixRatio="0" bg="#ffffff,0"/>
+			<canvas x="147" y="5" w="908" h="597" fixRatio="0" bg="#ffffff,0"/>
 			<grid xAxis="2" yAxis="0">
 				<majx lc="#c0c0c0" lw="1" ls="10"/>
 				<minx lc="#a0a0a4" lw="1" ls="1"/>
 				<majy lc="#c0c0c0" lw="1" ls="10"/>
 				<miny lc="#a0a0a4" lw="1" ls="2"/>
 			</grid>
-			<curve type="1" z="21" table="Table1" x="strainmax" y="ResistMedida" from="0" to="-1" line="0" lc="#000000" lw="1" ls="0" brc="#000000" brs="0">
+			<curve type="1" z="21" table="Poisson" x="strainmax" y="ResistMedida" from="0" to="-1" line="0" lc="#000000" lw="1" ls="0" brc="#000000" brs="0">
 				<symbol style="1" size="11" lc="#000000" lw="1.4" ls="0" brc="#0000ff"/>
 			</curve>
-			<curve type="2" z="22" table="Table1" x="strainmax" y="ResistTeorica" from="0" to="-1" line="1" lc="#ff0000" lw="1" ls="0" brc="#000000" brs="0" on="0">
+			<curve type="2" z="22" table="Poisson" x="strainmax" y="ResistTeorica" from="0" to="-1" line="1" lc="#ff0000" lw="1" ls="0" brc="#000000" brs="0">
 				<symbol style="1" size="11" lc="#ff0000" lw="1" ls="0" brc="#ff0000"/>
 			</curve>
 			<curve type="19" z="23" name="LinearFit1" f="0" y="A*x+B" from="-3.02102" to="-0.166419" points="2" line="1" lc="#0000ff" lw="1" ls="0" brc="#000000" brs="0" on="0">
@@ -257,15 +231,25 @@
 				<param name="A" val="7.15179808873887e-08"/>
 				<param name="B" val="1.01834443014378e-05"/>
 			</curve>
-			<curve type="2" z="26" table="Table1" x="strainmax" y="ResTeoricaMovida" from="0" to="-1" line="0" lc="#ff0000" lw="1.8" ls="0" brc="#000000" brs="0">
+			<curve type="2" z="26" table="Poisson" x="strainmax" y="ResTeoricaMovida" from="0" to="-1" line="0" lc="#ff0000" lw="1.8" ls="0" brc="#000000" brs="0" on="0">
 				<symbol style="3" size="11" lc="#ff0000" lw="1" ls="0" brc="#ff0000"/>
 			</curve>
-			<curve type="19" z="27" name="LinearFit2" f="0" y="A*x+B" from="-3.02102" to="-0.166419" points="2" line="1" lc="#ff0000" lw="2.1" ls="0" brc="#000000" brs="0">
+			<curve type="19" z="27" name="LinearFit2" f="0" y="A*x+B" from="-3.02102" to="-0.166419" points="2" line="1" lc="#ff0000" lw="2.1" ls="0" brc="#000000" brs="0" on="0">
 				<param name="A" val="1.86421822455526e-07"/>
 				<param name="B" val="1.01654069019241e-05"/>
 			</curve>
+			<curve type="1" z="28" table="VolCte" x="strainmax" y="ResistTeorica" from="0" to="-1" line="0" lc="#00ffff" lw="1" ls="0" brc="#000000" brs="0">
+				<symbol style="2" size="7" lc="#00ffff" lw="1" ls="0" brc="#00ffff"/>
+			</curve>
+			<curve type="1" z="29" table="Poisson" x="strainmax" y="ResistTeorica" from="0" to="-1" line="0" lc="#ff00ff" lw="1" ls="0" brc="#000000" brs="0">
+				<symbol style="3" size="7" lc="#ff00ff" lw="1" ls="0" brc="#ff00ff"/>
+			</curve>
+			<curve type="19" z="30" name="LinearFit4" f="0" y="A*x+B" from="-3.02102" to="-0.166419" points="2" line="1" lc="#ff0000" lw="1" ls="0" brc="#000000" brs="0">
+				<param name="A" val="5.56663651570091e-08"/>
+				<param name="B" val="2.82772306787189e-06"/>
+			</curve>
 			<axis id="0" on="1" type="0" format="2" prec="2" lw="1">
-				<div from="9e-06" to="1.09067595782927e-05" step="0" maj="5" min="0" type="0"/>
+				<div from="2e-06" to="1.2e-05" step="0" maj="6" min="0" type="0"/>
 				<ticks maj="1" majl="15" min="1" minl="9"/>
 				<title text="Resistencia (Ω)" color="#000000" font="Ubuntu,18.9452,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="179.016"/>
 				<labels space="4" font="Ubuntu,14,-1,5,50,0,0,0,0,0"/>
@@ -275,7 +259,7 @@
 				<ticks maj="1" majl="15" min="1" minl="9"/>
 			</axis>
 			<axis id="2" on="1" type="0" format="1" prec="1" lw="1">
-				<div from="-3.37517635038995" to="0" step="0" maj="7" min="0" type="0"/>
+				<div from="-3.5" to="0" step="0" maj="8" min="0" type="0"/>
 				<ticks maj="1" majl="15" min="1" minl="9"/>
 				<title text="ε (%)" color="#000000" font="Ubuntu,18.9452,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="59.5938"/>
 				<labels space="4" font="Ubuntu,14,-1,5,50,0,0,0,0,0"/>
@@ -284,7 +268,171 @@
 				<div from="-2.97756578182633" to="-0.0680321124697403" step="0" maj="6" min="5" type="0"/>
 				<ticks maj="1" majl="15" min="1" minl="9"/>
 			</axis>
-			<item type="2" x="-3.36773384465591" y="1.07008029687907e-05" frame="0" lc="#000000" lw="1" ls="0" bg="#ffffff,0" onTop="1" at="0" on="1" auto="1" font="Ubuntu,12,-1,5,50,0,0,0,0,0" text="\l(1) Resistencia Medida&#10;\l(5)Resistencia Teórica&#10;"/>
+			<item type="2" x="-3.40738699007718" y="4.95302013422819e-06" frame="0" lc="#000000" lw="1" ls="0" bg="#ffffff,0" onTop="1" at="0" on="1" auto="1" font="Ubuntu,12,-1,5,50,0,0,0,0,0" text="\l(1) Resistencia Medida&#10;\l(5)&#10;\l(7)%(7) Vol Cte&#10;\l(8)%(8) Poisson&#10;\l(9)%(9)"/>
+		</tab>
+	</window>
+	<window type="3" name="Graph5" date="2457919.6893535" x="14" y="482" w="647" h="528" dpi="96">
+		<layout cw="639" ch="480" w="400" h="300" left="5" right="5" top="5" bottom="5" rows="1" cols="1" vSpace="5" hSpace="5" hAlign="0" vAlign="0" align="0" common="0" link="0" scale="1" sPrint="0" cmPrint="0" atUnits="1" atdIndex="0" atPolicy="4" alMode="0" luMode="2"/>
+		<tab x="6" y="6" w="627" h="469" autoscale="1" maxMajorTicks="20" gap="1" scaleFont="1">
+			<page x="0.00938967" y="0.0125" w="0.981221" h="0.977083"/>
+			<title text="Title" color="#000000" font="Ubuntu,14.3797,-1,5,75,0,0,0,0,0" align="4228" fmw="42.6562"/>
+			<frame bg="#ffffff,0"/>
+			<canvas x="72" y="87" w="466" h="335" fixRatio="0" bg="#ffffff,0"/>
+			<grid xAxis="2" yAxis="0">
+				<majx lc="#a0a0a4" lw="1" ls="0"/>
+				<minx lc="#a0a0a4" lw="1" ls="1"/>
+				<majy lc="#a0a0a4" lw="1" ls="0"/>
+				<miny lc="#a0a0a4" lw="1" ls="1"/>
+			</grid>
+			<curve type="0" z="21" table="Smoothed4" x="tiempo" y="strain max def" from="0" to="-1" line="1" lc="#000000" lw="1" ls="0" brc="#000000" brs="0"/>
+			<curve type="0" z="22" table="Smoothed4" x="tiempo" y="V en picos def" from="0" to="-1" line="1" lc="#ff0000" lw="1" ls="0" brc="#000000" brs="0" yAxis="1"/>
+			<axis id="0" on="1" type="0" format="0" prec="6" lw="1">
+				<div from="-3.5" to="0.5" step="0" maj="9" min="5" type="0"/>
+				<ticks maj="1" majl="10" min="1" minl="6"/>
+				<title text="%(?Y)" color="#000000" font="Ubuntu,12.1675,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="44.8906"/>
+				<labels space="4" font="Ubuntu,12.1675,-1,5,50,0,0,0,0,0"/>
+			</axis>
+			<axis id="1" on="1" type="0" format="0" prec="6" lw="1">
+				<div from="0.00196" to="0.0021" step="0" maj="8" min="5" type="0"/>
+				<ticks maj="1" majl="10" min="1" minl="6"/>
+				<title text="%(?Y)" color="#000000" font="Ubuntu,12.1675,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="44.8906"/>
+				<labels space="4" font="Ubuntu,12.1675,-1,5,50,0,0,0,0,0"/>
+			</axis>
+			<axis id="2" on="1" type="0" format="0" prec="6" lw="1">
+				<div from="-500" to="3000" step="0" maj="8" min="5" type="0"/>
+				<ticks maj="1" majl="10" min="1" minl="6"/>
+				<title text="%(?X)" color="#000000" font="Ubuntu,12.1675,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="44.125"/>
+				<labels space="4" font="Ubuntu,12.1675,-1,5,50,0,0,0,0,0"/>
+			</axis>
+			<axis id="3" on="1" type="0" format="0" prec="6" lw="1">
+				<div from="-500" to="3000" step="0" maj="8" min="5" type="0"/>
+				<ticks maj="1" majl="10" min="1" minl="6"/>
+				<title text="%(?X)" color="#000000" font="Ubuntu,12.1675,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="44.125"/>
+				<labels space="4" font="Ubuntu,12.1675,-1,5,50,0,0,0,0,0"/>
+			</axis>
+			<item type="2" x="-406.417112299465" y="0.366220735785953" frame="1" lc="#000000" lw="1" ls="0" bg="#ffffff,0" onTop="1" at="0" on="1" auto="1" font="Ubuntu,12.1675,-1,5,50,0,0,0,0,0" text="\l(1)%(1)&#10;\l(2)%(2)"/>
+		</tab>
+	</window>
+	<window type="1" name="Table3" date="2457920.4042556" x="45" y="310" w="773" h="260">
+		<tab rows="30" cols="8" labels="0">
+			<col name="e" type="6" num="0" prec="13" plot="1" width="100" stat="0" data="-0.166419;-0.503368;-1.20873;-2.024;-3.02102;"/>
+			<col name="Poison" type="6" num="0" prec="13" plot="2" width="100" stat="0" data="1.128087337594e-05;1.121709784077e-05;1.108443763129e-05;1.093252051141e-05;1.074877176484e-05;"/>
+			<col name="4" type="6" num="0" prec="6" plot="2" width="100" stat="0"/>
+			<col name="VolCte" type="6" num="0" prec="13" plot="2" width="100" stat="0" data="2.818712052805e-06;2.799717253189e-06;2.760161861386e-06;2.714793641886e-06;2.659822391273e-06;"/>
+			<col name="Volcte movido" type="6" num="0" prec="6" plot="2" width="100" formula="col(&quot;VolCte&quot;)-(col(&quot;VolCte&quot;,1)-col(&quot;Poison&quot;,1))" stat="0" muparser="1" data="1.128087337594e-05;1.1261878576324e-05;1.1222323184521e-05;1.1176954965021e-05;1.1121983714408e-05;"/>
+			<col name="Medida" type="6" num="0" prec="13" plot="2" width="100" stat="0" data="1.01354e-05;1.01328e-05;1.00957e-05;1.01815e-05;9.87664e-06;"/>
+			<col name="Medida movido" type="6" num="0" prec="13" plot="2" width="100" formula="col(&quot;Medida&quot;)-(col(&quot;Medida&quot;,1)-col(&quot;Poison&quot;,1))" stat="0" muparser="1" data="1.128087337594e-05;1.127827337594e-05;1.124117337594e-05;1.132697337594e-05;1.102211337594e-05;"/>
+			<col name="6" type="6" num="0" prec="13" plot="2" width="100" stat="0"/>
+		</tab>
+	</window>
+	<window type="3" name="Graph6" date="2457920.405317" x="761" y="89" w="949" h="706" dpi="96">
+		<layout cw="941" ch="658" w="400" h="300" left="5" right="5" top="5" bottom="5" rows="1" cols="1" vSpace="5" hSpace="5" hAlign="0" vAlign="0" align="0" common="0" link="0" scale="1" sPrint="0" cmPrint="0" atUnits="1" atdIndex="0" atPolicy="4" alMode="0" luMode="2"/>
+		<tab x="8" y="8" w="925" h="643" autoscale="1" maxMajorTicks="20" gap="1" scaleFont="1">
+			<page x="0.00850159" y="0.0121581" w="0.982997" h="0.977204"/>
+			<title text="Title" color="#000000" font="Ubuntu,19.7146,-1,5,75,0,0,0,0,0" align="4228" fmw="58.3594"/>
+			<frame bg="#ffffff,0"/>
+			<canvas x="134" y="113" w="673" h="467" fixRatio="0" bg="#ffffff,0"/>
+			<grid xAxis="2" yAxis="0">
+				<majx lc="#a0a0a4" lw="1" ls="0"/>
+				<minx lc="#a0a0a4" lw="1" ls="1"/>
+				<majy lc="#a0a0a4" lw="1" ls="0"/>
+				<miny lc="#a0a0a4" lw="1" ls="1"/>
+			</grid>
+			<curve type="1" z="21" table="Table3" x="e" y="Poison" from="0" to="-1" line="0" lc="#000000" lw="1" ls="0" brc="#000000" brs="0">
+				<symbol style="1" size="7" lc="#000000" lw="1" ls="0" brc="#000000"/>
+			</curve>
+			<curve type="1" z="22" table="Table3" x="e" y="VolCte" from="0" to="-1" line="0" lc="#ff0000" lw="1" ls="0" brc="#000000" brs="0">
+				<symbol style="2" size="7" lc="#ff0000" lw="1" ls="0" brc="#ff0000"/>
+			</curve>
+			<curve type="1" z="23" table="Table3" x="e" y="Medida" from="0" to="-1" line="0" lc="#00ff00" lw="1" ls="0" brc="#000000" brs="0">
+				<symbol style="3" size="7" lc="#00ff00" lw="1" ls="0" brc="#00ff00"/>
+			</curve>
+			<curve type="19" z="24" name="LinearFit1" f="0" y="A*x+B" from="-3.02102" to="-0.166419" points="2" line="1" lc="#ff0000" lw="1" ls="0" brc="#000000" brs="0">
+				<param name="A" val="1.86421822453874e-07"/>
+				<param name="B" val="1.13108799019234e-05"/>
+			</curve>
+			<curve type="19" z="25" name="LinearFit2" f="0" y="A*x+B" from="-3.02102" to="-0.166419" points="2" line="1" lc="#ff0000" lw="1" ls="0" brc="#000000" brs="0">
+				<param name="A" val="5.5666365156975e-08"/>
+				<param name="B" val="2.82772306787177e-06"/>
+			</curve>
+			<curve type="19" z="26" name="LinearFit3" f="0" y="A*x+B" from="-3.02102" to="-0.166419" points="2" line="1" lc="#ff0000" lw="1" ls="0" brc="#000000" brs="0">
+				<param name="A" val="7.15230709236647e-08"/>
+				<param name="B" val="1.01834465255787e-05"/>
+			</curve>
+			<axis id="0" on="1" type="0" format="0" prec="6" lw="1">
+				<div from="2e-06" to="1.2e-05" step="0" maj="6" min="5" type="0"/>
+				<ticks maj="1" majl="14" min="1" minl="8"/>
+				<title text="%(?Y)" color="#000000" font="Ubuntu,16.6816,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="61.375"/>
+				<labels space="4" font="Ubuntu,16.6816,-1,5,50,0,0,0,0,0"/>
+			</axis>
+			<axis id="1" on="1" type="0" format="0" prec="6" lw="1">
+				<div from="2e-06" to="1.2e-05" step="0" maj="6" min="5" type="0"/>
+				<ticks maj="1" majl="14" min="1" minl="8"/>
+				<title text="%(?Y)" color="#000000" font="Ubuntu,16.6816,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="61.375"/>
+				<labels space="4" font="Ubuntu,16.6816,-1,5,50,0,0,0,0,0"/>
+			</axis>
+			<axis id="2" on="1" type="0" format="0" prec="6" lw="1">
+				<div from="-3.5" to="0" step="0" maj="8" min="5" type="0"/>
+				<ticks maj="1" majl="14" min="1" minl="8"/>
+				<title text="%(?X)" color="#000000" font="Ubuntu,16.6816,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="61.6875"/>
+				<labels space="4" font="Ubuntu,16.6816,-1,5,50,0,0,0,0,0"/>
+			</axis>
+			<axis id="3" on="1" type="0" format="0" prec="6" lw="1">
+				<div from="-3.5" to="0" step="0" maj="8" min="5" type="0"/>
+				<ticks maj="1" majl="14" min="1" minl="8"/>
+				<title text="%(?X)" color="#000000" font="Ubuntu,16.6816,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="61.6875"/>
+				<labels space="4" font="Ubuntu,16.6816,-1,5,50,0,0,0,0,0"/>
+			</axis>
+			<item type="2" x="-3.41228070175439" y="1.16655518394649e-05" frame="1" lc="#000000" lw="1" ls="0" bg="#ffffff,0" onTop="1" at="0" on="1" auto="1" font="Ubuntu,16.6816,-1,5,50,0,0,0,0,0" text="\l(1)%(1)&#10;\l(2)%(2)&#10;\l(3)%(3)&#10;\l(4)%(4)&#10;\l(5)%(5)&#10;\l(6)%(6)"/>
+		</tab>
+	</window>
+	<window type="3" name="Graph7" date="2457920.412337" x="133" y="188" w="612" h="482" active="1" dpi="96">
+		<layout cw="604" ch="434" w="400" h="300" left="5" right="5" top="5" bottom="5" rows="1" cols="1" vSpace="5" hSpace="5" hAlign="0" vAlign="0" align="0" common="0" link="0" scale="1" sPrint="0" cmPrint="0" atUnits="1" atdIndex="0" atPolicy="4" alMode="0" luMode="2"/>
+		<tab x="5" y="5" w="594" h="424" autoscale="1" maxMajorTicks="20" gap="1" scaleFont="1">
+			<page x="0.00827815" y="0.0115207" w="0.983444" h="0.976959"/>
+			<title text="Title" color="#000000" font="Ubuntu,13,-1,5,75,0,0,0,0,0" align="4228" fmw="38.1719"/>
+			<frame bg="#ffffff,0"/>
+			<canvas x="102" y="79" w="400" h="300" fixRatio="0" bg="#ffffff,0"/>
+			<grid xAxis="2" yAxis="0">
+				<majx lc="#a0a0a4" lw="1" ls="0"/>
+				<minx lc="#a0a0a4" lw="1" ls="1"/>
+				<majy lc="#a0a0a4" lw="1" ls="0"/>
+				<miny lc="#a0a0a4" lw="1" ls="1"/>
+			</grid>
+			<curve type="1" z="21" table="Table3" x="e" y="Poison" from="0" to="-1" line="0" lc="#000000" lw="1" ls="0" brc="#000000" brs="0">
+				<symbol style="1" size="7" lc="#000000" lw="1" ls="0" brc="#000000"/>
+			</curve>
+			<curve type="1" z="22" table="Table3" x="e" y="Volcte movido" from="0" to="-1" line="0" lc="#ff0000" lw="1" ls="0" brc="#000000" brs="0">
+				<symbol style="2" size="7" lc="#ff0000" lw="1" ls="0" brc="#ff0000"/>
+			</curve>
+			<curve type="1" z="23" table="Table3" x="e" y="Medida movido" from="0" to="-1" line="0" lc="#00ff00" lw="1" ls="0" brc="#000000" brs="0">
+				<symbol style="3" size="7" lc="#00ff00" lw="1" ls="0" brc="#00ff00"/>
+			</curve>
+			<axis id="0" on="1" type="0" format="0" prec="6" lw="1">
+				<div from="1.07e-05" to="1.14e-05" step="0" maj="8" min="5" type="0"/>
+				<ticks maj="1" majl="9" min="1" minl="5"/>
+				<title text="%(?Y)" color="#000000" font="Ubuntu,11,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="42.1406"/>
+				<labels space="4" font="Ubuntu,11,-1,5,50,0,0,0,0,0"/>
+			</axis>
+			<axis id="1" on="1" type="0" format="0" prec="6" lw="1">
+				<div from="1.07e-05" to="1.14e-05" step="0" maj="8" min="5" type="0"/>
+				<ticks maj="1" majl="9" min="1" minl="5"/>
+				<title text="%(?Y)" color="#000000" font="Ubuntu,11,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="42.1406"/>
+				<labels space="4" font="Ubuntu,11,-1,5,50,0,0,0,0,0"/>
+			</axis>
+			<axis id="2" on="1" type="0" format="0" prec="6" lw="1">
+				<div from="-3.5" to="0" step="0" maj="8" min="5" type="0"/>
+				<ticks maj="1" majl="9" min="1" minl="5"/>
+				<title text="%(?X)" color="#000000" font="Ubuntu,11,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="41.3594"/>
+				<labels space="4" font="Ubuntu,11,-1,5,50,0,0,0,0,0"/>
+			</axis>
+			<axis id="3" on="1" type="0" format="0" prec="6" lw="1">
+				<div from="-3.5" to="0" step="0" maj="8" min="5" type="0"/>
+				<ticks maj="1" majl="9" min="1" minl="5"/>
+				<title text="%(?X)" color="#000000" font="Ubuntu,11,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="41.3594"/>
+				<labels space="4" font="Ubuntu,11,-1,5,50,0,0,0,0,0"/>
+			</axis>
+			<item type="2" x="-3.41228070175439" y="1.13765886287625e-05" frame="1" lc="#000000" lw="1" ls="0" bg="#ffffff,0" onTop="1" at="0" on="1" auto="1" font="Ubuntu,11,-1,5,50,0,0,0,0,0" text="\l(1)%(1)&#10;\l(2)%(2)&#10;\l(3)%(3)"/>
 		</tab>
 	</window>
 </qti>
