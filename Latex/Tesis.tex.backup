@@ -654,7 +654,7 @@ lingote de la aleación buscada la cual se pesó para cuantificar la cantidad de
 Antes de ser utilizada, la aleación ya fabricada se sumergió en una solución de $50 \%$ ácido nítrico (al $65 \%$) y 
 $50 \%$ agua para quitar óxidos e impurezas que hayan quedado del proceso de fundición hasta que se observó una superficie más limpia y brillante.
 
-\section{Reducción del tamaño de grano}
+\section{Reducción del tamaño de grano} \label{FabClavos}
 
 Para que las agujas de martensita no tengan tantos obstáculos que impidan su crecimiento, se busca un tamaño de grano relativamente grande. Por otro 
 lado, al someter la estructura de las esponjas a esfuerzos de compresión, si el grano es muy grande se producen fisuras intergranulares. Esto genera 
@@ -662,29 +662,7 @@ una disminución en las propiedades de memoria de forma. También se busca un me
 El principal método de endurecimiento de estas aleaciones es el refinamiento de la estructura por medio de trabajado mecánico. Como la estructura 
 celular de las esponjas se obtiene en la solidificación del metal fundido, resulta evidente que no es posible utilizar este método, quedando como 
 única opción el agregado de algún compuesto refinador. A partir de la bibliografía consultada se concluyó que el 
-mejor compuesto a utilizar es el boro, el cual se agregó como $AlB_2$ en forma de polvo. Se utilizaron diferentes métodos para realizar la mezcla:
-\begin{description}
-\item[Método I:] Se colocó dentro de una ampolla de cuarzo una porción de la aleación, polvo de $AlB_2$ envuelvo en papel de aluminio y una porción de 
-cobre para contrarrestar el cambio en la composición por el aluminio. La ampolla se cerró con una atmósfera de argón y se fundió en un horno de inducción obteniéndose un botón como muestra la figura $****Foto de un botón****$.
-
-
-
-\item[Método II:] Se prensaron pastillas de aproximadamente $4mm$ de diámetro y $4mm$ de alto de viruta de la aleación y polvo de $AlB_2$. Se 
-colocaron todas las pastillas en una ampolla de cuarzo con una atmósfera de argón. Por último se fundió en un horno resistivo a una temperatura superior 
-a la temperatura de fusión de la aleación. Se obtuvo un botón como que se mostró en el $Método I$.
-\item[Método III:] Para este tercer método se utilizó un molino de bolas. Este equipo posee una cámara de acero endurecido de aproximadamente $20 cm$ de diámetro y $2,9 cm$ de alto. Adentro de la cámara de molienda se colocó viruta de aleación y $5$ bolillas de acero de $22,5 mm$ de diámetro, quedando una relación volumen de bolillas y cantidad de material de aproximadamente $42$. Además dentro de la cámara se utilizó una atmósfera con sobre presión de argón de 
-$5 atm$ para evitar que el polvo se oxide en la molienda.
-Se molieron $8g$ de la aleación en forma de viruta con distintas cantidades de $AlB_2$.  Una vez finalizada la molienda se retiró el argón, y 
-como la aleación se pega a las paredes y bolillas fue necesario retirarlo con una herramienta raspando los bordes.
-Luego se retiró el polvo ya molido de la cámara y se prensaron pastillas de $4mm$ de diámetro y $4mm$ de alto. Se colocaron las pastillas alineadas en un tubo de cuarzo de $6 mm$ de diámetro y se fundió en un horno resistivo para obtener un clavo de $6 mm$ de diámetro y $60 mm$ de largo.
-\item[Método IV:] Se realizó el mismo procedimiento que en el $Método III$. Esta vez se colocó el polvo suelto en el tubo de cuarzo, como puede verse en la foto $***Foto****$ y se colocó una única pastilla en la parte superior para que evitar la pérdida de polvo al hacerse vacío para luego llenar con argón. El conjunto se fundió en un horno resistivo y se obtuvo un clavo de $6 mm$ de diámetro y $60 mm$ de largo 
-\end{description}
-
-Acá va una tabla con el detalle de las composiciones
-
-%TODO Tabla con las distintas cantidades de aleación y refinador
-
-
+mejor compuesto a utilizar es el boro, el cual se agregó como $AlB_2$ en forma de polvo. En la tabla $******llamada a la tala*****$ se detallan las composiciones de cada una de las muestras fabricadas. 
 
 \begin{table} %\label{tab:mstab}
 \begin{center}
@@ -704,6 +682,33 @@ Clavo 4 & 8 & - & - & 0,005 & 0,005 &IV & Horno Resistivo \\
 
 \end{center}
 \end{table}
+
+A continuación se detalla el procedimiento que se llevó a cabo para fabricar cada una de las muestras.
+
+
+\begin{description}
+\item[Método I:] Se colocó dentro de una ampolla de cuarzo aproximadamnte $25 g$ de la aleación, polvo de $AlB_2$ envuelvo en papel de aluminio y una porción de 
+cobre para contrarrestar el cambio en la composición por el aluminio. La ampolla se cerró con una atmósfera de argón y se fundió en un horno de inducción obteniéndose un botón como muestra la figura \ref{fig:boton}.
+
+\item[Método II:] Se prensaron pastillas de aproximadamente $4 mm$ de diámetro y $4 mm$ de alto de viruta de la aleación y polvo de $AlB_2$. Se 
+colocaron todas las pastillas en una ampolla de cuarzo con una atmósfera de argón. Por último se fundió en un horno resistivo a una temperatura superior 
+a la temperatura de fusión de la aleación. Se obtuvo un botón como que se mostró en el $Método I$.
+
+\item[Método III:] Para este tercer método se utilizó un molino de bolas. Este equipo posee una cámara de acero endurecido de aproximadamente $20 cm$ de diámetro y $2,9 cm$ de alto. Adentro de la cámara de molienda se colocó viruta de aleación y $5$ bolillas de acero de $22,5 mm$ de diámetro, quedando una relación volumen de bolillas y cantidad de material de aproximadamente $42$. Además dentro de la cámara se utilizó una atmósfera con sobre presión de argón de $5 atm$ para evitar que el polvo se oxide en la molienda.
+Se molieron $8g$ de la aleación en forma de viruta con distintas cantidades de $AlB_2$.  Una vez finalizada la molienda se retiró el argón, y 
+como la aleación se pega a las paredes y bolillas fue necesario retirarlo con una herramienta raspando los bordes.
+Luego se retiró el polvo ya molido de la cámara y se prensaron pastillas de $4mm$ de diámetro y $4mm$ de alto. Se colocaron las pastillas alineadas en un tubo de cuarzo de $6 mm$ de diámetro y se fundió en un horno resistivo para obtener un clavo de $6 mm$ de diámetro y $60 mm$ de largo.
+
+\item[Método IV:] Se realizó el mismo procedimiento que en el $Método III$. Esta vez se colocó el polvo suelto en el tubo de cuarzo, como puede verse en la foto $***Foto****$ y se colocó una única pastilla en la parte superior para que evitar la pérdida de polvo al hacerse vacío para luego llenar con argón. El conjunto se fundió en un horno resistivo y se obtuvo un clavo de $6 mm$ de diámetro y $60 mm$ de largo 
+\end{description}
+
+Acá va una tabla con el detalle de las composiciones
+
+%TODO Tabla con las distintas cantidades de aleación y refinador
+
+
+
+
 
 % \begin{table} \label{tab:muestras}
 % \begin{center}
@@ -949,38 +954,95 @@ DESPUÉS AGREGO EN UN APÉNDICE EL DETALLE DE LOS CÁLCULOS QUE MUESTRA QUE SON 
 
 \section{Tamaño de grano}
 
-\begin{itemize}
-\item[$\circ$] En primer lugar se colocó en una ampolla una muestra de la aleación y se agregó $AlB_2$ envuelto en papel de aluminio, para evitar que al 
-realizar vacío en la ampolla el mismo sea succionado por el equipo. También se agrego Cu para compensar la composición de la aleación. No se agregó Zn 
-ya que la proporción en la aleación es muy baja y no se veía significativamente afectado. Se realizó la fundición con un horno de inducción. A partir 
-de un análisis metalográfico se concluyó que no se obtuvo un refinamiento significativo del tamaño de grano. Esto puede deberse a que el $AlB_2$ no se 
-mezcló completamente.
-\item[$\circ$] Para intentar mejorar la incorporación del $AlB_2$ y no agregar otros compuestos que modifiquen la composición de la aleación (Al y Cu) 
-se fabricaron pastillas prensando virutas de la aleación ya fabricada y el polvo de $AlB_2$. Se colocaron en una ampolla las pastillas prensadas y un 
-pedazo de aleación. Esta vez se realizó la fundición en un horno resistivo buscando tener un mayor control de la temperatura. El resultado fue un botón 
-de la aleación rodeado del polvo refinador que no fue incorporado por la misma. 
-\item[$\circ$] Buscando mejorar la incorporación del refinador se fabricó viruta de la aleación, se mezcló con el $AlB_2$ y se realizó una molienda de 
-la mezcla con bolas de acero en una atmósfera de argón para intentar inducir la mezcla por los esfuerzos mecánicos. También se produjo un refinamiento 
-del $AlB_2$, lo cual podría ser un factor que ayude a la incorporación. Finalizada la moliendo se obtuvo un polvo muy fino, el cual se prensó como 
-pastillas, se colocaron en un tubo de cuarzo con atmósfera de Ar y se fundieron en un horno resistivo. Como resultado se obtuvo un clavo de aproximadamente 
-6 mm de diámetro donde en sectores se distingue que el metal escurrió dejando el polvo refinador como ocurrió en las muestras anteriores. En otros 
-sectores más homogéneos se encontró una significativa disminución del tamaño de grano. De este segmento se obtuvo una probeta 
-cilíndrica por electro erosión y se realizaron ensayos de compresión. %\textbf{resultados de mañana??}
-\end{itemize}
+
+\begin{table} \label{tab:ResClavos}
+\begin{center}
+\begin{tabular}{@{}lllll@{}} \toprule
+Muestra & $wt \% AlB_2$ & Método & $\bar{tg} (mm)$ & $\sigma$ \\ \midrule
+Clavo 5 &  -   & - & 0.5934 & 0.2996   \\
+L1B1    &  0,005 & I   & 0.3113 & 0.2156  \\
+Clavo 1 &  0,5   & III & 0.1625 & 0.0757   \\
+Clavo 2 &  0,05  & III & 0.1018 & 0.05236   \\
+Clavo 3 &  -     & IV  & 0.1099  & 0.05384   \\
+Clavo 4 &  0,005 & IV  & 0.06847 & 0.0261   \\
+\bottomrule
+\end{tabular}
+\caption{Distintas muestras fabricada con su respectivo método de fabricación, valor medio de tamaño de grano y desviación media de la distribución.}
+\end{center}
+\end{table}
+
+
+En el cuadro \ref{tab:ResClavos} se muestran los tamaños de grano ($\bar{tg} (mm)$) que se obtuvieron en cada muestra de las que se describieron en la sección \ref{FabClavos}. También se muestra la desviación media de la distribución de tamaño de grano ($\sigma$). En el gráfico $***grafico tamaños****$ se esquematizan estos mismos resultados.
+
+ \begin{figure}[h]
+ \centering
+ \includegraphics[width=0.9\textwidth]{Img/Resultados/clavos/TamGranos.jpg}
+ \caption{Dispositivo de compresión utilizado en los ensayos} 
+ \label{fig:tamanos}
+ \end{figure}
+
+Las muestra $L1B1$ y $L1B2$, para la cual se mezcló el polvo refinador y una porción de aleación, no incorporó correctamente el $AlB_2$. Como resultado quedó un botón de la aleación rodeado por el polvo refinador suelto. Luego de realizar un corte transversal y el pulido de la superficie no se observó una disminución significativa del tamaño de grano. Además el tamaño de grano es muy variado, con granos de hasta medio milímetro de diámetro.  
+
+En botón $L2B1$, se fabricó fundiendo pastillas pastillas de viruta de aleación y polvo de $AlB_2$ prensado. Se observó que la aleación escurrió, formando un botón como los citados anteriormente, y junto al botón quedaron las pastillas conteniendo todo el polvo refinador y prácticamente nada de la viruta de aleación. El botón tampoco presentó un refinamiento significativo del tamaño de grano.
+
+El botón $L2B2$ se fabricó igual al botón $L2B1$. La única diferencia en el procedimiento fue que la temperatura utilizada para fundir se controló para no llegar a la transformación $AlB_2 \rightarrow AlB_{12}$, en caso de que esta transformación tenga algún efecto en la incorporación del refinador. Nuevamente el refinador no fue incorporado y no se vio una reducción significativa del tamaño de grano. También se realizó un corte del botón y se analizó con microscopía SEM para ver si se encontraba alguna partícula de $AlB_2$. No se encontró $AlB_2$ en las micrografías por lo que se corroboró que el polvo refinador no fue incorporado por la aleación.
+
+Viendo estos resultados se concluyó que el refinador no puede incorporarse de manera sencilla a la aleación. Por este motivo se realizó la molienda de la aleación junto al polvo refinador. De esta manera se favoreció la incorporación por la mezcla, y además se produciría un refinamiento del $AlB_2$ lo cual ayudaría aún mas. Se analizó el polvo obtenido en la molienda con microscopía SEM. Se realizaron análisis de topografía y de composición con electrones $***retrodifundidos????****$ pero no fué posible identificar partículas del polvo refinador. Llegamos a la conclusión de que esto puede deberse a la formación de una fina capa de óxido que recubre superficie de cada partícula. Luego se fabricó el $Clavo 1$, se prensaron pastillas con el polvo obtenido de la molienda, como se muestra en la Figura $*pastillas de polvo del molino*$. Como se muestra en la figura $** figuras del calvo 1 ***$, al fundirlas se observó nuevamente que la aleación escurrió, quedando las pastillas con el polvo refinador y el metal escurrido en la superficie. Se hizo un corte transversal al clavo, y en la zona donde había escurrido la aleación se observo el primer refinamiento marcado del tamaño de grano. Además, si bien hay tamaños de granos variados, el ancho de la distribución también disminuyó. En la figura \ref{fig:Clavo1} (a) puede verse el Clavo 1 obtenido con el método explicado anteriormente. Se distinguen las pastillas con refinador y la aleación que escurrió envolviendo las pastillas. En la figura $(b)$ se ve un corte transversal del $Clavo 1$. En la parte izquierda se ve claramente la geometría de la pastilla compuesta principalmente por el polvo refinador y muy pocos granos pequeños de la aleación. A la derecha se distingue claramente la aleación que quedó envolviendo las pastillas. En la figura $(c)$ se muestra una imagen tomada con un microscopio SEM con $electrones retrodispersados????$ donde se distingue la diferencia en la composición de la aleación y la zona donde quedó acumulado el polvo refinador. En la figura (d) se ven los granos de la aleación y se distinguen partículas del polvo refinador que si quedaron distribuidos en la aleación. Los círculos más grandes son pequeños poros que luego aumentaron su tamaño al realizar el pulido químico con ácido nítrico al $50 \%$.
+
+Luego del resultado obtenido con el $Clavo 1$, se fabricó el $Clavo 2$ siguiendo la misma metodología, pero esta vez se utilizó una cantidad diez veces menor de polvo refinador. Nuevamente quedaron las pastillas, esta vez con menos polvo, y el metal escurrió hacia el exterior. Además de perder la aleación, las superficies en las que hacen contacto las pastillas no se adhieren correctamente, quedando como un punto muy débil en la estructura muy propenso a fisuras. Nuevamente se observó un refinamiento de la estructura en los lugares donde la aleación escurrió.
+
+A partir de los resultados obtenidos hasta esta instancia se concluyó que no es favorble realizar el prensado en pastillas de la aleación. Como el $Clavo 2$, el cual tiene diez veces menos refinador que el $Clavo 1$, pero presenta un menor tamaño de grano, se fabrico el $Clavo 3$. Esta muestra consistía únicamente en la molienda de la aleación y sin polvo refinador. Además el polvo obtenido de la molienda se colocó suelto en el tubo de cuarzo. Se obtuvo un clavo como lo anteriores, y también presentó un tamaño de grano pequeños similar a los $Clavos 1$ y $2$. Se concluyó que este refinamiento se debe a la formación de óxidos en la fabricación de la viruta de la aleación y posterior molienda en el molino de bolas. El único defecto que se encontró en esta muestra es la presencia de porosidad, que puede deberse a la baja densidad del polvo en el tubo de cuarzo, que no se compacta adecuadamente al fundirse. Además se ven en algunas zonas manchas de un tono un poco más oscuras al tono que presenta el resto de la muestra, que se deben a la aglomeración de óxidos. Estas manchas pueden actuar como una zona con tendencia a fisurarse cuando se someta la muestra a ensayos mecánicos. 
+
+Por último, se fabricó un clavo con $0.005 g$ (la menor cantidad de refinador utilizada hasta el momento). Además el polvo refinador se colocó suelto en el tubo de cuarzo al igual que en el $Clavo 3$. Se obtuvo el menor tamaño de grano y también la distribución mas estrecha. Al igual que en el $Clavo 3$, la muestra presentaba porosidad y algunas manchas que pueden deberse a la aglomeración de óxido y también partículas de $AlB_2$.
+
+Todas estas muestras se compararon con un clavo fabricado anteriormente por el grupo de investigación. Esta muestra, que llamamos $Clavo 5$, fue fabricada únicamente por la aleación, sin un proceso de molienda ni el agregado de refinador. Como se ve en el $cuadro con tamaños$ es la muestra con el mayor tamaño de grano y el mayor ancho de distribución también.   
 
 
 
-
-\begin{description}
- \item[L1B1 y L2B2:] La aleación se fundió pero no incorporó el refinador en la aleación. No se vio una disminución en el tamaño de grano.
- \item[L2B1 y L2B2:] en el botón uno no se incorporó el $AlB_2$. Además en el lingote quedaron pegadas las pastillas con el polvo que perdieron la aleación. El boton dos lo fabricamos igual pero controlamos la temperatura para que el polvo no transforme. No se vio reducción en el tamaño de grano. \item[Clavo 1] Se cortaron secciones para ver el tamaño de grano. Quedaron las pastillas con el polvo que perdieron aleación. entre $50-200 \mu$.
- \item[Clavo 2] Tamaño entre $50 y 250 \mu$. Hay más cantidad de granos pequeños. Quedaron pastillas que perdieron aleación. 
- \item[Clavo 3]
- \item[Clavo 4] Granos entre $50 y 100 \mu$ La estructura es muy porosa y hay "cúmulos" de óxidos.  
- \end{description}
-
- Falta ver 
-
+  \begin{figure} \label{fig:Clavo1}
+    \centering
+    \begin{subfigure}{0.4\textwidth}
+        \includegraphics[width=\textwidth]{Img/Resultados/clavos/Clavo1_Foto2.jpg}
+	\caption{Foto de la muestra Clavo 1 luego de realizar la fundición de las pastillas}. 
+	\label{fig: FotoClavo1}
+    \end{subfigure}
+    ~ %add desired spacing between images, e. g. ~, \quad, \qquad, \hfill etc. 
+      %(or a blank line to force the subfigure onto a new line)
+    \begin{subfigure}{0.4\textwidth}
+        \includegraphics[width=\textwidth]{Img/Resultados/clavos/Clavo1.jpg}
+        \caption{Corte transversal del clavo 1}
+        \label{fig:MicroClavo1}
+    \end{subfigure}
+        \begin{subfigure}{0.4\textwidth}
+        \includegraphics[width=\textwidth]{Img/Resultados/clavos/Clavo1Retro.jpg}
+        \caption{Corte transversal del clavo 1}
+        \label{fig:MicroClavo1}
+    \end{subfigure}
+        \begin{subfigure}{0.4\textwidth}
+        \includegraphics[width=\textwidth]{Img/Resultados/clavos/Clavo1Retro2.jpg}
+        \caption{Corte transversal del clavo 1}
+        \label{fig:MicroClavo1}
+    \end{subfigure}
+    \caption{En la figura (a) puede verse el Clavo 1 obtenido con el método explicado anteriormente luego de realizada la fundición de las pastillas. En la figura $(b)$ se ve una micrografía de un corte transversal Del clavo 1. En la figura $(c)$ y $(d)$ se muestran dos imágnes tomadas con un microscopio SEM con $electrones retrodispersados????$ donde se distingue la diferencia en la composición de la aleación y la zona donde quedó acumulado el polvo refinador. En la figura (d) se ven los granos de la aleación y se distinguen partículas del polvo refinador que si quedaron distribuidos en la aleación. Los círculos más grandes son pequeños poros que luego aumentaron su tamaño al realizar el pulido químico con ácido nítrico al $50 \%$.}
+    \end{figure}
+ 
+ 
+ 
+%  
+%  \item[Clavo 2] Las pastillas fabricadas a partir de la compresión de aleación y refinador molidos perdieron nuevamente la aleación. El hecho de prensarlas le otorga al polvo una determinada disposición en las pastillas que impide su incorporación a la aleación, y por el contrario la expulsa. El tamaño de grano en las secciones con aleación sufrió un refinamiento de grano mayor al ocurrido en el Clavo 1. También se redujo la desviación media del tamaño de grano.   
+%  \item[Clavo 3] Junto al Clavo 4 es la muestra con mayor reducción del tamaño de grano. También posee un ancho de distribución de tamaños relativamente pequeña.
+%  \item[Clavo 4] Al fundirse en forma de polvo, sin compactar, la aleación incorporó correctamente el polvo de $AlB_2$. La estructura posee el menor tamaño de grano y la distribución de tamaños es la más angosta junto al Clavo 3. Por otro lado la estructura presenta gran cantidad de pequeños poros y en algunas secciones se distinguen aglomerados de lo que puede ser polvo refinador y óxido formado en la fabricación de viruta y posterior molienda.   
+%  \end{description}
+% 
+% En la figura \ref{fig:tamanos} se muestra el valor medio del tamaño de grano de todas las muestras fabricadas. Además se muestra con una barra la desviación media de la distribución de tamaños de grano. El clavo 5 es el que presenta el mayor tamaño de grano y también la mayor dispersión de tamaños. Luego le sigue el botón 1 (L1B1) el cual tiene un menor tamaño de grano pero no llega a los valores buscados. Esto se debe a que no se incorporó el polvo refinador a la aleación. El clavo 1 es el primero que alcanza una disminución notable del tamaño de grano.
+% 
+% Como primer resultado podemos concluir que el refinador no puede mezclarse a la aleación fundida ya que no es incorporado correctamente. Además el prensado de pastillas tanto de viruta como de la molienda de aleación más refinador no es útil, ya que el metal se escurre y el $AlB_2$ tampoco se incorporan a la aleación. Se llegó a la conclusión de que el mejor método es colocando el polvo de la molienda directamente n el tubo de cuarzo y fundir sin prensado previo. Esto posibilita la movilidad del $AlB_2$ aunque en algunas regiones se observan pequeñas manchas de color más oscuras las cuales se deben a aglomeraciones de $AlB_2$ y óxidos. El mejor resultado se obtuvo con los Clavos 3 y 4. Se concluyó que el mejor método es utilizar una pequeña cantidad de $AlB_2$, por ejemplo $0.005 \%$ ya que una vez fabricado el lingote, se realizaran otras etapas de fundición. Tener un poco de refinador ayudará a que en los procesamientos posteriores, como la fundición y solidificación lenta en la fabricación de esponjas el tamaño de grano vuelva a crecer.
+% 
+% 
+%  
+%  A partir de este resultado se molieron $50 g$ de aleación con un $0.005\%$ de $AlB_2$, en tandas de $8 g \%$. Una vez obtenida la cantidad total de polvo necesaria se fundió en una ampolla de cuarzo y atmósfera de argón.  
+%  
+ 
 \section{Variación de Resistencia por deformación en Cu}
 
 En el gráfico \ref{fig:ResDefCu} puede verse en rojo la variación teórica de la resistencia a medida que la probeta de Cu se comprime y varía su volumen (por el módulo de Poisson).
