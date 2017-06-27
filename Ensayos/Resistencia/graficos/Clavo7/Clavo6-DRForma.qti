@@ -92,19 +92,19 @@
 			<col name="R'1" type="6" num="0" prec="6" plot="2" width="100" formula="col(&quot;RMart&quot;)*(1/((1+col(&quot;StrainM&quot;))^2))" stat="0" comment="Rm(1/(1+e)²)" muparser="1" data="1.9218576375387e-05;1.14308744331066e-06;9.98739760554505e-07;2.79286694101509e-05;"/>
 			<col name="Tensión" type="6" num="0" prec="6" plot="1" width="100" stat="0" data="0;450;800;50;"/>
 			<col name="DeltaR" type="6" num="0" prec="13" plot="2" width="100" formula="col(&quot;Rprima&quot;)-col(&quot;RA&quot;)" stat="0" comment="R'-Ra" muparser="1" data="-3.0341200585306e-05;-3.37284499815161e-05;-3.14694851667309e-05;-2.77854551643245e-05;"/>
-			<col name="Factor Forma" type="6" num="0" prec="13" plot="1" width="100" formula="(1/((1+col(&quot;StrainM&quot;))^2))" stat="0" comment="1/(1+e)²" muparser="1" data="0.329536631951081;0.0221442743764172;0.0210039907582441;0.548696844993141;"/>
+			<col name="Factor Forma" type="6" num="0" prec="13" plot="1" width="100" formula="(1/((1+(col(&quot;StrainM&quot;)/100))^2))" stat="0" comment="1/(1+e)²" muparser="1" data="0.985323550148293;1.17431559477958;1.17891023895332;0.993036579247174;"/>
 			<col name="R'" type="6" num="0" prec="13" plot="2" width="100" stat="0" comment="R'" data="1.92186e-05;1.14309e-06;9.9874e-07;2.79287e-05;"/>
 			<col name="RmartMedida" type="6" num="0" prec="13" plot="2" width="100" stat="0" comment="Medida" data="5.832e-05;5.162e-05;4.755e-05;5.09e-05;"/>
 			<col name="R'-Ra" type="6" num="0" prec="13" plot="2" width="100" stat="0" data="-3.034120058531e-05;-3.372844998152e-05;-3.146948516673e-05;-2.778545516432e-05;"/>
 		</tab>
 	</window>
 	<window type="3" name="Graph1" date="2457918.5874514" w="1184" h="855" state="1" dpi="96">
-		<layout cw="510" ch="410" w="400" h="300" left="5" right="5" top="5" bottom="5" rows="1" cols="1" vSpace="5" hSpace="5" hAlign="0" vAlign="0" align="0" common="0" link="0" scale="1" sPrint="0" cmPrint="0" atUnits="1" atdIndex="0" atPolicy="4" alMode="0" luMode="2"/>
-		<tab x="10" y="9" w="1155" h="788" autoscale="1" maxMajorTicks="20" gap="1" scaleFont="1">
-			<page x="0.0196078" y="0.0219512" w="2.26471" h="1.92195"/>
-			<title text="Title" color="#000000" font="Ubuntu,24.1604,-1,5,75,0,0,0,0,0" align="4228" fmw="71.875"/>
+		<layout cw="1176" ch="807" w="400" h="300" left="5" right="5" top="5" bottom="5" rows="1" cols="1" vSpace="5" hSpace="5" hAlign="0" vAlign="0" align="0" common="0" link="0" scale="1" sPrint="0" cmPrint="0" atUnits="1" atdIndex="0" atPolicy="4" alMode="0" luMode="2"/>
+		<tab x="24" y="18" w="2663" h="1551" autoscale="1" maxMajorTicks="20" gap="1" scaleFont="1">
+			<page x="0.0204082" y="0.0223048" w="2.26446" h="1.92193"/>
+			<title text="Title" color="#000000" font="Ubuntu,47.5543,-1,5,75,0,0,0,0,0" align="4228" fmw="141.531"/>
 			<frame bg="#ffffff,0"/>
-			<canvas x="147" y="135" w="880" h="578" fixRatio="0" bg="#ffffff,0"/>
+			<canvas x="290" y="254" w="2131" h="1155" fixRatio="0" bg="#ffffff,0"/>
 			<grid xAxis="2" yAxis="0">
 				<majx lc="#a0a0a4" lw="1" ls="0"/>
 				<minx lc="#a0a0a4" lw="1" ls="1"/>
@@ -117,29 +117,29 @@
 			<curve type="0" z="24" table="Clavo7d" x="5" y="VpromS" from="0" to="-1" line="1" lc="#0000ff" lw="2" ls="0" brc="#000000" brs="0"/>
 			<axis id="0" on="1" type="0" format="0" prec="6" lw="1">
 				<div from="0.0075" to="0.011" step="0" maj="8" min="5" type="0"/>
-				<ticks maj="1" majl="17" min="1" minl="9"/>
-				<title text="%(?Y)" color="#000000" font="Ubuntu,20.4434,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="75.125"/>
-				<labels space="4" font="Ubuntu,20.4434,-1,5,50,0,0,0,0,0"/>
+				<ticks maj="1" majl="33" min="1" minl="18"/>
+				<title text="%(?Y)" color="#000000" font="Ubuntu,40.2382,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="150.25"/>
+				<labels space="4" font="Ubuntu,40.2382,-1,5,50,0,0,0,0,0"/>
 			</axis>
 			<axis id="1" on="1" type="0" format="0" prec="6" lw="1">
 				<div from="0.0082" to="0.0094" step="0" maj="7" min="5" type="0"/>
-				<ticks maj="1" majl="17" min="1" minl="9"/>
-				<title text="%(?Y)" color="#000000" font="Ubuntu,20.4434,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="75.125"/>
-				<labels space="4" font="Ubuntu,20.4434,-1,5,50,0,0,0,0,0"/>
+				<ticks maj="1" majl="33" min="1" minl="18"/>
+				<title text="%(?Y)" color="#000000" font="Ubuntu,40.2382,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="150.25"/>
+				<labels space="4" font="Ubuntu,40.2382,-1,5,50,0,0,0,0,0"/>
 			</axis>
 			<axis id="2" on="1" type="0" format="0" prec="6" lw="1">
 				<div from="-40" to="60" step="0" maj="6" min="5" type="0"/>
-				<ticks maj="1" majl="17" min="1" minl="9"/>
-				<title text="%(?X)" color="#000000" font="Ubuntu,20.4434,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="75.5"/>
-				<labels space="4" font="Ubuntu,20.4434,-1,5,50,0,0,0,0,0"/>
+				<ticks maj="1" majl="33" min="1" minl="18"/>
+				<title text="%(?X)" color="#000000" font="Ubuntu,40.2382,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="150"/>
+				<labels space="4" font="Ubuntu,40.2382,-1,5,50,0,0,0,0,0"/>
 			</axis>
 			<axis id="3" on="1" type="0" format="0" prec="6" lw="1">
 				<div from="-20" to="50" step="0" maj="8" min="5" type="0"/>
-				<ticks maj="1" majl="17" min="1" minl="9"/>
-				<title text="%(?X)" color="#000000" font="Ubuntu,20.4434,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="75.5"/>
-				<labels space="4" font="Ubuntu,20.4434,-1,5,50,0,0,0,0,0"/>
+				<ticks maj="1" majl="33" min="1" minl="18"/>
+				<title text="%(?X)" color="#000000" font="Ubuntu,40.2382,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="150"/>
+				<labels space="4" font="Ubuntu,40.2382,-1,5,50,0,0,0,0,0"/>
 			</axis>
-			<item type="2" x="38.6120591581342" y="0.0108908145580589" frame="1" lc="#000000" lw="1" ls="0" bg="#ffffff,0" onTop="1" at="0" on="1" auto="1" font="Ubuntu,13,-1,5,50,0,0,0,0,0" text="\l(1)%(1) A 0&#10;\l(2)%(2) B 450&#10;\l(3)%(3) C 800&#10;\l(4)%(4) D 50"/>
+			<item type="2" x="38.5915492957746" y="0.0108908145580589" frame="1" lc="#000000" lw="1" ls="0" bg="#ffffff,0" onTop="1" at="0" on="1" auto="1" font="Ubuntu,25.5876,-1,5,50,0,0,0,0,0" text="\l(1)%(1) A 0&#10;\l(2)%(2) B 450&#10;\l(3)%(3) C 800&#10;\l(4)%(4) D 50"/>
 		</tab>
 	</window>
 	<window type="3" name="a" date="2457920.4304665" w="952" h="586" state="1" dpi="96">
@@ -342,13 +342,13 @@
 			<item type="2" x="-27.9487179487179" y="0.0103996655518395" frame="1" lc="#000000" lw="1" ls="0" bg="#ffffff,0" onTop="1" at="0" on="1" auto="1" font="Ubuntu,11,-1,5,50,0,0,0,0,0" text="\l(1)%(1)&#10;\l(2)%(2)&#10;\l(3)%(3)&#10;\l(4)%(4)"/>
 		</tab>
 	</window>
-	<window type="3" name="Graph2" date="2457920.470165" x="773" y="0" w="979" h="585" dpi="96">
+	<window type="3" name="Graph2" date="2457920.470165" x="783" y="158" w="979" h="585" dpi="96">
 		<layout cw="971" ch="537" w="400" h="300" left="5" right="5" top="5" bottom="5" rows="1" cols="1" vSpace="5" hSpace="5" hAlign="0" vAlign="0" align="0" common="0" link="0" scale="1" sPrint="0" cmPrint="0" atUnits="1" atdIndex="0" atPolicy="4" alMode="0" luMode="2"/>
-		<tab x="8" y="6" w="955" h="525" autoscale="1" maxMajorTicks="20" gap="1" scaleFont="1">
-			<page x="0.00823893" y="0.0111732" w="0.983522" h="0.977654"/>
+		<tab x="0" y="2" w="955" h="525" autoscale="1" maxMajorTicks="20" gap="1" scaleFont="1">
+			<page x="0" y="0.00372439" w="0.983522" h="0.977654"/>
 			<title text="Title" color="#000000" font="Ubuntu,16.0967,-1,5,75,0,0,0,0,0" align="4228" fmw="47.1406"/>
 			<frame bg="#ffffff,0"/>
-			<canvas x="122" y="94" w="737" h="379" fixRatio="0" bg="#ffffff,0"/>
+			<canvas x="114" y="90" w="737" h="379" fixRatio="0" bg="#ffffff,0"/>
 			<grid xAxis="2" yAxis="0">
 				<majx lc="#a0a0a4" lw="1" ls="0"/>
 				<minx lc="#a0a0a4" lw="1" ls="1"/>
@@ -356,10 +356,10 @@
 				<miny lc="#a0a0a4" lw="1" ls="1"/>
 			</grid>
 			<curve type="1" z="21" table="Table2" x="Tensión" y="DeltaR" from="0" to="-1" line="0" lc="#000000" lw="1" ls="0" brc="#000000" brs="0">
-				<symbol style="1" size="7" lc="#000000" lw="1" ls="0" brc="#000000"/>
+				<symbol style="1" size="11" lc="#000000" lw="1" ls="0" brc="#000000"/>
 			</curve>
 			<curve type="1" z="22" table="Table2" x="Tension2" y="R'1" from="0" to="-1" line="0" lc="#ff0000" lw="1" ls="0" brc="#000000" brs="0" yAxis="1">
-				<symbol style="1" size="5" lc="#ff0000" lw="1" ls="0" brc="#ff0000"/>
+				<symbol style="1" size="11" lc="#ff0000" lw="1" ls="0" brc="#ff0000"/>
 			</curve>
 			<axis id="0" on="1" type="0" format="0" prec="6" lw="1">
 				<div from="-3.4e-05" to="-2.7e-05" step="0" maj="8" min="5" type="0"/>
@@ -385,10 +385,10 @@
 				<title text="%(?X)" color="#000000" font="Ubuntu,13.6203,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="49.6562"/>
 				<labels space="4" font="Ubuntu,13.6203,-1,5,50,0,0,0,0,0"/>
 			</axis>
-			<item type="2" x="603.804347826087" y="-2.74444444444444e-05" frame="1" lc="#000000" lw="1" ls="0" bg="#ffffff,0" onTop="1" at="0" on="1" auto="1" font="Ubuntu,13.6203,-1,5,50,0,0,0,0,0" text="\l(1)%(1)&#10;\l(2)%(2)"/>
+			<item type="2" x="843.478260869565" y="-2.72777777777778e-05" frame="1" lc="#000000" lw="1" ls="0" bg="#ffffff,0" onTop="1" at="0" on="1" auto="1" font="Ubuntu,13.6203,-1,5,50,0,0,0,0,0" text="\l(1) R'-Ra&#10;\l(2)%(2)"/>
 		</tab>
 	</window>
-	<window type="3" name="Graph3" date="2457920.4764503" x="1162" y="473" w="596" h="482" dpi="96">
+	<window type="3" name="Graph3" date="2457920.4764503" x="95" y="326" w="596" h="482" dpi="96">
 		<layout cw="588" ch="434" w="400" h="300" left="5" right="5" top="5" bottom="5" rows="1" cols="1" vSpace="5" hSpace="5" hAlign="0" vAlign="0" align="0" common="0" link="0" scale="1" sPrint="0" cmPrint="0" atUnits="1" atdIndex="0" atPolicy="4" alMode="0" luMode="2"/>
 		<tab x="9" y="5" w="574" h="424" autoscale="1" maxMajorTicks="20" gap="1" scaleFont="1">
 			<page x="0.0153061" y="0.0115207" w="0.97619" h="0.976959"/>
@@ -402,13 +402,13 @@
 				<miny lc="#a0a0a4" lw="1" ls="1"/>
 			</grid>
 			<curve type="1" z="21" table="Table2" x="Factor Forma" y="R'" from="0" to="-1" line="0" lc="#000000" lw="1" ls="0" brc="#000000" brs="0">
-				<symbol style="1" size="7" lc="#000000" lw="1" ls="0" brc="#000000"/>
+				<symbol style="1" size="11" lc="#000000" lw="1" ls="0" brc="#000000"/>
 			</curve>
 			<curve type="1" z="22" table="Table2" x="Factor Forma" y="RmartMedida" from="0" to="-1" line="0" lc="#ff0000" lw="1" ls="0" brc="#000000" brs="0" on="0">
 				<symbol style="2" size="7" lc="#ff0000" lw="1" ls="0" brc="#ff0000"/>
 			</curve>
 			<curve type="1" z="23" table="Table2" x="Factor Forma" y="R'-Ra" from="0" to="-1" line="0" lc="#00ff00" lw="1" ls="0" brc="#000000" brs="0" yAxis="1">
-				<symbol style="3" size="9" lc="#008000" lw="1" ls="0" brc="#80ffff"/>
+				<symbol style="3" size="11" lc="#008000" lw="1" ls="0" brc="#80ffff"/>
 			</curve>
 			<axis id="0" on="1" type="0" format="0" prec="6" lw="1">
 				<div from="0" to="6e-05" step="0" maj="7" min="5" type="0"/>
@@ -423,7 +423,7 @@
 				<labels space="4" font="Ubuntu,11,-1,5,50,0,0,0,0,0"/>
 			</axis>
 			<axis id="2" on="1" type="0" format="0" prec="6" lw="1">
-				<div from="0" to="0.6" step="0" maj="7" min="5" type="0"/>
+				<div from="0.95" to="1.2" step="0" maj="6" min="5" type="0"/>
 				<ticks maj="1" majl="9" min="1" minl="5"/>
 				<title text="%(?X)" color="#000000" font="Ubuntu,11,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="41.3594"/>
 				<labels space="4" font="Ubuntu,11,-1,5,50,0,0,0,0,0"/>
@@ -434,7 +434,7 @@
 				<title text="%(?X)" color="#000000" font="Ubuntu,11,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="41.3594"/>
 				<labels space="4" font="Ubuntu,11,-1,5,50,0,0,0,0,0"/>
 			</axis>
-			<item type="2" x="0.0255639097744361" y="5.51839464882943e-05" frame="1" lc="#000000" lw="1" ls="0" bg="#ffffff,0" onTop="1" at="0" on="1" auto="1" font="Ubuntu,11,-1,5,50,0,0,0,0,0" text="\l(1)%(1)&#10;\l(2)%(2)&#10;\l(3)%(3)"/>
+			<item type="2" x="1.14736842105263" y="5.77926421404682e-05" frame="1" lc="#000000" lw="1" ls="0" bg="#ffffff,0" onTop="1" at="0" on="1" auto="1" font="Ubuntu,11,-1,5,50,0,0,0,0,0" text="\l(1)%(1)&#10;\l(2)%(2)&#10;\l(3)%(3)"/>
 		</tab>
 	</window>
 </qti>

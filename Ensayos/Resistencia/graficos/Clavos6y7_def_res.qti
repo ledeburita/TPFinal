@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE qti>
+<qti app="QtiPlot" version="0.9.9.10" dpi="96" arch="Gnu64" script="muParser" windows="7" expand="1">
+	<window type="1" name="Table1" date="2457930.7493595" x="0" y="0" w="1158" h="265">
+		<tab rows="30" cols="7" labels="0">
+			<col name="carga" type="6" num="0" prec="13" plot="1" width="100" stat="0" data="0;0;0;800;450;50;1200;"/>
+			<col name="Def" type="6" num="0" prec="6" plot="1" width="100" stat="0" data="-0.1;-0.6;-0.5;-2.6;-1.6;-0.9;-2.5;"/>
+			<col name="6" type="6" num="0" prec="6" plot="2" width="100" formula="1/((1+(col(&quot;Def&quot;)/100))^2)" stat="0" muparser="1" data="1.00200300400501;1.01210887052698;1.01007550314386;1.05410066239686;1.03278471809108;1.01824594916305;1.05193951347797;"/>
+			<col name="M" type="6" num="0" prec="13" plot="2" width="100" stat="0" data="125;122;123;118;119;122;122;"/>
+			<col name="A" type="6" num="0" prec="13" plot="2" width="100" stat="0" data="96;95;97;97;96;95;100;"/>
+			<col name="4" type="6" num="0" prec="13" plot="2" width="100" formula="col(&quot;M&quot;)/col(&quot;A&quot;)" stat="0" muparser="1" data="1.30208333333333;1.28421052631579;1.2680412371134;1.21649484536082;1.23958333333333;1.28421052631579;1.22;"/>
+			<col name="5" type="6" num="0" prec="13" plot="2" width="100" formula="col(&quot;4&quot;)*col(&quot;6&quot;)" stat="0" muparser="1" data="1.29948306771484;1.26893759344113;1.25545529775342;1.15562133587241;1.20084875586418;1.26140309692037;1.16121356335515;"/>
+		</tab>
+	</window>
+	<window type="3" name="Graph1" date="2457930.7509481" x="1301" y="0" w="546" h="482" dpi="96">
+		<layout cw="538" ch="434" w="400" h="300" left="5" right="5" top="5" bottom="5" rows="1" cols="1" vSpace="5" hSpace="5" hAlign="0" vAlign="0" align="0" common="0" link="0" scale="1" sPrint="0" cmPrint="0" atUnits="1" atdIndex="0" atPolicy="4" alMode="0" luMode="2"/>
+		<tab x="5" y="5" w="528" h="424" autoscale="1" maxMajorTicks="20" gap="1" scaleFont="1">
+			<page x="0.00929368" y="0.0115207" w="0.981413" h="0.976959"/>
+			<title text="Title" color="#000000" font="Ubuntu,13,-1,5,75,0,0,0,0,0" align="4228" fmw="38.1719"/>
+			<frame bg="#ffffff,0"/>
+			<canvas x="69" y="79" w="400" h="300" fixRatio="0" bg="#ffffff,0"/>
+			<grid xAxis="2" yAxis="0">
+				<majx lc="#a0a0a4" lw="1" ls="0"/>
+				<minx lc="#a0a0a4" lw="1" ls="1"/>
+				<majy lc="#a0a0a4" lw="1" ls="0"/>
+				<miny lc="#a0a0a4" lw="1" ls="1"/>
+			</grid>
+			<curve type="1" z="21" table="Table1" x="carga" y="4" from="0" to="-1" line="0" lc="#000000" lw="1" ls="0" brc="#000000" brs="0">
+				<symbol style="1" size="7" lc="#000000" lw="1" ls="0" brc="#000000"/>
+			</curve>
+			<axis id="0" on="1" type="0" format="0" prec="6" lw="1">
+				<div from="1.2" to="1.32" step="0" maj="7" min="5" type="0"/>
+				<ticks maj="1" majl="9" min="1" minl="5"/>
+				<title text="%(?Y)" color="#000000" font="Ubuntu,11,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="42.1406"/>
+				<labels space="4" font="Ubuntu,11,-1,5,50,0,0,0,0,0"/>
+			</axis>
+			<axis id="1" on="1" type="0" format="0" prec="6" lw="1">
+				<div from="1.22" to="1.31" step="0" maj="10" min="5" type="0"/>
+				<ticks maj="1" majl="9" min="1" minl="5"/>
+				<title text="%(?Y)" color="#000000" font="Ubuntu,11,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="42.1406"/>
+				<labels space="4" font="Ubuntu,11,-1,5,50,0,0,0,0,0"/>
+			</axis>
+			<axis id="2" on="1" type="0" format="0" prec="6" lw="1">
+				<div from="-200" to="1400" step="0" maj="9" min="5" type="0"/>
+				<ticks maj="1" majl="9" min="1" minl="5"/>
+				<title text="%(?X)" color="#000000" font="Ubuntu,11,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="41.3594"/>
+				<labels space="4" font="Ubuntu,11,-1,5,50,0,0,0,0,0"/>
+			</axis>
+			<axis id="3" on="1" type="0" format="0" prec="6" lw="1">
+				<div from="-200" to="1000" step="0" maj="7" min="5" type="0"/>
+				<ticks maj="1" majl="9" min="1" minl="5"/>
+				<title text="%(?X)" color="#000000" font="Ubuntu,11,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="41.3594"/>
+				<labels space="4" font="Ubuntu,11,-1,5,50,0,0,0,0,0"/>
+			</axis>
+			<item type="2" x="-159.899749373434" y="1.31598662207358" frame="1" lc="#000000" lw="1" ls="0" bg="#ffffff,0" onTop="1" at="0" on="1" auto="1" font="Ubuntu,11,-1,5,50,0,0,0,0,0" text="\l(1)%(1)"/>
+		</tab>
+	</window>
+	<window type="3" name="Graph2" date="2457930.7652522" x="1301" y="482" w="546" h="482" dpi="96">
+		<layout cw="538" ch="434" w="400" h="300" left="5" right="5" top="5" bottom="5" rows="1" cols="1" vSpace="5" hSpace="5" hAlign="0" vAlign="0" align="0" common="0" link="0" scale="1" sPrint="0" cmPrint="0" atUnits="1" atdIndex="0" atPolicy="4" alMode="0" luMode="2"/>
+		<tab x="14" y="5" w="519" h="424" autoscale="1" maxMajorTicks="20" gap="1" scaleFont="1">
+			<page x="0.0260223" y="0.0115207" w="0.964684" h="0.976959"/>
+			<title text="Title" color="#000000" font="Ubuntu,13,-1,5,75,0,0,0,0,0" align="4228" fmw="38.1719"/>
+			<frame bg="#ffffff,0"/>
+			<canvas x="69" y="79" w="400" h="300" fixRatio="0" bg="#ffffff,0"/>
+			<grid xAxis="2" yAxis="0">
+				<majx lc="#a0a0a4" lw="1" ls="0"/>
+				<minx lc="#a0a0a4" lw="1" ls="1"/>
+				<majy lc="#a0a0a4" lw="1" ls="0"/>
+				<miny lc="#a0a0a4" lw="1" ls="1"/>
+			</grid>
+			<curve type="1" z="21" table="Table1" x="Def" y="4" from="0" to="-1" line="0" lc="#000000" lw="1" ls="0" brc="#000000" brs="0">
+				<symbol style="1" size="7" lc="#000000" lw="1" ls="0" brc="#000000"/>
+			</curve>
+			<curve type="1" z="22" table="Table2" x="Def" y="4" from="0" to="-1" line="0" lc="#ff0000" lw="1" ls="0" brc="#000000" brs="0" on="0">
+				<symbol style="2" size="7" lc="#ff0000" lw="1" ls="0" brc="#ff0000"/>
+			</curve>
+			<curve type="1" z="23" table="Monocristal" x="Def" y="4" from="0" to="-1" line="0" lc="#00ff00" lw="1" ls="0" brc="#000000" brs="0">
+				<symbol style="3" size="7" lc="#00ff00" lw="1" ls="0" brc="#8000ff"/>
+			</curve>
+			<axis id="0" on="1" type="0" format="0" prec="6" lw="1">
+				<div from="1.1" to="1.8" step="0" maj="8" min="5" type="0"/>
+				<ticks maj="1" majl="9" min="1" minl="5"/>
+				<title text="%(?Y)" color="#000000" font="Ubuntu,11,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="42.1406"/>
+				<labels space="4" font="Ubuntu,11,-1,5,50,0,0,0,0,0"/>
+			</axis>
+			<axis id="1" on="1" type="0" format="0" prec="6" lw="1">
+				<div from="1.2" to="1.32" step="0" maj="7" min="5" type="0"/>
+				<ticks maj="1" majl="9" min="1" minl="5"/>
+				<title text="%(?Y)" color="#000000" font="Ubuntu,11,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="42.1406"/>
+				<labels space="4" font="Ubuntu,11,-1,5,50,0,0,0,0,0"/>
+			</axis>
+			<axis id="2" on="1" type="0" format="0" prec="6" lw="1">
+				<div from="-10" to="10" step="0" maj="5" min="5" type="0"/>
+				<ticks maj="1" majl="9" min="1" minl="5"/>
+				<title text="%(?X)" color="#000000" font="Ubuntu,11,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="41.3594"/>
+				<labels space="4" font="Ubuntu,11,-1,5,50,0,0,0,0,0"/>
+			</axis>
+			<axis id="3" on="1" type="0" format="0" prec="6" lw="1">
+				<div from="0" to="3" step="0" maj="7" min="5" type="0"/>
+				<ticks maj="1" majl="9" min="1" minl="5"/>
+				<title text="%(?X)" color="#000000" font="Ubuntu,11,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="41.3594"/>
+				<labels space="4" font="Ubuntu,11,-1,5,50,0,0,0,0,0"/>
+			</axis>
+			<item type="2" x="-9.06862745098039" y="1.77658862876254" frame="1" lc="#000000" lw="1" ls="0" bg="#ffffff,0" onTop="1" at="0" on="1" auto="1" font="Ubuntu,11,-1,5,50,0,0,0,0,0" text="\l(1)%(1)&#10;\l(2)%(2)&#10;\l(3)%(3)"/>
+		</tab>
+	</window>
+	<window type="1" name="Monocristal" date="2457930.7683836" x="0" y="265" w="1158" h="265">
+		<tab rows="30" cols="8" labels="0">
+			<col name="carga" type="6" num="0" prec="13" plot="1" width="100" stat="0" data="0;50;450;800;1200;"/>
+			<col name="Def" type="6" num="0" prec="6" plot="1" width="100" stat="0" data="0.76;0.37;-7.6;-7.9;-8;8;"/>
+			<col name="7" type="6" num="0" prec="6" plot="1" width="100" formula="col(&quot;Def&quot;)^2" stat="0" muparser="1" data="0.5776;0.1369;57.76;62.41;64;64;"/>
+			<col name="6" type="6" num="0" prec="6" plot="1" width="100" formula="1/((1+(col(&quot;Def&quot;)/100))^2)" stat="0" muparser="1" data="0.984971540626294;0.992640868320938;1.17126740503364;1.17891023895332;1.18147448015123;0.857338820301783;"/>
+			<col name="M" type="6" num="0" prec="13" plot="2" width="100" stat="0" data="115;102;102;96;95;118;"/>
+			<col name="A" type="6" num="0" prec="13" plot="2" width="100" stat="0" data="90;81;90;83;80;68;"/>
+			<col name="4" type="6" num="0" prec="13" plot="2" width="100" formula="col(&quot;M&quot;)/col(&quot;A&quot;)" stat="0" muparser="1" data="1.27777777777778;1.25925925925926;1.13333333333333;1.1566265060241;1.1875;1.73529411764706;"/>
+			<col name="5" type="6" num="0" prec="13" plot="2" width="100" formula="col(&quot;4&quot;)*col(&quot;6&quot;)" stat="0" muparser="1" data="1.25857474635582;1.24999220455229;1.32743639237146;1.36355883059661;1.40300094517958;1.48773501170015;"/>
+		</tab>
+	</window>
+	<window type="1" name="Table2" date="2457930.7770451" x="0" y="530" w="1158" h="265" active="1">
+		<tab rows="30" cols="7" labels="0">
+			<col name="carga" type="6" num="0" prec="13" plot="1" width="100" stat="0" data="0;50;450;800;1200;"/>
+			<col name="Def" type="6" num="0" prec="6" plot="1" width="100" stat="0" data="0.76;0.37;-7.6;-7.9;-8;"/>
+			<col name="6" type="6" num="0" prec="6" plot="2" width="100" formula="1/((1+(col(&quot;Def&quot;)/100))^2)" stat="0" muparser="1" data="0.984971540626294;0.992640868320938;1.17126740503364;1.17891023895332;1.18147448015123;"/>
+			<col name="M" type="6" num="0" prec="13" plot="2" width="100" stat="0" data="115;102;102;96;95;"/>
+			<col name="A" type="6" num="0" prec="13" plot="2" width="100" stat="0" data="89;79;83;81;80;"/>
+			<col name="4" type="6" num="0" prec="13" plot="2" width="100" formula="col(&quot;M&quot;)/col(&quot;A&quot;)" stat="0" muparser="1" data="1.29213483146067;1.29113924050633;1.2289156626506;1.18518518518519;1.1875;"/>
+			<col name="5" type="6" num="0" prec="13" plot="2" width="100" formula="col(&quot;4&quot;)*col(&quot;6&quot;)" stat="0" muparser="1" data="1.27271603564072;1.28163757681944;1.43938885919797;1.3972269498706;1.40300094517958;"/>
+		</tab>
+	</window>
+	<window type="3" name="Graph3" date="2457930.7905562" x="-57" y="812" w="528" h="482" dpi="96">
+		<layout cw="520" ch="434" w="400" h="300" left="5" right="5" top="5" bottom="5" rows="1" cols="1" vSpace="5" hSpace="5" hAlign="0" vAlign="0" align="0" common="0" link="0" scale="1" sPrint="0" cmPrint="0" atUnits="1" atdIndex="0" atPolicy="4" alMode="0" luMode="2"/>
+		<tab x="5" y="5" w="510" h="424" autoscale="1" maxMajorTicks="20" gap="1" scaleFont="1">
+			<page x="0.00961538" y="0.0115207" w="0.980769" h="0.976959"/>
+			<title text="Title" color="#000000" font="Ubuntu,13,-1,5,75,0,0,0,0,0" align="4228" fmw="38.1719"/>
+			<frame bg="#ffffff,0"/>
+			<canvas x="60" y="79" w="400" h="300" fixRatio="0" bg="#ffffff,0"/>
+			<grid xAxis="2" yAxis="0">
+				<majx lc="#a0a0a4" lw="1" ls="0"/>
+				<minx lc="#a0a0a4" lw="1" ls="1"/>
+				<majy lc="#a0a0a4" lw="1" ls="0"/>
+				<miny lc="#a0a0a4" lw="1" ls="1"/>
+			</grid>
+			<curve type="1" z="21" table="Monocristal" x="6" y="4" from="0" to="-1" line="0" lc="#000000" lw="1" ls="0" brc="#000000" brs="0">
+				<symbol style="1" size="7" lc="#000000" lw="1" ls="0" brc="#000000"/>
+			</curve>
+			<axis id="0" on="1" type="0" format="0" prec="6" lw="1">
+				<div from="1.1" to="1.8" step="0" maj="8" min="5" type="0"/>
+				<ticks maj="1" majl="9" min="1" minl="5"/>
+				<title text="%(?Y)" color="#000000" font="Ubuntu,11,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="42.1406"/>
+				<labels space="4" font="Ubuntu,11,-1,5,50,0,0,0,0,0"/>
+			</axis>
+			<axis id="1" on="1" type="0" format="0" prec="6" lw="1">
+				<div from="1.1" to="1.8" step="0" maj="8" min="5" type="0"/>
+				<ticks maj="1" majl="9" min="1" minl="5"/>
+				<title text="%(?Y)" color="#000000" font="Ubuntu,11,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="42.1406"/>
+				<labels space="4" font="Ubuntu,11,-1,5,50,0,0,0,0,0"/>
+			</axis>
+			<axis id="2" on="1" type="0" format="0" prec="6" lw="1">
+				<div from="0.85" to="1.2" step="0" maj="8" min="5" type="0"/>
+				<ticks maj="1" majl="9" min="1" minl="5"/>
+				<title text="%(?X)" color="#000000" font="Ubuntu,11,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="41.3594"/>
+				<labels space="4" font="Ubuntu,11,-1,5,50,0,0,0,0,0"/>
+			</axis>
+			<axis id="3" on="1" type="0" format="0" prec="6" lw="1">
+				<div from="0.85" to="1.2" step="0" maj="8" min="5" type="0"/>
+				<ticks maj="1" majl="9" min="1" minl="5"/>
+				<title text="%(?X)" color="#000000" font="Ubuntu,11,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="41.3594"/>
+				<labels space="4" font="Ubuntu,11,-1,5,50,0,0,0,0,0"/>
+			</axis>
+			<item type="2" x="1.14035087719298" y="1.77190635451505" frame="1" lc="#000000" lw="1" ls="0" bg="#ffffff,0" onTop="1" at="0" on="1" auto="1" font="Ubuntu,11,-1,5,50,0,0,0,0,0" text="\l(1)%(1)"/>
+		</tab>
+	</window>
+	<window type="3" name="Graph4" date="2457930.7918538" x="477" y="802" w="528" h="482" dpi="96">
+		<layout cw="520" ch="434" w="400" h="300" left="5" right="5" top="5" bottom="5" rows="1" cols="1" vSpace="5" hSpace="5" hAlign="0" vAlign="0" align="0" common="0" link="0" scale="1" sPrint="0" cmPrint="0" atUnits="1" atdIndex="0" atPolicy="4" alMode="0" luMode="2"/>
+		<tab x="5" y="5" w="510" h="424" autoscale="1" maxMajorTicks="20" gap="1" scaleFont="1">
+			<page x="0.00961538" y="0.0115207" w="0.980769" h="0.976959"/>
+			<title text="Title" color="#000000" font="Ubuntu,13,-1,5,75,0,0,0,0,0" align="4228" fmw="38.1719"/>
+			<frame bg="#ffffff,0"/>
+			<canvas x="60" y="79" w="400" h="300" fixRatio="0" bg="#ffffff,0"/>
+			<grid xAxis="2" yAxis="0">
+				<majx lc="#a0a0a4" lw="1" ls="0"/>
+				<minx lc="#a0a0a4" lw="1" ls="1"/>
+				<majy lc="#a0a0a4" lw="1" ls="0"/>
+				<miny lc="#a0a0a4" lw="1" ls="1"/>
+			</grid>
+			<curve type="1" z="21" table="Monocristal" x="7" y="4" from="0" to="-1" line="0" lc="#000000" lw="1" ls="0" brc="#000000" brs="0">
+				<symbol style="1" size="7" lc="#000000" lw="1" ls="0" brc="#000000"/>
+			</curve>
+			<axis id="0" on="1" type="0" format="0" prec="6" lw="1">
+				<div from="1.1" to="1.8" step="0" maj="8" min="5" type="0"/>
+				<ticks maj="1" majl="9" min="1" minl="5"/>
+				<title text="%(?Y)" color="#000000" font="Ubuntu,11,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="42.1406"/>
+				<labels space="4" font="Ubuntu,11,-1,5,50,0,0,0,0,0"/>
+			</axis>
+			<axis id="1" on="1" type="0" format="0" prec="6" lw="1">
+				<div from="1.1" to="1.8" step="0" maj="8" min="5" type="0"/>
+				<ticks maj="1" majl="9" min="1" minl="5"/>
+				<title text="%(?Y)" color="#000000" font="Ubuntu,11,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="42.1406"/>
+				<labels space="4" font="Ubuntu,11,-1,5,50,0,0,0,0,0"/>
+			</axis>
+			<axis id="2" on="1" type="0" format="0" prec="6" lw="1">
+				<div from="-10" to="70" step="0" maj="9" min="5" type="0"/>
+				<ticks maj="1" majl="9" min="1" minl="5"/>
+				<title text="%(?X)" color="#000000" font="Ubuntu,11,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="41.3594"/>
+				<labels space="4" font="Ubuntu,11,-1,5,50,0,0,0,0,0"/>
+			</axis>
+			<axis id="3" on="1" type="0" format="0" prec="6" lw="1">
+				<div from="-10" to="70" step="0" maj="9" min="5" type="0"/>
+				<ticks maj="1" majl="9" min="1" minl="5"/>
+				<title text="%(?X)" color="#000000" font="Ubuntu,11,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="41.3594"/>
+				<labels space="4" font="Ubuntu,11,-1,5,50,0,0,0,0,0"/>
+			</axis>
+			<item type="2" x="-7.99498746867168" y="1.77658862876254" frame="1" lc="#000000" lw="1" ls="0" bg="#ffffff,0" onTop="1" at="0" on="1" auto="1" font="Ubuntu,11,-1,5,50,0,0,0,0,0" text="\l(1)%(1)"/>
+		</tab>
+	</window>
+</qti>
