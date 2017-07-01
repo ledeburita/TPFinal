@@ -30,9 +30,9 @@
 		</tab>
 	</window>
 	<window type="3" name="Graph1" date="2457912.6066305" w="1075" h="688" state="1" dpi="96">
-		<layout cw="1067" ch="640" w="400" h="300" left="5" right="5" top="5" bottom="5" rows="1" cols="1" vSpace="5" hSpace="5" hAlign="0" vAlign="0" align="0" common="0" link="0" scale="1" sPrint="0" cmPrint="0" atUnits="1" atdIndex="0" atPolicy="4" alMode="0" luMode="2"/>
+		<layout cw="510" ch="410" w="400" h="300" left="5" right="5" top="5" bottom="5" rows="1" cols="1" vSpace="5" hSpace="5" hAlign="0" vAlign="0" align="0" common="0" link="0" scale="1" sPrint="0" cmPrint="0" atUnits="1" atdIndex="0" atPolicy="4" alMode="0" luMode="2"/>
 		<tab x="10" y="7" w="1048" h="625" autoscale="1" maxMajorTicks="20" gap="1" scaleFont="1">
-			<page x="0.00937207" y="0.0109375" w="0.982193" h="0.976562"/>
+			<page x="0.0196078" y="0.0170732" w="2.0549" h="1.52439"/>
 			<title text="Title" color="#000000" font="Ubuntu,19.1627,-1,5,75,0,0,0,0,0" align="4228" fmw="58.3594"/>
 			<frame bg="#ffffff,0"/>
 			<canvas x="112" y="111" w="844" h="451" fixRatio="0" bg="#ffffff,0"/>
@@ -72,9 +72,9 @@
 		</tab>
 	</window>
 	<window type="3" name="Pendientes" date="2457912.6102821" w="578" h="482" state="1" dpi="96">
-		<layout cw="570" ch="434" w="400" h="300" left="5" right="5" top="5" bottom="5" rows="1" cols="1" vSpace="5" hSpace="5" hAlign="0" vAlign="0" align="0" common="0" link="0" scale="1" sPrint="0" cmPrint="0" atUnits="1" atdIndex="0" atPolicy="4" alMode="0" luMode="2"/>
+		<layout cw="510" ch="410" w="400" h="300" left="5" right="5" top="5" bottom="5" rows="1" cols="1" vSpace="5" hSpace="5" hAlign="0" vAlign="0" align="0" common="0" link="0" scale="1" sPrint="0" cmPrint="0" atUnits="1" atdIndex="0" atPolicy="4" alMode="0" luMode="2"/>
 		<tab x="5" y="5" w="560" h="424" autoscale="1" maxMajorTicks="20" gap="1" scaleFont="1">
-			<page x="0.00877193" y="0.0115207" w="0.982456" h="0.976959"/>
+			<page x="0.00980392" y="0.0121951" w="1.09804" h="1.03415"/>
 			<title text="Title" color="#000000" font="Ubuntu,13,-1,5,75,0,0,0,0,0" align="4228" fmw="38.1719"/>
 			<frame bg="#ffffff,0"/>
 			<canvas x="111" y="79" w="348" h="300" fixRatio="0" bg="#ffffff,0"/>
@@ -161,7 +161,9 @@
 				<title text="%(?X)" color="#000000" font="Ubuntu,15.7217,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="58.9219"/>
 				<labels space="4" font="Ubuntu,15.7217,-1,5,50,0,0,0,0,0"/>
 			</axis>
-			<item type="5" x="29.3592964824121" y="0.0123632183908046" r="-21.5201005025126" b="0.0113977011494253" lc="#000000" lw="1" ls="0" start="0" end="0" at="0"/>
+			<item type="5" x="26.0804020100502" y="0.0122988505747126" r="-24.7989949748744" b="0.0113333333333333" lc="#000000" lw="1" ls="0" start="0" end="0" at="0"/>
+			<item type="5" x="2.78894472361809" y="0.0123229885057471" r="15.7914572864322" b="0.00912068965517241" lc="#000000" lw="1" ls="0" start="0" end="0" at="0"/>
+			<item type="5" x="14.321608040201" y="0.00915287356321839" r="14.321608040201" b="0.0124275862068966" lc="#000000" lw="1" ls="0" start="0" end="0" at="0"/>
 			<item type="2" x="-27.7443609022556" y="0.0123829431438127" frame="1" lc="#000000" lw="1" ls="0" bg="#ffffff,0" onTop="1" at="0" on="1" auto="1" font="Ubuntu,15.7217,-1,5,50,0,0,0,0,0" text="\l(1)%(1)"/>
 		</tab>
 	</window>

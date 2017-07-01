@@ -99,9 +99,9 @@
 		</tab>
 	</window>
 	<window type="3" name="Graph1" date="2457918.5874514" w="1184" h="855" state="1" dpi="96">
-		<layout cw="1176" ch="807" w="400" h="300" left="5" right="5" top="5" bottom="5" rows="1" cols="1" vSpace="5" hSpace="5" hAlign="0" vAlign="0" align="0" common="0" link="0" scale="1" sPrint="0" cmPrint="0" atUnits="1" atdIndex="0" atPolicy="4" alMode="0" luMode="2"/>
+		<layout cw="510" ch="410" w="400" h="300" left="5" right="5" top="5" bottom="5" rows="1" cols="1" vSpace="5" hSpace="5" hAlign="0" vAlign="0" align="0" common="0" link="0" scale="1" sPrint="0" cmPrint="0" atUnits="1" atdIndex="0" atPolicy="4" alMode="0" luMode="2"/>
 		<tab x="24" y="18" w="2663" h="1551" autoscale="1" maxMajorTicks="20" gap="1" scaleFont="1">
-			<page x="0.0204082" y="0.0223048" w="2.26446" h="1.92193"/>
+			<page x="0.0470588" y="0.0439024" w="5.22157" h="3.78293"/>
 			<title text="Title" color="#000000" font="Ubuntu,47.5543,-1,5,75,0,0,0,0,0" align="4228" fmw="141.531"/>
 			<frame bg="#ffffff,0"/>
 			<canvas x="290" y="254" w="2131" h="1155" fixRatio="0" bg="#ffffff,0"/>

@@ -134,13 +134,13 @@
 			<item type="2" x="10.7519706356947" y="0.00958096938646316" frame="1" lc="#000000" lw="1" ls="0" bg="#ffffff,0" onTop="1" at="0" on="1" auto="1" font="Ubuntu,11,-1,5,50,0,0,0,0,0" text="\l(1)%(1)&#10;\l(2)%(2)&#10;\l(3)%(3)&#10;\l(4)%(4)"/>
 		</tab>
 	</window>
-	<window type="3" name="Graph3" date="2457930.7368303" x="390" y="86" w="1163" h="679" active="1" dpi="96">
-		<layout cw="1155" ch="631" w="400" h="300" left="5" right="5" top="5" bottom="5" rows="1" cols="1" vSpace="5" hSpace="5" hAlign="0" vAlign="0" align="0" common="0" link="0" scale="1" sPrint="0" cmPrint="0" atUnits="1" atdIndex="0" atPolicy="4" alMode="0" luMode="2"/>
-		<tab x="10" y="7" w="1135" h="616" autoscale="1" maxMajorTicks="20" gap="1" scaleFont="1">
-			<page x="0.00865801" y="0.0110935" w="0.982684" h="0.976228"/>
-			<title text="Title" color="#000000" font="Ubuntu,18.8868,-1,5,75,0,0,0,0,0" align="4228" fmw="56.1406"/>
+	<window type="3" name="Graph3" date="2457930.7368303" x="390" y="86" w="1013" h="861" active="1" dpi="96">
+		<layout cw="1005" ch="813" w="400" h="300" left="5" right="5" top="5" bottom="5" rows="1" cols="1" vSpace="5" hSpace="5" hAlign="0" vAlign="0" align="0" common="0" link="0" scale="1" sPrint="0" cmPrint="0" atUnits="1" atdIndex="0" atPolicy="4" alMode="0" luMode="2"/>
+		<tab x="9" y="9" w="988" h="794" autoscale="1" maxMajorTicks="20" gap="1" scaleFont="1">
+			<page x="0.00895522" y="0.0110701" w="0.983085" h="0.97663"/>
+			<title text="Title" color="#000000" font="Ubuntu,24.3443,-1,5,75,0,0,0,0,0" align="4228" fmw="71.875"/>
 			<frame bg="#ffffff,0"/>
-			<canvas x="119" y="109" w="917" h="446" fixRatio="0" bg="#ffffff,0"/>
+			<canvas x="146" y="135" w="714" h="584" fixRatio="0" bg="#ffffff,0"/>
 			<grid xAxis="2" yAxis="0">
 				<majx lc="#a0a0a4" lw="1" ls="0"/>
 				<minx lc="#a0a0a4" lw="1" ls="1"/>
@@ -149,31 +149,33 @@
 			</grid>
 			<curve type="0" z="21" table="Clavo6d" x="5" y="VpromS" from="0" to="-1" line="1" lc="#000000" lw="1" ls="0" brc="#000000" brs="0"/>
 			<axis id="0" on="1" type="0" format="0" prec="6" lw="1">
-				<div from="0.0095" to="0.0125" step="0" maj="7" min="5" type="0"/>
-				<ticks maj="1" majl="13" min="1" minl="7"/>
-				<title text="%(?Y)" color="#000000" font="Ubuntu,15.9811,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="58.625"/>
-				<labels space="4" font="Ubuntu,15.9811,-1,5,50,0,0,0,0,0"/>
+				<div from="0.0093" to="0.0125" step="0" maj="7" min="5" type="0"/>
+				<ticks maj="1" majl="17" min="1" minl="9"/>
+				<title text="%(?Y)" color="#000000" font="Ubuntu,20.599,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="75.125"/>
+				<labels space="4" font="Ubuntu,20.599,-1,5,50,0,0,0,0,0"/>
 			</axis>
 			<axis id="1" on="1" type="0" format="0" prec="6" lw="1">
 				<div from="0.0095" to="0.0125" step="0" maj="7" min="5" type="0"/>
-				<ticks maj="1" majl="13" min="1" minl="7"/>
-				<title text="%(?Y)" color="#000000" font="Ubuntu,15.9811,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="58.625"/>
-				<labels space="4" font="Ubuntu,15.9811,-1,5,50,0,0,0,0,0"/>
+				<ticks maj="1" majl="17" min="1" minl="9"/>
+				<title text="%(?Y)" color="#000000" font="Ubuntu,20.599,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="75.125"/>
+				<labels space="4" font="Ubuntu,20.599,-1,5,50,0,0,0,0,0"/>
 			</axis>
 			<axis id="2" on="1" type="0" format="0" prec="6" lw="1">
 				<div from="-30" to="50" step="0" maj="9" min="5" type="0"/>
-				<ticks maj="1" majl="13" min="1" minl="7"/>
-				<title text="%(?X)" color="#000000" font="Ubuntu,15.9811,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="58.9219"/>
-				<labels space="4" font="Ubuntu,15.9811,-1,5,50,0,0,0,0,0"/>
+				<ticks maj="1" majl="17" min="1" minl="9"/>
+				<title text="%(?X)" color="#000000" font="Ubuntu,20.599,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="75.5"/>
+				<labels space="4" font="Ubuntu,20.599,-1,5,50,0,0,0,0,0"/>
 			</axis>
 			<axis id="3" on="1" type="0" format="0" prec="6" lw="1">
 				<div from="-30" to="50" step="0" maj="9" min="5" type="0"/>
-				<ticks maj="1" majl="13" min="1" minl="7"/>
-				<title text="%(?X)" color="#000000" font="Ubuntu,15.9811,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="58.9219"/>
-				<labels space="4" font="Ubuntu,15.9811,-1,5,50,0,0,0,0,0"/>
+				<ticks maj="1" majl="17" min="1" minl="9"/>
+				<title text="%(?X)" color="#000000" font="Ubuntu,20.599,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="75.5"/>
+				<labels space="4" font="Ubuntu,20.599,-1,5,50,0,0,0,0,0"/>
 			</axis>
-			<item type="5" x="53.6681222707424" y="0.010214606741573" r="12.9694323144105" b="0.00951348314606741" lc="#000000" lw="1" ls="0" start="0" end="0" at="0"/>
-			<item type="2" x="-27.9949874686717" y="0.0123996655518395" frame="1" lc="#000000" lw="1" ls="0" bg="#ffffff,0" onTop="1" at="0" on="1" auto="1" font="Ubuntu,15.9811,-1,5,50,0,0,0,0,0" text="\l(1)%(1)"/>
+			<item type="5" x="13.422159887798" y="0.0122420240137221" r="-27.3071528751753" b="0.0114955403087479" lc="#000000" lw="1" ls="0" start="0" end="0" at="0"/>
+			<item type="5" x="-3.74474053295933" y="0.0123847341337907" r="10.9537166900421" b="0.00930548885077187" lc="#000000" lw="1" ls="0" start="0" end="0" at="0"/>
+			<item type="5" x="9.83169705469846" y="0.0123957118353345" r="9.83169705469846" b="0.00923413379073756" lc="#000000" lw="1" ls="0" start="0" end="0" at="0"/>
+			<item type="2" x="-27.9912663755459" y="0.0123921348314607" frame="1" lc="#000000" lw="1" ls="0" bg="#ffffff,0" onTop="1" at="0" on="1" auto="1" font="Ubuntu,20.599,-1,5,50,0,0,0,0,0" text="\l(1)%(1)"/>
 		</tab>
 	</window>
 </qti>
