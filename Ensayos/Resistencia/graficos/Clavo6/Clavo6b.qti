@@ -109,7 +109,7 @@
 			<item type="2" x="22.594210572765" y="0.0104397585957987" frame="1" lc="#000000" lw="1" ls="0" bg="#ffffff,0" onTop="1" at="0" on="1" auto="1" font="Ubuntu,20.3396,-1,5,50,0,0,0,0,0" text="\l(1)%(1)"/>
 		</tab>
 	</window>
-	<window type="3" name="Graph4" date="2457911.5237564" x="0" y="0" w="578" h="482" dpi="96">
+	<window type="3" name="Graph4" date="2457911.5237564" x="0" y="0" w="578" h="482" active="1" dpi="96">
 		<layout cw="570" ch="434" w="400" h="300" left="5" right="5" top="5" bottom="5" rows="1" cols="1" vSpace="5" hSpace="5" hAlign="0" vAlign="0" align="0" common="0" link="0" scale="1" sPrint="0" cmPrint="0" atUnits="1" atdIndex="0" atPolicy="4" alMode="0" luMode="2"/>
 		<tab x="5" y="5" w="560" h="424" autoscale="1" maxMajorTicks="20" gap="1" scaleFont="1">
 			<page x="0.00877193" y="0.0115207" w="0.982456" h="0.976959"/>
@@ -251,7 +251,7 @@
 			<item type="2" x="16.8296247190785" y="0.0096594335828361" frame="1" lc="#000000" lw="1" ls="0" bg="#ffffff,0" onTop="1" at="0" on="1" auto="1" font="Ubuntu,11,-1,5,50,0,0,0,0,0" text="\l(1)%(1)&#10;\l(2)%(2)&#10;\l(3)%(3)&#10;\l(4)%(4)"/>
 		</tab>
 	</window>
-	<window type="3" name="Graph5" date="2457932.4712519" x="382" y="50" w="987" h="881" active="1" dpi="96">
+	<window type="3" name="Graph5" date="2457932.4712519" x="818" y="44" w="987" h="881" dpi="96">
 		<layout cw="979" ch="833" w="400" h="300" left="5" right="5" top="5" bottom="5" rows="1" cols="1" vSpace="5" hSpace="5" hAlign="0" vAlign="0" align="0" common="0" link="0" scale="1" sPrint="0" cmPrint="0" atUnits="1" atdIndex="0" atPolicy="4" alMode="0" luMode="2"/>
 		<tab x="9" y="10" w="962" h="814" autoscale="1" maxMajorTicks="20" gap="1" scaleFont="1">
 			<page x="0.00919305" y="0.0120048" w="0.982635" h="0.977191"/>
