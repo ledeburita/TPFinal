@@ -85,18 +85,18 @@
 				<symbol style="1" size="7" lc="#000000" lw="1" ls="0" brc="#000000"/>
 			</curve>
 			<curve type="1" z="22" table="Policristal2" x="6" y="M/A" from="0" to="-1" line="0" lc="#ff0000" lw="1" ls="0" brc="#000000" brs="0">
-				<symbol style="2" size="7" lc="#ff0000" lw="1" ls="0" brc="#ff0000"/>
+				<symbol style="3" size="9" lc="#ff0000" lw="1" ls="0" brc="#ff0000"/>
 			</curve>
-			<curve type="19" z="23" name="LinearSlopeFit1" f="0" y="A*x" from="0.8" to="1.1" points="2" line="1" lc="#ff0000" lw="1" ls="0" brc="#000000" brs="0">
+			<curve type="19" z="23" name="LinearSlopeFit1" f="0" y="A*x" from="0.8" to="1.1" points="2" line="1" lc="#ff0000" lw="1" ls="10" brc="#000000" brs="0">
 				<param name="A" val="1.29028358861032"/>
 			</curve>
-			<curve type="19" z="24" name="LinearSlopeFit2" f="0" y="A*x" from="0.8" to="1.1" points="2" line="1" lc="#ff0000" lw="1" ls="0" brc="#000000" brs="0">
+			<curve type="19" z="24" name="LinearSlopeFit2" f="0" y="A*x" from="0.8" to="1.1" points="2" line="1" lc="#000000" lw="1" ls="10" brc="#000000" brs="0">
 				<param name="A" val="1.3171521304379"/>
 			</curve>
 			<axis id="0" on="1" type="0" format="1" prec="1" lw="1">
 				<div from="1" to="1.5" step="0" maj="6" min="1" type="0"/>
 				<ticks maj="1" majl="8" min="1" minl="5"/>
-				<title text="f&lt;sup&gt;medida&lt;/sup&gt;=R&lt;sub&gt;M&lt;/sub&gt; &lt;sup&gt;medida&lt;/sup&gt;/R&lt;sub&gt;A&lt;/sub&gt;&lt;sup&gt;medida&lt;/sup&gt;" color="#000000" font="Ubuntu,12,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="726.297"/>
+				<title text="f'=R&lt;sub&gt;M&lt;/sub&gt; /R&lt;sub&gt;A" color="#000000" font="Ubuntu,12,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="219.734"/>
 				<labels space="4" font="Ubuntu,10.0782,-1,5,50,0,0,0,0,0"/>
 			</axis>
 			<axis id="1" on="0" type="0" format="0" prec="6" lw="1">
