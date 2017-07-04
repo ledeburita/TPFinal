@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE qti>
 <qti app="QtiPlot" version="0.9.9.10" dpi="96" arch="Gnu64" script="muParser" windows="4" expand="1" log="[29/06/17 16:23&#9;Plot: ''Graph5'']&#10;Linear Regression of dataset: Policristal2_M/A, using function: A*x+B&#10;Sort: No&#10;Weighting Method: No weighting&#10;From x = -2.6000000000000e+00 to x = -1.0000000000000e-01 (6 data points)&#10;--------------------------------------------------------------------------------------&#10;B (y-intercept) = 1.2977014977921e+00 +/- 5.4130265730890e-03&#10;A (slope) = 3.2439491586110e-02 +/- 3.2167632228515e-03&#10;--------------------------------------------------------------------------------------&#10;Chi^2/doF = 4.5270599639517e-05&#10;R^2 = 0.9621561205964&#10;Adjusted R^2 = 0.9369268676606&#10;RMSE (Root Mean Squared Error) = 0.006728343008462&#10;RSS (Residual Sum of Squares) = 0.0001810823985581&#10;---------------------------------------------------------------------------------------&#10;[29/06/17 16:23&#9;Plot: ''Graph5'']&#10;Linear Regression of dataset: Monocristal2_M/A, using function: A*x+B&#10;Sort: No&#10;Weighting Method: No weighting&#10;From x = -8.0000000000000e+00 to x = 8.0000000000000e+00 (6 data points)&#10;--------------------------------------------------------------------------------------&#10;B (y-intercept) = 1.3702312467356e+00 +/- 4.5433761549153e-02&#10;A (slope) = 3.0910308221900e-02 +/- 7.0543238651956e-03&#10;--------------------------------------------------------------------------------------&#10;Chi^2/doF = 1.0672692560036e-02&#10;R^2 = 0.8275844504471&#10;Adjusted R^2 = 0.7126407507451&#10;RMSE (Root Mean Squared Error) = 0.1033087245107&#10;RSS (Residual Sum of Squares) = 0.04269077024014&#10;---------------------------------------------------------------------------------------&#10;[30/06/17 17:20&#9;Plot: ''Graph2'']&#10;Linear Regression of dataset: Policristal2_M/A, using function: A*x+B&#10;Sort: No&#10;Weighting Method: No weighting&#10;From x = 9.4867600000000e-01 to x = 9.9800100000000e-01 (7 data points)&#10;--------------------------------------------------------------------------------------&#10;B (y-intercept) = -4.2044346571702e-01 +/- 1.3301932811315e-01&#10;A (slope) = 1.7213140049088e+00 +/- 1.3639244883536e-01&#10;--------------------------------------------------------------------------------------&#10;Chi^2/doF = 4.2923952562036e-05&#10;R^2 = 0.9695626844934&#10;Adjusted R^2 = 0.95434402674&#10;RMSE (Root Mean Squared Error) = 0.006551637395494&#10;RSS (Residual Sum of Squares) = 0.0002146197628102&#10;---------------------------------------------------------------------------------------&#10;[30/06/17 17:24&#9;Plot: ''Graph2'']&#10;Linear Regression of dataset: Policristal2_M/A, using function: A*x&#10;Sort: No&#10;Weighting Method: No weighting&#10;From x = 9.4867600000000e-01 to x = 9.9800100000000e-01 (7 data points)&#10;--------------------------------------------------------------------------------------&#10;A (slope) = 1.2902835886103e+00 +/- 4.0133620659601e-03&#10;--------------------------------------------------------------------------------------&#10;Chi^2/doF = 1.0724167010721e-04&#10;R^2 = 0.9087460957247&#10;Adjusted R^2 = 0.8904953148696&#10;RMSE (Root Mean Squared Error) = 0.01035575540978&#10;RSS (Residual Sum of Squares) = 0.0006434500206433&#10;---------------------------------------------------------------------------------------&#10;[30/06/17 17:36&#9;Plot: ''Graph2'']&#10;Linear Regression of dataset: Monocristal2_M/A, using function: A*x&#10;Sort: No&#10;Weighting Method: No weighting&#10;From x = 8.4640000000000e-01 to x = 1.1664000000000e+00 (6 data points)&#10;--------------------------------------------------------------------------------------&#10;A (slope) = 1.3588103321273e+00 +/- 3.9015466499276e-02&#10;--------------------------------------------------------------------------------------&#10;Chi^2/doF = 8.4801504516094e-03&#10;R^2 = 0.8287557483525&#10;Adjusted R^2 = 0.7859446854406&#10;RMSE (Root Mean Squared Error) = 0.09208773236218&#10;RSS (Residual Sum of Squares) = 0.04240075225805&#10;---------------------------------------------------------------------------------------&#10;[30/06/17 17:37&#9;Plot: ''Graph2'']&#10;Linear Regression of dataset: Monocristal2_M/A, using function: A*x&#10;Sort: No&#10;Weighting Method: No weighting&#10;From x = 8.4640000000000e-01 to x = 1.1664000000000e+00 (6 data points)&#10;--------------------------------------------------------------------------------------&#10;A (slope) = 1.3588103321273e+00 +/- 3.9015466499276e-02&#10;--------------------------------------------------------------------------------------&#10;Chi^2/doF = 8.4801504516094e-03&#10;R^2 = 0.8287557483525&#10;Adjusted R^2 = 0.7859446854406&#10;RMSE (Root Mean Squared Error) = 0.09208773236218&#10;RSS (Residual Sum of Squares) = 0.04240075225805&#10;---------------------------------------------------------------------------------------&#10;[30/06/17 19:38&#9;Plot: ''Graph2'']&#10;Linear Regression of dataset: Monocristal2_M/A, using function: A*x&#10;Sort: No&#10;Weighting Method: No weighting&#10;From x = 8.4640000000000e-01 to x = 1.0152577600000e+00 (5 data points)&#10;--------------------------------------------------------------------------------------&#10;A (slope) = 1.3171521304379e+00 +/- 2.7221946936247e-02&#10;--------------------------------------------------------------------------------------&#10;Chi^2/doF = 3.1201029959645e-03&#10;R^2 = 0.2315342565917&#10;Adjusted R^2 = -0.02462099121102&#10;RMSE (Root Mean Squared Error) = 0.05585788212924&#10;RSS (Residual Sum of Squares) = 0.01248041198386&#10;---------------------------------------------------------------------------------------&#10;">
-	<window type="1" name="Policristal2" date="2457932.6630658" x="54" y="126" w="907" h="214" active="1">
+	<window type="1" name="Policristal2" date="2457932.6630658" x="54" y="126" w="907" h="214">
 		<tab rows="30" cols="8" labels="4">
 			<col name="carga" type="6" num="0" prec="13" plot="1" width="100" stat="0" data="0;0;0;800;450;50;1200;"/>
 			<col name="Def" type="6" num="0" prec="6" plot="1" width="100" stat="0" data="-0.1;-0.6;-0.5;-2.6;-1.6;-0.9;-2.5;"/>
@@ -69,10 +69,10 @@
 			</axis>
 		</tab>
 	</window>
-	<window type="3" name="Graph2" date="2457934.7216573" x="952" y="49" w="541" h="446" dpi="96">
+	<window type="3" name="Graph2" date="2457934.7216573" x="952" y="49" w="541" h="446" active="1" dpi="96">
 		<layout cw="533" ch="398" w="400" h="300" left="5" right="5" top="5" bottom="5" rows="1" cols="1" vSpace="5" hSpace="5" hAlign="0" vAlign="0" align="0" common="0" link="0" scale="1" sPrint="0" cmPrint="0" atUnits="1" atdIndex="0" atPolicy="4" alMode="0" luMode="2"/>
-		<tab x="15" y="17" w="495" h="352" autoscale="1" maxMajorTicks="20" gap="1" scaleFont="1">
-			<page x="0.0281426" y="0.0427136" w="0.928705" h="0.884422"/>
+		<tab x="11" y="17" w="499" h="356" autoscale="1" maxMajorTicks="20" gap="1" scaleFont="1">
+			<page x="0.0206379" y="0.0427136" w="0.93621" h="0.894472"/>
 			<frame bg="#ffffff,0"/>
 			<canvas x="64" y="24" w="433" h="301" fixRatio="0" bg="#ffffff,0"/>
 			<grid xAxis="2" yAxis="0">
@@ -94,9 +94,9 @@
 				<param name="A" val="1.3171521304379"/>
 			</curve>
 			<axis id="0" on="1" type="0" format="1" prec="1" lw="1">
-				<div from="1" to="1.5" step="0" maj="6" min="5" type="0"/>
+				<div from="1" to="1.5" step="0" maj="6" min="1" type="0"/>
 				<ticks maj="1" majl="8" min="1" minl="5"/>
-				<title text="f'=R&lt;sub&gt;M&lt;/sub&gt;/R&lt;sub&gt;A&lt;/sub&gt;" color="#000000" font="Ubuntu,10.0782,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="217.594"/>
+				<title text="f&lt;sup&gt;medida&lt;/sup&gt;=R&lt;sub&gt;M&lt;/sub&gt; &lt;sup&gt;medida&lt;/sup&gt;/R&lt;sub&gt;A&lt;/sub&gt;&lt;sup&gt;medida&lt;/sup&gt;" color="#000000" font="Ubuntu,12,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="726.297"/>
 				<labels space="4" font="Ubuntu,10.0782,-1,5,50,0,0,0,0,0"/>
 			</axis>
 			<axis id="1" on="0" type="0" format="0" prec="6" lw="1">
@@ -106,9 +106,9 @@
 				<labels space="4" font="Ubuntu,10.0782,-1,5,50,0,0,0,0,0"/>
 			</axis>
 			<axis id="2" on="1" type="0" format="1" prec="2" lw="1">
-				<div from="0.8" to="1.1" step="0" maj="7" min="5" type="0"/>
+				<div from="0.8" to="1.1" step="0" maj="7" min="1" type="0"/>
 				<ticks maj="1" majl="8" min="1" minl="5"/>
-				<title text="(1+ε) &lt;sup&gt;2&lt;/sup&gt;" color="#000000" font="Ubuntu,10.0782,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="119.938"/>
+				<title text="(1+ε) &lt;sup&gt;2&lt;/sup&gt;" color="#000000" font="Ubuntu,12,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="147.625"/>
 				<labels space="4" font="Ubuntu,10.0782,-1,5,50,0,0,0,0,0"/>
 			</axis>
 			<axis id="3" on="0" type="0" format="0" prec="6" lw="1">
@@ -117,7 +117,10 @@
 				<title text="%(?X)" color="#000000" font="Ubuntu,10.0782,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="35.8438"/>
 				<labels space="4" font="Ubuntu,10.0782,-1,5,50,0,0,0,0,0"/>
 			</axis>
-			<item type="2" x="1.02847222222222" y="1.09333333333333" frame="0" lc="#000000" lw="1" ls="0" bg="#ffffff,0" onTop="1" at="0" on="1" auto="1" font="Ubuntu,10.0782,-1,5,50,0,0,0,0,0" text="\l(1) Policristal&#10;\l(2) Monocristal"/>
+			<item type="5" x="1.07708333333333" y="1.39" r="1.07708333333333" b="1.34666666666667" lc="#000000" lw="1" ls="0" start="0" end="0" at="0"/>
+			<item type="5" x="1.07777777777778" y="1.34666666666667" r="1.04444444444444" b="1.34666666666667" lc="#000000" lw="1" ls="0" start="0" end="0" at="0"/>
+			<item type="2" x="1.02847222222222" y="1.09333333333333" frame="0" lc="#000000" lw="1" ls="0" bg="#ffffff,0" onTop="1" at="0" on="1" auto="1" font="Ubuntu,10.0782,-1,5,50,0,0,0,0,0" text="\l(1) Monocristal&#10;\l(2) Policristal"/>
+			<item type="2" x="1.07569444444444" y="1.38666666666667" frame="0" lc="#000000" lw="1" ls="0" bg="#ffffff,0" onTop="1" at="0" on="1" font="Ubuntu,11,-1,5,50,0,0,0,0,0" text="f"/>
 		</tab>
 	</window>
 </qti>

@@ -381,9 +381,9 @@
 		</tab>
 	</window>
 	<window type="3" name="strain1" date="2457934.9279365" w="1079" h="756" state="1" dpi="96">
-		<layout cw="1071" ch="708" w="400" h="300" left="5" right="5" top="5" bottom="5" rows="1" cols="1" vSpace="5" hSpace="5" hAlign="0" vAlign="0" align="0" common="0" link="0" scale="1" sPrint="0" cmPrint="0" atUnits="1" atdIndex="0" atPolicy="4" alMode="0" luMode="2"/>
+		<layout cw="510" ch="410" w="400" h="300" left="5" right="5" top="5" bottom="5" rows="1" cols="1" vSpace="5" hSpace="5" hAlign="0" vAlign="0" align="0" common="0" link="0" scale="1" sPrint="0" cmPrint="0" atUnits="1" atdIndex="0" atPolicy="4" alMode="0" luMode="2"/>
 		<tab x="10" y="8" w="1052" h="692" autoscale="1" maxMajorTicks="20" gap="1" scaleFont="1">
-			<page x="0.00933707" y="0.0112994" w="0.98226" h="0.977401"/>
+			<page x="0.0196078" y="0.0195122" w="2.06275" h="1.6878"/>
 			<title text="Title" color="#000000" font="Ubuntu,21.217,-1,5,75,0,0,0,0,0" align="4228" fmw="62.875"/>
 			<frame bg="#ffffff,0"/>
 			<canvas x="120" y="120" w="832" h="504" fixRatio="0" bg="#ffffff,0"/>
@@ -422,9 +422,9 @@
 		</tab>
 	</window>
 	<window type="3" name="strain2" date="2457934.9298693" w="805" h="637" state="1" dpi="96">
-		<layout cw="797" ch="589" w="400" h="300" left="5" right="5" top="5" bottom="5" rows="1" cols="1" vSpace="5" hSpace="5" hAlign="0" vAlign="0" align="0" common="0" link="0" scale="1" sPrint="0" cmPrint="0" atUnits="1" atdIndex="0" atPolicy="4" alMode="0" luMode="2"/>
+		<layout cw="510" ch="410" w="400" h="300" left="5" right="5" top="5" bottom="5" rows="1" cols="1" vSpace="5" hSpace="5" hAlign="0" vAlign="0" align="0" common="0" link="0" scale="1" sPrint="0" cmPrint="0" atUnits="1" atdIndex="0" atPolicy="4" alMode="0" luMode="2"/>
 		<tab x="-48" y="-76" w="1008" h="709" autoscale="1" maxMajorTicks="20" gap="1" scaleFont="1">
-			<page x="-0.0602258" y="-0.129032" w="1.26474" h="1.20374"/>
+			<page x="-0.0941176" y="-0.185366" w="1.97647" h="1.72927"/>
 			<title text="Title" color="#000000" font="Ubuntu,26.1226,-1,5,75,0,0,0,0,0" align="4228" fmw="78.6094"/>
 			<frame bg="#ffffff,0"/>
 			<canvas x="59" y="59" w="794" h="485" fixRatio="0" bg="#ffffff,0"/>

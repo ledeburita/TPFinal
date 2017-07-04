@@ -32,7 +32,7 @@ right= 20mm}
 
 %\documentclass[a4paper,12pt,oneside,openright]{report}
 \usepackage[utf8]{inputenc}
-\usepackage[spanish]{babel}
+\usepackage[spanish, es-tabla]{babel}
 \usepackage{graphicx}
 
 
@@ -1026,13 +1026,12 @@ de esperarse para cualquier aleación metálica.
 
 \section{Tamaño de grano}
 
+En este capítulo se presentan los resultados obtenidos al aplicar distintos métodos para modificar el tamaño de grano. En la sección \ref{reduccion} se detallan las muestras fabricadas y los resultados obtenidos al intentar reducir el tamaño de grano. En la sección \ref{aumento} se presentan los resultados obtenidos al intentar generar un aumento el tamaño de grano de la aleación. Finalmente en la sección \ref{TamañosConclusion} se presentan las conclusiones a las que se llegaron en este capítulo y el trabajo que debe continuarse a futuro. 
 
-\subsection{Reducción del tamaño de grano}
 
-Como se explicó en la sección \ref{FabClavos}, se encontró que el método más efectivo para refinar el tamaño de grano es la utilización de $B$ como refinador. El boro reacciona con el aluminio de la aleación formando $AlB_2$ que es el compuesto responsable por el efecto refinador. 
+\subsection{Reducción del tamaño de grano} \label{reduccion}
 
-Este compuesto fue utilizado por \cite{ritelst} quien obtuvo para unas concentraciones de $con1$ y $conc2$ un tamaño de grano medio de $tam 1$ y $tam 2$ respectivamente.
-
+Como se explicó en la sección \ref{FabClavos}, se encontró en la bibliografía que el método más efectivo para refinar el tamaño de grano es la utilización de $B$ como refinador. En el trabajo realizado por Rit Elst et al. \cite{ritelst} se obtuvo para unas concentraciones de boro entre $0.04$ y $0.06$ $\% pp$ un tamaño de grano entre $50$ y $100$ $\mu m$, y para $0.01$ tamaños entre $1$ y $2$ $mm$. Estos tamaños se obtuvieron luego de fundir la aleación con el agregado de boro y un recocido a $750$ $^\circ C$ durante quince minutos seguido de un temple en agua. El boro reacciona con el aluminio de la aleación formando $AlB_2$ que es el compuesto responsable del efecto refinador. Como en el laboratorio se contaba con $AlB_2$ en forma de polvo se utilizó este compuesto directamente como refinador. 
 
 
 \begin{table} 
@@ -1047,39 +1046,51 @@ Muestra & $wt \% AlB_2$ & Método de fabricación & $\bar{tg} (mm)$ & $\sigma$ \
  Clavo 4 &  0,005 & IV  & 0.07 & 0.03   \\
 \bottomrule
 \end{tabular}
-
-% Clavo 5 &  -   & - & 0.6 & 0.3   \\
-% L1B1    &  0,005 & I   & 0.3 & 0.2  \\
-% Clavo 1 &  0,5   & III & 0.2 & 0.1   \\
-% Clavo 2 &  0,05  & III & 0.1 & 0.1   \\
-% Clavo 3 &  -     & IV  & 0.1   & 0.1   \\
-% Clavo 4 &  0,005 & IV  & 0.07 & 0.03   \\
-
-
 \caption{Porcentaje de polvo refinador, método de fabricación, valor medio del tamaño de grano ($\bar{tg}$) y desviación media de las distribuciones ($\sigma$) de las distintas muestras fabricadas.}
 \label{tab:ResClavos}
 \end{center}
 \end{table}
 
 
-En el cuadro \ref{tab: ResClavos} se muestra el valor medio de los tamaños de granos ($\bar{tg}$) que se obtuvieron en cada una de las muestras. El método de fabricación de cada muestra se detalló en la sección \ref{FabClavos}. También se muestra la desviación media de la distribución de tamaño de grano ($\sigma$). En el gráfico \ref{fig: tamanos} se esquematizan estos mismos resultados.
+En el cuadro \ref{tab:ResClavos} se muestra el valor medio de los tamaños de granos ($\bar{tg}$) que se obtuvieron en cada una de las muestras. El método de fabricación de cada muestra se detalló en la sección \ref{FabClavos}. También se muestra la desviación media de la distribución de tamaño de grano ($\sigma$). En el gráfico \ref{fig:tamaños} se esquematizan estos mismos resultados.
 
  \begin{figure}[h]
  \centering
  \includegraphics[width=0.9\textwidth]{Img/Resultados/clavos/TamGranos.jpg}
  \caption{Valor medio de tamaño de grano ($\bar{tg}$) y desviación media de la distribución ($\sigma$) de cada una de las muestras fabricadas} 
- \label{fig:tamanos}
+ \label{fig:tamaños}
  \end{figure}
 
-Las muestras \textbf{ L1B1} y \textbf{L1B2}, para las cuales se mezcló el polvo refinador y una porción de aleación, no incorporaron correctamente el $AlB_2$. Como resultado quedó un botón de la aleación rodeado por el polvo refinador suelto. Luego de realizar un corte transversal y el pulido de la superficie no se observó una disminución significativa del tamaño de grano. Además el tamaño de grano resultó con granos de hasta medio milímetro de diámetro.  
+A continuación se detallan los resultados obtenidos con cada una de las muestras. La nomenclatura utilizada corresponde a \textbf{L} para el lingote de aleación utilizado para fabricar la muestra y \textbf{B} cuando la muestra obtenida tiene geometría de botón. Los \textbf{Clavos} corresponden a muestras cilíndricas de $6$ mm de diámetro aproximadamente y una longitud que puede variar entre $30$ y $100$ mm.
+ 
+ Las muestras \textbf{ L1B1} y \textbf{L1B2}, para las cuales se mezcló el polvo refinador y una porción de aleación, no incorporaron correctamente el $AlB_2$. Como resultado quedó un botón de la aleación rodeado por el polvo refinador suelto. Luego de realizar un corte transversal y el pulido de la superficie no se observó una disminución significativa del tamaño de grano. Además el tamaño de grano resultó con granos de hasta medio milímetro de diámetro en las dos muestras.  
 
-El botón \textbf{L2B1} se fabricó fundiendo pastillas de viruta de aleación y polvo de $AlB_2$ prensado. Además, se utilizó cien veces más cantidad de polvo refinador para intentar incorporarlo más fácilmente. Se observó que la aleación escurrió, formando un botón como los citados anteriormente, y junto al botón quedaron las pastillas conteniendo todo el polvo refinador y prácticamente nada de la viruta de aleación. El botón tampoco presentó un refinamiento significativo del tamaño de grano.
+El botón \textbf{L2B1} se fabricó fundiendo pastillas de viruta de aleación y polvo de $AlB_2$ prensado. Además, se utilizó cien veces más cantidad de polvo refinador para intentar incorporarlo más fácilmente. Se observó que la aleación escurrió, formando un botón como los citados anteriormente, y junto al botón quedaron las pastillas conteniendo todo el polvo refinador y prácticamente nada de la viruta de aleación. El botón presentó el mismo tamaño de grano que las muestras \textbf{ L1B1} y \textbf{L1B2}.
 
-El botón \textbf{L2B2} se fabricó igual al botón \textbf{L2B1}. La única diferencia en el procedimiento fue que la temperatura utilizada para fundir se controló para no llegar a la transformación $AlB_2 \rightarrow AlB_{12}$, en caso de que esta transformación tuviera algún efecto en la incorporación del refinador. Nuevamente el refinador no fue incorporado y no se vio una reducción significativa del tamaño de grano. También se realizó un corte del botón y se analizó con microscopía SEM para ver si se encontraba alguna partícula de $AlB_2$. No se encontró $AlB_2$ en las micrografías por lo que se corroboró que el polvo refinador no fue incorporado por la aleación.
+El botón \textbf{L2B2} se fabricó de la misma manera que el botón \textbf{L2B1}. La única diferencia en el procedimiento fue que la temperatura utilizada para fundir se controló para no llegar a la transformación $AlB_2 \rightarrow AlB_{12}$, en caso de que esta transformación tuviera algún efecto en la incorporación del refinador. Nuevamente el refinador no fue incorporado y no se vio una reducción significativa del tamaño de grano. También se realizó un corte del botón y se analizó con microscopía SEM para ver si se encontraba alguna partícula de $AlB_2$. No se encontró refinador en las micrografías por lo que se corroboró que el polvo refinador no fue incorporado por la aleación. Las únicas partículas que se encontraron fueron pequeños precipitados que seguramente corresponden a una fase rica en zinc.
 
-Viendo estos resultados se concluyó que el refinador no puede incorporarse de manera sencilla a la aleación. Por este motivo se realizó la molienda en un molino de bolas de la aleación junto al polvo refinador para favorecer la incorporación por la mezcla, y además un refinamiento del $AlB_2$. Se analizó el polvo obtenido en la molienda con un microscopio electrónico de barrido (SEM). Se realizaron análisis de topografía y de composición con electrones retrodispersados pero no fué posible identificar partículas del polvo refinador. Llegamos a la conclusión de que esto puede deberse a la formación de una fina capa de óxido que recubre la superficie de cada partícula. 
+\begin{center}
+\line(1,0){250}
+\end{center}
+\textbf{Micrografias de Sem de la aleación y un precipitado}
+\begin{center}
+\line(1,0){250}
+\end{center}
 
-Luego se fabricó el \textbf{Clavo 1}, para esto, se prensaron pastillas con el polvo obtenido de la molienda (Figura \ref{fig: PastMolienda}). Como se muestra en la figura \ref{fig: Clavo1}, al fundirlas se observó nuevamente que la aleación escurrió, quedando las pastillas con el polvo refinador y el metal escurrido en la superficie. Se hizo un corte transversal al clavo, y en la zona donde había escurrido la aleación se observó el primer refinamiento marcado del tamaño de grano (Figura \ref{fig: MClavo1}). Además, si bien hay tamaños de grano variados, el ancho de la distribución también disminuyó.  Se distinguen las pastillas con refinador y la aleación que escurrió envolviendo las pastillas. En la figura \ref{fig: MicroClavo1} se ve un corte transversal del \textbf{Clavo 1}. En la parte izquierda se observa la geometría de la pastilla compuesta principalmente por el polvo refinador y muy pocos granos pequeños de la aleación. A la derecha se distingue claramente la aleación que quedó envolviendo las pastillas. En la figura \ref{fig: SEM1Clavo1} se muestra una imagen tomada con un microscopio electrónico de barrido (SEM) usando electrones retrodispersados donde se distingue la diferencia en la composición de la aleación y la zona donde quedó acumulado el polvo refinador. Los granos de aleación se ven más claros ya que poseen mayor cantidad de Cu y Zn, elementos de mayor número atómico. Por otro lado la zona con el polvo refinador se ve más oscura ya que posee una mayor concentración de Al y B, elementos de menor número atómico. También se realizó un análisis de Espectroscipía dispersiva en energía (EDX) para corroborar las composiciones en cada zona. En la figura \ref{fig: Sem2Clavo1} se ven los granos de la aleación y se distinguen partículas del polvo refinador que si quedaron distribuidos en la aleación (pequeños puntos negros). Los círculos más grandes son pequeños poros que luego aumentaron su tamaño al realizar el pulido químico con ácido nítrico al $50 \%$.
+Viendo estos resultados se concluyó que el refinador no puede incorporarse de manera sencilla a la aleación. Por este motivo se realizó la molienda en un molino de bolas de la aleación junto al polvo refinador para favorecer la incorporación por la mezcla, y además un refinamiento del $AlB_2$. Se analizó el polvo obtenido en la molienda con microscopia SEM y EDS. Se realizaron análisis de topografía y de composición con electrones retrodispersados pero no fue posible identificar partículas del polvo refinador. 
+
+\begin{center}
+\line(1,0){250}
+\end{center}
+
+\textbf{Llegamos a la conclusión de que esto puede deberse a la formación de una fina capa de óxido que recubre la superficie de cada partícula.} 
+
+\begin{center}
+\line(1,0){250}
+\end{center}
+
+
+Luego se fabricó el \textbf{Clavo 1}. Se prensaron pastillas con el polvo obtenido de la molienda (Figura \ref{fig: PastMolienda}). Como se muestra en la figura \ref{fig: Clavo1}, al fundirlas se observó nuevamente que la aleación escurrió, quedando las pastillas con el polvo refinador y el metal escurrido en la superficie. Se hizo un corte transversal al clavo, y en la zona donde había escurrido la aleación se observaron los granos, los cuales presentaron el primer refinamiento marcado del tamaño de grano (Figura \ref{fig: MicroClavo1}). Además, si bien hay tamaños de grano variados, el ancho de la distribución también disminuyó.  Se distinguen las pastillas con refinador y la aleación que escurrió envolviendo las pastillas. En la figura \ref{fig: MicroClavo1} se ve un corte transversal del \textbf{Clavo 1}. En la parte izquierda se observa la geometría de la pastilla compuesta principalmente por el polvo refinador y muy pocos granos pequeños de la aleación. A la derecha se distingue claramente la aleación que quedó envolviendo las pastillas. En la figura \ref{fig: SEM1Clavo1} se muestra una imagen tomada con un microscopio electrónico de barrido (SEM) usando electrones retrodispersados donde se distingue la diferencia en la composición de la aleación y la zona donde quedó acumulado el polvo refinador. Los granos de aleación se ven más claros ya que poseen mayor cantidad de Cu y Zn, elementos de mayor número atómico. Por otro lado la zona con el polvo refinador se ve más oscura ya que posee una mayor concentración de Al y B, elementos de menor número atómico. También se realizó un análisis de Espectroscopia dispersiva en energía (EDS) para corroborar las composiciones en cada zona. En la figura \ref{fig: Sem2Clavo1} se ven los granos de la aleación y se distinguen partículas del polvo refinador que quedaron distribuidos en la aleación (pequeños puntos negros). Los círculos más grandes son pequeños poros que luego aumentaron su tamaño al realizar el pulido químico con ácido nítrico al $50 \%$.
 
 
 
@@ -1127,6 +1138,37 @@ Por último, se fabricó el  \textbf{Clavo 4}, con $0.005 \%$ en peso de refinad
 
 
 Todas estas muestras se compararon con un clavo fabricado anteriormente por el grupo de investigación. Esta muestra, que llamamos \textbf{Clavo 5}, fue fabricada únicamente fundiendo la aleación, sin un proceso de molienda ni el agregado de $AlB_2$. Como se ve en el Cuadro \ref{tab:ResClavos} es la muestra con el mayor tamaño de grano y el mayor ancho de distribución. De esta forma puede verse que en las muestras \textbf{Clavo 3} y \textbf{Clavo 4} se obtuvo una considerable mejora.   
+
+
+
+  \begin{figure}% \label{fig:Clavo1}
+    \centering
+    
+    ~ %add desired spacing between images, e. g. ~, \quad, \qquad, \hfill etc. 
+      %(or a blank line to force the subfigure onto a new line)
+    \begin{subfigure}{0.3\textwidth}
+        \includegraphics[width=\textwidth]{Img/Resultados/clavos/tg/Clavo1.jpg}
+        \caption{Corte transversal del Clavo 1}%Corte transversal del Clavo 1}
+        \label{fig: MClavo1}
+    \end{subfigure}
+        \begin{subfigure}{0.3\textwidth}
+        \includegraphics[width=\textwidth]{Img/Resultados/clavos/tg/Clavo2.jpg}
+        \caption{Corte transversal del Clavo 2}%Corte transversal del Clavo 1}
+        \label{fig: MClavo2}
+    \end{subfigure}
+        \begin{subfigure}{0.3\textwidth}
+        \includegraphics[width=\textwidth]{Img/Resultados/clavos/tg/Clavo3.jpg}
+        \caption{Corte transversal del Clavo 3}%Corte transversal del Clavo 1}
+        \label{fig: MClavo3}
+    \end{subfigure}
+        \begin{subfigure}{0.3\textwidth}
+        \includegraphics[width=\textwidth]{Img/Resultados/clavos/tg/Clavo4.jpg}
+        \caption{Corte transversal del Clavo 4}%Corte transversal del Clavo 1}
+        \label{fig: MClavo4}
+    \end{subfigure}    
+    \caption{Corte transversal de los distintos clavos fabricados }
+    \end{figure}
+
  \begin{figure}[h]
  \centering
  \includegraphics[width=0.9\textwidth]{Img/Resultados/clavos/Clavos_3_4_5.eps}
@@ -1137,53 +1179,22 @@ Todas estas muestras se compararon con un clavo fabricado anteriormente por el g
 
 
 
-  \begin{figure}% \label{fig:Clavo1}
-    \centering
-    
-    ~ %add desired spacing between images, e. g. ~, \quad, \qquad, \hfill etc. 
-      %(or a blank line to force the subfigure onto a new line)
-    \begin{subfigure}{0.45\textwidth}
-        \includegraphics[width=\textwidth]{Img/Resultados/clavos/tg/Clavo1.jpg}
-        \caption{Corte transversal del Clavo 1}%Corte transversal del Clavo 1}
-        \label{fig: MClavo1}
-    \end{subfigure}
-        \begin{subfigure}{0.45\textwidth}
-        \includegraphics[width=\textwidth]{Img/Resultados/clavos/tg/Clavo2.jpg}
-        \caption{Corte transversal del Clavo 2}%Corte transversal del Clavo 1}
-        \label{fig: MClavo2}
-    \end{subfigure}
-        \begin{subfigure}{0.45\textwidth}
-        \includegraphics[width=\textwidth]{Img/Resultados/clavos/tg/Clavo3.jpg}
-        \caption{Corte transversal del Clavo 3}%Corte transversal del Clavo 1}
-        \label{fig: MClavo3}
-    \end{subfigure}
-        \begin{subfigure}{0.45\textwidth}
-        \includegraphics[width=\textwidth]{Img/Resultados/clavos/tg/Clavo4.jpg}
-        \caption{Corte transversal del Clavo 4}%Corte transversal del Clavo 1}
-        \label{fig: MClavo4}
-    \end{subfigure}    
-    \caption{Corte transversal de los distintos clavos fabricados }
-    \end{figure}
-
-
-
-
 
 
 
 A partir de los clavos fabricados se cortaron probetas cilíndricas por electroerosión siguiendo el procedimiento descripto en la sección \ref{compresión}. Con estas probetas se realizaron distintos ciclos de compresión para analizar la incidencia de la estructura en el comportamiento mecánico. En los \textbf{Clavos 1} y \textbf{2}, la unión entre pastillas es muy débil, lo que provocó que las probetas se pandearan y quebraran. Por este motivo no fue posible realizar los ensayos de compresión. En el gráfico \ref{fig: Clavos3y4} se muestran los ciclos de deformación de los \textbf{Clavos 3}, \textbf{4} y \textbf{5}. Puede verse que el \textbf{Clavo 3} presenta una mayor recuperación de deformación en los ciclos que llegan a $1$ y $2 \%$ de deformación. En los ciclos de mayor deformación el comportamiento se va igualando.
 
-Todos los ensayos se realizaron a una temperatura $40^\circ C$ por encima de la $M_s$ de cada muestra, con excepción del clavo 4 que se utilizó $46^\circ C$ por encima de su $M_s$. A partir de la ecuación de Clausius Clapeyron las tensiones de transformación deberían ser iguales en los casos en que el $\Delta T$ es el mismo (\textbf{Clavo 3} y \textbf{5}). Puede verse que el \textbf{Clavo 5} transforma a menores tensiones y la pendiente de la zona de transformación es la menor. Esto se debe a que la estructura contiene granos grandes y pocos defectos, lo que facilita la formación y crecimiento de las agujas de martensita. Al comparar los \textbf{Clavos 3} y \textbf{4} puede verse que el \textbf{Clavo 3} transforma a mayores tensiones, lo cual puede deberse a una mayor cantidad de partículas de óxido que también actúan como barrera para el avance de la transformación.  
+Todos los ensayos se realizaron a una temperatura $40$ $^\circ C$ por encima de la $M_s$ de cada muestra, con excepción del clavo 4 que se utilizó $46$ $^\circ C$ por encima de su $M_s$. A partir de la ecuación de Clausius Clapeyron las tensiones de transformación deberían ser iguales en los casos en que el $\Delta T$ es el mismo (\textbf{Clavo 3} y \textbf{5}). Puede verse que el \textbf{Clavo 5} transforma a menores tensiones y la pendiente de la zona de transformación es la menor. Esto se debe a que la estructura contiene granos grandes y pocos defectos, lo que facilita la formación y crecimiento de las agujas de martensita. Al comparar los \textbf{Clavos 3} y \textbf{4} puede verse que el \textbf{Clavo 3} transforma a mayores tensiones, lo cual puede deberse a una mayor cantidad de partículas de óxido que también actúan como barrera para el avance de la transformación.  
 
    
 
 
 
 
-\subsection{Aumento del tamaño de grano}
+\subsection{Aumento del tamaño de grano} \label{aumento}
 
 
-Para comparar los resultados de una esponja con un tamaño de grano reducido, también se intentó hacer crecer el tamaño de grano. Para esto se tomó una esponja ya fabricada con las esferas de sílica gel en su estructura (figura \ref{fig:proceso2}). Se colocó en una ampolla de cuarzo con atmósfera de argón de un diámetro  $1 mm$ mayor al de la esponja. Luego se fue fundiendo la esponja con el método utilizado para crecer monocristales, llamado método de Bridgman. El método consiste en aplicar en una muestra ya solidificada un gradiente térmico que recorre de una punta a la otra, fundiendo localmente. En una punta se coloca una semilla, que le dará a la muestra la orientación cristalina deseada. Luego el metal se va fundiendo, mientras la probeta se va moviendo lentamente. El metal se va fundiendo, mientras el gradiente térmico hace que lo que va solidificando quede con la estructura de la semilla que se colocó en la punta. Cuando la zona fundida recorrió toda la muestra, la probeta habrá solidificado con la misma orientación cristalográfica.
+Para comparar los resultados de una esponja con un tamaño de grano reducido, también se intentó obtener una esponja con un tamaño de grano mayor al que se obtiene al finalizar el proceso de fabricación. Para esto se tomó una esponja ya fabricada con las esferas de sílica gel en su estructura (figura \ref{fig:proceso2}). Se colocó en una ampolla de cuarzo con atmósfera de argón de un diámetro  $1 mm$ mayor al de la esponja. Luego se fue fundiendo la esponja con el método utilizado para crecer monocristales, llamado método de Bridgman. El método consiste en colocar una semilla, que le dará a la muestra la orientación cristalina deseada. Se produce en una muestra ya solidificada un gradiente térmico que recorre de una punta a la otra, fundiendo localmente, lo que provoca que la aleación fundida vaya solidificando a medida que se enfría con la orientación de la estructura de la semilla. Cuando la zona fundida recorrió toda la muestra, la probeta habrá solidificado con la misma orientación cristalográfica.
 
  \begin{figure}[h]
  \centering
@@ -1192,9 +1203,9 @@ Para comparar los resultados de una esponja con un tamaño de grano reducido, ta
  \label{fig: EspRota}
  \end{figure}
 
-Se utilizó este mismo método. Si bien la presencia de las esferas de sílica gel que actúa como puntos de nucleación, la gran cantidad de defectos en la estructura y la geometría de la muestra no permiten que la la muestra solidifique con un único cristal, se esperaba que los granos puedan ir aumentando su tamaño obteniéndose una estructura con granos mayores a los que se obtienen con el método de fabricación de las esponjas. 
+Para generar un aumento en el tamaño de grano se utilizó este mismo método. Aunque la presencia de las esferas de sílica gel actúa como puntos de nucleación, y además la geometría de la muestra no permite que la muestra solidifique con un único cristal, al utilizar este método se buscaba que el material que se iba fundiendo localmente solidifique con un tamaño de grano mayor al que se obtiene en la fabricación convencional de esponjas.
 
-Una vez finalizado con el proceso se abrió la ampolla de cuarto y se encontró la presencia de una gran cantidad de ácido sulfhídrico. Se analizó el proceso de fabricación de las esferas de sílica gel para intentar determinar su procedencia. Las esferas de sílica gel esta compuestas por una estructura porosa de óxido de silicio. La alta porosidad es lo que le da la capacidad de absorber la humedad. En algunos casos de le agrega $cobalto???$ para obtener el efecto de cambio de color entre las esferas secas y con humedad en su interior. Se llegó a la conclusión que el azufre puede provenir de dos fuentes. La sílica gel se fabrica a partir de la neutralización de ácido sulfúrico y silicato de sodio. Si la reacción es incompleta pueden quedar rastros de azufre en las esferas. Por otro lado un subproducto de la reacción es el sulfato de sodio, que a altas temperaturas puede reaccionar con Cu de la aleación, y a partir de una redox también se forma ácido sulfúrico. 
+Una vez finalizado con el proceso se abrió la ampolla de cuarto y se encontró la presencia de una gran cantidad de vapor de ácido sulfhídrico. Se analizó el proceso de fabricación de las esferas de sílica gel para intentar determinar su procedencia. Las esferas de sílica gel están compuestas por una estructura porosa de óxido de silicio y su alta porosidad es lo que le da la capacidad de absorber la humedad. En algunos casos se le agrega cloruro de cobalto para obtener el efecto de cambio de color entre las esferas secas y con humedad en su interior. Se llegó a la conclusión que el azufre puede provenir de dos fuentes. La sílica gel se fabrica a partir de la neutralización de ácido sulfúrico y silicato de sodio. Si la reacción es incompleta pueden quedar rastros de azufre en las esferas. Por otro lado un subproducto de la reacción es el sulfato de sodio, que a altas temperaturas puede reaccionar con el cobre de la aleación, y a través de una reacción redox también  forma ácido sulfúrico. 
 
 Luego se intentaron tornear las caras con un torno mecánico, pero al hacerlo la esponja se rompió como se muestra en la figura \ref{fig: EspRota}. En el interior se vio que la estructura estaba muy deteriorada y ya no tenía integridad suficiente para seguir utilizándola. Como la sílica que se utiliza en este método de fabricación de esponjas es comercial y no se puede tener certeza del grado de pureza en la composición de las esferas de sílica gel utilizadas, se concluyó que no es posible utilizar un método en la que se calientes las esferas a tan alta temperatura en una ampolla cerrada. 
 
@@ -1226,18 +1237,34 @@ Luego se intentaron tornear las caras con un torno mecánico, pero al hacerlo la
 %  \label{fig:ResDefCu}
 %  \end{figure}
 
-\subsection{Conclusión}
+\subsection{Conclusión} \label{TamañosConclusion}
 
-Respecto del método de fabricación, se comprobó que las concentraciones de refinador utilizadas en el trabajo de \cite{ritelst} son efectivas para obtener una disminución importante del tamaño de grano. Queda demostrada que la incorporación del refinador no es sencilla. \cite{ritelst} muestra los tamaños de grano que obtuvo, pero no indica si el polvo refinador fue incorporado totalmente o si se encontró con la misma dificultad. Además se concluyó que la molienda mecánica de la aleación con el refinador es efectiva para la incorporación, aunque no así el prensado de pastillas antes de realizar la fundición. También se demostró el efecto refinador observado por la presencia de óxido formado en las distintas etapas del proceso. Este óxido es prácticamente imposible de evitar a menos que se trabaje con atmósfera de argón desde los primeros cortes de la aleación, la molienda y posterior fundición. También queda por resolver la porosidad encontrada al fundir el polvo suelto en el tubo de cuarzo. Seguramente se necesitará alguna compactación para evitar esta porosidad, pero no tan compacto como las pastillas que se fabricaron.
+Respecto del método de fabricación, se comprobó que las concentraciones de refinador utilizadas en el trabajo de Rit Elst et al. \cite{ritelst} son efectivas para obtener una disminución importante del tamaño de grano. Además queda en evidencia que la incorporación del refinador no es sencilla. Hay que aclarar que en el trabajo Rit Elst presenta los tamaños de grano que obtuvo, pero no indica si el polvo refinador fue incorporado totalmente o si se encontró con la misma dificultad. Además se concluyó que la molienda mecánica de la aleación con el refinador es efectiva para la incorporación, aunque no así el prensado de pastillas antes de realizar la fundición. También se demostró el efecto refinador observado por la presencia de óxido formado en las distintas etapas del proceso. Este óxido es el responsable de que en este trabajo se hay obtenido un tamaño de grano igual al de Rit Elst habiendo usado una cantidad de refinador mucho menor. Este óxido es prácticamente imposible de evitar a menos que se trabaje con atmósfera de argón desde los primeros cortes de la aleación, la molienda y posterior fundición. También queda por resolver la porosidad encontrada al fundir el polvo suelto en el tubo de cuarzo. Seguramente se necesitará alguna compactación para evitar esta porosidad, pero mucho menor a la compactación utilizada en la fabricación de las pastillas.
 
-Aumento del tamaño de grano
+Para el aumento de tamaño de grano se demostró que los procesos que se realicen a alta temperatura en ampollas cerradas, deben realizarse cuando se tenga cierta precisión en la composición de las esferas de sílica gel. El hecho de que sea un material comercial, que no garantice cierto nivel de pureza y que por ejemplo contenga contaminación del proceso de fabricación, hace que se formen gases dentro de la ampolla, lo cual puede llevar a la degradación de la estructura. 
 
-Respecto de las características de las aleaciones obtenidas, el \textbf{Clavo 5},que presenta el mayor tamaño de grano, es el que posee las mejores propiedades de memoria de forma. Luego de cada ciclo de deformación, el porcentaje de deformación recuperado es mayor que en los otros clavos. Además las tensiones de transformación son menores. Este resultado era esperado, ya que tener un mayor tamaño de grano permite movimiento más libre de las interfases entre las placas de martensita y la austenita, ya que es una estructura con menor cantidad de bordes de grano y menos barreras como el polvo refinador y las partículas de óxido.
+Respecto de las características de las aleaciones obtenidas, el \textbf{Clavo 5},que presenta el mayor tamaño de grano, es el que posee las mejores propiedades de memoria de forma. Luego de cada ciclo de deformación, el porcentaje de deformación recuperado es mayor que en los otros clavos con menor tamaño de grano. Además las tensiones de transformación son menores. Este resultado era esperado, ya que tener un mayor tamaño de grano permite el movimiento más libre de las interfases entre las placas de martensita y la austenita, ya que es una estructura con menor cantidad de bordes de grano y menos barreras como el polvo refinador y las partículas de óxido. Igualmente los requerimientos mecánicos de las esponja hacen que este refinamiento de grano sea necesario.
 
-A partir de los resultados obtenidos se concluyó que el método óptimo para refinar el tamaño de grano es la utilización de una pequeña cantidad de $AlB_2$ como refinador ($0.005 \%$ pp es suficiente), el cual debe ser incorporado a traves de una molienda mecánica. Si bien se obtuvo un tamaño de grano similar al utilizar únicamente la molienda mecánica de la aleación sin el agregado de polvo refinador, se recomienda utilizar una pequeña fracción de $AlB_2$ ya que el proceso de fabricación de las esponjas requerirá varias fundiciones, y la utilización de una pequeña cantidad de refinador ayudará a garantizar que no se produzca un aumento del tamaño de grano con cada aumento de la temperatura.
+A partir de los resultados obtenidos se concluyó que el método óptimo para refinar el tamaño de grano es la utilización de una pequeña cantidad de $AlB_2$ como refinador ($0.005 \%$ pp es suficiente), el cual debe ser incorporado a través de una molienda mecánica. Si bien se obtuvo un tamaño de grano similar al utilizar únicamente la molienda mecánica de la aleación sin el agregado de polvo refinador, se recomienda utilizar una pequeña fracción de $AlB_2$ ya que el proceso de fabricación de las esponjas requerirá varias fundiciones, y la utilización de una pequeña cantidad de refinador ayudará a garantizar que no se produzca un aumento del tamaño de grano con cada aumento de la temperatura.
 
 
-
+Espacio \newline
+Espacio \newline
+Espacio \newline
+Espacio \newline
+Espacio \newline
+Espacio \newline
+Espacio \newline
+Espacio \newline
+Espacio \newline
+Espacio \newline
+Espacio \newline
+Espacio \newline
+Espacio \newline
+Espacio \newline
+Espacio \newline
+Espacio \newline
+Espacio \newline
 
 
 \section{Evaluación por resistividad de la integridad estructural}
@@ -1248,13 +1275,13 @@ Una aplicación donde se utilizan aleaciones con memoria de forma son los amorti
 La carga oscilará entre el peso del equipo que se encuentra sobre la mesa y las cargas mayores generadas por las vibraciones.
 Con cada ciclo de carga, la histéresis en la curva estará relacionada a la energía absorbida.  
 
-Con las cargas más bajas la esponja tendrá una cantidad determinada de martensita y aumentará en cada nuevo ciclo de carga. Idealmente con cada ciclo de descarga la martensita retransformará a austenita completamente volviendo al estado inicial. En la realidad esto no ocurre, ya que en cada ciclo se irá acumulando una pequeña cantidad de martensita retenida que se haya estabilizado, o por defectos en la estructura que dificultan el movimiento de las placas. Por otro lado, cada grano de la aleación tiene orientaciones cristalográficas distintas. La tensión resuelta es distinta en cada grano, por lo que cuando comienzan a transformar los primeros granos, los granos que aún no han transformado y no puedan acomodarse a la deformación del grano contiguo provocaran fisuras intergranulares. Sin mencionar que las mismas cargas pueden producir fisuras en los puntos más débiles de la estructura. 
+Con las cargas más bajas la esponja tendrá una cantidad determinada de martensita y aumentará en cada nuevo ciclo de carga. Idealmente con cada ciclo de descarga la martensita retransformará a austenita volviendo al estado inicial. En la realidad esto no ocurre, ya que en cada ciclo se irá acumulando una pequeña cantidad de martensita retenida que se haya estabilizado, o por defectos en la estructura que dificultan el movimiento de las placas. Por otro lado, cada grano de la aleación tiene orientaciones cristalográficas distintas. La tensión resuelta es distinta en cada grano, por lo que cuando comienzan a transformar los primeros granos, los granos que aún no han transformado y no puedan acomodarse a la deformación del grano contiguo provocaran fisuras intergranulares. Sin mencionar que las mismas cargas pueden producir fisuras en los puntos más débiles de la estructura. 
 
-Un posible método para analizar la integridad de una esponja es por microscopía o tomografía, que permiten ver la superficie y el interior de la estructura. Pero sería de gran utilidad poder monitorear la integridad mientras el dispositivo se encuentra en servicio. Por otro lado, la cantidad de variables asociadas a la deformación de las esponjas y transformación de la aleación es muy amplia, lo que hace que la transformación de estas estructuras sea un proceso complejo de entender. Además de poder entender su comportamiento, el gran potencial deaplicaciones, motivó la búsqueda de algún método del seguimiento de los procesos que ocurren y la integridad estructural de la esponja.
+Un posible método para analizar la integridad de una esponja es por tomografía, ya que permite ver en detalle el interior de la estructura. Pero es un método  que no puede realizarse in situ, sin sacar de funcionamiento el dispositivo, y requiere el uso de equipos complejos y costosos. Sería de gran utilidad poder monitorear la integridad mientras el dispositivo se encuentra en servicio. Por otro lado, la cantidad de variables asociadas a la deformación de las esponjas y transformación de la aleación es muy amplia, lo que hace que la transformación de estas estructuras sea un proceso complejo de entender. Además de poder entender su comportamiento, el gran potencial de aplicaciones motivó la búsqueda de algún método del seguimiento de los procesos que ocurren y la integridad estructural de la esponja.
 
-Una forma de caracterizar la estructura de una esponja, y poder comprobar el estado de rotura de la misma es por medio de microscopía o tomografía. Pero son métodos que no pueden realizarse in situ, sin sacar de funcionamiento el dispositivo, y requieren el uso de equipos complejos y costosos. Un método muy conocido de seguimiento de las transformaciones martensíticas es la medición de la resistencia eléctrica. Este método solo requiere el uso de cuatro cables soldados a la muestra, se mide la resistencia con el método de las cuatro puntas y solo se necesita un equipo que pueda medir la resistencia con buena precisión. 
+ Un método muy conocido de seguimiento de las transformaciones martensíticas es la medición de la resistencia eléctrica. Este método solo requiere el uso de cuatro cables soldados a la muestra, se mide la resistencia con el método de las cuatro puntas y solo se necesita un equipo que pueda medir la resistencia con buena precisión. 
 
-A continuación se presentan las mediciones realizadas y el análisis de los datos obtenidos. A partir de estos se buscó obtener parámetros que brinden información sobre los procesos que ocurren y la integridad estructural de la esponja. Se inició el estudio analizando un monocristal de CuZnAl ya que es la estructura mas sencilla que se encuentra en un material. Luego se realizó el mismo análisis con un policristal y finalmente se aplicaron los resultados obtenidos a una esponja de CuZnAl.
+A continuación se presentan las mediciones realizadas y el análisis de los datos obtenidos. A partir de estos se buscó obtener parámetros que brinden información sobre los procesos que ocurren y la integridad estructural de la esponja. Se inició el estudio analizando un monocristal de CuZnAl ya que es la estructura más sencilla que se encuentra en un material. Luego se realizó el mismo análisis con un policristal y finalmente se aplicaron los resultados obtenidos a una esponja de CuZnAl.
 
 % Ver si va
 % Una forma sencilla de medir el avance de las transformaciones martensíticas es por medio de la medición de la resistencia. Se utilizó el método de las cuatro puntas \ref{CuatroPuntas} que permite realizar mediciones de variaciones con una muy buena definición. 
@@ -1268,110 +1295,68 @@ A continuación se presentan las mediciones realizadas y el análisis de los dat
 % TODO explicar los dos gráficos
 % TODO en algún lugar hay que poner composiciones del clavo de graciela y del paper
 
+
+
+ 
 Se comenzó estudiando el trabajo realizado por Bertolino \cite{resistencia} en el cual se realizaron mediciones de la variación de resistencia en monocristales de CuZnAl en distintos ciclos de transformación. En este trabajo se muestra que durante la transformación martensítica el aumento en la resistencia de la aleación es mucho mayor  cuando transforma con una carga de tracción aplicada que cuando la probeta transforma libre de carga. Cuando la probeta transforma térmicamente libre de cargas, formará placas en distintas direcciones (muchas variantes de martensita). Mientras que al mantener aplicada una carga constante, las placas se formarán con una determinada orientación (una única variante), que dependerá de la orientación cristalina y la carga aplicada. Transformar bajo carga a una única variante de martensita provoca una mayor deformación de la probeta. El hecho de que ocurra una variación tan marcada en el aumento de la resistencia motivó a analizar la incidencia del cambio geométrico en la variación de resistencia, y si adicionalmente las mismas cargas también la afectan. 
+
+\begin{figure}% \label{fig:Clavo1}
+    \centering
+    ~ %add desired spacing between images, e. g. ~, \quad, \qquad, \hfill etc. 
+      %(or a blank line to force the subfigure onto a new line)
+         \begin{subfigure}{0.4\textwidth}
+        \includegraphics[width=\textwidth]{Img/Resultados/Resistencia/EjTensionDef.eps}
+        \caption{}%Corte transversal del Clavo 1}
+        \label{fig: EjTensionDef}
+    \end{subfigure}
+        \begin{subfigure}{0.4\textwidth}
+        \includegraphics[width=\textwidth]{Img/Resultados/Resistencia/Ejblanco.jpg}
+ %       \caption{}%Corte transversal del Clavo 1}
+        \label{fig:EjTensionDef}
+    \end{subfigure}    
+ \begin{subfigure}{0.4\textwidth}
+        \includegraphics[width=\textwidth]{Img/Resultados/Resistencia/EjTempDef.eps}
+        \caption{}%Corte transversal del Clavo 1}
+        \label{fig:EjTempDef}
+    \end{subfigure}
+        \begin{subfigure}{0.4\textwidth}
+        \includegraphics[width=\textwidth]{Img/Resultados/Resistencia/EjTempRes.eps}
+        \caption{}%Corte transversal del Clavo 1}
+        \label{fig:EjTempRes}
+    \end{subfigure}    
+    \caption{Gráficos obtenidos al realizar un ensayo con una probeta policristalina manteniendo una tensión de $32$ $MPa$ constante y transformando térmicamente. En \textbf{(a)} los valores obtenidos por el extensómetro en función de la tensión aplicada, en \textbf{(b)} la histéresis de deformación en función de la temperatura y en \textbf{(c)} la correspondiente histéresis de resistencia.}
+    \label{fig: Ejemplos6b}
+    \end{figure}
+
 
 Si se realiza un análisis puramente geométrico, sin que ocurra un cambio de fases, por ejemplo la muestra se encuentra siempre en estado austenítico, la resistencia inicial de una muestra de geometría cilíndrica estará dada por:
 \begin{equation}
  R_0= \rho \frac{l_0}{A_0}
 \end{equation}
-donde $R_0$ ($\Omega$) es la resistencia inicial, $\rho$ ($\Omega m$) es la resistividad, $l_0$ es el largo inicial y $A_0$ la sección inicial.
-Luego, si la probeta se comprimió un porcentaje $\varepsilon$, considerando que el volumen se mantendrá constante, las dimensiones de la probeta serán 
+donde $R_0$ ($\Omega$) es la resistencia inicial, $\rho$ ($\Omega m$) es la resistividad, $l_0$ es el largo inicial y $A_0$ la sección inicial. En este análisis consideraremos que el volumen se mantiene constante ya que en los casos como este, con deformación plástica o por ejemplo en las transformaciones martensíticas termoelásticas, el cambio de volumen es despreciable. Por lo tanto si la probeta se comprimió un porcentaje $\varepsilon$ las dimensiones de la misma serán: 
 % TODO quizas no consideremos volumen constante
 \begin{equation*}
- l=l_0 * (1- \frac{\varepsilon}{100})
+ l=l_0 * (1- \varepsilon)
 % \end{equation*}
 % \begin{equation*}
   \quad \quad y \quad \quad  
- A=\frac{A_0}{(1- \frac{\varepsilon}{100})} \quad 
+ A=\frac{A_0}{(1- \varepsilon)} \quad 
 \end{equation*}
 Por lo tanto, 
 \begin{equation}
-R= \rho \frac{l}{A} = \rho (1-\frac{\varepsilon}{100})^2 \frac{l_0}{A_0} %= \rho f^2 \frac{l_0}{A_0}
+R= \rho \frac{l}{A} = \rho (1-\varepsilon)^2 \frac{l_0}{A_0} %= \rho f^2 \frac{l_0}{A_0}
 \end{equation}
 
-De esta manera, $(1-\frac{\varepsilon}{100})^2$ es un factor que relaciona el cambio de la resistencia con los cambios geométricos de la muestra. 
-
-%TODO Hacer grafico de esta HistExplicacion
-
-A continuación agregaremos los cambios de resistencia debidos a la transformación martensítica. Como muestra la figura \textbf{--falta hacer el esquema de este gráfico--}, si inicialmente la muestra se encuentra en estado austenítico, tendrá una resistencia $R_A$. Al disminuir la temperatura, transformará a martensita y la resistencia aumentará al valor $R_0$. Pero no se está tomando en cuenta la compresión que sufre la muestra al transformar, que generará una disminución en la resistencia ,que entonces llegará al valor $R$. Por lo tanto tendremos:
-
-\begin{equation}
- R_0=fR_A 
-\end{equation}
-\begin{equation}
- R=f'R_A
-\end{equation}
-\begin{equation}
- R_0 (1+\varepsilon)^2 = f'R_A
-\end{equation}
-Como $R=R_0 (1+\varepsilon)^2$ y $R_0=fR_A$ se llega a:
-\begin{equation}
- R_0 (1+\varepsilon)^2 = f'R_A
-\end{equation}
-\begin{equation}
-f' = f (1+\varepsilon)^2  \label{fprima}
-\end{equation}
-Esta ecuación relaciona los valores de resistencia al transformar, tomando en cuenta los cambios geométricos en la muestra.
+De esta manera, $(1-\varepsilon)^2$ es un factor que relaciona el cambio de la resistencia con los cambios geométricos de la muestra. 
 
 
+%***************************************************** graficos
   \begin{figure}% \label{fig:Clavo1}
     \centering
     
     ~ %add desired spacing between images, e. g. ~, \quad, \qquad, \hfill etc. 
       %(or a blank line to force the subfigure onto a new line)
-    \begin{subfigure}{0.47\textwidth}
-        \includegraphics[width=\textwidth]{Img/Resultados/Resistencia/strain6b.eps}
-        \caption{}%Corte transversal del Clavo 1}
-        \label{fig: strain6b}
-    \end{subfigure}
-    \begin{subfigure}{0.47\textwidth}
-        \includegraphics[width=\textwidth]{Img/Resultados/Resistencia/Res6b.eps}
-        \caption{}%Corte transversal del Clavo 1}
-        \label{fig: res6b}
-    \end{subfigure}
-    \caption{Gráficos obtenidos al realizar un ensayo con una probeta policristalina manteniendo una tensión de $32$ $MPa$ constante y transformando térmicamente. En \textbf{(a)} los valores obtenidos por el extensómetro en función de la temperatura y en \textbf{(b)} la correspondiente histéresis de resistencia.}
-    \label{resultados6b}
-    \end{figure}
-
-Se comenzó estudiando un monocristal de CuZnAl que fue fabricado anteriormente por el grupo de investigación. La muestra, que tenía una forma inicial cilíndrica, se preparó siguiendo el procedimiento explicado en la sección \ref{compresión}. Antes de comenzar el ensayo se realizó un recocido a $800$ $ ^\circ C$ durante media hora y luego un enfriamiento al aire para reiniciar el estado termomecánico del material. A continuación se soldaron los cuatro cables utilizados para medir la resistencia del material por el método de las cuatro puntas y una termocupla para registrar la temperatura de la muestra durante todo el proceso. Seguidamente se realizaron ciclos de transformación térmica de la muestra, variando la temperatura de la cámara ambiental, y con un extensómetro se registró la dilatación/contracción de la muestra en cada ciclo de transformación. Cada uno de los ciclos de transformación se realizó manteniendo distintas cargas constantes. 
-
-La figura \ref{resultados6b} muestra los gráficos obtenidos para una de las muestras ensayadas. En la figura \ref{fig: strain6b} se graficó la curva tensión vs deformación, donde inicialmente se aumentó la carga manualmente hasta el valor correspondiente al ensayo, en la figura $32.7$ $MPa$, y luego se mantuvo constante manualmente durante el ciclo térmico de transformación. La tensión se mantuvo constante variando la velocidad y dirección de carga de la jaula de compresión de la máquina de ensayos mecánicos. Al enfriar, la muestra transformaó a variantes de martensita que relajando la tensión a la cual estaba sometida la muestra (variantes compresivas). Como puede verse en el gráfico \ref{fig: strain6b} la muestra redujo su longitud aproximadamente un $2.6\%$. Al aumentar la temperatura transformó a austenita, la longitud volvió al valor inicial, y finalmente la carga se retiró manualmente. En la figura \ref{fig: res6b} se presenta la histéresis que se obtuvo al graficar la resistencia de la muestra en el ciclo de transformación. 
-
-% \vspace{5mm} %5mm vertical space
-% \textbf{$*****$No estoy segura si estas descripciones deberían ir en la sección de procedimientos...$*****$}
-% \vspace{5mm} %5mm vertical space
-
- En la figura \ref{EjStrainRes} se muestran los gráficos obtenidos al realizar un ciclo térmico de transformación libre de carga. En la figura \ref{fig: EjStrain}  se presenta la variación de deformación en función de la temperatura registrada por el extensómetro y en la figura \ref{fig: EjRes} su correspondiente histéresis de resistividad.
-
-  \begin{figure}% \label{fig:Clavo1}
-    \centering
-    
-    ~ %add desired spacing between images, e. g. ~, \quad, \qquad, \hfill etc. 
-      %(or a blank line to force the subfigure onto a new line)
-    \begin{subfigure}{0.47\textwidth}
-        \includegraphics[width=\textwidth]{Img/Resultados/Resistencia/ejstrain.eps}
-        \caption{Corte transversal del Clavo 1}%Corte transversal del Clavo 1}
-        \label{fig: EjStrain}
-    \end{subfigure}
-    \begin{subfigure}{0.47\textwidth}
-        \includegraphics[width=\textwidth]{Img/Resultados/Resistencia/ejres.eps}
-        \caption{Corte transversal del Clavo 2}%Corte transversal del Clavo 1}
-        \label{fig: EjRes}
-    \end{subfigure}
-    \caption{Gráficos obtenidos de un ciclo térmico de transformación de una probeta policristalina libre de cargas aplicadas. En (a) la curva correspondiente a la deformación en función de la temperatura y en (b) su correspondiente curva de resistencia en funcion de la temperatura.}
-    \label{EjStrainRes}
-    \end{figure}
-
-
-Para eliminar la variación por temperatura de la resistividad en estado austenítico y martensítico, deben medirse a la misma temperatura. Como no es posible tener $100 \%$ de ambas fases simultáneamente, los valores de resistencia se tomaron como se muestra en la figura \ref{fig:ExpRes}. Además la figura \ref{fig:ExpStrain} muestra como se tomó el valor de deformación máxima en la transformación.
-
-
-  \begin{figure}% \label{fig:Clavo1}
-    \centering
-    
-    ~ %add desired spacing between images, e. g. ~, \quad, \qquad, \hfill etc. 
-      %(or a blank line to force the subfigure onto a new line)
-    \begin{subfigure}{0.47\textwidth}
+    \begin{subfigure}{0.35\textwidth}
         \includegraphics[width=\textwidth]{Img/Resultados/Resistencia/ExpRes.eps}
         \caption{}
         \label{fig:ExpRes}
@@ -1381,9 +1366,70 @@ Para eliminar la variación por temperatura de la resistividad en estado austen�
         \caption{}
         \label{fig:ExpStrain}
     \end{subfigure}
-    \caption{Descripción de como se realizaron las mediciones de la resistencia en estado austenítico y martensítico. En el gráfico \textbf{(a)} se muestra un gráfico de la resistencia en función de la temperatura. Se dibujó una tangente a la curva de resistencia de la austenita (recta 1) y una tangente a la curva de transformación (recta 2). En el punto donde se intersectan estas rectas se midió la resistencia correspondiente al estado austenítico ($V_A$). Luego se dibujó una recta vertical por este punto (recta 3), y se realizó una recta con la misma pendiente a la recta 1 sobre el segmento correspondiente al estado martensítico (recta 4). La intersección entre esta recta  y la vertical (recta 3 y 4) será el valor correspondiente a la resistencia en estado martensítico ($V_M$). En \textbf{(b)} se muestra el gráfico obtenido con el extensómetro.}
+    \caption{Descripción de cómo se realizaron las mediciones de la resistencia en estado austenítico y martensítico. En el gráfico \textbf{(a)} se muestra un gráfico de la resistencia en función de la temperatura. Se dibujó una tangente a la curva de resistencia de la austenita (recta 1) y una tangente a la curva de transformación (recta 2). En el punto donde se intersectan estas rectas se midió la resistencia correspondiente al estado austenítico ($R_A$). Luego se dibujó una recta vertical por este punto (recta 3), y se realizó una recta con la misma pendiente a la recta 1 sobre el segmento correspondiente al estado martensítico (recta 4). La intersección entre esta recta  y la vertical (recta 3 y 4) será el valor correspondiente a la resistencia en estado martensítico ($R_M$). En \textbf{(b)} se muestra el gráfico obtenido con el extensómetro.}
     \label{fig:ExpStrainRes}
     \end{figure}
+
+
+A continuación agregaremos los cambios de resistencia debidos a la transformación martensítica. Si inicialmente la muestra se encuentra en estado austenítico, tendrá una resistencia $R_A^0$. Al disminuir la temperatura, transformará a martensita y la resistencia aumentará al valor $R_M ^0$ siguiendo la relación $\rho_M ^0=f \rho_A ^0$. Pero no se está tomando en cuenta la compresión que sufre la muestra al transformar, que generará una disminución en la resistencia, que entonces llegará al valor ${R_M^1}$. Por lo tanto tendremos:
+\begin{equation}
+ R_M ^0=fR_A^0   \longrightarrow    \rho_M^0=f^i\rho_A^0 
+\end{equation}
+\begin{equation}
+ {R_M}^{i}=f^{i}R_A ^0
+\end{equation}
+Como $R_M^{i}=R_M^0 (1+\varepsilon)^2 = f^i R_A$ se llega a:
+\begin{equation}
+ R_M^0 (1+\varepsilon)^2 = f^{i}R_A
+\end{equation}
+\begin{equation}
+f^{i} = f (1+\varepsilon)^2  \label{fprima}
+\end{equation}
+Esta ecuación relaciona los valores de resistencia al transformar, tomando en cuenta los cambios geométricos en la muestra. Al graficar los valores de $f^{i}$ en función de $(1+\varepsilon)^2$, se llega a una recta de pendiente $f$. 
+  
+
+
+       % *****************************************Grafico donde se obtiene f
+ \begin{figure}[h]
+ \centering
+ \includegraphics[width=0.6\textwidth]{Img/Resultados/Resistencia/PoliMono2.eps}
+ \caption{Gráfico de los resultados obtenidos al ensayar un monocristal (puntos rojos) y un policristal (puntos negros). Estos mismos valores se presentan en las tablas \ref{tab:TablaMonocristal} para el monocristal y \ref{tab:TablaPolicristal} para el policristal. La linea punteada negra corresponde a la recta de pendiente $f$ para el policristal y en rojo la recta correspondiente al policristal.} 
+ \label{fig:PoliMono}
+ \end{figure}
+
+%   \begin{figure}% \label{fig:Clavo1}
+%     \centering
+%     
+%     ~ %add desired spacing between images, e. g. ~, \quad, \qquad, \hfill etc. 
+%       %(or a blank line to force the subfigure onto a new line)
+%     \begin{subfigure}{0.47\textwidth}
+%         \includegraphics[width=\textwidth]{Img/Resultados/Resistencia/strain6b.eps}
+%         \caption{}%Corte transversal del Clavo 1}
+%         \label{fig: strain6b}
+%     \end{subfigure}
+%     \begin{subfigure}{0.47\textwidth}
+%         \includegraphics[width=\textwidth]{Img/Resultados/Resistencia/Res6b.eps}
+%         \caption{}%Corte transversal del Clavo 1}
+%         \label{fig: res6b}
+%     \end{subfigure}
+%     \caption{Gráficos obtenidos al realizar un ensayo con una probeta policristalina manteniendo una tensión de $32$ $MPa$ constante y transformando térmicamente. En \textbf{(a)} los valores obtenidos por el extensómetro en función de la temperatura y en \textbf{(b)} la correspondiente histéresis de resistencia.}
+%     \label{resultados6b}
+%     \end{figure}
+
+Se comenzó estudiando un monocristal de CuZnAl que fue fabricado anteriormente por el grupo de investigación \textbf{(\textit{falta agregar datos de esta muestra})}. La muestra, que tenía una forma inicial cilíndrica, se preparó siguiendo el procedimiento explicado en la sección \ref{compresión}. Antes de comenzar el ensayo se realizó un recocido a $800$ $ ^\circ C$ durante media hora y luego un enfriamiento al aire para asegurar que la esponja se encuentre en estado asutenítico al comenzar el ensayo. A continuación se soldaron los cuatro cables utilizados para medir la resistencia del material por el método de las cuatro puntas y una termocupla para registrar la temperatura de la muestra durante todo el proceso. Seguidamente se realizaron ciclos de transformación térmica de la muestra, variando la temperatura de la cámara ambiental, y con un extensómetro se registró la dilatación/contracción de la muestra en cada ciclo de transformación. Cada uno de los ciclos de transformación se realizó manteniendo distintas cargas constantes. 
+
+La figura \ref{fig: Ejemplos6b} muestra los gráficos obtenidos con una de las muestras ensayadas. En la figura \ref{fig: EjTensionDef} se graficó la curva tensión vs deformación, donde inicialmente se aumentó la carga hasta el valor correspondiente al ensayo, $32.7$ $MPa$, y luego se mantuvo constante durante el ciclo térmico de transformación. La tensión se mantuvo constante variando la velocidad y dirección de carga de la jaula de compresión de la máquina de ensayos mecánicos. Al enfriar, la muestra transformó a variantes de martensita, buscando relajar la tensión a la cual estaba sometida (variantes compresivas). Como puede verse en el gráfico \ref{fig: EjTensionDef} la muestra redujo su longitud aproximadamente un $2.6\%$. Al aumentar la temperatura transformó a austenita, la longitud volvió al valor inicial, y finalmente la carga se retiró. En la figura \ref{fig:EjTempDef} se grafica la deformación en función de la temperatura, y en la figura \ref{fig:EjTempRes} se presenta la histéresis que se obtuvo al graficar la resistencia de la muestra en el ciclo de transformación. 
+
+% \vspace{5mm} %5mm vertical space
+% \textbf{$*****$No estoy segura si estas descripciones deberían ir en la sección de procedimientos...$*****$}
+% \vspace{5mm} %5mm vertical space
+
+
+
+Para eliminar la variación por temperatura de la resistividad en estado austenítico y martensítico al tomar los valores de los gráficos, deben medirse a la misma temperatura. Como no es posible tener $100 \%$ de ambas fases simultáneamente, los valores de resistencia se tomaron como se muestra en la figura \ref{fig:ExpRes}. Además la figura \ref{fig:ExpStrain} muestra como se tomó el valor de deformación máxima en la transformación. La deformación no varía en gran medida con la temperatura en el rango de temperaturas que se trabajó, por lo que este dato puede tomarse directamente del gráfico.
+
+
+
 %  \begin{figure}[h]
 %  \centering
 %  \includegraphics[width=0.5\textwidth]{Img/Resultados/Resistencia/ExpRes.eps}
@@ -1394,62 +1440,57 @@ Para eliminar la variación por temperatura de la resistividad en estado austen�
  %TODO agregar grafico que explica como tomamos el valor del extensómetro
     
 
-En la tabla \ref{tab:TablaMonocristal} se detallan los valores obtenidos al realizar distintos ensayos con un monocristal y los resultados obtenidos al aplicar la ecuación \ref{fprima}.
-
-
+    
+    
+En la tabla \ref{tab:TablaMonocristal} se detallan los valores obtenidos al realizar distintos ensayos con un monocristal.
 
 
 \begin{table} 
 \begin{center} 
 \begin{tabular}{@{}llllll@{}} \toprule
-Tensión ($MPa$) & $\varepsilon$ ($\%$) &  $f'=\frac{R_M}{R_A}$ & $f$  \\ \midrule
- 0        &  0.76   & 1.27 & 1.30  \\
- 1.93       &  0.37   & 1.28 & 1.30  \\
- 17.4      &  -7.60  & 1.15 & 0.98  \\
- 31.0      &  -7.90  & 1.17 &  0.99 \\
- 46.5     &  -8.00  & 0.17 &  0.99 \\
+Tensión ($MPa$) & $\varepsilon$ ($\%$) &  $f^i=\frac{R_M ^i}{R_A}$\\ \midrule
+ 0        &  0.76   & 1.27\\
+ 1.93       &  0.37   & 1.28\\
+ 17.4      &  -7.60  & 1.15\\
+ 31.0      &  -7.90  & 1.17\\
+ 46.5     &  -8.00  & 1.17  \\
  Referencia \cite{resistencia}    & 8.00  &  1.73   \\
  \bottomrule
 \end{tabular}
-\caption{Resultados obtenidos al realizar ciclos térmicos de transformación con distintas cargas aplicadas con un monocristal de CuZnAl. En la primera columna se muestran las cargas aplicadas que se mantuvieron constantes durante cada ciclo de transformación, $\varepsilon$ es la deformación máxima registrada por el extensómetro al transformar completamente a martensita, $\frac{V_M}{V_A}$ es el cociente entre la resistencia en estado martensítico y el estado austenítico y $f$ el cociente entre el factor geométrico y $f'$ según la ecuación \ref{fprima}.}
+\caption{Resultados obtenidos al realizar ciclos térmicos de transformación con distintas cargas aplicadas con un monocristal de CuZnAl. En la primera columna se muestran las cargas aplicadas que se mantuvieron constantes durante cada ciclo de transformación, $\varepsilon$ es la deformación máxima registrada por el extensómetro al transformar completamente a martensita, $f'=\frac{R_M}{R_A}$ es el cociente entre la resistencia en estado martensítico y el estado austenítico.}
 \label{tab:TablaMonocristal}
 \end{center}
 \end{table}
 
 
-
-A continuación se aplicó el mismo análisis a las mediciones realizadas con una muestra policristalina. Se efectuaron nuevamente ciclos térmicos de transformación, manteniendo constantes distintas cargas. En la tabla \ref{tab:TablaPolicristal} se muestran las distintas cargas aplicadas, las deformaciones obtenidas, y los valores de $f '$ que relaciona la resistencia en estado martensítico y austenítico. 
+A continuación se aplicó el mismo análisis a las mediciones realizadas con una muestra policristalina (\textbf{Clavo 5} de la sección anterior). Se efectuaron nuevamente ciclos térmicos de transformación, manteniendo constantes distintas cargas. En la tabla \ref{tab:TablaPolicristal} se muestran las distintas cargas aplicadas, las deformaciones obtenidas, y los valores de $f^i$ que relacionan la resistencia en estado martensítico y austenítico. 
 % TODO justificacion
 
 \begin{table} 
 \begin{center} 
 \begin{tabular}{@{}llllll@{}} \toprule
-Carga (N) & $\varepsilon$ ($\%$) &  $f'=\frac{R_M}{R_A}$ &  $f$\\ \midrule
- 0        &  -0.1   & 1.30 & 1.30  \\
- 0       &  -0.6   & 1.27 &  1.29  \\
- 0      &  -0.50   & 1.28 &  1.30  \\
- 32.7      &  -2.60 & 1.21 &  1.27  \\
- 18.4    &  -1.60  & 1.24 &  1.28  \\
- 2.04      &  -0.90  & 1.27 &  1.30  \\
- 49.1     &  -2.5  & 1.23 &  1.29  \\
+Tensión (Mpa) & $\varepsilon$ ($\%$) &  $f^i=\frac{R_M ^i}{R_A}$\\ \midrule
+ 0        &  -0.1   & 1.30\\
+ 0       &  -0.6   & 1.27 \\
+ 0      &  -0.50   & 1.28 \\
+ 2.04      &  -0.90  & 1.27\\
+ 18.4    &  -1.60  & 1.24 \\
+32.7      &  -2.60 & 1.21\\
+ 49.1     &  -2.5  & 1.23   \\
  \bottomrule
 \end{tabular}
-\caption{Resultados obtenidos al realizar ciclos térmicos de transformación con distintas cargas aplicadas con un policristal de CuZnAl. En la primera columna se muestran las cargas aplicadas que se mantuvieron constantes durante cada ciclo de transformación, $\varepsilon$ es la deformación máxima registrada por el extensómetro al transformar completamente a martensita, $\frac{V_M}{V_A}$ es el cociente entre la resistencia en estado martensítico y el estado austenítico y $f$ el cociente entre el factor geométrico y $f'$ según la ecuación \ref{fprima}.}
+\caption{Resultados obtenidos al realizar ciclos térmicos de transformación con distintas cargas aplicadas con un policristal de CuZnAl. En la primera columna se muestran las cargas aplicadas que se mantuvieron constantes durante cada ciclo de transformación, $\varepsilon$ es la deformación máxima registrada por el extensómetro al transformar completamente a martensita, $\frac{V_M}{V_A}$ es el cociente entre la resistencia en estado martensítico y el estado austenítico y $f^i$ el cociente entre el factor geométrico y $f'$ según la ecuación \ref{fprima}. También se esquematiza que $f$ corresponde a la pendiente de la recta.}
 \label{tab:TablaPolicristal}
 \end{center}
 \end{table}
 % TODO MPa
 
-En el gráfico \ref{fig:PoliMono} se presentan todos los resultados que se obtuvieron al ensayar la muestra monocristalina y una policristalina, correspondientes a las tablas \ref{tab:TablaMonocristal} y \ref{tab:TablaPolicristal}. Puede verse que hay una tendencia lineal en el aumento de la resistencia por las variaciones geométricas, cuya pendiente corresponde al valor de $f$ según la ecuación \ref{fprima}. Se concluyó a partir de este resultado que la variación en el aumento de la resistencia al transformar de austenita a martensita se da por una variación geométrica, y no se observa ningún efecto adicional de la carga aplicada.
+En el gráfico \ref{fig:PoliMono} se presentan todos los resultados que se obtuvieron al ensayar la muestra monocristalina y una policristalina, correspondientes a las tablas \ref{tab:TablaMonocristal} y \ref{tab:TablaPolicristal}. Puede verse que hay una tendencia lineal en el aumento de la resistencia por las variaciones geométricas, cuya pendiente corresponde al valor de $f$ según la ecuación \ref{fprima}. A partir de esta ecuación se obtuvieron valores de $f$ igual a $1.32\pm0.03$ y $1.30 \pm 0.01$ para el monocristal y el policristal respectivamente.  Se concluyó a partir de este resultado que la variación en el aumento de la resistencia al transformar de austenita a martensita se da por una variación geométrica, y no se observa ningún efecto adicional de la carga aplicada.
 
 %Si se considera el punto correspondiente a la ref. la desviación es más notable (ver qué poner como justificación).} 
+% 
+% A partir de los datos obtenidos se graficaron estos valores y se obtuvieron para las muestras ensayadas valores aproximados a $f=1.3$.   
 
- \begin{figure}[h]
- \centering
- \includegraphics[width=0.6\textwidth]{Img/Resultados/Resistencia/PoliMono2.eps}
- \caption{Gráfico de los resultados obtenidos al ensayar un monocristal (puntos rojos) y un policristal (puntos negros). Estos mismos valores se presentan en las tablas \ref{tab:TablaMonocristal} para el monocristal y \ref{tab:TablaPolicristal} para el policristal.} 
- \label{fig:PoliMono}
- \end{figure}
  
 %  
 %  \vspace{5mm} %5mm vertical space
@@ -1467,33 +1508,132 @@ En el gráfico \ref{fig:PoliMono} se presentan todos los resultados que se obtuv
  \end{figure}
 
  
- En la figura \ref{fig:HistExplicacion} se muestra el gráfico que se obtuvo en un ciclo de transformación térmica de una esponja de CuZnAl al graficar resistencia vs temperatura. Inicialmente se le realizó un recocido a 800 $^\circ C$ y un enfriamiento al aire para asegurar que la muestra se encuentraba en estado austenítico al iniciar el ensayo. Luego se le soldaron los cuatro cables utilizados para el método de las cuatro puntas (seccón \ref{CuatroPuntas}) y una termocupla tipo K para tener un registro preciso de la temperatura del material. Los números en el gráfico indican el recorrido que sigue la resistencia durante el ensayo. 
+ En la figura \ref{fig:HistExplicacion} se muestra el gráfico de resistencia vs temperatura obtenido en un ciclo de transformación térmica de una esponja de CuZnAl. Inicialmente se le realizó un recocido a 800 $^\circ C$ y un enfriamiento al aire para asegurar que la muestra se encontraba en estado austenítico al iniciar el ensayo. Luego se le soldaron los cuatro cables utilizados para el método de las cuatro puntas (sección \ref{CuatroPuntas}) y una termocupla tipo K para tener un registro preciso de la temperatura del material. Los números en el gráfico indican la secuencia que sigue la resistencia durante el ensayo. 
  
- Inicialmente, en el punto \textit{1}, la muestra se encontraba en estado totalmente austenítico. Se disminuyó la temperatura utilizando una cámara ambiental $numero de la camara$, con una velocidad de $5$ $^\circ C/minuto$. En esta etapa la resistencia varía linealmente con la temperatura.
- Una vez que se alcanzaron los $10$ $^\circ C$, la austenita comenzó a transformar a martensita ($M_s$) por lo que aumentó la resistividad del material. A partir de los $-20$  $^\circ C$ aproximadamente la resistencia volvió a estabilizarse ($M_f$) y disminuyó únicamente por el descenso de la temperatura (punto \textit{2}).     
+ A partir de aquí estaremos haciendo dos suposiciones. En primer lugar que la resistividad de las fases martensita y austenita únicamente varían con la temperatura, y no por ejemplo, por las distintas variantes que se forman. En segundo lugar asumimos que la transformación a martensita es completa, mientras que al retransformar a austenita quedará una cierta cantidad de martensita retenida. También seguiremos asumiendo que el volumen se mantiene constante, ya que tenemos en este caso deformación plastica y una transformación martensítica termoelástica.
+ 
+ Inicialmente, en el punto \textit{1}, la muestra se encontraba en estado totalmente austenítico. Se disminuyó la temperatura utilizando una cámara ambiental $numero de la camara$, con una velocidad de $5$ $^\circ C/minuto$. En esta etapa la resistencia variaba linealmente con la temperatura.
+ Una vez que se alcanzaron los $10$ $^\circ C$, la austenita comenzó a transformar a martensita ($M_s$) por lo que aumentó la resistividad del material. A partir de los $-20^\circ C$ aproximadamente la resistencia volvió a estabilizarse ($M_f$) y disminuyó únicamente por el descenso de la temperatura (punto \textit{2}).     
  %TODO datos camara ambiental
- Al alcanzar una temperatura de $-40$ $^\circ C$ se comenzó a aumentar la temperatura nuevamente, a una velocidad de $5$ $^\circ C/minuto$. Ahora la resistividad del material comenzó a aumentar linealmente con la temperatura, hasta llegar a aproximadamente $-10$ $^\circ C$. A esta temperatura ($A_s$), comenzó a transformar a austenita nuevamente, y la resistencia del material disminuyó. Idealmente, la resistencia en estado austenítico debería volver al punto \textit{1}, cerrando la histéresis, pero como se ve en el gráfico vuelve al punto \textit{4}, el cual posee un valor superior al inicial. Esto se debe a dos causas principales, la presencia de austenita retenida y la rotura de la estructura. La austenita retenida se debe a la estabilización de una fracción de martensita que se formó al llegar al punto \textit{2}. Por otro lado la transformación de la estructura genera tensiones entre los granos que transforman, y los granos contiguos que no pueden acomodarse a la deformación de los mismos, por lo que la estructura se rompe formando fisuras intergranulares. En los puntos donde los granos son muy grandes, o las paredes de la estructura son muy finas, este efecto se acentúa. Al romperse distintos puntos de la estructura, disminuye la sección efectiva de la esponja, aumentando así la resistencia.
+ Al alcanzar una temperatura de $-40$ $^\circ C$ se comenzó a aumentar la temperatura nuevamente, a una velocidad de $5$ $^\circ C/minuto$. Ahora la resistividad del material comenzó a aumentar linealmente con la temperatura, hasta llegar a aproximadamente $-10$ $^\circ C$. A esta temperatura ($A_s$), comenzó a transformar a austenita nuevamente, y la resistencia del material disminuyó. Idealmente, la resistencia en estado austenítico debería haber vuelto al punto \textit{1}, cerrando la histéresis, pero como se ve en el gráfico vuelvió al punto \textit{4}, el cual posee un valor superior al inicial. Esto se debe a dos causas principales, la presencia de martensita retenida y la rotura de la estructura. La martensita retenida se debe a la estabilización de una fracción de martensita que se formó al llegar al punto \textit{2}. Por otro lado la transformación de la estructura genera tensiones entre los granos que transforman, y los granos contiguos que no pueden acomodarse a la deformación de los mismos, por lo que la estructura se rompe formando fisuras intergranulares. En los puntos donde los granos son muy grandes, o las paredes de la estructura son muy finas, este efecto se acentúa. Al romperse distintos puntos de la estructura, disminuye la sección efectiva de la esponja, aumentando así la resistencia.
 
- Luego de llegar al punto \textit{3} se realizó un nuevo ciclo de enfriamiento. Esta vez, al transformar, la resistencia subió hasta el punto \textit{4}. Si se comparan el punto \textbf{3} y el \textbf{4}, ambos poseen una estructura totalmente martensítica, por lo que podemos concluir que la diferencia que existe en la resistencia entre estas dos curvas se debe a la rotura de la estructura. La diferencia de resistencia entre los segmentos \textbf{2} y \textit{4} es mucho menor a la diferencia entre los segmentos \textit{1} y \textit{3}. Se llegó a la conclusión de que en este primer ciclo, el aumento de resistencia entre los segmentos \textit{1} y \textit{3} se debe a la presencia de martensita retenida, pero también a la formación de fisuras en la estructura de la esponja debido a las tensiones que se generaron en la transformación. 
+ Luego de llegar al punto \textit{3} se realizó un nuevo ciclo de enfriamiento. Esta vez, al transformar, la resistencia subió hasta el punto \textit{4}. Si se comparan el punto \textbf{3} y el \textbf{4}, ambos poseen una estructura totalmente martensítica, por lo que podemos concluir que la diferencia que existe en la resistencia entre estas dos curvas se debe a la rotura de la estructura. La diferencia de resistencia entre los segmentos \textbf{2} y \textit{4} es mucho menor a la diferencia entre los segmentos \textit{1} y \textit{3}. 
+%  
+%  Se llegó a la conclusión de que en este primer ciclo, el aumento de resistencia entre los segmentos \textit{1} y \textit{3} se debe principalmente a la rotura de la esponja por las tensiones generadas en este primer ciclo de transformación. 
+%  
+ %TODO Ver valores para justificar esto
+ % ¿esto era porque el f entre 3 y 4 te da bien?
  
- \vspace{5mm}
- Ahora se aplicará un análisis análogo al de la ecuación \ref{fprima} a los resultados obtenidos de los ensayos realizados con una esponja. Si la transformación de martensita a austenita fuese completa, la ecuación \ref{fprima} también lo estaría. Pero no se toma en cuenta la martensita retenida que estará siempre presente. Luego de realizar un ciclo de transformación a martensita y volver a austenita, la resistencia estará dada por:
+ 
+ 
+ 
+ 
+\vspace{50mm}
+ 
+ 
+ \vspace{50mm}
+ 
+ 
+ \begin{figure}[h]
+ \centering
+ \includegraphics[width=0.8\textwidth]{Img/Resultados/Resistencia/Histeresis2.eps}
+ \caption{Esquema de las distintas fases que se obtienen al realizar un ciclo de transformación térmico y su respectiva curva de resistencia en función de la temperatura.} 
+ \label{fig:HistEsquema}
+ \end{figure}
+% 
+% La resistencia inicial de una esponja en estado austenítico está dada por $R_A$, figura \ref{fig:HistEsquema}. Inicialmente la esponja está compuesta de una fase austenita y no posee ninguna rotura.
+% 
+% \begin{equation}
+%  R_A=\rho_A \frac{L_0}{A_0}
+% \end{equation}
+% 
+% Idealmente, si se realiza un enfriamiento, la probeta transformará totalmente a martensita, y la resistencia en este punto corresponderá a la esponja en estado martensítico, $R_M$ en la figura \ref{fig:HistEsquema}. Lo que en realidad ocurre, es que en esta primera transformación, las mismas tensiones generadas por la transformación de los distintos granos, llevan a la formación de fisuras en la estructura. Por lo tanto al aumentar la resistencia por la transformación martensítica, se estará viendo también el aumento por la degradación de la estructura ($R_M ^{medido}$ en la figura \ref{fig:HistEsquema}). 
+% 
+% % El factor $f$ es cociente entre la resistencia en fase martensítica ($R_M$) y en fase austenítica ($R_A$). Por otro lado el parámetro $a$ relaciona la sección de la esponja ($A$) y la sección inicial ($A_0$).
+% 
+% Luego de realizar un ciclo de transformación martensítica y volver a estado austenítico, la estructura estará compuesta por austenita, martensita retenida, y fisuras en la estructura (${R_A}^{medido}$ en la figura \ref{fig:HistEsquema}), y estará dada por:
+% 
+% \begin{equation}
+%  {R_A}^{medido}=\rho_A \frac{L_0}{A}(1-b) + \rho_M \frac{L_0}{A}b
+% \end{equation}
+% Donde $0<b<1$ representa la fracción de martensita retenida. Si $f$ es el cociente de la resistividad en estado martensítico y la resistividad en estado austenítico ($f=\rho_M / \rho_ A$): 
+% 
+% \begin{equation}
+% {R_A}^{medido}= \rho_A \frac{L_0}{A} [(1-b)+fb]
+% \end{equation}
+% \begin{equation}
+%  {R_A}^{medido}=R_A \frac{A_0}{A}[1+b(f-1)]
+% \end{equation}
+% \begin{equation}
+%  R_M ^{medido} = \rho_M \frac{L_0}{A} = R_A \frac{A_0}{A} f \label{rotura}
+% \end{equation}
+% 
+% Donde $R_M ^{medido}$ es el valor de resistencia en estado martensítico, $R_A$ es el valor de resistencia en estado austenítico inicial y $R_A ^{medido}$ luego de retransformar a austenita. De esta forma la resistencia medida en estado martensítica $R_M ^{medido}$ y la resistencia en estado austenítico $R_A$, quedan relacionados a  un factor geométrico que permite cuantificar la rotura de la esponja $a=A_0/A$, ya que aproximamos $f=1.3$.
+%  
+% Al  aplicar la ecuación \ref{rotura} a los valores obtenidos de las curvas del gráfico \ref{fig:RED_resultados}, se obtuvieron los resultados de la tabla \ref{tab:A0Arotura}. También se evaluaron los resultados obtenidos de otras esponjas a las que se les había realizado distintos ensayos mecánicos (esponja $C$).
+
+
+ 
+
+ 
+ 
+ 
+
+ A parir de la figura \ref{fig:HistEsquema}, comparando la resistencia de la esponja en estado austenítico inicial y luego de distintos ciclos de transformación, se puede obtener el parámetro $a_i$ relacionado a la integridad estructural de la esponja de la siguiente forma. Al concluir un ciclo de transformación a martensita y volver a austenita, la resistencia estará dada por:
 \begin{equation}
- R_1=\rho_A \frac{L_0}{A}(1-b) + \rho_M \frac{L_0}{A}b
+ R_A^{i}=\rho_A \frac{L_0}{A_i}(1-b_i) + \rho_M \frac{L_0}{A_i}b_i = \rho_A \frac{L_0}{A_i} [1+ b_i (f-1)]
 \end{equation}
-Donde ahora $0<b<1$ representa la fracción de martensita retenida y $(1-b)$ la aleación restante que transforma a austenita. En este punto, la resistencia estará dada por la austenita, martensita retenida, y además por la rotura de la estructura (valor $R_1$ en la figura \ref{fig:HistEsquema}). Si $f$ es el cociente entre las resistividades en estado martensítico y austenítico $f=\rho_M / \rho_ A$, entonces:
+Donde ahora $0<b_i <1$ representa la fracción de martensita retenida luego de ese ciclo de transformación y $(1-b_ i)$ la aleación restante que transforma a austenita. En este punto, la resistencia estará dada por la austenita, martensita retenida, y además por la rotura de la estructura. Por ejemplo luego del primer ciclo de transformación será $R_A ^{1}$ en la figura \ref{fig:HistEsquema}. 
+Si en el estado inicial la esponja esta compuesta solo por austenita y no presenta ninguna rotura su resistencia estará dada por:
 \begin{equation}
-R1= \rho_A \frac{L_0}{A} [(1-b)+fb]=R \frac{A_0}{A}[1+b(f-1)] = R \rho_A \frac{L}{A} (1+\varepsilon)^2 [1-b+bf]
+ R_A ^0 = \rho_A \frac{L_0}{A_0}
 \end{equation}
+Por lo tanto en el ciclo $i$ de transformación la resistencia en estado austenítico será:
 \begin{equation}
- R = R_A (1+\varepsilon)^2 [1+b(f-1)] \label{austret}
+ R_A ^i = R_A ^0 \frac{A_0}{A_i} [1+b_i (f-1)]=R_A ^0 a_i [1+b_i (f-1)] \label{austenita}
+\end{equation}
+Donde $a_i$ es un coeficiente vinculado a la rotura de la esponja ya que relaciona las secciones efectivas inicial $A_0$ y final $A$.
+
+Si ahora comparamos le resistencia inicial en estado austenítico $R_A ^0$ con la resistencia en estado martensítico luego del ciclo $i$ de transformación obtendremos:
+
+\begin{equation}
+ R_M ^i = \rho _M \frac{L_0}{A_i}
+\end{equation}
+Si el parámetro $f$ relaciona las resistividades en estado austenítico y martensítico, entonces:
+\begin{equation}
+ f=\rho_M / \rho_A
+ R_M ^i = f R_A ^0 \frac{A_0}{A_i} = R_A ^0 a_i f \label{martensita}
 \end{equation}
 
+Las ecuaciones \ref{austenita} y \ref{martenista} son un sistema de dos ecuaciones con dos incógnitas. De la segunda a partir de los valores de $R_M ^i$ y $R_A ^0$, y conociendo que el factor $f = 1.3$ es una buena aproximación se puede obtener el parámetro $a_i$. Luego con este parámetro y las mediciones de $R_A ^i$ y $R_A ^0$ puede encontrarse el valor de $b_i$ correspondiente a la martensita retenida en ese ciclo.  
 
 
-De esta forma la resistencia medida en estado martensítico $R$ toma en cuenta un factor geométrico  $(1+ \varepsilon)^2$, y un término $b$ correspondiente a la fracción de martensita retenida. Del análisis realizado en la sección \ref{PoilicMonocrist} se encontró que $f=~1.3$ representa una buena aproximación. Además si se realizó un ciclo de transformación completo, y la probeta retransformó a austenita recuperando su forma inicial, entonces el término geométrico $(1+\varepsilon)^3$ será despreciable. Si $R_A$ es la resistencia inicial en estado austenítico, y $R$ es la resistencia en estado austenítico al retransformar, de la ecuación \ref{austret} puede despejarse $b$ correspondiente a la martensita retenida. 
 
-%TODO calcular valores de austenita retenida.
+
+
+
+
+
+
+
+
+
+
+
+
+
+% 
+% Si $f$ es el cociente entre las resistividades en estado martensítico y austenítico $f=\rho_M / \rho_ A$, entonces:
+% \begin{equation}
+% {R_A}^{medido}= \rho_A \frac{L_0}{A} [(1-b)+fb]=R_A \frac{A_0}{A}[1+b(f-1)] = R_A \rho_A \frac{L}{A} (1+\varepsilon)^2 [1-b+bf]
+% \end{equation}
+% \begin{equation}
+%  {R_A}^{medido} = R_A (1+\varepsilon)^2 [1+b(f-1)] \label{austret}
+% \end{equation}
+% 
+% 
+% 
+% De esta forma la resistencia medida en estado austenítico ${R_A}^{mdido}$ toma en cuenta un factor geométrico  $(1+ \varepsilon)^2$, y un término $b$ correspondiente a la fracción de martensita retenida. Del análisis realizado en la sección \ref{PoilicMonocrist} se encontró que $f=~1.3$ representa una buena aproximación. Además si se realizó un ciclo de transformación completo, y la probeta retransformó a austenita recuperando su forma inicial, entonces el término geométrico $(1+\varepsilon)^3$ será despreciable. Si $R_A$ es la resistencia inicial en estado austenítico, y ${R_A}^{medido}$ es la resistencia en estado austenítico al retransformar, de la ecuación \ref{austret} puede despejarse $b$ correspondiente a la martensita retenida. 
 
 \textbf{la tabla \ref{tab:b} tiene distintos valores de b paras la esponjas $\rightarrow$ Las histéresis de los clavos 6 y 7 se cruzan cuando vuelven y tienen valores mas chicos al inicial, no sirven para calcular b?}
 
@@ -1521,7 +1661,7 @@ Ensayo   &    R    &  ${R_A}$ &  b \\ \midrule
  D1       &  0.0308  & 0.0305   & 0.033  \\
  D2       &  0.0349  & 0.0335  &  0.139  \\
  D3       &  0.0442  & 0.0421  &  0.166  \\
- RED      &  0.0689 &	0.068 &	0.0441 \\
+ D4=RED      &  0.0689 &	0.068 &	0.0441 \\
 REC1      &  0.0114 &	0.0113 & 0.0295 \\
 REC2      &  0.0126 &	0.0124 & 0.0538\\
  \bottomrule
@@ -1535,7 +1675,12 @@ REC2      &  0.0126 &	0.0124 & 0.0538\\
 
 
  %_________________________________________________________________________________________________________________________________________________________________________________________________________________________-
- %_________________________________________________________________________________________________________________________________________________________________________________________________________________________-
+ %____________________________________________________________________________________________________________________________________________________________
+ 
+ 
+ 
+
+
  
 
 
@@ -1543,45 +1688,45 @@ REC2      &  0.0126 &	0.0124 & 0.0538\\
 % 
 %  Al transformar de austenita a martensita se produce un aumento en la resistencia debido a la mayor resistividad de la fase martensítica. Si en los ciclos lo único que ocurre es la transformación de fase, el aumento de resistencia debería ser siempre el mismo. Pero en cada uno de estos ciclos queda austenita retenida, lo que genera un aumento de la resistencia al volver a estado austenítico. Además, la rotura de la estructura, que ocurre por las cargas aplicadas y por las tensiones generadas en la transformación, hacen que disminuya la sección efectiva de la esponja, aumentando aún más la resistencia. 
 
-Hasta aquí se obtuvo un parámetro que brinda información sobre la martensita retenida presente en la esponja luego de cada ciclo de transformación. Veremos ahora como obtener un parámetro con información de la integridad estructural de la esponja.  
-
- \begin{figure}[h]
- \centering
- \includegraphics[width=0.5\textwidth]{Img/Resultados/Resistencia/Histeresis2.eps}
- \caption{Esquema de las distintas fases que se obtienen al realizar un ciclo de transformación térmico y su respectiva curva de resistencia en función de la temperatura.} 
- \label{fig:HistEsquema}
- \end{figure}
-
-La resistencia inicial de una esponja en estado austenítico está dada por R, figura \ref{fig:HistEsquema}. Inicialmente la esponja está compuesta de una fase austenita y no posee ninguna rotura.
-
-\begin{equation}
- R=\rho_A \frac{L_0}{A_0}
-\end{equation}
-
-Idealmente, si se realiza un enfriamiento, la probeta transformará totalmente a martensita, y la resistencia en este punto corresponderá a la esponja en estado martensítico, $R_M$ en la figura \ref{fig:HistEsquema}. Lo que en realidad ocurre, es que en esta primera transformación, las mismas tensiones generadas por la transformación de los distintos granos, llevan a la formación de fisuras en la estructura. Por lo tanto al aumentar la resistencia por la transformación martensítica, se estará viendo también el aumento por la degradación de la estructura ($R_2$ en la figura \ref{fig:HistEsquema}). 
-
-% El factor $f$ es cociente entre la resistencia en fase martensítica ($R_M$) y en fase austenítica ($R_A$). Por otro lado el parámetro $a$ relaciona la sección de la esponja ($A$) y la sección inicial ($A_0$).
-
-Luego de realizar un ciclo de transformación martensítica y volver a estado austenítico, la estructura estará compuesta por austenita, martensita retenida, y fisuras en la estructura ($R_1$ en la figura \ref{fig:HistEsquema}), y estará dada por:
-
-\begin{equation}
- R_1=\rho_A \frac{L_0}{A}(1-b) + \rho_M \frac{L_0}{A}b
-\end{equation}
-Donde $0<b<1$ representa la fracción de martensita retenida. Si $f$ es el cociente de la resistividad en estado martensítico y la resistividad en estado austenítico ($f=\rho_M / \rho_ A$): 
-
-\begin{equation}
-R1= \rho_A \frac{L_0}{A} [(1-b)+fb]
-\end{equation}
-\begin{equation}
- R_1=R \frac{A_0}{A}[1+b(f-1)]
-\end{equation}
-\begin{equation}
- R_2 = \rho_M \frac{L_0}{A} = R \frac{A_0}{A} f \label{rotura}
-\end{equation}
-
-Donde $R_2$ es el valor de resistencia en estado martensítico, $R$ es el valor de resistencia en estado austenítico inicial y $R_1$ luego de retransformar a austenita. De esta forma la resistencia medida en estado martensítica $R_2$ y la resistencia en estado austenítico $R$, quedan relacionados a  un factor geométrico que permite cuantificar la rotura de la esponja $a=A_0/A$, ya que aproximamos $f=1.3$.
- 
-Al  aplicar la ecuación \ref{rotura} a los valores obtenidos de las curvas del gráfico \ref{fig:RED_resultados}, se obtuvieron los resultados de la tabla \ref{tab:A0Arotura}. También se evaluaron los resultados obtenidos de otras esponjas a las que se les había realizado distintos ensayos mecánicos (esponja $C$).
+% Hasta aquí se obtuvo un parámetro que brinda información sobre la martensita retenida presente en la esponja luego de cada ciclo de transformación. Veremos ahora como obtener un parámetro con información de la integridad estructural de la esponja.  
+% 
+%  \begin{figure}[h]
+%  \centering
+%  \includegraphics[width=0.5\textwidth]{Img/Resultados/Resistencia/Histeresis2.eps}
+%  \caption{Esquema de las distintas fases que se obtienen al realizar un ciclo de transformación térmico y su respectiva curva de resistencia en función de la temperatura.} 
+%  \label{fig:HistEsquema}
+%  \end{figure}
+% 
+% La resistencia inicial de una esponja en estado austenítico está dada por $R_A$, figura \ref{fig:HistEsquema}. Inicialmente la esponja está compuesta de una fase austenita y no posee ninguna rotura.
+% 
+% \begin{equation}
+%  R_A=\rho_A \frac{L_0}{A_0}
+% \end{equation}
+% 
+% Idealmente, si se realiza un enfriamiento, la probeta transformará totalmente a martensita, y la resistencia en este punto corresponderá a la esponja en estado martensítico, $R_M$ en la figura \ref{fig:HistEsquema}. Lo que en realidad ocurre, es que en esta primera transformación, las mismas tensiones generadas por la transformación de los distintos granos, llevan a la formación de fisuras en la estructura. Por lo tanto al aumentar la resistencia por la transformación martensítica, se estará viendo también el aumento por la degradación de la estructura ($R_M ^{medido}$ en la figura \ref{fig:HistEsquema}). 
+% 
+% % El factor $f$ es cociente entre la resistencia en fase martensítica ($R_M$) y en fase austenítica ($R_A$). Por otro lado el parámetro $a$ relaciona la sección de la esponja ($A$) y la sección inicial ($A_0$).
+% 
+% Luego de realizar un ciclo de transformación martensítica y volver a estado austenítico, la estructura estará compuesta por austenita, martensita retenida, y fisuras en la estructura (${R_A}^{medido}$ en la figura \ref{fig:HistEsquema}), y estará dada por:
+% 
+% \begin{equation}
+%  {R_A}^{medido}=\rho_A \frac{L_0}{A}(1-b) + \rho_M \frac{L_0}{A}b
+% \end{equation}
+% Donde $0<b<1$ representa la fracción de martensita retenida. Si $f$ es el cociente de la resistividad en estado martensítico y la resistividad en estado austenítico ($f=\rho_M / \rho_ A$): 
+% 
+% \begin{equation}
+% {R_A}^{medido}= \rho_A \frac{L_0}{A} [(1-b)+fb]
+% \end{equation}
+% \begin{equation}
+%  {R_A}^{medido}=R_A \frac{A_0}{A}[1+b(f-1)]
+% \end{equation}
+% \begin{equation}
+%  R_M ^{medido} = \rho_M \frac{L_0}{A} = R_A \frac{A_0}{A} f \label{rotura}
+% \end{equation}
+% 
+% Donde $R_M ^{medido}$ es el valor de resistencia en estado martensítico, $R_A$ es el valor de resistencia en estado austenítico inicial y $R_A ^{medido}$ luego de retransformar a austenita. De esta forma la resistencia medida en estado martensítica $R_M ^{medido}$ y la resistencia en estado austenítico $R_A$, quedan relacionados a  un factor geométrico que permite cuantificar la rotura de la esponja $a=A_0/A$, ya que aproximamos $f=1.3$.
+%  
+% Al  aplicar la ecuación \ref{rotura} a los valores obtenidos de las curvas del gráfico \ref{fig:RED_resultados}, se obtuvieron los resultados de la tabla \ref{tab:A0Arotura}. También se evaluaron los resultados obtenidos de otras esponjas a las que se les había realizado distintos ensayos mecánicos (esponja $C$).
 
 
 \begin{table} 
@@ -1591,7 +1736,7 @@ Ensayo   &    $R_2$    &  ${R}$ &  $A_0/A$ \\ \midrule
  1       &  0.040  & 0.031 & 1.009  \\
  2       &  0.046  & 0.034 &  1.061  \\
  3       &  0.058  & 0.042 &  1.067  \\
-RED7     &  0.089  & 0.068 &  1.010 \\
+4=RED7     &  0.089  & 0.068 &  1.010 \\
 REC1     &  0.015  & 0.011 &  0.992?   \\
 REC 2    &  0.017  & 0.013 &  1.007   \\
 \bottomrule
