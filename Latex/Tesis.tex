@@ -78,23 +78,33 @@ right= 20mm}
 % \usepackage{biblatex}
 
 % Pongo lindo el header
-%\usepackage{fancyhdr}
-%\pagestyle{fancyplain}
-%\fancyhf{} % clear all header and footer fields
-%\fancyhead[LE,RO]{\thepage}
-%\fancyhead[LO]{\slshape \rightmark}
-%\fancyhead[RE]{\slshape \leftmark}
-%\fancypagestyle{plain}{% en los inicios de capitulo
-%	\fancyhead{} % get rid of headers
-%	\renewcommand{\headrulewidth}{0pt} % and the line
-%	\fancyfoot[C]{\thepage} % add page number
-%}
-
-
+\usepackage{fancyhdr}
+\pagestyle{fancyplain}
+\fancyhf{} % clear all header and footer fields
+\fancyhead[LE,RO]{\thepage}
+\fancyhead[LO]{\slshape \rightmark}
+\fancyhead[RE]{\slshape \leftmark}
+\fancypagestyle{plain}{% en los inicios de capitulo
+	\fancyhead{} % get rid of headers
+	\renewcommand{\headrulewidth}{0pt} % and the line
+	\fancyfoot[C]{\thepage} % add page number
+}
 
 \begin{document}
 
 \include{caratula}
+
+% Agradecimiento
+\chapter*{Agradecimientos}
+
+¡\textsc{Gracias Totales}!
+
+
+% Elimino el header de la página par
+\newpage
+\thispagestyle{empty}
+\cleardoublepage
+
 
 \tableofcontents
 
