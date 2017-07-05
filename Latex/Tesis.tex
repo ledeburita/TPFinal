@@ -34,7 +34,22 @@ right= 20mm}
 \usepackage[utf8]{inputenc}
 \usepackage[spanish, es-tabla]{babel}
 \usepackage{graphicx}
+\usepackage{pdfpages}
 
+\usepackage{hyperref}
+\hypersetup{
+	pdftitle={Diseño, fabricación y caracterización de esponjas psudoelásticas},		% title
+	pdfauthor={Lucia Helena Prado},	% author
+	pdfsubject={Tesis de Grado},	% subject of the document
+    pdfkeywords={Memoria de forma} {Esponjas metalicas} {Cu–Zn–Al},
+	colorlinks=true,		% false: boxed links;
+	citecolor=black,		% color of links to bibliography
+	filecolor=black,		% color of file links
+	linkcolor=black,		% color of internal links
+	urlcolor=black			% color of external links
+}
+
+\usepackage[figure]{hypcap}
 
 
 
@@ -63,39 +78,70 @@ right= 20mm}
 % \usepackage{biblatex}
 
 % Pongo lindo el header
-%\usepackage{fancyhdr}
-%\pagestyle{fancyplain}
-%\fancyhf{} % clear all header and footer fields
-%\fancyhead[LE,RO]{\thepage}
-%\fancyhead[LO]{\slshape \rightmark}
-%\fancyhead[RE]{\slshape \leftmark}
-%\fancypagestyle{plain}{% en los inicios de capitulo
-%	\fancyhead{} % get rid of headers
-%	\renewcommand{\headrulewidth}{0pt} % and the line
-%	\fancyfoot[C]{\thepage} % add page number
-%}
-
-
+\usepackage{fancyhdr}
+\pagestyle{fancyplain}
+\fancyhf{} % clear all header and footer fields
+\fancyhead[LE,RO]{\thepage}
+\fancyhead[LO]{\slshape \rightmark}
+\fancyhead[RE]{\slshape \leftmark}
+\fancypagestyle{plain}{% en los inicios de capitulo
+	\fancyhead{} % get rid of headers
+	\renewcommand{\headrulewidth}{0pt} % and the line
+	\fancyfoot[C]{\thepage} % add page number
+}
 
 \begin{document}
 
-%\section{Introducción}
+\include{caratula}
+
+% Agradecimiento
+\chapter*{Agradecimientos}
+
+¡\textsc{Gracias Totales}!
+
+
+% Elimino el header de la página par
+\newpage
+\thispagestyle{empty}
+\cleardoublepage
+
 
 \tableofcontents
 
 \chapter*{Resumen}
 
-
-Las aleaciones con memoria de forma han sido objeto de mucho estudio debido a la gran variedad de aplicaciones que presentan como actuadores y amortiguadores. De particular interés resulta la aleación de CuZnAl que posee buenas características de memoria de forma, y es mucho más simple y económico para trabajar que las aleaciones base titanio utilizadas más comúnmente.
+Las aleaciones con memoria de forma han sido objeto de mucho estudio debido a la gran variedad de aplicaciones que presentan como actuadores y amortiguadores. De particular interés resulta la aleación de Cu-Zn-Al que posee buenas características de memoria de forma, y es mucho más simple y económico para trabajar que las aleaciones base titanio utilizadas más comúnmente.
  
 Las esponjas metálicas también fueron ampliamente estudiadas ya que poseen muy buenas propiedades mecánicas, como soportar deformaciones mucho mayores y un bajo peso más bajo que los meterial sólidos. Si esto se combina con la capacidad de recuperar su forma inicial al retirar una carga y la absorción de energía debido al efecto pseudoelástico, se obtiene un material capaz de una excelente amortiguación.
  
-En este trabajo se desea combinar ambas características, estudiando el desempeño de esponjas metálicas fabricadas a partir de la aleación de CuZnAl. Para ello se siguieron dos líneas de investigación. En la primera se buscó optimizar el tamaño de grano de la aleación, ya que dicha propiedad impacta directamente las propiedades mecánicas y de memoria de forma del material. Por otro lado, se caracterizó el funcionamiento de esponjas realizadas con esta aleación cuando son utilizadas como amortiguadores. Se prestó particular interés a la posibilidad de determinar el deterioro de las esponjas mediante análisis simples que se puedan hacer sin quitar la pieza de servicio.
+En este trabajo se desea combinar ambas características, estudiando el desempeño de esponjas metálicas fabricadas a partir de la aleación de Cu-Zn-Al. Para ello se siguieron dos líneas de investigación. En la primera se buscó optimizar el tamaño de grano de la aleación, ya que dicha propiedad impacta directamente las propiedades mecánicas y de memoria de forma del material. Por otro lado, se caracterizó el funcionamiento de esponjas realizadas con esta aleación cuando son utilizadas como amortiguadores. Se prestó particular interés a la posibilidad de determinar el deterioro de las esponjas mediante análisis simples que se puedan hacer sin quitar la pieza de servicio.
  
 Los resultados obtenidos muestran que el nivel de deterioro de la estructura de la esponja se puede estimar realizando mediciones de conductividad eléctrica de la misma. En el trabajo se desarrolló un método para discernir la contribución a la variación de las características eléctricas de los diferentes procesos que ocurren durante las deformaciones, que incluyen los cambios por la transformación martensítica y rotura de la estructura.
 
+\chapter*{Summary}
+
+Shape memory alloys are a very active research subject due to the sheer number of possible applications that they can have as actuators or shock absorbers. It’s of special interest the Cu-Zn-Al alloy, as it presents shape memory characteristics while being easier and cheaper to work with than the most commonly used titanium based ones.
+ 
+Metal foams are also very widely studied for their interesting mechanical properties like strain resistance and their low weight. If you combine their capacity to regain their initial shape with their shock absorption properties, they also become a very interesting option for the same applications.
+ 
+In this work we study the characteristics of metal foams that are made out of the Cu-Zn-Al alloy. This work is divided in two major sections. The first one studies mechanisms to control the grain size of the alloy, a critical characteristic for shape memory and mechanical properties which becomes more important when manufacturing foams as the metal will need to be melted twice during the process. The second section consists of a characterization effort done on the shape memory foams when used for shock absorption applications. Special interest was given to methods that can measure the structural damage suffered by the foam while in service.
+ 
+The results show recommendations on how to perform ball milling and use refining additions to achieve the desired grain size while preparing the alloy. We also developed a novel method to determine the mechanical damage of the foam by measuring its electrical conductivity. This method is of particular interest as it can discriminate between variations in the electrical properties due to the martensitic transformations and physical damage, while being simple to use continuously without taking the part out of service.
 
 \chapter{Introducción}
+
+\section*{Objetivo y organización}
+Tanto las aleaciones con memoria de forma como las esponjas metálicas son temas que constituyen campos de investigación y desarrollo muy activos actualmente, particularmente por sus aplicaciones como amortiguadores. Resulta de interes combinar las dos propiedades y realizar esponjas a partir de aleaciones con memoria de forma como la aleación Cu–Zn–Al. Estudiar la fabricación y posterior utilización de estas esponjas como elementos amortiguadores son los dos objetivos de este trabajo.
+
+La fabricación de esponjas con memoria de forma es de por sí interante y desafiente. Controlar el tramaño de grano de la aleación es importante para asegurar buenas propiedades de memoria de forma. Sin embargo, el proceso de fabricación de las esponjas involucra múltiples fundiciones, lo que hace que controlar esta propiedad requira especial atención. Por este motivo es que proponer un método para la preparación de la aleación utilizando molienda mecánica y un agente refinador fue el primer objetivo del trabajo.
+
+Una vez fabricada la esponja es necesario tener un entendimiento acabado de los procesos que ocurren cuando son expuestas a reiteradas compresiones, por ejemplo, al estar funcionando como amortiguadores. Durante dichos ciclos se combinan los efectos de la transformación matercítica y las deformaciones de la estructura por las tensiones aplicadas. Entender la contribución de cada uno de ellos a variables fácilmente medibles durante la operación de la pieza es el segundo objetivo de este trabajo.
+
+El trabajo está distribuido en tres capítulos principales. La presente introducción, que senta las bases sobre las cuales se desarrolla el trabajo repasando la transformación martencítica, la aleación Cu–Zn–Al y las esponjas metálicas, entre otros temas fundamentales. En la siguiente sección se detallan los diferentes procedimientos experiemntales que se utilizaron tanto para el desarrollo del método de control de tamaño de grano como para caracterizar las esponjas resultantes.
+
+Los resultados de cada uno de los ejes de este trabajo se detallan en la sección \ref{sec:resultados}. En ella se propone un procedimiento para la fabricación de la aleación donde se utliza molienda mecánica en conjunto con una pequeña cantidad de agente refinador para obtener el tamaño de grano desado y poder preservarlo luego de fundir la aleación para la fabricación de las esponjas.
+
+El segundo resultado de este trabajo es un método que permite estimar el daño estructural por ciclos de compresiones que sufrió una esponja analizando las variaciones en la conductividad eléctrica de la misma. Este método presenta ventajas sobre otras metodologías conocidas, no sólo por la simpliza del equipo requerido, sino, principalmente, al no requerir retirar la pieza de funcionamiento para ser analizada.
 
 \section{Transformación Martensítica}
 
@@ -775,7 +821,7 @@ mejor compuesto a utilizar es el boro. Al fundir el material el boro reacciona c
 \begin{table} %\label{tab:mstab}
 \begin{center}
 \begin{tabular}{@{}llllllll@{}}  \toprule
-Muestra & $CuZnAl (g)$ & $Cu (g)$ & $Al (g)$ & $AlB_2$ & $\% pp$ $AlB_2$ & Método & Observaciones \\ \midrule
+Muestra & $Cu-Zn-Al (g)$ & $Cu (g)$ & $Al (g)$ & $AlB_2$ & $\% pp$ $AlB_2$ & Método & Observaciones \\ \midrule
 L1B1 & 18,866  & 0,1878 & 0,0495 & 0,0021 & 0,005 & I & Horno de inducción\\
 L1B2 & 18,564  & 0,1878 & 0,0495 & 0,2099 & 0,5 & I &Horno Resistivo\\
 L2B1 & 14,129  & - & -  & 0,1520 & 0,5 & II &Horno Resistivo \\
@@ -1077,7 +1123,7 @@ de esperarse para cualquier aleación metálica.
 % ****************************************************************************************************************************************************
 
 \chapter{Resultados y discusión}
-
+\label{sec:resultados}
 
 
 \section{Tamaño de grano}
@@ -1352,7 +1398,7 @@ Un posible método para analizar la integridad de una esponja es por tomografía
  \begin{figure}[h]
  \centering
  \includegraphics[width=0.95\textwidth]{Img/Resultados/Resistencia/Ciclos.eps}
- \caption{Gráficos obtenidos al realizar ciclos de compresión de una esponja de CuZnAl hasta $-2\%$ de deformación. Abajo se muestra gráfico tensión en función del tiempo y arriba los correspondientes valores de resistencia. } 
+ \caption{Gráficos obtenidos al realizar ciclos de compresión de una esponja de Cu-Zn-Al hasta $-2\%$ de deformación. Abajo se muestra gráfico tensión en función del tiempo y arriba los correspondientes valores de resistencia. } 
  \label{fig:CiclosResistencia}
  \end{figure}
 
@@ -1361,7 +1407,7 @@ Un posible método para analizar la integridad de una esponja es por tomografía
  
  
  
- Un método muy conocido de seguimiento de las transformaciones martensíticas es la medición de la resistencia eléctrica. Este método solo requiere el uso de cuatro cables soldados a la muestra, se mide la resistencia con el método de las cuatro puntas y solo se necesita un equipo que pueda medir la resistencia con buena precisión. Como un acercamiento a este método, se midió la resistencia de una esponja la cual se sometió a muchos ciclos de deformación para ver cual era la respuesta de la estructura. Como puede verse en la figura \ref{fig:CiclosResistencia} se ve que la resistencia aumenta con cada ciclo de compresión, esto es cuando la esponja comienza a transformar a martensita y luego disminuye cuando se retira la carga y la muestra vuelve a estado austenítico. Pero además puede verse que la resistencia aunque va aumentando, no presenta una forma sencilla de analizar. Por este motivo se buscó obtener parámetros que brinden información sobre los procesos que ocurren y la integridad estructural de la esponja. Se inició el estudio analizando un monocristal de CuZnAl ya que es la estructura más sencilla que se encuentra en un material. Luego se realizó el mismo análisis con un policristal y finalmente se aplicaron los resultados obtenidos a una esponja de CuZnAl.
+ Un método muy conocido de seguimiento de las transformaciones martensíticas es la medición de la resistencia eléctrica. Este método solo requiere el uso de cuatro cables soldados a la muestra, se mide la resistencia con el método de las cuatro puntas y solo se necesita un equipo que pueda medir la resistencia con buena precisión. Como un acercamiento a este método, se midió la resistencia de una esponja la cual se sometió a muchos ciclos de deformación para ver cual era la respuesta de la estructura. Como puede verse en la figura \ref{fig:CiclosResistencia} se ve que la resistencia aumenta con cada ciclo de compresión, esto es cuando la esponja comienza a transformar a martensita y luego disminuye cuando se retira la carga y la muestra vuelve a estado austenítico. Pero además puede verse que la resistencia aunque va aumentando, no presenta una forma sencilla de analizar. Por este motivo se buscó obtener parámetros que brinden información sobre los procesos que ocurren y la integridad estructural de la esponja. Se inició el estudio analizando un monocristal de Cu-Zn-Al ya que es la estructura más sencilla que se encuentra en un material. Luego se realizó el mismo análisis con un policristal y finalmente se aplicaron los resultados obtenidos a una esponja de Cu-Zn-Al.
 
 % Ver si va
 % Una forma sencilla de medir el avance de las transformaciones martensíticas es por medio de la medición de la resistencia. Se utilizó el método de las cuatro puntas \ref{CuatroPuntas} que permite realizar mediciones de variaciones con una muy buena definición. 
@@ -1378,7 +1424,7 @@ Un posible método para analizar la integridad de una esponja es por tomografía
 
 
  
-Se comenzó estudiando el trabajo realizado por Bertolino \cite{resistencia} en el cual se realizaron mediciones de la variación de resistencia en monocristales de CuZnAl en distintos ciclos de transformación. En este trabajo se muestra que durante la transformación martensítica el aumento en la resistencia de la aleación es mucho mayor  cuando transforma con una carga de tracción aplicada que cuando la probeta transforma libre de carga. Cuando la probeta transforma térmicamente libre de cargas, formará placas en distintas direcciones (muchas variantes de martensita). Mientras que al mantener aplicada una carga constante, las placas se formarán con una determinada orientación (una única variante o pocas variantes bien orientadas), que dependerá de la orientación cristalina y la carga aplicada. Transformar bajo carga a una única variante de martensita provoca una mayor deformación de la probeta. El hecho de que ocurra una variación tan marcada en el aumento de la resistencia motivó a analizar la incidencia del cambio geométrico en la variación de resistencia, y si adicionalmente las mismas cargas también la afectan. 
+Se comenzó estudiando el trabajo realizado por Bertolino \cite{resistencia} en el cual se realizaron mediciones de la variación de resistencia en monocristales de Cu-Zn-Al en distintos ciclos de transformación. En este trabajo se muestra que durante la transformación martensítica el aumento en la resistencia de la aleación es mucho mayor  cuando transforma con una carga de tracción aplicada que cuando la probeta transforma libre de carga. Cuando la probeta transforma térmicamente libre de cargas, formará placas en distintas direcciones (muchas variantes de martensita). Mientras que al mantener aplicada una carga constante, las placas se formarán con una determinada orientación (una única variante o pocas variantes bien orientadas), que dependerá de la orientación cristalina y la carga aplicada. Transformar bajo carga a una única variante de martensita provoca una mayor deformación de la probeta. El hecho de que ocurra una variación tan marcada en el aumento de la resistencia motivó a analizar la incidencia del cambio geométrico en la variación de resistencia, y si adicionalmente las mismas cargas también la afectan. 
 
 \begin{figure}% \label{fig:Clavo1}
     \centering
@@ -1502,7 +1548,7 @@ Esta ecuación relaciona los valores de resistencia al transformar, tomando en c
 %     \label{resultados6b}
 %     \end{figure}
 
-Se comenzó estudiando un monocristal de CuZnAl que fue fabricado anteriormente por el grupo de investigación con una composición electrónica de $e/a=1.48$ y una $M_s$ de aproximadamente $0$ $^\circ C$. La muestra, que tenía una forma inicial cilíndrica, se preparó siguiendo el procedimiento explicado en la sección \ref{compresión}. Antes de comenzar el ensayo se realizó un recocido a $800$ $ ^\circ C$ durante media hora y luego un enfriamiento al aire para asegurar que la aleación se encuentre en estado asutenítico al comenzar el ensayo. A continuación se soldaron los cuatro cables utilizados para medir la resistencia del material por el método de las cuatro puntas y una termocupla para registrar la temperatura de la muestra durante todo el proceso. Seguidamente se realizaron ciclos de transformación térmica de la muestra, variando la temperatura de la cámara ambiental, y con un extensómetro se registró la dilatación/contracción de la muestra en cada ciclo de transformación. Cada uno de los ciclos de transformación se realizó manteniendo distintas cargas constantes. 
+Se comenzó estudiando un monocristal de Cu-Zn-Al que fue fabricado anteriormente por el grupo de investigación con una composición electrónica de $e/a=1.48$ y una $M_s$ de aproximadamente $0$ $^\circ C$. La muestra, que tenía una forma inicial cilíndrica, se preparó siguiendo el procedimiento explicado en la sección \ref{compresión}. Antes de comenzar el ensayo se realizó un recocido a $800$ $ ^\circ C$ durante media hora y luego un enfriamiento al aire para asegurar que la aleación se encuentre en estado asutenítico al comenzar el ensayo. A continuación se soldaron los cuatro cables utilizados para medir la resistencia del material por el método de las cuatro puntas y una termocupla para registrar la temperatura de la muestra durante todo el proceso. Seguidamente se realizaron ciclos de transformación térmica de la muestra, variando la temperatura de la cámara ambiental, y con un extensómetro se registró la dilatación/contracción de la muestra en cada ciclo de transformación. Cada uno de los ciclos de transformación se realizó manteniendo distintas cargas constantes. 
 
 La figura \ref{fig: Ejemplos6b} muestra los gráficos obtenidos con una de las muestras ensayadas. En la figura \ref{fig: EjTensionDef} se graficó la curva tensión vs deformación, donde inicialmente se aumentó la carga hasta el valor correspondiente al ensayo, $32.7$ $MPa$, y luego se mantuvo constante durante todo el ciclo térmico de transformación. Para que al aplicar la carga la estructura no comience a transformar, en ensayo se realizó a $60$ $^\circ C$ (aproximadamente $55$ $^\circ C$ por encima de la $M_s$ de la aleación).  
 
@@ -1546,7 +1592,7 @@ Tensión ($MPa$) & $\varepsilon$ ($\%$) &  $f'=\frac{R_M}{R_A}$\\ \midrule
  Referencia \cite{resistencia}    & 8.00  &  1.73   \\
  \bottomrule
 \end{tabular}
-\caption{Resultados obtenidos al realizar ciclos térmicos de transformación con distintas cargas aplicadas con un monocristal de CuZnAl. En la primera columna se muestran las cargas aplicadas que se mantuvieron constantes durante cada ciclo de transformación, $\varepsilon$ es la deformación máxima registrada por el extensómetro al transformar completamente a martensita, $f'=\frac{R_M}{R_A}$ es el cociente entre la resistencia en estado martensítico y el estado austenítico.}
+\caption{Resultados obtenidos al realizar ciclos térmicos de transformación con distintas cargas aplicadas con un monocristal de Cu-Zn-Al. En la primera columna se muestran las cargas aplicadas que se mantuvieron constantes durante cada ciclo de transformación, $\varepsilon$ es la deformación máxima registrada por el extensómetro al transformar completamente a martensita, $f'=\frac{R_M}{R_A}$ es el cociente entre la resistencia en estado martensítico y el estado austenítico.}
 \label{tab:TablaMonocristal}
 \end{center}
 \end{table}
@@ -1568,7 +1614,7 @@ Tensión (Mpa) & $\varepsilon$ ($\%$) &  $f'=\frac{R_M}{R_A}$\\ \midrule
  49.1     &  -2.5  & 1.23   \\
  \bottomrule
 \end{tabular}
-\caption{Resultados obtenidos al realizar ciclos térmicos de transformación con distintas cargas aplicadas con un policristal de CuZnAl. En la primera columna se muestran las cargas aplicadas que se mantuvieron constantes durante cada ciclo de transformación, $\varepsilon$ es la deformación máxima registrada por el extensómetro al transformar completamente a martensita, $\frac{R_M}{R_A}$ es el cociente entre la resistencia en estado martensítico y el estado austenítico. También se esquematiza que $f$ corresponde a la pendiente de la recta.}
+\caption{Resultados obtenidos al realizar ciclos térmicos de transformación con distintas cargas aplicadas con un policristal de Cu-Zn-Al. En la primera columna se muestran las cargas aplicadas que se mantuvieron constantes durante cada ciclo de transformación, $\varepsilon$ es la deformación máxima registrada por el extensómetro al transformar completamente a martensita, $\frac{R_M}{R_A}$ es el cociente entre la resistencia en estado martensítico y el estado austenítico. También se esquematiza que $f$ corresponde a la pendiente de la recta.}
 \label{tab:TablaPolicristal}
 \end{center}
 \end{table}
@@ -1600,12 +1646,12 @@ En el gráfico \ref{fig:PoliMono} puede verse que los puntos obtenidos para el m
  \begin{figure}[h]
  \centering
  \includegraphics[width=0.6\textwidth]{Img/Resultados/Resistencia/HistExplicacion.eps}
- \caption{Esquema del gráfico obtenido al realizar un ciclo térmico de transformación de una esponja de CuZnAl. El punto 1 corresponde a la resistencia en estado austenítico. El punto 2 corresponde a la resistencia en estado martensítico luego de enfriar la muestra. El punto 3 corresponde a la resistencia en estado austenítico luego de calentar y retransformar a austenita. Finalmente el punto 4 corresponde a la resistencia al enfriar y transformar nuevamente a martensita.} 
+ \caption{Esquema del gráfico obtenido al realizar un ciclo térmico de transformación de una esponja de Cu-Zn-Al. El punto 1 corresponde a la resistencia en estado austenítico. El punto 2 corresponde a la resistencia en estado martensítico luego de enfriar la muestra. El punto 3 corresponde a la resistencia en estado austenítico luego de calentar y retransformar a austenita. Finalmente el punto 4 corresponde a la resistencia al enfriar y transformar nuevamente a martensita.} 
  \label{fig:HistExplicacion}
  \end{figure}
 
  
- En la figura \ref{fig:HistExplicacion} se muestra el gráfico de resistencia en función de la temperatura obtenido en un ciclo de transformación térmica de una esponja de CuZnAl. Inicialmente se le realizó un recocido a 800 $^\circ C$ y un enfriamiento al aire para asegurar que la muestra se encontraba en estado austenítico al iniciar el ensayo. Luego se le soldaron los cuatro cables utilizados para el método de las cuatro puntas (sección \ref{CuatroPuntas}) y una termocupla tipo K para tener un registro preciso de la temperatura del material. Los números en el gráfico indican la secuencia que sigue la resistencia durante el ensayo. 
+ En la figura \ref{fig:HistExplicacion} se muestra el gráfico de resistencia en función de la temperatura obtenido en un ciclo de transformación térmica de una esponja de Cu-Zn-Al. Inicialmente se le realizó un recocido a 800 $^\circ C$ y un enfriamiento al aire para asegurar que la muestra se encontraba en estado austenítico al iniciar el ensayo. Luego se le soldaron los cuatro cables utilizados para el método de las cuatro puntas (sección \ref{CuatroPuntas}) y una termocupla tipo K para tener un registro preciso de la temperatura del material. Los números en el gráfico indican la secuencia que sigue la resistencia durante el ensayo. 
  
  A partir de aquí estaremos haciendo dos suposiciones. En primer lugar que la resistividad de las fases martensita y austenita únicamente varían con la temperatura, y no por ejemplo, por las distintas variantes que se forman. En segundo lugar asumimos que la transformación a martensita es completa, mientras que al retransformar a austenita puede una cierta cantidad de martensita retenida. También seguiremos asumiendo que el volumen se mantiene constante, ya que los ciclos de transformación se realizaron sin carga, por lo que no deberían haber grandes deformaciones. Hay que tomar en cuenta que si bien puede medirse la deformación de la esponja con el extensómetro no es posible saber como se deforman localmente los diferentes puntos de la estructura.
  
@@ -1703,7 +1749,7 @@ Esponja &Ensayo   &    R    &  ${R_A}$ &  b \\ \midrule
  \bottomrule
 
  \end{tabular}
-\caption{Valores de martensita retenida ($b$) obtenidos a partir de la ecuación \ref{austret} para las esponjas 1 y 2 de CuZnAl utilizando los valores del gráfico \ref{fig:RED_resultados} }
+\caption{Valores de martensita retenida ($b$) obtenidos a partir de la ecuación \ref{austret} para las esponjas 1 y 2 de Cu-Zn-Al utilizando los valores del gráfico \ref{fig:RED_resultados} }
 \label{tab:b}
 \end{center}
 \end{table}
@@ -1721,7 +1767,7 @@ Esponja & Ensayo   &    $R_2$    &  ${R}$ &  $A_0/A$ \\ \midrule
 \bottomrule
 % ************************************************   GRAFICOS ESPONJA D
 \end{tabular}
-\caption{Parámetro $A/A_0$ calculado a partir de la ecuación \ref{rotura} para las esponjas de CuZnAl en distintos ensayos a partir de los datos obtenidos del gráfico \ref{fig:RED_resultados}. Se ve como con cada ensayo el área de la esponja disminuye respecto del área inicial.}
+\caption{Parámetro $A/A_0$ calculado a partir de la ecuación \ref{rotura} para las esponjas de Cu-Zn-Al en distintos ensayos a partir de los datos obtenidos del gráfico \ref{fig:RED_resultados}. Se ve como con cada ensayo el área de la esponja disminuye respecto del área inicial.}
 \label{tab:A0Arotura}
 \end{center}
 \end{table}
@@ -1747,34 +1793,38 @@ Esponja & Ensayo   &    $R_2$    &  ${R}$ &  $A_0/A$ \\ \midrule
 \chapter{Conclusiones}
 
 
+\backmatter
+%\addcontentsline{toc}{chapter}{Biliografía}
+\cleardoublepage
+  \addcontentsline{toc}{chapter}{Bibliografía}
 \begin{thebibliography}{3}
 
 \bibitem{duering} 
-T W Duering, K N Melton, D St{\"o}ckel, C M Wayman 
+Duering TW , Melton KN, St{\"o}ckel D, Wayman CM
 \textit{Engineering Aspects of Shape memory Alloys}. 
 Butterworth-Heinemann Ltd, 1990.
  
 \bibitem{elliott} 
-Ryan S. Elliott, John A. Shaw, Nicolas Triantafyllidis
+Elliott RS, Shaw JA, Triantafyllidis N
 \textit{Stability of thermally-induced martensitic
 transformations in bi-atomic crystals}.
 Journal of the Mechanics and Physics of Solids
-50 (2002) 2463 – 2493
+2001; 50:2463 – 2493
 
 \bibitem{pierre} 
-Larochette, Pierre Arneodo 
-\textit{Efectos de la difusión en cristales martensíticos de Cu-Zn-Al}. 
+Arneodo Larochette P
+\textit{Efectos de la difusión en cristales martensíticos de Cu-Zn-Al}[tesis]. 
 Comisión Nacional de Energía Atómica, Universidad Nacional de Cuyo, 2003.
 
 \bibitem{stoiber} 
-Stoiber Johannes 
+Johannes S
 \textit{Hysteresis Effects During Martensitic Phase Transformations in Cu-Zn-Al Shape Memory Alloys}. 
 Ecole Polytechnique Federale de Lausanne, 1993.
 
 \bibitem{ritelst} 
-Rit Elst, J V Humbeeck, Marcel Meeus and Luc Delaey
-\textit{Grain Refinement During olidification of $\beta$-Cu Based Alloys}.
-Z. Metallkde Bd. 77 (1986) H. 7
+Elst R, Humbeeck JV, Meeus M, Delaey L
+\textit{Grain Refinement During solidification of $\beta$-Cu Based Alloys}.
+Z. Metallkde 1986; 77 H. 7
 
 \bibitem{gibson} 
 L. J. Gibson
@@ -1782,27 +1832,25 @@ L. J. Gibson
 Annu. Rev. Mater. Sci. 2000. 30:191–227
 
 \bibitem{design} 
-M.F. Ashby, A.G. Evans, N.A. Fleck, L.J. Gibson,
-J.W. Hutchinson and H.N.G. Wadley
+Ashby MF, Evans AG, Fleck NA, Gibson LJ, Hutchinson JW, Wadley HNG
 \textit{Metal Foams: A Design Guide}. 
 Butterworth Heinemann, 2000.
 
-
 \bibitem{cellular} 
-Lorna J. Gibson, Michael F. Ashby  
+Gibson LJ, Ashby MF
 \textit{Cellular solids}. 
 Cambridge Sollid State Science Series, 1997.
 
 \bibitem{bertolino2010} 
-G. Bertolino, P. Arneodo Larochette, E.M. Castrodeza, C. Mapelli, A. Baruj , H.E. Troiani
+Bertolino G, P. Arneodo Larochette P, Castrodeza EM, Mapelli C, Baruj A, Troiani HE
 \textit{Mechanical properties of martensitic Cu–Zn–Al foams in the pseudoelastic regime}.
-Materials Letters 64 (2010) 1448–1450
+Materials Letters 2010; 64: 1448–1450
 
 \bibitem{bertolino2011} 
 G. Bertolino, A. Gruttadauria, P. Arneodo Larochette, E.M. Castrodeza, A. Baruj, H.E. Troian
 \textit{Cyclic pseudoelastic behavior and energy dissipation in as-cast Cu-Zn-Al foams of
 different densities}.
-Intermetallics 19 (2011) 577e585
+Intermetallics 2011; 19: 577 - 585
 
 \bibitem{CuZn} 
 Wikimedia Commons
@@ -1810,11 +1858,11 @@ Wikimedia Commons
 
 
 \bibitem{resistencia}
-G. Bertolino, A. Yawny, J.L. Pelegrina
+Bertolino G, Yawny A, Pelegrina JL
 \textit{The limitations of electrical resistance for accurate positioning of
-shape-memory actuators: The case of well-oriented CuZnAl
+shape-memory actuators: The case of well-oriented Cu-Zn-Al
 single-crystals under uniaxial loading}
-Materials and Design 117 (2017) 316–325
+Materials and Design 2017; 117: 316–325
 \end{thebibliography}
 
 
