@@ -1,0 +1,100 @@
+
+\documentclass[a4paper,12pt,fleqn,twoside,openany]{book}
+\usepackage{layout}
+% Set equal margins on book style
+\setlength{\voffset}{0pt}
+\setlength{\headsep}{25pt}
+\setlength{\footskip}{25pt}
+\setlength{\oddsidemargin}{0.7in}
+\setlength{\evensidemargin}{0pt}
+\setlength{\marginparwidth}{10pt}
+
+\usepackage[margin=1in]{geometry}
+
+\geometry{
+left=30mm,
+right= 20mm}
+
+
+% Ejemplo página
+% \usepackage{geometry}
+%  \geometry{
+%  a4paper,
+%  total={170mm,257mm},
+%  left=20mm,
+%  top=20mm,
+%  }
+% 
+
+
+%\documentclass[a4paper,12pt,oneside,openright]{report}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish, es-tabla]{babel}
+\usepackage{graphicx}
+\usepackage{pdfpages}
+
+\usepackage{hyperref}
+\hypersetup{
+	pdftitle={Diseño, fabricación y caracterización de esponjas pseudoelásticas},		% title
+	pdfauthor={Lucia Helena Prado},	% author
+	pdfsubject={Tesis de Grado},	% subject of the document
+    pdfkeywords={Memoria de forma} {Esponjas metalicas} {Cu–Zn–Al},
+	colorlinks=true,		% false: boxed links;
+	citecolor=black,		% color of links to bibliography
+	filecolor=black,		% color of file links
+	linkcolor=black,		% color of internal links
+	urlcolor=black			% color of external links
+}
+
+\usepackage[figure]{hypcap}
+
+
+
+% Uso las fuentes iwona para el texto y para matemática.
+\usepackage[T1]{fontenc}
+\usepackage[math]{iwona}
+\linespread{1.05}
+
+%\usepackage{savetrees}
+
+% No se cuales de estos son realmente necesarios.
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{multicol}
+% Me pone el número de figura en negrita.
+\usepackage[bf]{caption}
+\usepackage{subcaption}
+% Paquete para que las figuras no se vayan al final de los capítulos
+\usepackage{afterpage}
+\usepackage{color}
+% Para tener tablas más lindas
+\usepackage{booktabs}
+%\newcommand{\ra}[1]{\renewcommand{\arraystretch}{#1}}
+\renewcommand{\arraystretch}{1.3}
+% \usepackage{biblatex}
+
+% Pongo lindo el header
+\usepackage{fancyhdr}
+\pagestyle{fancyplain}
+\fancyhf{} % clear all header and footer fields
+\fancyhead[LE,RO]{\thepage}
+\fancyhead[LO]{\slshape \rightmark}
+\fancyhead[RE]{\slshape \leftmark}
+\fancypagestyle{plain}{% en los inicios de capitulo
+	\fancyhead{} % get rid of headers
+	\renewcommand{\headrulewidth}{0pt} % and the line
+	\fancyfoot[C]{\thepage} % add page number
+}
+
+\begin{document}
+
+\chapter*{Summary}
+Shape memory alloys are a very active research subject due to the great number of possible applications they can have when used as actuators or shock absorbers. Metal foams have been also extensively studied as they have very good mechanical properties, such as bearing much greater deformations and a lower weight than the corresponding solid material. If this is combined with the ability of shape memory alloys to recover its initial shape upon removal of a charge and their energy absorption due to the pseudoelastic effect, a material capable of excellent damping might be obtained. In this work we studied a Cu-Zn-Al alloy because it presents excellent shape memory characteristics while being compatible with the foam's fabrication method we use.
+
+One aspect which is directly related to the foam's performance is the formation of intergranular craks. Our current fabrication method doesn't allow the structure to cool fast enough in order to obtain a small grain size. The elastic anisotropy of the grains added to the transformation tensions and the mechanical strains make it necessary to look for a method to refine the grain size. This led to a study of two main subjects. The first one was to optimize the grain size of the alloy. At the other one, the operation of sponges was characterized when used as shock absorbers. Particular interest was given to the possibility of determining the deterioration of the foams by means of a simple analysis which can be made without removing the piece from service. 
+
+From our results we can give recommendations on how to perform ball milling using refining additions to achieve the desired grain size while preparing the alloy. We also developed a novel method to determine the mechanical damage of the foam by measuring its electrical conductivity. This method is of particular interest as it can discriminate between variations in the electrical properties due to the martensitic transformations or the physical damage, while being simple to use continuously in-situ.
+
+\end{document}
+
