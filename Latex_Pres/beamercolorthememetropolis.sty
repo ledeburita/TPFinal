@@ -41,6 +41,8 @@
 \definecolor{mDarkTeal}{HTML}{23373b}
 \definecolor{mLightBrown}{HTML}{EB811B}
 \definecolor{mLightGreen}{HTML}{14B03D}
+\definecolor{mLightSeeGreen}{HTML}{105956}
+\definecolor{mAsparagus}{HTML}{c4757e}
 \newcommand{\metropolis@colors@dark}{
   \setbeamercolor{normal text}{%
     fg=black!2,
@@ -51,7 +53,8 @@
 \newcommand{\metropolis@colors@light}{
   \setbeamercolor{normal text}{%
     fg=mDarkTeal,
-    bg=black!2
+    %bg=black!2
+    bg=white
   }
 }
 \setbeamercolor{alerted text}{%
@@ -72,6 +75,7 @@
 }
 \setbeamercolor{frametitle}{%
   use=palette primary,
+  bg=mLightSeeGreen,
   parent=palette primary
 }
 \setbeamercolor{progress bar}{%
@@ -105,11 +109,14 @@
   \setbeamercolor{block title}{%
     use=normal text,
     fg=normal text.fg,
-    bg=normal text.bg!80!fg
-  }
+%    bg=normal text.bg!80!fg
+%    bg=frametitle.bg!40
+    bg=mAsparagus!30
+}
   \setbeamercolor{block body}{
-    use={block title, normal text},
-    bg=block title.bg!50!normal text.bg
+    bg=
+%     use={block title, normal text},
+%     bg=block title.bg!50!normal text.bg
   }
 }
 \setbeamercolor{block title alerted}{%

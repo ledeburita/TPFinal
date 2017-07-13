@@ -18,20 +18,20 @@
 %********************
 
 
-%nro de pagina
-\usepackage{fancyhdr}
-\fancypagestyle{plain}{% en los inicios de capitulo
-% 	\fancyhead{} % get rid of headers
-% 	\renewcommand{\headrulewidth}{0pt} % and the line
-	\fancyfoot[C]{\thepage} % add page number
-}
+% %nro de pagina
+% \usepackage{fancyhdr}
+% \fancypagestyle{plain}{% en los inicios de capitulo
+% % 	\fancyhead{} % get rid of headers
+% % 	\renewcommand{\headrulewidth}{0pt} % and the line
+% 	\fancyfoot[C]{\thepage} % add page number
+% }
 %\usepackage{color}
 %\usepackage[usenames,dvipsnames,svgnames,table]{xcolor}
 
 %\usetheme{Dresden}
-\usetheme{metropolis}
-\setcounter{tocdepth}{1}
-\usecolortheme{dolphin}
+\usetheme[titleformat=smallcaps, numbering=fraction, block=fill]{metropolis}
+%\setcounter{tocdepth}{1}
+%\usecolortheme{dolphin}
 % \useoutertheme{shadow}
 % \useinnertheme{rectangles}
 
@@ -51,23 +51,23 @@
 % ************************* Para poner indice antes de cada seccion con dos columnas
  
  
-\AtBeginSection{
-\begin{frame}
-  \frametitle{Índice}
-  \begin{multicols}{1}
-  \tableofcontents[currentsection]
-  \end{multicols}  
-\end{frame}
-}
-
-\AtBeginSubsection{
-\begin{frame}
-  \frametitle{Índice}
-  \begin{multicols}{1}
-  \tableofcontents[currentsection,currentsubsection]
-  \end{multicols}  
-\end{frame}
-}
+% \AtBeginSection{
+% \begin{frame}
+%   \frametitle{Índice}
+% %   \begin{multicols}{1}
+%   \tableofcontents[currentsection]
+% %   \end{multicols}
+% \end{frame}
+% }
+% 
+% \AtBeginSubsection{
+% \begin{frame}
+% %   \frametitle{Índice}
+%   \begin{multicols}{1}
+%   \tableofcontents[currentsection,currentsubsection]
+% %   \end{multicols}
+% \end{frame}
+% }
  %****************************8 Con dos columnas
 
  %   \AtBeginSection{ 
@@ -87,7 +87,7 @@
 
 
 % *****************************************8 Diapos 
-\addtocounter{framenumber}{-1}
+% \addtocounter{framenumber}{-1}
 %\insertframenumber/\inserttotalframenumber
 % saca el menu feo
 \setbeamertemplate{navigation symbols}{}
@@ -164,29 +164,43 @@
 % \end{frame}
 
 
-\section{Introducción}
 % ******************
+\section{Introducción}
+
+
+\begin{frame}
+\frametitle{Objetivo}
+
+\end{frame}
+
+
  \begin{frame}
  \frametitle{Transformación martensítica}
 
-\begin{multicols}{2}
+\begin{columns}
  
- \begin{itemize}
- \item[$\circ$] En estado sólido
-  \item[$\circ$] Sin difusión
-  \item[$\circ$] De primer orden
- \end{itemize}
- 
- \hfill
+\column{0.5\textwidth}
 
- Formas de transformación:
+\begin{block}{Características}
+ \begin{itemize}
+  \item En estado sólido
+  \item Sin difusión
+  \item De primer orden
+ \end{itemize}
+\end{block}
+ 
+\begin{block}{Formas de transformación}
   \begin{itemize}
   \item \alert<1>{Por temperatura ($M_s$ y $M_f$)}
   \item \alert<2>{Por tensiones (Strain Induced Martensite)}
  \end{itemize}
+\end{block}
 
+\column{0.5\textwidth}
 
-\end{multicols}
+\includegraphics[width=\columnwidth]{img/intro/EspAMicro1.jpg}
+
+\end{columns}
  
 \end{frame}
 
@@ -240,119 +254,142 @@
 
 % ********************************************************************
 
-
-
-
-
-
-
-
 \begin{frame}
+\frametitle{Transformación martensítica}
 
- 
-\begin{multicols}{2}
- 
+\begin{figure}
+\begin{tikzpicture}
+\pgftext{%
  \includegraphics[width=0.4\textwidth]{img/intro/SigmavsDef.eps}
- 
- 
- \begin{itemize}
-  \item[I: ] \alert<1>{Deformación elástica de la $\beta$}
-  \item[II: ]\alert<2>{Formación y crecimiento de placas de martensita}
-  \item[III: ]\alert<3>{Deformación elástica de la martensita}
- \end{itemize}
+}%
 
-%  \includegraphics[width=0.6\textwidth]{img/intro/memoria.jpg}
- 
- \end{multicols}
+\node (I) at (-1.2,-0.9) {};
+\node (II) at (0, 0) {};
+\node (III) at (1.5, 1) {};
+\node[align=right] (It)   at (5.25, -0.9) {Deformación elástica de $\beta$};
+\node[align=right] (IIt)  at (6,0) {Formación y crecimiento de placas};
+\node[align=right] (IIIt) at (4.8, 1) {Deformación elástica};
+% 
+\path[->]<1-> (I) edge [dashed] (It);
+\path[->]<1-> (II) edge [dashed] (IIt);
+\path[->]<1-> (III) edge [dashed] (IIIt);
+
+\end{tikzpicture}
+\end{figure}
+
  
 \end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
 
 \begin{frame}
-\frametitle{Monocristales y Policristales} 
-\begin{multicols}{2}
- \begin{center}
- \begin{equation*}
+\frametitle{Transformación martensítica}
+
+\begin{columns}
+\column{0.6\textwidth}
+
+\begin{block}{Ley de Schmid}
+\begin{equation*}
  \tau_{R}= \sigma cos(\lambda)cos(\phi)
 \end{equation*}
-\begin{tiny}
 
-$\lambda:$ Ángulo entre tensión aplicada y dirección de deslizamiento
+\begin{center}
+\includegraphics[width=0.5\columnwidth]{img/intro/tension.png}
+\end{center}
 
-$\phi:$ Ángulo entre tensión aplicada y la normal al plano de transformación
+\end{block}
 
-\end{tiny}
+\column{0.4\textwidth}
 
-\includegraphics[width=0.2\textwidth]{img/intro/tension.png}
- 
- 
- \includegraphics[width=0.4\textwidth]{img/intro/SigmavsDefPoli.eps}
- \end{center}
- \end{multicols}
+\pause
+\begin{block}{Monocristal}
+\includegraphics[height=0.35\textheight]{img/intro/SigmavsDef.eps} 
+\end{block}
+
+\pause
+\begin{block}{Policristal}
+\includegraphics[height=0.35\textheight]{img/intro/SigmavsDefPoli.eps}
+\end{block}
+
+\end{columns}
+
+% \end{center}
+% \end{multicols}
  
 \end{frame}
 
+\begin{frame}
+\frametitle{Tensión de transformación}
 
-% ************************************ VER
-% 
-% \begin{frame}
-% 
-% 
-%  \begin{equation}
-%  \tau_{R}=\frac{F_{R}}{A_{R}}= \sigma cos(\lambda)cos(\phi)
-% \end{equation}
-% \end{frame}
+\begin{columns}
+\column{0.4\textwidth}
 
-% ************************************
- 
-% \begin{frame}
-% 
-% \includegraphics[width=0.4\textwidth]{img/intro/SigmavsDefPoli.eps}
-% 
-% Monocristales vs policristales
-% \end{frame}
+\begin{block}{Clausius-Clapeyron}
+\begin{equation*}
+ \frac{d \tau_{R}}{dT}=\frac{\Delta S}{\Delta V} 
+\end{equation*}
+\end{block}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{itemize}
+ \item $\uparrow T \rightarrow \, \uparrow \tau_{R}$
+ \item $\tau_{R} = 0  \rightarrow T=M_{s}$
+\end{itemize}
+
+\column{.4\textwidth}
+\includegraphics[width=\columnwidth]{img/intro/Clapeyron.eps}
+
+\end{columns}
+
+
+\end{frame}
+
 
 \begin{frame}
 
 \frametitle{Pseudoplasticidad}
 
-\begin{multicols}{2}
-\includegraphics[width=0.4\textwidth]{img/intro/HisteresisEsquema.eps}
 
-\includegraphics[width=0.4\textwidth]{img/intro/Histeresis.eps}
-\end{multicols}
+Fricción por movimiento de interfases y creación de defectos.
+
+\vfill
+
+\begin{columns}
+\column{0.4\textwidth}
+\includegraphics[width=\columnwidth]{img/intro/HisteresisEsquema.eps}
+\column{0.4\textwidth}
+\includegraphics[width=\columnwidth]{img/intro/Histeresis.eps}
+ 
+\end{columns}
 
 \end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\begin{frame}
-\begin{multicols}{2}
- 
-\begin{equation*}
- \frac{d \tau_{R}}{dT}=\frac{\Delta S}{\Delta V} 
-\end{equation*}
-\begin{itemize}
- \item  $\tau_{R}= \sigma cos(\lambda)cos(\phi)$
- \item $\Delta S$: variación de entropía
- \item $\Delta V$: variación de volumen
- \item $\Delta T$: variación de temperatura
-\end{itemize}
-
-\includegraphics[width=0.4\textwidth]{img/intro/Clapeyron.eps}
-\end{multicols}
-\end{frame}
-
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{frame}
 \frametitle{Memoria de forma}
 
-\begin{frame}
-% \includegraphics[width=0.8\textwidth]{img/intro/Trans.eps} 
- \includegraphics[width=0.8\textwidth]{img/intro/memoria.jpg}
+ \begin{itemize}
+  \item Forma inicial en estado austenítico
+  \item Enfriamiento a $T<M_{s}$
+  \item Deformación en estado martensítico
+  \item Calentamiento a $T>A_{f}$
+ \end{itemize}
+
+
+\begin{center}
+\includegraphics[width=0.9\textwidth]{img/intro/Trans.eps} 
+% \includegraphics[width=0.8\textwidth]{img/intro/memoria.jpg}
+\end{center}
+
+% Cosas que juegan en contra:
+% \begin{itemize}
+%   \item Envejecimiento y estabilización
+%   \item Anclaje entre placas de martensita
+%  \end{itemize}
+
 \end{frame}
 
 %*************************
@@ -360,15 +397,22 @@ $\phi:$ Ángulo entre tensión aplicada y la normal al plano de transformación
 % ************************ 
 
 \begin{frame}
+\frametitle{Aleación Cu-Zn-Al}
 \includegraphics[width=0.8\textwidth]{img/intro/CuZn.png}
+\begin{equation*}
+ \beta \rightarrow B2 \rightarrow L2_1 \rightarrow 18R 
+\end{equation*}
 \end{frame}
 
 %*************************
 % ************************ 
 
 \begin{frame}
-\begin{multicols}{2}
- 
+
+\frametitle{$M_s$}
+
+\begin{columns}
+\column{0.4\textwidth}
  \begin{equation*}
 \frac{e}{a} = 1+C_{Zn}+2C_{Al}
 \end{equation*}
@@ -379,14 +423,24 @@ M_s[K]=2686-6400C_{Zn}-9000C_{Al} \label{Ms}
      C_{Cu}+C_{Zn}+C_{Al}=1
 \end{equation*}
 
-\includegraphics[width=0.5\textwidth]{img/intro/MsZn2.eps}
+\column{0.4\textwidth}
 
-\end{multicols}
+\includegraphics[width=\columnwidth]{img/intro/MsZn2.eps}
+
+\end{columns}
 
 \end{frame}
 
 %*************************
 % ************************ 
+\begin{frame}
+ 
+ Estrcturas celulares
+ 
+\end{frame}
+
+
+
 
 \begin{frame}
 \frametitle{Esponjas metálicas}
@@ -396,15 +450,23 @@ M_s[K]=2686-6400C_{Zn}-9000C_{Al} \label{Ms}
 \includegraphics[width=0.5\textwidth]{img/intro/Cucompararesponja.eps}
 
 \begin{itemize}
- \item \alert<1>{Deformación elástica}
- \item \alert<2>{Colapso de la estructura}
- \item \alert<3>{Densificación}
+\small
+ \item \alert<1>{Lineal-elástico $\rightarrow$ flexión de las paredes }
+ \item \alert<2>{Colapso de la estructura $\rightarrow$ Fluencia o fractura}
+ \item \alert<3>{Densificación  }
 \end{itemize}
 
 \end{multicols}
+\alert<4>{Principal parámetro: Densidad específica $\frac{\rho^*}{\rho_s}$}
 
+Principal forma de caracterizar las propiedades mecánicas 
+\alert<5>{
+\begin{equation*}
+\frac{F^*}{F_s}=A \left(\frac{\rho^*}{\rho_s}\right)^n \label{props} 
+\end{equation*}
+}
+sirve para rigidez de la estructura, tensión de colapso de la estructura $\sigma^{pl}$,
 Deformación en bandas a $45 ^\circ$
-
 
 \end{frame}
 
@@ -448,12 +510,17 @@ Deformación en bandas a $45 ^\circ$
 \begin{frame}
 
 \includegraphics[width=0.4\textwidth]{img/intro/EspAMicro4.jpg}
-\includegraphics[width=0.4\textwidth]{img/intro/EspAMicro1.jpg}
 
 \includegraphics[width=0.4\textwidth]{img/intro/EspAMicro2.jpg}
 \includegraphics[width=0.4\textwidth]{img/intro/EspAMicro3.jpg}
  
 \end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%55
+% \begin{frame}
+% Anisotropía elástica lleva a fisuras intergranulares 
+% \end{frame}
+
+
 
 % ******************
 
@@ -475,18 +542,25 @@ Deformación en bandas a $45 ^\circ$
 \end{frame}
 
 \begin{frame}
+\frametitle{Método de fabricación de esponjas pseudoelásticas}
 \begin{center}
-\begin{multicols}{3}
- 
-\includegraphics[width=0.1\textwidth]{img/proceso/proceso1.eps}
+\begin{multicols}{4}
+\includegraphics[width=0.25\textwidth]{img/proceso/lingote.jpg}
+
+
+
+\includegraphics[width=0.25\textwidth]{img/proceso/silica.jpg}
+
+
+\includegraphics[width=0.15\textwidth]{img/proceso/proceso1.eps}
 
 %\includegraphics[width=0.05\textwidth]{img/proceso/flecha.eps}
 
-\includegraphics[width=0.1\textwidth]{img/proceso/proceso2.eps}
-
+\includegraphics[width=0.15\textwidth]{img/proceso/proceso2.eps}
+\vfill
 %\includegraphics[width=0.05\textwidth]{img/proceso/flecha.eps}
 
-\includegraphics[width=0.1\textwidth]{img/proceso/proceso3.eps}
+\includegraphics[width=0.15\textwidth]{img/proceso/proceso3.eps}
 \end{multicols}
 
 \begin{multicols}{3}
@@ -529,17 +603,13 @@ Deformación en bandas a $45 ^\circ$
 \end{center}
 %\end{multicols}
 
-
-
-
-Tamaño de grano
+\alert<1>{Ensayos de distintas esponjas} $\rightarrow$ \alert<2>{fisuras intergranulares} $\rightarrow$ \alert<3>{Modificar tamaño de grano}
  
- Resistencia
+\alert<4>{Comportamiento mecánico de la estructura + transformaciones $=$ Muy complejo!!} $\rightarrow$ \alert<5>{buscamos método sencillo para entender lo que sucede y poder seguir la integridad estructural de la esponja.} 
 \end{frame}
 
 
 \subsection{Tamaño de grano}
-
 
 % ******************
 % \begin{frame}
@@ -551,53 +621,41 @@ Tamaño de grano
 \begin{frame}
  \frametitle{Disminución tamaño de grano}
 
-\begin{table} %\label{tab:mstab}
-\small
-%\begin{center}
+\begin{small}
 \begin{tabular}{@{}lllllll@{}}  \toprule
 Muestra            & $Cu-Zn-Al (g)$ &   $\% pp$ $AlB_2$ & Método & Horno \\ \midrule
-\alert<1>{Botón 1} & 18,866         & 0,005             & I      & Inducción\\
-\alert<2>{Botón 2} & 18,564         & 0,5               & I      &Resistivo\\
-\alert<3>{Botón 3} & 14,129         & 0,5               & II     &Resistivo \\
-\alert<4>{Botón 4} & 18,383         & 0,5               & II     & Resistivo \\
+\alert<1>{Botón 1} & 18,866         & 0,005             & 1      & Inducción\\
+\alert<2>{Botón 2} & 18,564         & 0,5               & 1      &Resistivo\\
+\alert<3>{Botón 3} & 14,129         & 0,5               & 2     &Resistivo \\
+\alert<4>{Botón 4} & 18,383         & 0,5               & 2     & Resistivo \\
 % Clavo 1 & 8 & - & - & 0,5 & 0,5 & III & Resistivo \\
 % Clavo 2 & 8 & - & - & 0,05 & 0,05 &III & Resistivo \\
 % Clavo 3 & 8 & - & - & - & - &  IV & Resistivo \\
 % Clavo 4 & 8 & - & - & 0,005 & 0,005 &IV & Resistivo \\
 \bottomrule
 \end{tabular}
-%\caption{En esta tabla se detallan las composiciones utilizadas en cada muestra, el método de fabricación, y el horno utilizado para la fundición. La composición de la aleación corresponde a aproximadamente $60.115$ $g$ de cobre, $13.714$ $g$ de zinc y $6.130$ $g$ de aluminio. }
-%\end{center}
-\end{table}
+\end{small}
 
+\begin{description}
+\alert<1,2>{\item[Método 1:] Aleación $+$ $AlB_2$ papel aluminio $+$ $Cu$} 
+\alert<3,4>{\item[Método 2:] Aleación $+$ $AlB_2$ $\rightarrow$  prensado de pastillas}
+\end{description}
 
- 
-\begin{itemize}
-\alert<1,2>{\item[Método I:] Aleación $+$ $AlB_2$ papel aluminio $+$ $Cu$} 
-\alert<3,4>{\item[Método II:] Aleación $+$ $AlB_2$ $\rightarrow$  prensado de pastillas}
-\end{itemize}
-
-
-
-\begin{multicols}{3}
-
-\includegraphics[width=0.3\textwidth]{img/proceso/ampolla.jpg}
-
-\includegraphics[width=0.2\textwidth]{img/proceso/boton.jpg}
-
-\includegraphics[width=0.2\textwidth]{img/proceso/PastViruta.jpg}
-\end{multicols}
+\includegraphics[width=0.16\textwidth]{img/proceso/boton.jpg}
+\includegraphics[width=0.33\textwidth]{img/proceso/ampolla.jpg}
+\includegraphics[width=0.175\textwidth]{img/proceso/PastViruta.jpg}
+\includegraphics[width=0.32\textwidth]{img/tamgrano/Esponjaypastillas.jpg}
 
 
  \end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\begin{frame}
- \begin{center}
-
-botón y pastillas
-  \end{center}
-\end{frame}
+% 
+% \begin{frame}
+%  \begin{center}
+% 
+% botón y pastillas
+%   \end{center}
+% \end{frame}
 
 
 
