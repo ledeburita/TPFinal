@@ -177,7 +177,7 @@ por un aumento de la temperatura, pasando las temperaturas $A_{s}$ (\textit{Aust
 %\cite{duering} 
 
 Otra forma de inducir la transformación martensítica es por medio de una tensión mecánica aplicada, es equivalente al calentamiento y enfriamiento pero en 
-sentido contrario. Enfriar a una temperatura entre $M_{s}$ y $M_{f}$ es equivalente a aplicar una tensión cada vez mayor, mientras que calentar para revertir la 
+sentido contrario. Enfriar a una temperatura entre $M_{s}$ y $M_{f}$ es equivalente a aplicar una tensión (tracción o compresión) cada vez mayor, mientras que calentar para revertir la 
 transformación equivale a una disminución en la fuerza aplicada. La martensita que se forma por arriba de $M_{s}$ por medio de una 
 tensión aplicada recibe el nombre de martensita inducida por tensión (se utilizan las siglas SIM del inglés \textit{Stress Induced Martensite})
 
@@ -237,7 +237,7 @@ comienza la deformación elástica de la martensita, lo cual se ve como un nuevo
 
  \subsection{Transformación martensítica en monocristales}
 
-Un material con una estructura monocristalina tendrá diferentes direcciones preferenciales para el crecimiento de placas de martensita, por lo que comenzará a transformar cuando la tensión aplicada en una de estas direcciones alcance la tensión crítica. Esta tensión se llama tensión crítica resuelta ($\tau_{R}$) y corresponde a la proyección de la tensión aplicada en las direcciones preferenciales de transformación. Esta tensión resuelta está dada por la Ley de Schmid, en la que si
+Un material con una estructura monocristalina tendrá diferentes direcciones preferenciales para el crecimiento de placas de martensita, por lo que comenzará a transformar cuando la tensión aplicada en una de estas direcciones alcance la tensión crítica de transformación. Esta tensión se llama tensión crítica resuelta ($\tau_{R}$) y corresponde a la proyección de la tensión aplicada en las direcciones preferenciales de transformación. Esta tensión resuelta está dada por la Ley de Schmid, en la que si
 % Al aplicar una tensión a un material, este transformará y las placas de martensita crecerán en las direcciones preferenciales acomodándose a la dirección de la tensión aplicada. La componente de la tensión aplicada que actúa en la transformación se llama tensión crítica resuelta ($\tau_{R}$) que corresponde a la 
 % proyección de la tensión aplicada en las direcciones preferenciales de transformación. Si el material es un monocristal, comenzará a formar las placas de martensita cuando alcance la tensión crítica en alguna dirección preferencial, y todas las placas se formarán siguiendo esta dirección. Las placas crecerán sin necesitar un aumento en la tensión, por lo tanto veremos el plateau en el segmento de transformación. 
 %
@@ -250,11 +250,11 @@ Un material con una estructura monocristalina tendrá diferentes direcciones pre
 % de los granos tendrá una tensión distinta en sus direcciones compactas. Si se va aumentando la carga, primero llegará a la tensión crítica de algunos granos con orientación 
 % más favorable y luego alcanzará la tensión crítica en granos con orientaciones menos favorables. Por esto se necesitarán mayores tensiones para deformar un material policristalino.
  se tiene una probeta de 
-sección A, y se le aplica un esfuerzo F, la tensión aplicada será:
+sección A, y se le aplica una tensión normal F, la tensión aplicada será:
 \begin{equation}
  \sigma = \frac{F}{A}
 \end{equation}
-Si $\lambda$ es el ángulo entre la tensión aplicada y la dirección de deslizamiento o cizalladura, el esfuerzo cortante efectivo que actúa en este plano será:
+Si $\lambda$ es el ángulo entre la tensión aplicada y la dirección preferencial de transformación, el esfuerzo cortante efectivo que actúa en este plano será:
 \begin{equation}
  F_{R}= F cos(\lambda)
 \end{equation}
@@ -315,7 +315,7 @@ donde $\tau_{R}$, T, $\Delta S$ y $\Delta V$ son la tensión resuelta, la temper
 
 
 
-Por encima de $M_s$ y aplicando una tensión, a medida que avanza la transformación, su avance de hace más dificultoso. Al superar una determinada temperatura, la tensión necesaria para 
+Por encima de $M_s$ y aplicando una tensión, a medida que avanza la transformación, su avance se hace más dificultoso. Al superar una determinada temperatura, la tensión necesaria para 
 formar martensita es mayor a la necesaria para mover las dislocaciones. La temperatura a la cual ocurre esto es la $M_d$, y es la mayor temperatura a la cual se puede 
 obtener martensita aplicando una tensión. Por este motivo las aleaciones con memoria de forma a partir de la formación de SIM, se utilizan en el rango entre $M_s$ y $M_d$.
 Para las aleaciones de Cu-Zn-Al, a $T > 50K$, $\Delta S$ es prácticamente independiente de la temperatura \cite{pierre}, por lo que consideramos que tiene un comportamiento 
@@ -328,7 +328,7 @@ Si el material es policristalino, cada uno de los granos tendrá una orientació
 
 \section{Disipación de energía}
 
-Al graficar tensión en función de la deformación, puede verse que este gráfico presenta una histéresis, por lo que al transformar y 
+Al graficar tensión en función de la deformación (Figura \ref{fig:proceso}), puede verse que este gráfico presenta una histéresis, por lo que al transformar y 
 retransformar en sentido inverso, la curva no “sigue un mismo camino”. El proceso de transformación martensítica es termoelástico, es decir, la transformación 
 no se da únicamente por una fuerza impulsora química, sino que se almacena y libera energía elástica. A medida que avanza la transformación con tensiones aplicadas, 
 se almacena energía elástica al transformar y se libera al retransformar en sentido inverso. 
@@ -356,11 +356,10 @@ materiales con memoria de forma la propiedad de amortiguación.
         \caption{}
         \label{fig:EspA}
     \end{subfigure}
-
-  \label{fig: proceso}
-  \caption{(a) esquema de un material que transforma y vuelve al estado inicial al aplicar y retirar una carga respectivamente. (b)
+  \caption{(a) Esquema de un material que transforma y vuelve al estado inicial al aplicar y retirar una carga respectivamente. (b)
   Mismo esquema de transformación donde puede verse la energía consumida al realizar un ciclo de carga y descarga.}
-\end{figure}
+  \label{fig:proceso}
+  \end{figure}
  
  
 Stoiber \cite{stoiber} atribuye el gasto de energía en la transformación a los siguientes fenómenos:
@@ -380,7 +379,7 @@ Stoiber \cite{stoiber} atribuye el gasto de energía en la transformación a los
 
  Al enfriar una muestra de austenita a una temperatura inferior a $M_{f}$ la muestra transformará a martensita. Por otro lado al calentarla a una temperatura mayor a $A_{f}$ volverá a transformar a austenita. 
  
- Al transformar térmicamente las placas se formarán en distintas direcciones, según las orientaciones que sean más favorables en el material. Si esta muestra transformada se deforma manteniendo la temperatura por debajo de $M_s$, las placas se irán orientando (algunas crecen y otras se achican) según la tensión aplicada. Finalmente si se se calienta por encima de $A_{f}$, recuperará su forma original a medida que transforma a austenita. Este efecto se llama “memoria de forma” ya que ocurre una sola vez, a menos que se vuelva a deformar la muestra en la fase martensítica. La figura \ref{fig:memoria} muestra un esquema de este comportamiento. Existe otra propiedad llamada memoria de forma doble en la que la muestra al 
+ Al transformar térmicamente las placas se formarán en distintas direcciones, según las orientaciones que sean más favorables en el material. Si esta muestra transformada se deforma manteniendo la temperatura por debajo de $M_s$, las placas se irán orientando (algunas crecen y otras se achican) según la tensión aplicada. Finalmente si se calienta por encima de $A_{f}$, recuperará su forma original a medida que transforma a austenita. Este efecto se llama “memoria de forma” ya que ocurre una sola vez, a menos que se vuelva a deformar la muestra en la fase martensítica. La figura \ref{fig:memoria} muestra un esquema de este comportamiento. Existe otra propiedad llamada memoria de forma doble en la que la muestra al 
 enfriarse desde austenita a martensita recuperará el estado de deformación. Este comportamiento es mucho más complejo y no se tratará en este trabajo. Si luego se enfría nuevamente no habrá un cambio de forma.
 
 
@@ -509,7 +508,7 @@ cual exige la utilización de un equipo más complejo capaz de controlar simult�
 
 
 
-En el gráfico \ref{fig:mstab} puede verse como una leve variación en el contenido de distintos aleantes cambia muy marcadamente la $M_s$. Además hay que 
+En la figura \ref{fig:mstab} puede verse como una leve variación en el contenido de distintos aleantes cambia muy marcadamente la $M_s$. Además hay que 
 tener en cuenta que al fundir la aleación, el Zn se volatiliza y se pierde fácilmente, lo que como dijimos genera un gran cambio en la $M_s$. Esto 
 puede contrarrestarse agregando una cantidad de Zn extra para compensar el que se perderá en la fundición.
 
@@ -542,8 +541,8 @@ de las distintas fases. Por ejemplo en un austenizado (fase $\beta$) a mayor tem
 temperaturas de transformación. Otro factor importante es el envejecimiento y estabilización de la martensita. Puede ocurrir incluso a temperatura ambiente y generalmente se considera que a partir de $120$ $^\circ C $ la martensita comienza 
 a estabilizarse, ocurre un reordenamiento atómico disminuyendo su energía libre y por lo tanto se modifican las temperaturas y tensiones de transformación ($A_s$ y $A_f$ aumentan). Como la estabilización 
 de las fases se produce por difusión, los parámetros que la controlan son la temperatura, tensiones aplicadas y la concentración de vacancias. Queda claro que las 
-primeras dos variables pueden controlarse fácilmente, mientras que para la concentración de vacancias es más complejo.
-
+primeras dos variables pueden controlarse fácilmente, mientras que para la concentración de vacancias es más complejo \cite{gibson}.
+ 
 
 % ************************************************* refinar tamaño de grano*************************
 A altas temperaturas, donde se encuentra el campo de la fase $\beta$, la aleación presenta un rápido crecimiento de grano. Esto genera que al enfriar la estructura tenga un tamaño de grano grande con interfases frágiles y propensas 
@@ -587,13 +586,13 @@ del sólido, llamada densidad específica ($\rho^* / \rho_s$) \cite{cellular}.
 \end{figure}
 
 Al aplicar una carga a una esponja y realizar un gráfico tensión vs deformación se distinguen tres tramos, los cuales presentan un comportamiento 
-distinto. Como se muestra en la figura \ref{fig:EspCu} inicialmente se ve un segmento lineal-elástico. En el caso de esponjas con celdas abiertas, este tramo 
+distinto. Como se muestra en la figura \ref{fig:EspCu} inicialmente se ve un segmento lineal-elástico (Región I en la figura \ref{fig:EspCu}). En el caso de esponjas con celdas abiertas, este tramo 
 es más marcado, y la deformación elástica se debe a que las paredes de las celdas se flexionan. En las esponjas con estructuras cerradas el 
 comportamiento es más complejo, y la deformación se debe a la flexión de las paredes y el estiramiento de las superficies de los poros. 
 % En esta primera 
 % instancia la pendiente es inferior al modulo de Young de la esponja (E) debido a que ocurre una microdeformación plástica en los puntos más débiles de la 
 % estructura. Para poder medir la rigidez de la estructura se realiza una carga y luego se mide la pendiente en una descarga.
-En el segundo tramo de la curva tensión deformación, puede verse un plateau debido al colapso de la estructura, donde las paredes de las celdas 
+En el segundo tramo de la curva tensión deformación (Región II en la figura \ref{fig:EspCu}), puede verse un plateau debido al colapso de la estructura, donde las paredes de las celdas 
 comienzan a ceder por fluencia o fracturas. Este plateau se mantiene hasta llegar a una deformación de densificación, donde la estructura ya se encuentra 
 comprimida y el módulo elástico aumenta abruptamente. Hay que tener en cuenta que la anisotropía en la forma de las celdas puede llevar a una gran diferencia 
 en las propiedades de la esponja en distintas direcciones.
@@ -701,10 +700,10 @@ en las propiedades de la esponja en distintas direcciones.
   \label{fig:FisuraEsponja}
   \end{figure}
 
-Como dijimos las esponjas metálicas tienen una capacidad de absorción mucho mayor a la del mismo metal sólido. Si a esto se le suma la absorción en energía 
+Como dijimos las esponjas metálicas tienen una capacidad de deformación mucho mayor a la del mismo metal sólido. Si a esto se le suma la absorción en energía 
 debido a la pseudoelasticidad generada por la transformación martensítica, tenemos una estructura con gran capacidad de amortiguamiento y muy bajo 
 peso. En otras palabras, la energía que se utilizaba en una esponja no pseudoelástica para deformar plásticamente, se utiliza ahora para la transformación
-martensítica. Como esta transformación es reversible una vez que se relaja la tensión aplicada la estructura vuelve a austenita recuperando su forma 
+martensítica. Como esta transformación es reversible una vez que se elimina la tensión aplicada la estructura vuelve a austenita recuperando su forma 
 inicial. En una curva compresión-deformación (figura \ref{fig:EspA}) se identifican distintas regiones correspondientes a cada uno de estos comportamientos. Inicialmente un 
 segmento lineal correspondiente a la deformación elástica de la estructura. Luego hay un cambio en la pendiente, donde comienza a ocurrir 
 la transformación martensítica por la tensión aplicada. En este segmento el comportamiento también es prácticamente lineal. Si ahora se libera la carga 
@@ -751,7 +750,7 @@ Cuando describimos el comportamiento de los materiales con memoria de forma vimo
 mantiene constante a medida que avanza la transformación martensítica. Al ver el gráfico de deformación de una esponja con material pseudo elástico no aparece este plateau, 
 sino que ocurre un cambio en la pendiente (a partir de la tensión crítica). Esto se debe a que el plateau aparece en el caso de deformarse una probeta monocristalina. 
 La esponja está compuesta por distintos granos, cada uno con una orientación distinta, por lo que la tensión resuelta en cada uno es distinta. Así cada grano transformará 
-a distintos niveles de tensión aplicada. En la figura \ref{fig:MicrografiasEsponja} se muestran micrografías donde se distinguen los granos y placas de martensita en la cara superior de la esponja y dentro un poro. Además la deformación comienza en puntos cercanos a los poros, ya que actúan como concentradores de tensiones. Resumiendo, 
+a distintos niveles de tensión aplicada. En la figura \ref{fig:MicrografiasEsponja} se muestran micrografías donde se distinguen los granos y placas de martensita en la cara superior de la esponja y dentro un poro. Además la deformación comienza en puntos cercanos a los poros, ya que actúan como concentradores de tensiones. En resumen, 
 aumentando la tensión aplicada se logran transformaciones en los granos con orientaciones menos favorables para transformar, y además la deformación llega a regiones ubicadas más lejos 
 de los concentradores de tensiones.
 
@@ -782,7 +781,7 @@ Como material de partida para la aleación se utilizaron metales de pureza comer
 $e/a=1.48$, la cual corresponde a una concentración de $Cu=75.20 \% pp$, $Zn= 17.44 \% pp$, $Al=7.66 \%pp$ y $M_s=-12$ $^\circ C$.   
 
 Como se mostró anteriormente las propiedades de la aleación pueden variar ampliamente 
-con pequeños cambios en la composición, por lo que cada uno de los metales se pesaron con balanza de precisión (con una mínima resolución de $0,0001g$). 
+con pequeños cambios en la composición, por lo que cada uno de los metales se pesaron con balanza de precisión (con una resolución de $0,0001g$). 
 Luego se les realizó un pulido químico con las siguientes soluciones:
 \begin{itemize}
  \item[$\circ$] Cu: $50 \%$ ácido nítrico (al $65 \%$) - $50 \%$ agua
@@ -791,7 +790,7 @@ Luego se les realizó un pulido químico con las siguientes soluciones:
 \end{itemize}
 
 Una vez pesados y pulidos cada uno de los metales, se colocaron en una ampolla de cuarzo con una atmósfera de argón. Luego se colocó la ampolla en 
-un horno resistivo a aproximadamente $1100^\circ C$, temperatura superior a la temperatura de fusión de cada uno de los metales. Por último se abrió la ampolla, y se extrajo un 
+un horno resistivo a aproximadamente $1100^\circ C$ durante $1$ hora, temperatura superior a la temperatura de fusión de cada uno de los metales. Por último se abrió la ampolla, y se extrajo un 
 lingote de la aleación buscada la cual se pesó para cuantificar la cantidad de material que se perdió en el proceso.  
 
 Antes de ser utilizada, la aleación ya fabricada se sumergió en una solución de $50 \%$ ácido nítrico (al $65 \%$) y 
@@ -853,7 +852,7 @@ cobre para contrarrestar el cambio en la composición por el aluminio. La ampoll
 \item[Método II:] Se prensaron pastillas de aproximadamente $4 mm$ de diámetro y $4 mm$ de alto de viruta de la aleación (fabricada con una escofina) y polvo de $AlB_2$ (figura \ref{fig:PastViruta}). Se 
 colocaron todas las pastillas en una ampolla de cuarzo con una atmósfera de argón. Por último se fundió en un horno resistivo a $1100$ $^\circ C$. Se obtuvo un botón como el que se mostró en el \textsl{Método I}.
 
-\item[Método III:] Para este tercer método se utilizó un molino de bolas. Este equipo posee una cámara de acero endurecido de aproximadamente $20 cm$ de diámetro y $2,9 cm$ de alto. Dentro de la cámara de molienda se colocó viruta de aleación (fabricada con un torno) y $5$ bolillas de acero de $22,5 mm$ de diámetro, quedando una relación volumen de bolillas y cantidad de material de aproximadamente $42$. Además dentro de la cámara se utilizó una atmósfera con sobre presión de argón de $5 atm$ para evitar que el polvo se oxide en la molienda.
+\item[Método III:] Para este tercer método se utilizó un molino de bolas. Este equipo posee una cámara de acero endurecido de aproximadamente $200 mm$ de diámetro y $29 mm$ de alto. Dentro de la cámara de molienda se colocó viruta de aleación (fabricada con un torno) y $5$ bolillas de acero de $22,5 mm$ de diámetro, quedando una relación volumen de bolillas y cantidad de material de aproximadamente $42$. Además dentro de la cámara se utilizó una atmósfera con sobre presión de argón de $5 atm$ para evitar que el polvo se oxide en la molienda.
 Se molieron $8g$ de la aleación en forma de viruta con distintas cantidades de $AlB_2$ durante $28$ horas.  Una vez finalizada la molienda se retiró el argón, y 
 como la aleación se pega a las paredes y bolillas fue necesario retirarla con una herramienta raspando los bordes.
 Luego se retiró el polvo ya molido de la cámara y se prensaron pastillas de $4mm$ de diámetro y $4mm$ de alto (figura \ref{fig:PastMolienda}). Se colocaron las pastillas alineadas en un tubo de cuarzo de $6 mm$ de diámetro y se fundió en un horno resistivo para obtener un clavo de $6 mm$ de diámetro y $60 mm$ de largo.
@@ -894,12 +893,12 @@ Luego se retiró el polvo ya molido de la cámara y se prensaron pastillas de $4
     \end{figure}
     
     
-    Una vez fabricados los distintos clavos, se emparejaron las superficies utilizando un equipo de electroerosión, obteniendo probetas cilíndricas que fueron ensayadas con distintos ciclos de compresión. La deformación se midió con un extensómetro marca Instrom y se siguió la misma metodología que se explica en la sección \ref{compresión}.
+    Una vez fabricados los distintos clavos, se emparejaron las superficies utilizando un equipo de electroerosión, obteniendo probetas cilíndricas que fueron ensayadas con distintos ciclos de compresión. La deformación se midió con un extensómetro marca Instron y se siguió la misma metodología que se explica en la sección \ref{compresión}.
     
 
 \section{Fabricación de esponjas} \label{FabricacionEsponjas}
 
-A continuación se detalla el método utilizado para fabricar esponjas. El proceso puede verse en la figura \ref{fig:detalleproceso}. Se partió de un lingote de aleación de Cu-Zn-Al fabricado con el método descripto en la sección \ref{preparacion_aleacion}. Este lingote se colocó en un crisol de grafito, y se calentó hasta fundir en un horno de inducción. Una vez que la aleación se encontraba en estado líquido se colocaron encima las esferas de sílica gel previamente secadas en una estufa por varias horas para eliminar humedad que pueda haber absorbido del ambiente (figura \ref{fig:pro1}).
+A continuación se detalla el método utilizado para fabricar esponjas. El proceso puede verse en la figura \ref{fig:detalleproceso}. Se partió de un lingote de aleación de Cu-Zn-Al fabricado con el método descripto en la sección \ref{preparacion_aleacion}. Este lingote se colocó en un crisol de grafito, y se calentó hasta fundir en un horno de inducción. Una vez que la aleación se encontraba en estado líquido se colocaron encima las esferas de sílica gel previamente secadas en una estufa por varias horas para eliminar humedad que pueda haber absorbido del ambiente (figura \ref{fig:pro1}). Las esferas de sílica gel pueden tener diámetros y formas variadas. Generalmente se utilizan esferas de diámetro entre $1.2$ y $4$ $mm$.
 
 \begin{figure}[h]
  \centering
@@ -940,8 +939,8 @@ Estas esferas, que quedan flotando en la superficie del metal líquido, se presi
 
 Una vez enfriado, se torneó la muestra para retirar una fina capa superficial y se obtuvo una pieza como la que se ve en la la figura \ref{fig:proceso2}. Luego se colocó este cilindro en una solución de ácido fluorhídrico al $50\%$ (la cual ataca únicamente la sílica y no la aleación) y se dejó reposar durante tres días. Como las esferas de sílica gel generan una estructura celular abierta, las celdas se encuentran interconectadas, y el ácido puede penetrar en toda la estructura.  Para acelerar el proceso se puede renovar la solución de ácido ya que la misma se va neutralizando a medida que la reacción avanza. También se puede utilizar un agitador magnético que mantenga la solución fluyendo. Una vez que se observó que no había más sílica, se enjuagó con agua para quitar toda la solución de ácido que pueda quedar en el interior de la estructura.
 
-Por último se cortaron los extremos y se desbastaron para asegurar que sean dos superficies perfectamente paralelas para luego poder realizar los
-ensayos mecánicos correctamente. Si se desean obtener micrografías ópticas o con SEM, se puede atacar la esponja con ácido nítrico al $50\%$ para que la superficie quede libre de cualquier óxido o impurezas superficiales que puedan quedar de todo el proceso. Se obtuvo entonces la esponja como la que se muestra en la figura \ref{fig:proceso3}.
+Por último se cortaron los extremos con una cortadora de precisión IsoMet y se desbastaron para asegurar que sean dos superficies perfectamente paralelas para luego poder realizar los
+ensayos mecánicos correctamente. Si se desean obtener micrografías ópticas o con SEM, se puede atacar la esponja con ácido nítrico al $50\%$ para que la superficie quede libre de cualquier óxido o impurezas superficiales que puedan quedar de todo el proceso. Se obtuvo entonces la esponja como la que se muestra en la figura \ref{fig:proceso3}. La geometría de las esponjas obtenidas son de un diámetro y largo de $20$ $mm$ y $35$ $mm$ respectivamente.
 
 
 \begin{figure}
@@ -995,9 +994,9 @@ martensítica en la superficie. Por otro lado hay que controlar que el agua util
 que la $M_s$ del material esté cercana a la temperatura ambiente. 
 
 Generalmente se inicia el desbaste con una lija de carburo de silicio, empezando desde un granulado tamaño 400 y se va subiendo hasta un número 1000. 
-Luego se realiza un pulido con alúmina de 1 $\mu m$. Finalmente se ataca durante unos $5$ segundos con una solución de $50 \% $ de ácido nítrico para revelar bordes de grano y la microestructura. 
+Luego se realiza un pulido con alúmina de 1 $\mu m$. Finalmente se ataca durante unos $5$ segundos con una solución de $50 \% $ de ácido nítrico base acuosa para revelar bordes de grano y la microestructura. 
 
-Para las muestras que se analizaron en SEM, fue necesario un ataque con ácido nítrico durante una mayor cantidad de tiempo que el utilizado en las micrografías para que pueda distinguirse la rugosidad de la superficie generada por la microestructura.
+Para las muestras que se analizaron en SEM, fue necesario un ataque con ácido nítrico durante una mayor cantidad de tiempo que el utilizado en las micrografías para que pueda distinguirse la topografía generada por la microestructura. También se utilizó micrografía óptica y lupa. 
 
 \subsection{Respuesta mecánica a compresión} \label{compresión}
 
@@ -1005,9 +1004,9 @@ Para las muestras que se analizaron en SEM, fue necesario un ataque con ácido n
 
 % https://books.google.com.ar/books?id=gilYI9_KKAoC&pg=PA60&lpg=PA60&dq=deformacion+real+e+ingenieril&source=bl&ots=mocOuVvrLx&sig=-0en3S3S9Pv8Ty2yMc08LHGR7zs&hl=en&sa=X&ved=0ahUKEwix953zr-DTAhUBgpAKHRsoAaMQ6AEIXjAK#v=onepage&q=deformacion%20real%20e%20ingenieril&f=false
 
-Para ensayar esponjas, tanto de Cu-Zn-Al como de Cu puro, se procedió de la siguiente forma. Una vez fabricadas las esponjas como se explicó en la sección  \ref{FabricacionEsponjas}, se cortaron los bordes con una cortadora de precisión IsoMet y luego se desbastaron para que ambos extremos sean perfectamente planos y paralelos. Esto es muy importante para que al comprimir la deformación sea homogénea en toda la muestra y no se concentre, por ejemplo, en un costado. Previo al ensayo se realizó un recocido a 800 $^\circ C$ durante media hora y un enfriamiento al aire durante media hora más con el fin de reiniciar el estado termomecánico del material, esto es, para borrar cualquier rastro de martensita anterior y asegurar que todas las muestras empiecen con la misma estructura. 
+Para ensayar esponjas, tanto de Cu-Zn-Al como de Cu puro, se procedió de la siguiente forma. Previo al ensayo se realizó un recocido a 800 $^\circ C$ durante media hora y un enfriamiento al aire durante media hora más con el fin de reiniciar el estado termomecánico del material, esto es, para borrar cualquier rastro de martensita anterior y asegurar que todas las muestras empiecen con la misma estructura. 
 
-Los ensayos se realizaron en una máquina de ensayos mecánicos Instron 5567. Se utilizó una jaula inversora que transforma el movimiento de tracción de las mordazas del equipo en compresión de la probeta, ya que con este equipo no puede realizarse ensayos de compresión directamente entre discos debido a la rótula que une la celda de carga con el resto de los elementos de la cadena cinemática. El equipo utilizado puede verse en la figura \ref{fig:jaula}. La 
+Los ensayos se realizaron en una máquina de ensayos mecánicos Instron 5567. Se utilizó una jaula inversora que transforma el movimiento de tracción de las mordazas del equipo en compresión de la probeta, ya que con este equipo no puede realizarse ensayos de compresión directamente entre discos debido a la rótula que une la celda de carga con el resto de los elementos de la cadena cinemática. La jaula utilizado puede verse en la figura \ref{fig:jaula}. La 
 temperatura de los ensayos se controló con una cámara ambiental Instron 3119005
 %TODO numero de la camara ambiental y del extensómetro
 perteneciente a la máquina de tracción, la cual puede enfriar y calentar.
@@ -1046,7 +1045,7 @@ más precisa de la temperatura de la muestra se utilizó una termocupla tipo K a
 % \end{figure}
  
 
-Para ensayar los clavos con distintos tamaños de grano, se procedió de manera muy similar. Primero se tornean los bordes con una cortadora por electro erosión. Esta máquina erosiona la superficie sin generar deformación en el material, y permite obtener cilindros con superficies muy parejas. Luego de emparejar las superficies, se cortaron las probetas de aproximadamente $25 mm$ de largo y se emparejaron las puntas para que queden perfectamente paralelas. 
+Para ensayar los clavos con distintos tamaños de grano, se procedió de manera muy similar. Primero se tornean los bordes con una cortadora por electro erosión. Esta máquina erosiona la superficie sin generar deformación en el material, y permite obtener cilindros con superficies muy parejas. Luego de emparejar las superficies, se cortaron las probetas de aproximadamente $25 mm$ de largo y $5$ $mm$ de diámetro y se emparejaron las puntas para que queden perfectamente paralelas. 
 Los ensayos de compresión se llevaron a cabo de la misma forma que las esponjas. 
  
 
@@ -1058,8 +1057,8 @@ Los ensayos de compresión se llevaron a cabo de la misma forma que las esponjas
 
 Para medir la resistencia de las muestras se utilizó el método de las cuatro puntas, también conocido como método de Kelvin. En la figura 
 \ref{fig:CuatroPuntas} puede 
-verse el dispositivo utilizado. A la muestra se le soldaron cuatro cables alineados, con los dos exteriores se le inyecta una corriente conocida y con los 
-otros dos cables se mide la tensión en la muestra. Este método permite realizar mediciones de resistencias muy pequeños, ya que como varía
+verse un esquema del método utilizado. A la muestra se le soldaron cuatro cables alineados, con los dos exteriores se le aplica una corriente conocida y con los 
+otros dos cables se mide la tensión en la muestra. Este método permite realizar mediciones de resistencias muy pequeñas, ya que como varía
 el sentido de la corriente permite eliminar los potenciales y resistencias que se generan en las soldaduras de los cables a la muestra.
 Como el voltímetro que lee la tensión con los cables interiores posee una resistencia muy alta, podemos considerar que por este cable no circula una corriente
 y entonces la medición de tensión será precisa. 
@@ -1115,7 +1114,7 @@ ecuación \ref{resist} la cual permite comparar los resultados de los distintos 
 
 Donde $\rho$ es la resistividad, $R$ es la resistencia medida de la probeta, $A$ es la sección y $l$ la longitud entre los cables que miden la tensión.
  
-En el gráfico \ref{fig:RvsTClavo5} puede verse la variación de la resistencia en un ciclo de enfriamiento y calentamiento, cuando transforma a martensita y austenita respectivamente. Puede verse que la martensita presenta una resistencia mucho mayor a la austenita. La medición de la resistencia a medida que transforma la aleación es muy útil, ya que permite seguir 
+En la figura \ref{fig:RvsTClavo5} puede verse la variación de la resistencia en un ciclo de enfriamiento y calentamiento, cuando transforma a martensita y austenita respectivamente. Puede verse que la martensita presenta una resistencia mucho mayor a la austenita. La medición de la resistencia a medida que transforma la aleación es muy útil, ya que permite seguir 
 de manera detallada el avance de transformación. Si se conoce la resistencia inicial en estado austenítico, y el valor de la resistencia cuando la 
 muestra se encuentra en estado completamente martensítico, puntos intermedios entre estos dos extremos darán información acerca de la fracción transformada.
 También puede verse que cuando la aleación se encuentra en estado austenítico o martensítico la resistencia varía linealmente con la temperatura, como es 
@@ -1137,7 +1136,7 @@ de esperarse para cualquier aleación metálica.
 
 \section{Tamaño de grano}
 
-En este capítulo se presentan los resultados obtenidos al aplicar distintos métodos para modificar el tamaño de grano. En la sección \ref{reduccion} se detallan las muestras fabricadas y los resultados obtenidos al intentar reducir el tamaño de grano. En la sección \ref{aumento} se presentan los resultados obtenidos al intentar generar un aumento el tamaño de grano de la aleación. Finalmente en la sección \ref{TamañosConclusion} se presentan las conclusiones a las que se llegaron en este capítulo y el trabajo que debe continuarse a futuro. 
+En esta sección se presentan los resultados obtenidos al aplicar distintos métodos para modificar el tamaño de grano. En la sección \ref{reduccion} se detallan las muestras fabricadas y los resultados obtenidos al intentar reducir el tamaño de grano. En la sección \ref{aumento} se presentan los resultados obtenidos al intentar generar un aumento el tamaño de grano de la aleación. Finalmente en la sección \ref{TamañosConclusion} se presentan las conclusiones a las que se llegaron respecto del tamaño de grano y el trabajo que debe continuarse a futuro. 
 
 
 
@@ -1250,7 +1249,7 @@ La primera muestra fabricada de este grupo fue el \textbf{Clavo 1}. Se prensaron
         \caption{}%Corte transversal del Clavo 1}
         \label{fig: Sem2Clavo1}
     \end{subfigure}
-    \caption{Micrografías de un corte del Clavo 1: (a) Micrografía obtenida por microscopia óptica, En la figura $(b)$ y $(c)$ se muestran dos imágenes tomadas con un microscopio SEM con electrones retrodispersados donde se distingue la diferencia en la composición de la aleación (zonas grises) y la zona donde quedó acumulado el polvo refinador (en negro). En la figura $(c)$ se ven los granos de la aleación y se distinguen partículas del polvo refinador que quedaron distribuidas en la aleación. Los círculos más grandes son pequeños poros que luego aumentaron su tamaño al realizar el pulido químico.}
+    \caption{Micrografías de un corte del Clavo 1: (a) Micrografía obtenida por microscopia óptica, En la figura $(b)$ y $(c)$ se muestran dos imágenes tomadas con un microscopio SEM con electrones retrodispersados donde se distingue la diferencia en la composición de la aleación (zonas grises) y la zona donde quedó acumulado el polvo refinador (en negro). En la figura $(c)$ se ven los granos de la aleación. }
     \end{figure}
 
 Luego de los resultados obtenidos con el \textbf{Clavo 1}, se fabricó el \textbf{Clavo 2} siguiendo la misma metodología, pero esta vez se utilizó una cantidad diez veces menor de polvo refinador ($0.05\%$ en peso). Luego de fundir, nuevamente quedaron las pastillas (esta vez con menos polvo) y el metal escurrió hacia el exterior. Además de perder la aleación, las superficies en las que hacen contacto las pastillas no se adhirieron correctamente, quedando como un punto muy débil en la estructura muy propenso a fisuras. Nuevamente se observó un refinamiento de la estructura en los lugares donde la aleación escurrió (Figura \ref{fig: MClavo2}).
@@ -1259,7 +1258,7 @@ A partir de los resultados obtenidos hasta esta instancia se concluyó que no es
 %Como el \textbf{Clavo 2}, el cual tiene diez veces menos refinador que el \textbf{Clavo 1}, pero presenta un menor tamaño de grano, 
 Luego se fabricó el \textbf{Clavo 3} de la siguiente forma. Esta muestra consistió únicamente en la molienda de la aleación, sin el agregado de polvo refinador. Además el polvo obtenido de la molienda se colocó suelto en el tubo de cuarzo. Se obtuvo un clavo como los anteriores, y también presentó un tamaño de grano pequeño similar a los \textbf{Clavos 1} y \textbf{2} (Figura \ref{fig: MClavo3}). Se concluyó que este refinamiento se debe a la formación de óxidos en la fabricación de la viruta de la aleación y posterior molienda en el molino de bolas. El único defecto que se encontró en esta muestra es la presencia de porosidad, que puede deberse a la baja densidad del polvo en el tubo de cuarzo, que no se compacta adecuadamente al fundirse. Además se ven en algunas zonas manchas de un tono un poco más oscuras al tono que presenta el resto de la muestra, que se deben a la aglomeración de óxidos. Estas manchas pueden actuar como una zona con tendencia a fisurarse cuando se someta la muestra a ensayos mecánicos. 
 
-Por último, se fabricó el  \textbf{Clavo 4}, con $0.005 \%$ en peso de refinador (la menor cantidad de refinador utilizada hasta el momento). Además el polvo refinador se colocó suelto en el tubo de cuarzo al igual que en el \textbf{Clavo 3}. Se obtuvo el menor tamaño de grano y también la distribución mas estrecha (Figura \ref{fig: MClavo4}). Al igual que en el \textbf{Clavo 3}, la muestra presentaba porosidad y algunas manchas que pueden deberse a la aglomeración de óxido y también partículas de $AlB_2$.
+Por último, se fabricó el  \textbf{Clavo 4}, con $0.005 \%$ en peso de refinador (la menor cantidad de refinador utilizada hasta el momento). Además el polvo de la molienda se colocó suelto en el tubo de cuarzo al igual que en el \textbf{Clavo 3}. Se obtuvo el menor tamaño de grano y también la distribución mas estrecha (Figura \ref{fig: MClavo4}). Al igual que en el \textbf{Clavo 3}, la muestra presentaba porosidad y algunas manchas que pueden deberse a la aglomeración de óxido y también partículas de $AlB_2$.
  
 
 
@@ -1409,7 +1408,7 @@ Respecto de las características de las aleaciones obtenidas, el \textbf{Clavo 5
     \end{figure}
  
 
-A partir de los resultados obtenidos se concluyó que el método óptimo para refinar el tamaño de grano es la utilización de una pequeña cantidad de $AlB_2$ como refinador ($0.005 \%$ pp es suficiente), el cual debe ser incorporado a través de una molienda mecánica. Si bien se obtuvo un tamaño de grano similar al que se obtiene al utilizar únicamente la molienda mecánica de la aleación sin el agregado de polvo refinador, se recomienda utilizar una pequeña fracción de $AlB_2$ ya que el proceso de fabricación de las esponjas requerirá varias fundiciones, y la utilización de una pequeña cantidad de refinador ayudará a garantizar que no se produzca un aumento del tamaño de grano con cada aumento de la temperatura.
+A partir de los resultados obtenidos se concluyó que el método óptimo para refinar el tamaño de grano es la utilización de una pequeña cantidad de $AlB_2$ como refinador ($0.005 \%$ pp es suficiente), el cual debe ser incorporado a través de una molienda mecánica. Si bien se obtuvo un tamaño de grano similar al que se obtiene al utilizar únicamente la molienda mecánica de la aleación sin el agregado de polvo refinador, se recomienda utilizar una pequeña fracción de $AlB_2$ ya que el proceso de fabricación de las esponjas requerirá varias fundiciones, y la utilización de una pequeña cantidad de refinador ayudará a minimizar el aumento del crecimiento de grano por efecto de la temperatura.
 
 
 
@@ -1425,7 +1424,7 @@ Con cada ciclo de carga, la histéresis en la curva estará relacionada a la ene
 
 Con las cargas más bajas la esponja tendrá una cantidad determinada de martensita y aumentará en cada nuevo ciclo de carga. Idealmente con cada ciclo de descarga la martensita retransformará a austenita volviendo al estado inicial. En la realidad esto no ocurre, ya que en cada ciclo se irá acumulando una pequeña cantidad de martensita retenida que se haya estabilizado, o por defectos en la estructura que dificultan el movimiento de las placas. Por otro lado, cada grano de la aleación tiene orientaciones cristalográficas distintas. La tensión resuelta es distinta en cada grano, por lo que cuando comienzan a transformar los primeros granos, los granos que aún no han transformado y no puedan acomodarse a la deformación del grano contiguo podrían provocar fisuras intergranulares. Sin mencionar que las mismas cargas pueden producir fisuras en los puntos más débiles de la estructura. 
 
-Un posible método para analizar la integridad de una esponja es por tomografía, ya que permite ver en detalle el interior de la estructura. Pero es un método  que no puede realizarse in situ, sin sacar de funcionamiento el dispositivo, y requiere el uso de equipos complejos y costosos. Sería de gran utilidad poder monitorear la integridad mientras el dispositivo se encuentra en servicio. Por otro lado, la cantidad de variables asociadas a la deformación de las esponjas y transformación de la aleación es muy amplia, lo que hace que la transformación de estas estructuras sea un proceso complejo de entender. Además de poder entender su comportamiento, el gran potencial de aplicaciones motivó la búsqueda de algún método del seguimiento de los procesos que ocurren y la integridad estructural de la esponja.
+Un posible método para analizar la integridad de una esponja es por tomografía, ya que permite ver en detalle el interior de la estructura. Pero es un método  que no puede realizarse in situ, sin sacar de funcionamiento el dispositivo, y requiere el uso de equipos complejos y costosos. Sería de gran utilidad poder monitorear la integridad mientras el dispositivo se encuentra en servicio. Por otro lado, la cantidad de variables asociadas a la deformación de las esponjas y transformación de la aleación es muy amplia, lo que hace que la transformación de estas estructuras sea un proceso complejo de entender. Además de poder entender su comportamiento, el gran potencial de aplicaciones motivó la búsqueda de algún método de seguimiento de los procesos que ocurren y la integridad estructural de la esponja.
 
 
  \begin{figure}
@@ -1435,11 +1434,6 @@ Un posible método para analizar la integridad de una esponja es por tomografía
  \label{fig:CiclosResistencia}
  \end{figure}
 
-
- 
- 
- 
- 
  Un método muy conocido de seguimiento de las transformaciones martensíticas es la medición de la resistencia eléctrica. Este método solo requiere el uso de cuatro cables soldados a la muestra, se mide la resistencia con el método de las cuatro puntas y solo se necesita un equipo que pueda medir la resistencia con buena precisión. Como un acercamiento a este método, se midió la resistencia de una esponja la cual se sometió a muchos ciclos de deformación para ver cual era la respuesta de la estructura. Como puede verse en la figura \ref{fig:CiclosResistencia} se ve que la resistencia aumenta con cada ciclo de compresión, esto es cuando la esponja comienza a transformar a martensita y luego disminuye cuando se retira la carga y la muestra vuelve a estado austenítico. Pero además puede verse que la resistencia aunque va aumentando, no presenta una forma sencilla de analizar. Por este motivo se buscó obtener parámetros que brinden información sobre los procesos que ocurren y la integridad estructural de la esponja. Se inició el estudio analizando un monocristal de Cu-Zn-Al ya que es la estructura más sencilla que se encuentra en un material. Luego se realizó el mismo análisis con un policristal y finalmente se aplicaron los resultados obtenidos a una esponja de Cu-Zn-Al.
 
 % Ver si va
@@ -1495,7 +1489,7 @@ Si se realiza un análisis puramente geométrico, sin que ocurra un cambio de fa
 donde $R_0$ ($\Omega$) es la resistencia inicial, $\rho$ ($\Omega m$) es la resistividad, $l_0$ es el largo inicial y $A_0$ la sección inicial. En este análisis consideraremos que el volumen se mantiene constante ya que en los casos como este, con deformación plástica o por ejemplo en las transformaciones martensíticas termoelásticas el cambio de volumen es despreciable. Por lo tanto si la probeta se solicitó con una deformación $\varepsilon$,considerando que el volumen se mantiene constante, las dimensiones de la misma serán: 
 % TODO quizas no consideremos volumen constante
 \begin{equation*}
- l=l_0 * (1+ \varepsilon)
+ l=l_0  (1+ \varepsilon)
 % \end{equation*}
 % \begin{equation*}
   \quad \quad y \quad \quad  
@@ -1585,7 +1579,7 @@ Esta ecuación relaciona los valores de resistencia al transformar, tomando en c
 
 Se comenzó estudiando un monocristal de Cu-Zn-Al que fue fabricado anteriormente por el grupo de investigación con una composición electrónica de $e/a=1.48$ y una $M_s$ de aproximadamente $0$ $^\circ C$. La muestra, que tenía una forma inicial cilíndrica, se preparó siguiendo el procedimiento explicado en la sección \ref{compresión}. Antes de comenzar el ensayo se realizó un recocido a $800$ $ ^\circ C$ durante media hora y luego un enfriamiento al aire para asegurar que la aleación se encuentre en estado austenítico al comenzar el ensayo. A continuación se soldaron los cuatro cables utilizados para medir la resistencia del material por el método de las cuatro puntas y una termocupla para registrar la temperatura de la muestra durante todo el proceso. Seguidamente se realizaron ciclos de transformación térmica de la muestra, variando la temperatura de la cámara ambiental, y con un extensómetro se registró la dilatación/contracción de la muestra en cada ciclo de transformación. Cada uno de los ciclos de transformación se realizó manteniendo distintas cargas constantes. 
 
-La figura \ref{fig: Ejemplos6b} muestra los gráficos obtenidos con las distintas muestras ensayadas. En la figura \ref{fig: EjTensionDef} se graficó la curva tensión vs deformación, donde inicialmente se aumentó la carga hasta el valor correspondiente al ensayo, $32.7$ $MPa$, y luego se mantuvo constante durante todo el ciclo térmico de transformación. Para que al aplicar la carga la estructura no comience a transformar, en ensayo se realizó a $60$ $^\circ C$ (aproximadamente $55$ $^\circ C$ por encima de la $M_s$ de la aleación).  
+La figura \ref{fig: Ejemplos6b} muestra los gráficos obtenidos con las distintas muestras ensayadas. En la figura \ref{fig: EjTensionDef} se graficó la curva tensión vs deformación, donde inicialmente se aumentó la carga hasta el valor correspondiente al ensayo, $32.7$ $MPa$, y luego se mantuvo constante durante todo el ciclo térmico de transformación. Para que al aplicar la carga la estructura no comience a transformar, el ensayo se realizó a $60$ $^\circ C$ (aproximadamente $55$ $^\circ C$ por encima de la $M_s$ de la aleación).  
 
 %La tensión se mantuvo constante variando la velocidad y dirección de carga de la jaula de compresión de la máquina de ensayos mecánicos. 
 
@@ -1655,7 +1649,7 @@ Tensión (Mpa) & $\varepsilon$ ($\%$) &  $f'=\frac{R_M}{R_A}$\\ \midrule
 \end{table}
 % TODO MPa
 
-En el gráfico \ref{fig:PoliMono} se presentan todos los resultados que se obtuvieron al ensayar la muestra monocristalina y una policristalina, correspondientes a las tablas \ref{tab:TablaMonocristal} y \ref{tab:TablaPolicristal}. Puede verse que hay una tendencia lineal en el aumento de la resistencia por las variaciones geométricas, cuya pendiente corresponde al valor de $f$ según la ecuación \ref{fprima}. A partir de esta ecuación se obtuvieron valores de $f$ igual a $1.32\pm0.03$ y $1.30 \pm 0.01$ para el monocristal y el policristal respectivamente.  Se concluyó a partir de este resultado que la variación en el aumento de la resistencia al transformar de austenita a martensita se da por una variación geométrica, y no se observa ningún efecto adicional de la carga aplicada.
+En la figura \ref{fig:PoliMono} se presentan todos los resultados que se obtuvieron al ensayar la muestra monocristalina y una policristalina, correspondientes a las tablas \ref{tab:TablaMonocristal} y \ref{tab:TablaPolicristal}. Puede verse que hay una tendencia lineal en el aumento de la resistencia por las variaciones geométricas, cuya pendiente corresponde al valor de $f$ según la ecuación \ref{fprima}. A partir de esta ecuación se obtuvieron valores de $f$ igual a $1.32\pm0.03$ y $1.30 \pm 0.01$ para el monocristal y el policristal respectivamente.  Se concluyó a partir de este resultado que la variación en el aumento de la resistencia al transformar de austenita a martensita se da por una variación geométrica, y no se observa ningún efecto adicional de la carga aplicada.
 En el gráfico \ref{fig:PoliMono} puede verse que los puntos obtenidos para el monocristal no ajustan tan bien a la recta correspondiente de pendiente $f$ como los puntos obtenidos para el policristal. Esto puede deberse a la suposición de que el volumen se mantiene constante, o incluso alguna otra causa desconocida, que se acentúa en el monocristal debido a que toda su estructura posee la misma orientación mientras que en el policristal este efecto se ``promedia''. Como las esponjas son policristalinas podemos considerar que el buen ajuste que se obtuvo para el policristal avala la aplicación de los resultados obtenidos a una esponja.
 
 % 
@@ -1697,7 +1691,8 @@ En el gráfico \ref{fig:PoliMono} puede verse que los puntos obtenidos para el m
  
  Al alcanzar una temperatura de $-40$ $^\circ C$ se comenzó a aumentar la temperatura nuevamente, a una velocidad de $5$ $^\circ C/minuto$. Ahora la resistividad del material comenzó a aumentar linealmente con la temperatura, hasta llegar a aproximadamente $-10$ $^\circ C$. A esta temperatura ($A_s$), comenzó a transformar a austenita nuevamente, y la resistencia del material disminuyó. Idealmente, la resistencia en estado austenítico debería haber vuelto al punto \textit{1}, cerrando la histéresis, pero como se ve en el gráfico volvió al punto \textit{4}, el cual posee un valor superior al inicial. Esto se debe a dos causas principales, la presencia de martensita retenida y la rotura de la estructura. La martensita retenida se debe a la estabilización de una fracción de martensita que se formó al llegar al punto \textit{2}. Por otro lado la transformación de la estructura genera tensiones entre los granos que transforman, y los granos contiguos que no pueden acomodarse a la deformación de los mismos, por lo que la estructura se rompe formando fisuras intergranulares. En los puntos donde los granos son muy grandes, o las paredes de la estructura son muy finas, este efecto se acentúa. Al romperse distintos puntos de la estructura, disminuye la sección efectiva de la esponja, aumentando así la resistencia.
 
- Luego de llegar al punto \textit{3} se realizó un nuevo ciclo de enfriamiento. Esta vez, al transformar, la resistencia subió hasta el punto \textit{4}. Si se comparan el punto \textbf{3} y el \textbf{4}, ambos poseen una estructura totalmente martensítica, por lo que podemos concluir que la diferencia que existe en la resistencia entre estas dos curvas se debe a la rotura de la estructura. La diferencia de resistencia entre los segmentos \textbf{2} y \textit{4} es mucho menor a la diferencia entre los segmentos \textit{1} y \textit{3}. 
+ Luego de llegar al punto \textit{3} se realizó un nuevo ciclo de enfriamiento. Esta vez, al transformar, la resistencia subió hasta el punto \textit{4}. Si se comparan el punto \textbf{2} y el \textbf{4}, ambos poseen una estructura totalmente martensítica, por lo que podemos concluir que la diferencia que existe en la resistencia entre estas dos curvas se debe a la rotura de la estructura. 
+ La diferencia de resistencia entre los segmentos \textbf{2} y \textit{4} es mucho menor a la diferencia entre los segmentos \textit{1} y \textit{3}. 
 %  
 %  Se llegó a la conclusión de que en este primer ciclo, el aumento de resistencia entre los segmentos \textit{1} y \textit{3} se debe principalmente a la rotura de la esponja por las tensiones generadas en este primer ciclo de transformación. 
 %  
@@ -1792,14 +1787,14 @@ Esponja & Ensayo   &    $R^M$    &  $R^A$ &  $A_0/A$ \\ \midrule
 \end{table}
 
 
-En el gráfico \ref{fig:RED_resultados} se muestran las curvas obtenidas en cada ensayo realizado con la esponja 1. La misma posee una composición de $Cu=75,20$ $\%pp$, $Zn=17,14$ $\%pp$ y $Al=7,66$ $\%pp$. Las dimensiones de la esponja son $23,54 \pm0,01$ $mm$ y $30,55 \pm0,01$ $mm$ de diámetro y largo respectivamente, densidad especifica $ \pm $ y tamaños de poro entre $1,40$ y $2,80$ $mm$.
+En la figura \ref{fig:RED_resultados} se muestran las curvas obtenidas en cada ensayo realizado con la esponja 1. La misma posee una composición de $Cu=75,20$ $\%pp$, $Zn=17,14$ $\%pp$ y $Al=7,66$ $\%pp$. Las dimensiones de la esponja son $23,54 \pm0,01$ $mm$ y $30,55 \pm0,01$ $mm$ de diámetro y largo respectivamente, densidad especifica $ \pm $ y tamaños de poro entre $1,40$ y $2,80$ $mm$.
  Como fue explicado anteriormente se realizaron ciclos de transformación térmica y se graficó la resistencia en función de la temperatura. 
 A continuación se detalla el estado de la esponja 1 en cada uno de los ensayos realizados: 
 \begin{itemize}
  \item[Ensayo 1:] El primer ciclo se realizó luego de un recocido (a $800$ $^\circ C$ durante media hora) con la esponja en estado austenítico y sin roturas (Curva negra de la figura \ref{fig:RED_resultados}).
- \item[Ensayo 2:] Se realizó un ciclo térmico con una carga aplicada de $4000$ $N$. Al finalizar este ciclo la esponja tendrá martensita retenida y cierto grando de rotura. Seguidamente a este ciclo se realizó un ciclo térmico de transformación sin carga aplicada (Curva roja de la figura \ref{fig:RED_resultados}).
+ \item[Ensayo 2:] Se realizó un ciclo térmico con una carga aplicada de $4000$ $N$. Al finalizar este ciclo la esponja tendrá martensita retenida y cierto grado de rotura. Seguidamente a este ciclo se realizó un ciclo térmico de transformación sin carga aplicada (Curva roja de la figura \ref{fig:RED_resultados}).
  \item[Ensayo 3:] Se realizaron seis ciclos de compresión hasta $2\%$ de deformación. Seguidamente se realizó un ciclo térmico de transformación (Curva azul de la figura \ref{fig:RED_resultados}).
- \item[Ensayo 4:] Se realizó un nuevo recocido (a $800$ $^\circ C$ durante media hora) y luego un ciclo térmico de transformación. Hay que tomar en cuenta que para realizar un recocido hay que desoldar los cables y soldándolos nuevamente. Las nuevas posiciones pueden provocar una variación en la medición de la resistencia.
+ \item[Ensayo 4:] Se realizó un nuevo recocido (a $800$ $^\circ C$ durante media hora) y luego un ciclo térmico de transformación. Hay que tomar en cuenta que para realizar un recocido hay que desoldar los cables y soldarlos nuevamente. Las nuevas posiciones pueden provocar una variación en la medición de la resistencia.
  \end{itemize}
 Luego se analizó la esponja 2, 
 \begin{itemize}
@@ -1830,7 +1825,7 @@ se calcularon los valores de martensita retenida ($b$) para los distintos ensayo
  
  Como se planteó, uno de los puntos débiles de estas esponjas es la degradación de la integridad estructural. La gran anisotropía elástica que hay en los granos, sumado a un tamaño de grano grande, hace que estos materiales sean propensos a fisuras intergranulares. Estas fisuras si son pequeñas pueden no ser tan perjudiciales ya que actuarían como nuevas celdas de la estructura celular. Pero cuando estas fisuras son numerosas pueden llevar al colapso de la estructura. 
  
- El método utilizado con esferas de sílica gel hace que sea imposible enfriar la esponja rápidamente para obtener un tamaño de grano pequeño. Como tampoco pueden utilizarse tratamientos termomecánicos se comprobó que el método óptimo para refinar la estructura es por medio del uso de agentes refinadores. Para esto, el compuesto que debe utilizarse es el boro, y a partir del cual se formarán partículas de $AlB_2$. Quedó en evidencia el hecho de que no es trivial la incorporación del refinador, siendo necesario el uso de una molienda mecánica para incorporarlo. Esto también genera la formación de partículas de óxido que también actúan como refinador. Por último se concluyó que el polvo debe fundirse suelto, sin por ejemplo realizar el prensado de pastillas. Esto genera que el polvo refinador quede compactado, y que cuando se caliente y se realice la fusión el metal líquido sea expulsado de las pastillas, quedando como producto pastillas con gran parte del polvo refinador envueltos en la aleación que escurrió.
+ El método utilizado con esferas de sílica gel hace que sea imposible enfriar la esponja rápidamente para obtener un tamaño de grano pequeño. Como tampoco pueden utilizarse tratamientos termomecánicos se comprobó que el método óptimo para refinar la estructura es por medio del uso de agentes refinadores. Para esto, el elemento que fue utilizado es el boro, y a partir del cual se formarán partículas de $AlB_2$. Quedó en evidencia el hecho de que no es trivial la incorporación del refinador, siendo necesario el uso de una molienda mecánica para incorporarlo. Esto también genera la formación de partículas de óxido que también actúan como refinador. Por último se concluyó que el polvo debe fundirse suelto, sin por ejemplo realizar el prensado de pastillas. Esto genera que el polvo refinador quede compactado, y que cuando se caliente y se realice la fusión el metal líquido sea expulsado de las pastillas, quedando como producto pastillas con gran parte del polvo refinador envueltos en la aleación que escurrió.
  
  En los resultados que se detallaron en la sección \ref{reduccion} se obtuvo el refinamiento de grano más marcado en la aleación con la menor cantidad de refinador y molienda y en la aleación sola con molienda. Como el proceso de fabricación requiere varias instancias de fundición se recomienda la molienda con el agregado de una pequeña concentración de refinador ($0.005\%$) para evitar que el tamaño de grano aumente con cada etapa de fundición y en el enfriamiento lento de la esponja. Además queda pendiente el estudio de la incidencia de la porosidad obtenida luego de fundir el polvo ya que esta porosidad puede contribuir a la porosidad misma de la esponja. Se necesitará fabricar una esponja con ambas porosidades combinadas para evaluar si realmente hay una incidencia o no. 
  
@@ -1879,9 +1874,15 @@ Arneodo Larochette P
 Comisión Nacional de Energía Atómica, Universidad Nacional de Cuyo, 2003.
 
 \bibitem{stoiber} 
-Johannes S
+Stoiber J
 \textit{Hysteresis Effects During Martensitic Phase Transformations in Cu-Zn-Al Shape Memory Alloys}. 
 Ecole Polytechnique Federale de Lausanne, 1993.
+
+\bibitem{CuZnAl} 
+Effenberg G, Ilyenko S 
+\textit{ Ternary Alloy Systems: Phase Diagrams, Crystallographic and Thermodynamic Data · Light Metal Systems. Part 2
+}. 
+Landolt-Börnstein - Group IV Physical Chemistry, Volumen 11A2 2005.
 
 \bibitem{ritelst} 
 Elst R, Humbeeck JV, Meeus M, Delaey L
@@ -1889,7 +1890,7 @@ Elst R, Humbeeck JV, Meeus M, Delaey L
 Z. Metallkde 1986; 77 H. 7
 
 \bibitem{gibson} 
-L. J. Gibson
+Gibson L J
 \textit{Mechanical Behavior of Metallic Foams}.
 Annu. Rev. Mater. Sci. 2000. 30:191–227
 
@@ -1904,24 +1905,18 @@ Gibson LJ, Ashby MF
 Cambridge Sollid State Science Series, 1997.
 
 \bibitem{bertolino2010} 
-Bertolino G, P. Arneodo Larochette P, Castrodeza EM, Mapelli C, Baruj A, Troiani HE
+Bertolino G, Arneodo Larochette P, Castrodeza EM, Mapelli C, Baruj A, Troiani HE
 \textit{Mechanical properties of martensitic Cu–Zn–Al foams in the pseudoelastic regime}.
 Materials Letters 2010; 64: 1448–1450
 
 \bibitem{bertolino2011} 
-Bertolino G., Gruttadauria  A., Arneodo Larochette P., Castrodeza E.M. , Baruj A. , Troian H.E.
+Bertolino G, Gruttadauria  A, Arneodo Larochette P, Castrodeza E M , Baruj A, Troian H E
 \textit{Cyclic pseudoelastic behavior and energy dissipation in as-cast Cu-Zn-Al foams of
 different densities}.
 Intermetallics 2011; 19: 577 - 585
 
-\bibitem{CuZnAl} 
-G. Effenberg, S. Ilyenko 
-\textit{ Ternary Alloy Systems: Phase Diagrams, Crystallographic and Thermodynamic Data · Light Metal Systems. Part 2
-}. 
-Landolt-Börnstein - Group IV Physical Chemistry, Volumen 11A2 2005.
-
 \bibitem{Gwyddion}
-Nečas D., Klapetek P.
+Nečas D, Klapetek P
 \textit{Gwyddion: an open-source software for {SPM} data analysis}
 Central European Journal of Physics, Versita, co-published with Springer-Verlag GmbH, 2012.
 
