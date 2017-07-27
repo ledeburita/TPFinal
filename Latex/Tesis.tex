@@ -326,7 +326,7 @@ Hay que aclarar que la zona II, en la cual ocurre la transformación, no siempre
 Si el material es policristalino, cada uno de los granos tendrá una orientación distinta, y cada grano alcanzará la tensión crítica resuelta para distintas tensiones aplicadas. Los granos con orientación más favorable transformarán cuando la tensión aplicada alcance la tensión crítica, mientras que los granos orientados menos favorablemente necesitarán tensiones aplicadas más altas para que la tensión resuelta alcance la tensión crítica de transformación. Por esto se necesitarán mayores tensiones para deformar un material policristalino y además no se encuentra un plateau horizontal, sino que presenta una pendiente positiva.
 
 
-\section{Pseudoelasticidad}
+\section{Disipación de energía}
 
 Al graficar tensión en función de la deformación, puede verse que este gráfico presenta una histéresis, por lo que al transformar y 
 retransformar en sentido inverso, la curva no “sigue un mismo camino”. El proceso de transformación martensítica es termoelástico, es decir, la transformación 
@@ -407,26 +407,66 @@ y se crucen, esto hace que en el punto donde se crucen queden ancladas, análogo
 
 \section{Aleación Cu-Zn-Al}
 
-
-\begin{figure}[h]
- \centering
- \includegraphics[width=0.8\textwidth]{CuZn.png}
- \caption{Diagrama de equilibrio Cu-Zn \cite{CuZn}} 
- \label{fig:CuZnfig}
- \end{figure}
-
+  \begin{figure}
+    \centering
+    \begin{subfigure}{0.4\textwidth}
+        \includegraphics[width=\textwidth]{Img/Introduccion/IsotermaLiq.png}
+    \end{subfigure}
+    ~ %add desired spacing between images, e. g. ~, \quad, \qquad, \hfill etc. 
+      %(or a blank line to force the subfigure onto a new line)
+    \begin{subfigure}{0.4\textwidth}
+        \includegraphics[width=\textwidth]{Img/Introduccion/Isoterma550.png}
+    \end{subfigure}
+    \begin{subfigure}{0.4\textwidth}
+        \includegraphics[width=\textwidth]{Img/Introduccion/Isoterma400.png}
+    \end{subfigure}
+    \begin{subfigure}{0.4\textwidth}
+        \includegraphics[width=\textwidth]{Img/Introduccion/Isoterma300.png}
+    \end{subfigure}
+    \caption{Superficie de líquidus y cortes isotérmicos a 500, 400 y 300 $^\circ C$ del diagrama de fases de la aleación ternaria Cu-Zn-Al \cite{CuZnAl}. }
+    \label{fig:CuZnAlfig}
+    \end{figure}
+ 
 %  TODO ver si va esto
 % En la figura \ref{fig:CuZn} se muestra el diagrama de equilibrio Cu-Zn, y puede verse que si se comienza con una fase $\beta$ y se enfría lo 
 % suficientemente lento para permitir difusión, ocurre descomposición de la fase inicial, obteniéndose dos fases estables $\alpha$ y $\gamma$. 
 % Para obtener una transformación martensítica, hay que retener la fase $\beta$, que luego puede transformar a martensita con enfriamientos o alicando tensiones $????$. 
-En el diagrama de fases estables de la aleación Cu-Zn pueden verse las distintas fases $\alpha$, $\beta$, $\gamma$ y otras más complejas. La fase que nos interesa es la $\beta$, estable a alta temperatura y con una concentración electrónica de 1.48, la cual posee una estructura BCC de tipo A2, esto es, 
-los átomos se encuentran desordenados ocupando cualquier posición de la red. La concentración electrónica es otra forma de describir la composición de una aleación, y está asociada al número de electrones de conducción por átomo en la red. En las aleaciones base cobre cada elemento aporta una cantidad distintas de electrones, y se llega a la concentración electrónica a partir de la siguiente fórmula:
+
+En el diagrama de fases estables de la aleación Cu-Zn-Al (Figura
+\ref{fig:CuZnAlfig}) pueden verse las distintas fases $\alpha$,
+$\beta$ y $\gamma$. La fase que nos interesa es la $\beta$, la cual
+posee una estructura BCC de tipo A2, esto es,
+los átomos se encuentran desordenados ocupando cualquier posición de
+la red. Esta fase es estable en un amplio rango de composiciones a
+alta temperatura, que se hace más pequeño a medida que se reduce la temperatura.
+La concentración electrónica es otra forma de describir la
+composición de una aleación, y es una medida del número promedio de electrones
+de conducción por átomo en la red. Cada átomo en una red metálica
+aporta una determinada cantidad de electrones de conducción, por
+ejemplo la Ag, Au y Cu aportan un electrón de conducción, el Be, Cd y
+Zn aportan dos y el Al tres. Si por ejemplo se realiza un diagrama
+binario de Cu y Zn se obtendrán concentraciones electrónicas entre 1
+(correspondiente al Cu puro) y
+2 (Zn puro). Hume-Rothery analizó distintos diagramas de fases en función de la
+concentración electrónica y encontró que hay determinadas
+propiedades que pueden verse más claramente en estos diagramas.
+Por esta razón reciben el nombre de fases de Hume-Rothery.
+En este trabajo se utilizó la concentración electrónica de 1.48 ya que en el
+diagrama de fases puede verse que la fase $\beta$ es estable a
+menores temperaturas. Para la aleación de Cu-Zn-Al la concentración
+electrónica se calcula a partir de la siguiente fórmula:
+
+
 
 \begin{equation}
-\frac{e}{a} = 1+C_{Zn}+2C_{Al}
+\frac{e}{a} = 1+C_{Zn}+2C_{Al} \label{ea}
 \end{equation}
-donde $C_{x}$ es la concentración atómica de cada elemento y va desde cero hasta uno. 
-Siguiendo el gráfico de equilibrio de la Figura \ref{fig:CuZnfig} si se realiza 
+donde $C_{x}$ es la concentración atómica de cada elemento, va desde cero hasta uno, y se calcula de la siguiente forma:.
+\begin{equation}
+C_X (\%pp)=\frac{100 C_X P_X}{C_{Cu} P_{Cu}+C_{Zn} P_{Zn}+C_{Al} P_{Al}}
+\end{equation}
+Donde $P_X$ corresponde al peso atómico de cada elemento de la aleación siendo $P_Cu=63.55$, $P_Zn=65.38$ y $P_Al=26.98$.
+Siguiendo el gráfico de equilibrio de la Figura \ref{fig:CuZnAlfig} si se realiza 
 un enfriamiento lento la fase $\beta$ se descompone en dos fases de equilibrio $\alpha$ y $\gamma$. Si se realiza un enfriamiento rápido los átomos sufren un ordenamiento de primeros vecinos, esto es, continúan con una estructura bcc pero los átomos ocupan las posiciones similares a una red de CsCl (estructura B2). Finalmente ocurre un ordenamiento a segundos vecinos llegando a un ordenamiento de tipo $L2_1$. Las estructuras martensíticas de la aleación Cu-Zn-Al 
 poseen estructuras muy complejas llamadas Long Period Stacking Order (LPSO). Dependiendo de la secuencia de apilamiento de planos 
 compactos se obtendrán distintos tipos de martensita. La secuencia de planos compactos que compone la martensita depende de la composición de la 
@@ -438,24 +478,33 @@ de los planos compactos. No entraremos en detalle respecto de la estructura de l
 
 
 La aleación de Cu-Zn-Al es muy susceptible a cambios de composición, por ende un cambio muy pequeño en la cantidad de un aleante puede cambiar en gran medida la $M_s$. 
-La mejor composición para retener la fase $\beta$ es con una composición electrónica e/a de alrededor de 1.48 que corresponde al centro del campo de esa fase en el diagrama $\beta$ (bcc). 
+La mejor composición para retener la fase $\beta$ es con una composición electrónica e/a de alrededor de 1.48 que corresponde al centro del campo de esa fase en el diagrama $\beta$ (bcc). Estose debe a que como se dijo antes es la concentración para la cual la fase $\beta$ es estable a menores temperaturas. 
 % La concentración electrónica de nuestra aleación está dada por la expresión:
 % \begin{equation}
 %  \frac{e}{a} = 1+C_{Zn}+2C_{Al}
 % \end{equation}
 
 La $M_{s}$ también puede escribirse en función de las concentraciones, existen 
-distintas fórmulas empíricas que pueden usarse. Para una concentración electrónica de $\frac{e}{a}=1.48$ la que mejor ajusta es la siguiente:
+distintas fórmulas empíricas que pueden usarse. Para una concentración electrónica de $\frac{e}{a}=1.48$ la que mejor ajusta es la siguiente \cite{pierre}:
 
 \begin{equation}
 M_s[K]=2686-6400C_{Zn}-9000C_{Al} \label{Ms} 
 \end{equation}
-Si además usamos que:
+Donde $C_x$ corresponde a las concentraciones atómicas de cada elemento y tiene un valor entre cero y uno. Si además usamos que:
 \begin{equation}
-     C_{Cu}+C_{Zn}+C_{Al}=1
+C_{Cu}+C_{Zn}+C_{Al}=1 \label{suma}
 \end{equation}
-podemos obtener las concentraciones necesarias para una determinada $M_{s}$. Esto es muy útil ya que buscamos tener una $M_{s}$ menor a la temperatura ambiente, para 
-luego poder deformar y obtener un comportamiento pseudoelástico a temperatura ambiente. Si la $M_{s}$ es mayor, la muestra deberá deformarse a mayor temperatura, lo 
+podemos obtener las concentraciones necesarias para una determinada $M_{s}$. A partir de las ecuaciones \ref{ea}, \ref{Ms} y \ref{suma}, y usando $e/a=1.48$ se llegan a las siguientes ecuaciones que permiten calcular las concentraciones necesarias para una determinada $M_s$:
+\begin{equation}
+C_{Al}=\frac{386+M_s}{3800} 
+\end{equation}
+\begin{equation}
+C_{Al}=\frac{386+M_s}{3800} 
+\end{equation}
+\begin{equation}
+C_{Al}=\frac{386+M_s}{3800}
+\end{equation}
+Es muy importante controlar la $M_s$ para poder deformar y obtener un comportamiento pseudoelástico a temperatura ambiente. Si la $M_{s}$ es mayor, la muestra deberá deformarse a mayor temperatura, lo 
 cual exige la utilización de un equipo más complejo capaz de controlar simultáneamente tensiones y temperatura.
 
 
@@ -483,7 +532,7 @@ puede contrarrestarse agregando una cantidad de Zn extra para compensar el que s
 \begin{figure}[h]
  \centering
  \includegraphics[width=0.6\textwidth]{Img/Introduccion/MsZn2.eps}
- \caption{Variación de la $M_s$ al variar en pequeñas cantidades la concentración de Zn a partir de la ecuación \ref{Ms}. Las cantidades de Cu y Zn son $12.53 g$ y $1.18 g$ respectivamente.}
+ \caption{Variación de la $M_s$ al variar en pequeñas cantidades la concentración de Zn a partir de la ecuación \ref{Ms} y manteniendo las cantidades de Cu y Al constantes siendo $12.53 g$ y $1.18 g$ respectivamente.}
  \label{fig:mstab}
 \end{figure}
 
@@ -533,7 +582,7 @@ del sólido, llamada densidad específica ($\rho^* / \rho_s$) \cite{cellular}.
 \begin{figure}[h]
  \centering
  \includegraphics[width=0.9\textwidth]{Img/Introduccion/EspCu.eps}
- \caption{Gráfico de carga vs deformación de una esponja de cobre donde se distinguen las distintas secciones.}
+ \caption{Gráfico de carga vs deformación de una esponja de cobre donde se distinguen las distintas secciones. La esponja posee geometría cilíndrica con un diámetro y largo igual a $14,70\pm 0,01$ $mm$ y $18,75 \pm 0,01$ $mm$ respectivamente. El diámetro de las celdas es de $3 \pm 0,01$ $mm$ y la densidad específica $0,164\pm 0,33$.}
  \label{fig:EspCu} 
 \end{figure}
 
@@ -549,134 +598,67 @@ comienzan a ceder por fluencia o fracturas. Este plateau se mantiene hasta llega
 comprimida y el módulo elástico aumenta abruptamente. Hay que tener en cuenta que la anisotropía en la forma de las celdas puede llevar a una gran diferencia 
 en las propiedades de la esponja en distintas direcciones.
 
-Hay distintas formas con las cuales pueden determinarse las propiedades mecánicas de las estructuras celulares. Una forma muy utilizada es la simulación utilizando el método de elementos finitos. Otra forma
-es a partir de un análisis micromecánico simplificando la estructura como un conjunto de columnas (celdas abiertas), o un conjunto de celdas de catorce caras formadas por cuadriláteros y hexágonos. Si bien esta segunda opción supone una gran simplificación de la estructura se llegan a resultados que concuerdan con los 
-resultados obtenidos experimentalmente. Para las estructuras celulares abiertas las principales propiedades mecánicas se describen a partir de la densidad específica \cite{duering} según:
-
-\begin{equation}
-\frac{F^*}{F_s}=A \left(\frac{\rho^*}{\rho_s}\right)^n \label{props} 
-\end{equation}
-Donde $F^*$ es la propiedad de la esponja que se quiere caracterizar, $F_s$ es la característica del material sólido, $\rho^*$ y $\rho_s$ son las 
-densidades de la esponja y del sólido respectivamente, $A$ es una constante relacionada a la geometría de la esponja y $n$ otra constante. De acuerdo 
-a la ecuación \ref{props} el módulo de Young E \cite{duering} será:
-\begin{equation}
-\frac{E^*}{E_s}=C_1 \left(\frac{\rho^*}{\rho_s}\right)^2 \label{propsE}  
-\end{equation}
-%\begin{equation}
-% \frac{G^*}{G_s}=C_2 \left(\frac{\rho^*}{\rho_s}\right)^2
-%\end{equation}
-
-Donde la constante $C_1$ depende de las características geométricas de la esponja. 
-%Por otro lado el módulo de Poisson no depende de la 
-%estructura, a partir de mediciones \cite{gibson} se concluyó que su valor está al rededor de $\frac{1}{3}$ para la mayoría de las esponjas. 
-Además hay una diferencia entre el módulo E en tensión y compresión, siendo el primero levemente inferior. La ecuación \ref{props} también pude utilizarse 
-para describir otras propiedades como la tensión de transformación y la energía disipada/absorbida en ciclos de compresión en el caso de esponjas 
-compuestas por materiales con memoria de forma como veremos en la sección \ref{sec:SMF} de este capítulo. 
-
-
-La tensión a la cual ocurre el colapso de la estructura $(\sigma^*_{pl})$ y la tensión de fluencia del material que la compone $(\sigma_{ys})$  
-están relacionadas con la densidad relativa \cite{duering} según:
-\begin{equation}
- \frac{\sigma^*_{pl}}{\sigma_{ys}}=C_3 \left(\frac{\rho^*}{\rho_s} \right)^{\frac{3}{2}}
-\end{equation}
-Donde nuevamente $C_3$ depende de las características geométricas de la estructura. A partir de varias mediciones se llegó a que $C_3 \sim 0.3$ para
-la mayoría de las esponjas metálicas \cite{gibson}. 
-Es muy importante conocer el valor de $\sigma^*_{pl}$ ya que es la carga a la cual la estructura comienza a colapsar.  Las esponjas metálicas tienen 
-un poder de amortiguamiento de entre cinco y diez veces el del material sólido \cite{design} lo que las hace una muy buena opción para aplicaciones 
-donde se busca amortiguar cargas. 
-
-La deformación se produce en bandas a $45^\circ$ respecto de la tensión aplicada. Estas bandas suelen tener el espesor de una celda, 
-y en ellas la tensión alcanza la tensión de fluencia mientras que en las zonas externas se mantiene en el rango elástico. Debido a esta deformación inhomogénea el material dentro de las bandas se endurece, con lo cual la tensión aplicada no es suficiente para seguir deformándolo, por lo que para poder acomodar la deformación las bandas se ensanchan, deformándose el material contiguo, o bien se generan nuevas bandas.     
-
-% Las bandas donde se 
-% concentra la deformación se endurecen, llegan a un punto en que ya no siguen deformándose, por lo tanto o aumentan su espesor o se forman nuevas bandas.
-
-Al comprimir una probeta, las caras exteriores de la misma no sostendrán carga ya que son superficies con menos restricciones.
-La carga es soportada por las partes en el interior de la estructura. Gibson \cite{gibson} realizó ensayos variando el tamaño de la muestra 
-y concluyó que cuando la esponja tiene 
-dimensiones infinitas (mucho mayores a las dimensiones de las celdas) el módulo de Young tiende al valor del módulo de la esponja. A medida que 
-las dimensiones disminuyen y se acercan al tamaño de algunas celdas comienzan a actuar los efectos 
-de borde, las superficies de la celda comienzan a actuar como concentradores de tensiones y el módulo de Young de la esponja disminuye respecto al del 
-material sólido. Es por esto que todas las muestras de esponjas a ensayarse deben tener dimensiones de por lo menos seis a siete celdas, de esta 
-forma se asegura que la performance de la esponja no se vea afectada por los efectos de borde.
-
-%\newline %\newline
-%\textbf{Modulo de young respecto del tamaño de la esponja respecto del tamaño de la celda}
-%\newline %\newline
-
-\begin{figure}[h]
- \centering
- \includegraphics[width=0.5\textwidth]{Etam.eps}
- \caption{Esquema de como varía el Módulo de Young relativo de la esponja. $L$ es el largo de la esponja, $d$ es el tamaño de los poros de 
- la estructura celular, $E^*$ es la rigidez de la esponja y $E_s$ es la rigidez de la esponja con dimensiones infinitas.}
-\end{figure}
-
-%Además si las cargas se aplican de forma cíclica la esponja fallará por fatiga. La principal causa son pequeñas fisuras que nuclean y van creciendo a 
-%medida que aumenta la cantidad de ciclos a la cual se somete la estructura. También ocurre otro mecanismo llamado creep por ciclado, donde la estructura 
-%se va acortando por deformación plástica bajo un esfuerzo cíclico de compresión con un valor medio distinto de cero, y la formación de fisuras frágiles 
-%en tensión.
-
-% Fatiga es un fenómeno que ocurre cuando se somete una estructura a una tensión cíclica, la cual oscila entre dos valores determinados. Estos valores 
-% pueden ser ambos positivos, ambos negativos o de distintos signos. Se utiliza un parámetro $R$ que relaciona ambas tensiones según:
+% Hay distintas formas con las cuales pueden determinarse las propiedades mecánicas de las estructuras celulares. Una forma muy utilizada es la simulación utilizando el método de elementos finitos. Otra forma
+% es a partir de un análisis micromecánico simplificando la estructura como un conjunto de columnas (celdas abiertas), o un conjunto de celdas de catorce caras formadas por cuadriláteros y hexágonos. Si bien esta segunda opción supone una gran simplificación de la estructura se llegan a resultados que concuerdan con los 
+% resultados obtenidos experimentalmente. Para las estructuras celulares abiertas las principales propiedades mecánicas se describen a partir de la densidad específica \cite{duering} según:
+% 
 % \begin{equation}
-%  R=\frac{|\sigma_{min} |}{| \sigma_{max} |}
+% \frac{F^*}{F_s}=A \left(\frac{\rho^*}{\rho_s}\right)^n \label{props} 
 % \end{equation}
-% Los ensayos de fatiga consisten en someter a una probeta a cargas cíclicas $(\Delta \sigma = \sigma_{max} - \sigma_{min})$ y evaluar su comportamiento. 
-% La probeta puede no sufrir ningún daño, nuclear pequeñas fisuras, o romperse de forma frágil. En un ensayo de fatiga se evalúa para que cantidad de 
-% ciclos $(N_f)$ comienzan a nuclearse estas fisuras. 
-% %Es un resultado conocido que, a temperatura ambiente, la cantidad de ciclos donde falla la estructura no depende de la frecuencia a la cual se aplican las cargas, sino del valor 
-% %máximo de tensiones aplicadas. 
-% En ensayos con esfuerzos cíclicos en tensión se define el límite como el número de ciclos a la cual se producen fisuras en la estructura que la llevan a 
-% la rotura con un determinado $\Delta\sigma$. En ensayos de compresión el límite se define como el número de ciclos para el cual comienza el colapso 
-% de la estructura. 
-%  
-% Luego se realiza un gráfico $\Delta \sigma$  vs.  $N_f$. Este gráfico aporta información muy importante ya que para las aleaciones metálicas generalmente 
-% se llega a una determinada tensión para la cual, utilizando valores inferiores, no ocurrirá la falla del material. Además, por convención, 
-% se dice que el material tendrá vida infinita si no falla antes de los $1x10^7$ ciclos. Tanto en compresión como en tracción se obtienen curvas que 
-% siguen las siguientes etapas. Una primera etapa donde aumenta la deformación progresivamente, hasta que alcanza una segunda etapa donde se mantiene 
-% constante. Finalmente cuando se llega a un número de ciclos $N_T$ la deformación aumenta abruptamente. 
+% Donde $F^*$ es la propiedad de la esponja que se quiere caracterizar, $F_s$ es la característica del material sólido, $\rho^*$ y $\rho_s$ son las 
+% densidades de la esponja y del sólido respectivamente, $A$ es una constante relacionada a la geometría de la esponja y $n$ otra constante. De acuerdo 
+% a la ecuación \ref{props} el módulo de Young E \cite{duering} será:
+% \begin{equation}
+% \frac{E^*}{E_s}=C_1 \left(\frac{\rho^*}{\rho_s}\right)^2 \label{propsE}  
+% \end{equation}
+% %\begin{equation}
+% % \frac{G^*}{G_s}=C_2 \left(\frac{\rho^*}{\rho_s}\right)^2
+% %\end{equation}
+% 
+% Donde la constante $C_1$ depende de las características geométricas de la esponja. 
+% %Por otro lado el módulo de Poisson no depende de la 
+% %estructura, a partir de mediciones \cite{gibson} se concluyó que su valor está al rededor de $\frac{1}{3}$ para la mayoría de las esponjas. 
+% Además hay una diferencia entre el módulo E en tensión y compresión, siendo el primero levemente inferior. La ecuación \ref{props} también pude utilizarse 
+% para describir otras propiedades como la tensión de transformación y la energía disipada/absorbida en ciclos de compresión en el caso de esponjas 
+% compuestas por materiales con memoria de forma como veremos en la sección \ref{sec:SMF} de este capítulo. 
+% 
+% 
+% La tensión a la cual ocurre el colapso de la estructura $(\sigma^*_{pl})$ y la tensión de fluencia del material que la compone $(\sigma_{ys})$  
+% están relacionadas con la densidad relativa \cite{duering} según:
+% \begin{equation}
+%  \frac{\sigma^*_{pl}}{\sigma_{ys}}=C_3 \left(\frac{\rho^*}{\rho_s} \right)^{\frac{3}{2}}
+% \end{equation}
+% Donde nuevamente $C_3$ depende de las características geométricas de la estructura. A partir de varias mediciones se llegó a que $C_3 \sim 0.3$ para
+% la mayoría de las esponjas metálicas \cite{gibson}. 
+% Es muy importante conocer el valor de $\sigma^*_{pl}$ ya que es la carga a la cual la estructura comienza a colapsar.  Las esponjas metálicas tienen 
+% un poder de amortiguamiento de entre cinco y diez veces el del material sólido \cite{design} lo que las hace una muy buena opción para aplicaciones 
+% donde se busca amortiguar cargas. 
+% 
+% La deformación se produce en bandas a $45^\circ$ respecto de la tensión aplicada. Estas bandas suelen tener el espesor de una celda, 
+% y en ellas la tensión alcanza la tensión de fluencia mientras que en las zonas externas se mantiene en el rango elástico. Debido a esta deformación inhomogénea el material dentro de las bandas se endurece, con lo cual la tensión aplicada no es suficiente para seguir deformándolo, por lo que para poder acomodar la deformación las bandas se ensanchan, deformándose el material contiguo, o bien se generan nuevas bandas.     
+% 
+% % Las bandas donde se 
+% % concentra la deformación se endurecen, llegan a un punto en que ya no siguen deformándose, por lo tanto o aumentan su espesor o se forman nuevas bandas.
+% 
+% Al comprimir una probeta, las caras exteriores de la misma no sostendrán carga ya que son superficies con menos restricciones.
+% La carga es soportada por las partes en el interior de la estructura. Gibson \cite{gibson} realizó ensayos variando el tamaño de la muestra 
+% y concluyó que cuando la esponja tiene 
+% dimensiones infinitas (mucho mayores a las dimensiones de las celdas) el módulo de Young tiende al valor del módulo de la esponja. A medida que 
+% las dimensiones disminuyen y se acercan al tamaño de algunas celdas comienzan a actuar los efectos 
+% de borde, las superficies de la celda comienzan a actuar como concentradores de tensiones y el módulo de Young de la esponja disminuye respecto al del 
+% material sólido. Es por esto que todas las muestras de esponjas a ensayarse deben tener dimensiones de por lo menos seis a siete celdas, de esta 
+% forma se asegura que la performance de la esponja no se vea afectada por los efectos de borde.
+% 
+% %\newline %\newline
+% %\textbf{Modulo de young respecto del tamaño de la esponja respecto del tamaño de la celda}
+% %\newline %\newline
 % 
 % \begin{figure}[h]
 %  \centering
-%  \includegraphics[width=0.6\textwidth]{fatiga.eps}
-%  \caption{Esquema de un ensayo de fatiga de una estructura celular donde $N$ es el número de ciclos de deformación. También se muestra como con el aumento de la tensión máxima aplicada disminuye el 
-%  número de ciclos para el cual se produce la falla de la estructura.} 
-%  \label{fig:fatiga}
-%  \end{figure}
-% 
-% Si se aplica una tensión cíclica con un valor medio positivo, en la etapa dos, las esponjas metálicas sufren un alargamiento debido a un efecto de 
-% creep cíclico. Luego se nuclea una fisura en el punto más débil de la estructura, la cual continua creciendo con muy poca deformación plástica. 
-% Por otro lado en un ensayo de compresión, luego de un período de incubación, ocurre una mayor cantidad de deformación plástica que en el caso 
-% anterior. Se cree que el mecanismo que ocurre es una combinación de fracturas en las paredes de las celdas y en la estructura, sumado a un creep 
-% cíclico. Ashby \cite{design} clasifica los distintos tipos de deformación que pueden ocurrir de la siguiente manera:
-% \begin{itemize}
-%  \item[$\circ$] Fisuras se producen en todo el material, y no se diferencia una banda de deformación acumulada. 
-%  \item[$\circ$] La deformación se concentra en distintas bandas. Primero en el punto más débil de la estructura se deforma una banda, una vez que la deformación 
-%  alcanza un cierto valor se forma una nueva banda en otro punto débil de la estructura. Los sitios donde se forman las bandas de deformación están relacionados 
-%  con la estructura de la misma. 
-%  Por ejemplo los sitios de la esponja con mayor densidad pueden mantenerse íntegros, sin deformación plástica.   
-%  \item[$\circ$] Se forma una única banda de deformación la cual se engrosa al aumentar los ciclos.
-%  \end{itemize}
-% 
-% Como regla general \cite{design} Al utilizar tensiones más altas, la cantidad de ciclos a la cual se produce la fisura disminuye. Al igual que para los 
-% materiales sólidos la vida del material está más relacionado con la tensión máxima aplicada que con la diferencia de tensiones en cada ciclo. 
-% 
-
-
-%\subsection{creep}
-
-%Para usos a alta temperatura es importante conocer el comportamiento de creep a alta temperatura. Se puede ver a partir de entender el pandeo de las paredes de la estructura que 
-%forma la estructura abierta. Puede explicarse como :
-%\begin{equation}
-% \dot{\varepsilon}=\varepsilon \left( \frac{\sigma}{\sigma_0} \right) ^n
-%\end{equation}
-
-%$\dot{\varepsilon}$, $\sigma_0$ y n son constantes del material sólido que compone la esponja.
-
-%\...\...\...\...\... sigue calculando los valores de creep para la esponja
-
-%\subsection{fatiga}
-
+%  \includegraphics[width=0.5\textwidth]{Etam.eps}
+%  \caption{Esquema de como varía el Módulo de Young relativo de la esponja. $L$ es el largo de la esponja, $d$ es el tamaño de los poros de 
+%  la estructura celular, $E^*$ es la rigidez de la esponja y $E_s$ es la rigidez de la esponja con dimensiones infinitas.}
+% \end{figure}
 
 
 
@@ -698,7 +680,7 @@ forma se asegura que la performance de la esponja no se vea afectada por los efe
     \end{subfigure}
 
   \label{fig: proceso}
-  \caption{Comparación de dos diagramas carga vs deformación de \textbf{(a)} una esponja de Cu y \textbf{(b)} una esponja con memoria de forma de Cu-Zn-Al.}
+  \caption{Comparación de dos diagramas carga vs deformación de \textbf{(a)} esponja de Cu de la figura \ref{fig:EspCu} y \textbf{(b)} una esponja con una composición de $Cu=75,20$ $\%pp$, $Zn=17,14$ $\%pp$ y $Al=7,66$ $\%pp$. Las dimensiones de la esponja son $23,44 \pm0,01$ $mm$ y $34,22 \pm0,01$ $mm$ de diámetro y largo respectivamente, densidad especifica $0,176 \pm 0,036$ y tamaños de poro entre $1,40$ y $2,80$ $mm$. }
 \end{figure}
 %\textbf{Gráficos deformación esponja de Cu y Esponja Cu Zn Al}
 
@@ -715,7 +697,7 @@ forma se asegura que la performance de la esponja no se vea afectada por los efe
         \caption{}
         \label{fig:EspAa}
     \end{subfigure}
-  \caption{Micrografías obtenidas por microscopía SEM de una fisura intergranular en el fondo de un hueco de una esponja.}
+  \caption{Micrografías obtenidas por microscopía SEM de una fisura intergranular en el fondo de un hueco de una esponja. La misma posee una composición de $Cu=75,20$ $\%pp$, $Zn=17,14$ $\%pp$ y $Al=7,66$ $\%pp$. Las dimensiones de la esponja son $23,44 \pm0,01$ $mm$ y $34,22 \pm0,01$ $mm$ de diámetro y largo respectivamente, densidad especifica $0,164 \pm 0,033$ y tamaños de poro entre $1,40 \pm 0,01$ y $2,80 \pm 0,01$ $mm$. Las micrografías se hicieron luego de realizar numerosos ciclos de compresión hasta un $3\%$ de deformación.}
   \label{fig:FisuraEsponja}
   \end{figure}
 
@@ -752,7 +734,7 @@ la curva presenta una histéresis (comportamiento pseudoelástico). En la figura
         \caption{}
         \label{fig:EspAMicro3}
     \end{subfigure}
- \caption{Micrografías obtenidas por microscopía óptica de una esponja. En (a) y (b) se muestran placas de martensita en la cara superior de la esponja. En (c) y (d) se distinguen los granos con algunas placas de martensita en un poro de la esponja.}
+ \caption{Micrografías obtenidas por microscopía óptica de la misma esponja que se muestra en la figura \ref{fig:FisuraEsponja}. En (a) y (b) se muestran placas de martensita en la cara superior de la esponja. En (c) y (d) se distinguen los granos con algunas placas de martensita en un poro de la esponja.}
   \label{fig:MicrografiasEsponja}
   \end{figure}
 
@@ -777,12 +759,12 @@ La transformación de granos con direcciones preferenciales también colabora en
 en direcciones favorables no se pueden acomodar al movimiento de los granos que sí transforman. En la figura \ref{fig:FisuraEsponja} se muestra una micrografía tomada por microscopía SEM de una fisura intergranular. Aunque estas fallas generan una disminución en la performance de las esponjas,
 no es significativa ya que estas fisuras pueden tomarse como nuevos poros de la estructura \cite{bertolino2010}. Claramente este comportamiento se da mientras el tamaño de las fisuras no es muy 
 grande.
-
-Las propiedades de las esponjas con memoria de forma, como el módulo de Young E, tensión de transformación y la energía absorbida/disipada en un ciclo de 
-transformación también pueden describirse según la ecuación \ref{props}. Por ejemplo Gibson \cite{gibson} calcula para esponjas metálicas, utilizando la 
-ecuación \ref{propsE}, A=0.98 y n=2. Mientras que Bertolino \cite{bertolino2011} llega experimentalmente a que esta ecuación es aplicable a esponjas 
-con memoria de forma, encontrando por ejemplo que para la ecuación \ref{propsE} $A=1$ y $n=2.31$, valores muy cercanos a los anteriores.
-
+% 
+% Las propiedades de las esponjas con memoria de forma, como el módulo de Young E, tensión de transformación y la energía absorbida/disipada en un ciclo de 
+% transformación también pueden describirse según la ecuación \ref{props}. Por ejemplo Gibson \cite{gibson} calcula para esponjas metálicas, utilizando la 
+% ecuación \ref{propsE}, A=0.98 y n=2. Mientras que Bertolino \cite{bertolino2011} llega experimentalmente a que esta ecuación es aplicable a esponjas 
+% con memoria de forma, encontrando por ejemplo que para la ecuación \ref{propsE} $A=1$ y $n=2.31$, valores muy cercanos a los anteriores.
+% 
 
 
 % ****************************************************************************************************************************************************
@@ -797,8 +779,10 @@ con memoria de forma, encontrando por ejemplo que para la ecuación \ref{propsE}
 
 
 Como material de partida para la aleación se utilizaron metales de pureza comercial y se fabricaron lingotes de 80 g con una composición electrónica de 
-$e/a=1.48$. Como se mostró anteriormente las propiedades de la aleación pueden variar ampliamente 
-con pequeños cambios en la composición, por lo que cada uno de los metales se pesaron con balanza de precisión (con una mínima resolución de $0,001g$). 
+$e/a=1.48$, la cual corresponde a una concentración de $Cu=75.20 \% pp$, $Zn= 17.44 \% pp$, $Al=7.66 \%pp$ y $M_s=-12$ $^\circ C$.   
+
+Como se mostró anteriormente las propiedades de la aleación pueden variar ampliamente 
+con pequeños cambios en la composición, por lo que cada uno de los metales se pesaron con balanza de precisión (con una mínima resolución de $0,0001g$). 
 Luego se les realizó un pulido químico con las siguientes soluciones:
 \begin{itemize}
  \item[$\circ$] Cu: $50 \%$ ácido nítrico (al $65 \%$) - $50 \%$ agua
@@ -822,27 +806,45 @@ una disminución en las propiedades mecánicas. El principal método para evitar
 celular de las esponjas se obtiene en la solidificación del metal fundido, resulta evidente que no es posible utilizar este método, quedando como posible método el agregado de algún compuesto refinador. A partir de la bibliografía consultada se concluyó que el 
 mejor compuesto a utilizar es el boro. Al fundir el material el boro reacciona con el aluminio formando $AlB_2$, por lo que se agregó directamente $AlB_2$ en forma de polvo. En la tabla \ref{tab:FabMuestras} se detallan las composiciones de cada una de las muestras fabricadas. 
 
-\begin{table} %\label{tab:mstab}
-\begin{center}
-\begin{tabular}{@{}llllllll@{}}  \toprule
-Muestra & $Cu-Zn-Al (g)$ & $Cu (g)$ & $Al (g)$ & $AlB_2$ & $\% pp$ $AlB_2$ & Método & Horno \\ \midrule
-Botón 1 & 18,866  & 0,1878 & 0,0495 & 0,0021 & 0,005 & I & Inducción\\
-Botón 2 & 18,564  & 0,1878 & 0,0495 & 0,2099 & 0,5 & I &Resistivo\\
-Botón 3 & 14,129  & - & -  & 0,1520 & 0,5 & II &Resistivo \\
-Botón 4 & 18,383 & - & -  & 0,2052 & 0,5 &II & Resistivo \\
-Clavo 1 & 8 & - & - & 0,5 & 0,5 & III & Resistivo \\
-Clavo 2 & 8 & - & - & 0,05 & 0,05 &III & Resistivo \\
-Clavo 3 & 8 & - & - & - & - &  IV & Resistivo \\
-Clavo 4 & 8 & - & - & 0,005 & 0,005 &IV & Resistivo \\
-\bottomrule
-\end{tabular}
-\caption{En esta tabla se detallan las composiciones utilizadas en cada muestra, el método de fabricación, y el horno utilizado para la fundición. La composición de la aleación corresponde a aproximadamente $60.115$ $g$ de cobre, $13.714$ $g$ de zinc y $6.130$ $g$ de aluminio. }
-\label{tab:FabMuestras}
-\end{center}
-\end{table}
+% \begin{table} %\label{tab:mstab}
+% \begin{center}
+% \begin{tabular}{@{}llllllll@{}}  \toprule
+% Muestra & $Cu-Zn-Al (g)$ & $Cu (g)$ & $Al (g)$ & $AlB_2$ & $\% pp$ $AlB_2$ & Método & Horno \\ \midrule
+% Botón 1 & 18,866  & 0,1878 & 0,0495 & 0,0021 & 0,005 & I & Inducción\\
+% Botón 2 & 18,564  & 0,1878 & 0,0495 & 0,2099 & 0,5 & I &Resistivo\\
+% Botón 3 & 14,129  & - & -  & 0,1520 & 0,5 & II &Resistivo \\
+% Botón 4 & 18,383 & - & -  & 0,2052 & 0,5 &II & Resistivo \\
+% Clavo 1 & 8 & - & - & 0,5 & 0,5 & III & Resistivo \\
+% Clavo 2 & 8 & - & - & 0,05 & 0,05 &III & Resistivo \\
+% Clavo 3 & 8 & - & - & - & - &  IV & Resistivo \\
+% Clavo 4 & 8 & - & - & 0,005 & 0,005 &IV & Resistivo \\
+% \bottomrule
+% \end{tabular}
+% \caption{En esta tabla se detallan las composiciones utilizadas en cada muestra, el método de fabricación, y el horno utilizado para la fundición. La composición de la aleación corresponde a aproximadamente $60.115$ $g$ de cobre, $13.714$ $g$ de zinc y $6.130$ $g$ de aluminio. }
+% \label{tab:FabMuestras}
+% \end{center}
+% \end{table}
+
+ \begin{table} %\label{tab:mstab}
+ \begin{center}
+ \begin{tabular}{@{}llllllll@{}}  \toprule
+ Muestra & $\%pp$ $Cu$ & $\%pp$ $Zn$ & $\%pp$ $Al$ & $\%pp$ $AlB_2$& $M_s$ ($^\circ C$) & Método & Horno \\ \midrule
+ Botón 1 & 76,548      & 16,103      & 7,349          & 0,005            &  -10  & I      & Inducción\\
+ Botón 2 & 75,321      & 16,943      & 7,735          & 0,500             &  -5  & I      &Resistivo\\
+ Botón 3 & 75,195      & 17,143      & 7,663          & 0,500             &  2  & II     &Resistivo \\
+ Botón 4 & 75,195      & 17,143      & 7,663          & 0,500             &  -3  & II     & Resistivo \\
+ Clavo 1 & 75,195      & 17,143      & 7,663          & 0,500             & -70      & III    & Resistivo \\
+ Clavo 2 & 75,195      & 17,143      & 7,663         & 0,050             & -40      &  III   & Resistivo \\
+ Clavo 3 & 75,195      & 17,143      & 7,663         & 0,000             & -14      &   IV   & Resistivo \\
+ Clavo 4 & 75,195      & 17,143      & 7,663         & 0,005            &  -6      & IV     & Resistivo \\
+ \bottomrule
+ \end{tabular}
+ \caption{En esta tabla se detallan las composiciones de cada muestra, la $M_s$ medida luego de fabricar cada muestra, el método de fabricación, y el horno utilizado para la fundición.}
+ \label{tab:FabMuestras}
+ \end{center}
+ \end{table}
 
 A continuación se detalla el procedimiento que se llevó a cabo para fabricar cada una de las muestras.
-
 
 \begin{description}
 \item[Método I:] Se colocó dentro de una ampolla de cuarzo (figura \ref{fig:ampolla}) aproximadamente $25 g$ de la aleación, polvo de $AlB_2$ envuelvo en papel de aluminio y una porción de 
@@ -888,7 +890,7 @@ Luego se retiró el polvo ya molido de la cámara y se prensaron pastillas de $4
         \caption{}
         \label{fig:ClavoPolvo}
     \end{subfigure}
- \caption{Distintos métodos utilizados para refinar la estructura de la aleación de Cu-Zn-Al con polvo de $AlB_2$} 
+ \caption{Distintos métodos utilizados para refinar la estructura de la aleación de Cu-Zn-Al con polvo de $AlB_2$. Las composiciones de cada muestra se presentan en la tabla \ref{tab:FabMuestras}.} 
     \end{figure}
     
     
@@ -972,7 +974,7 @@ ensayos mecánicos correctamente. Si se desean obtener micrografías ópticas o 
 
 Para que la transformación martensítica avance y retroceda al aplicar y retirar cargas respectivamente,  se debe trabajar entre las temperaturas $M_s$ y $M_d$. Si se trabaja con una temperatura inferior a $M_s$, la aleación formará martensita estable al enfriarse. Por otro lado si se utilizan temperaturas muy altas, la martensita formada  por las tensiones mecánicas se estabilizará por un proceso de envejecimiento, y no ocurrirá una retransformación a austenita al retirar las cargas. Estos dos factores van en detrimento de las propiedades de memoria de forma, por lo que conocer la $M_s$ de la aleación es muy importante.
 
-Debido a esto, previo a cada ensayo se realizó una medición de la temperatura de transformación martensítica del material de la muestra.
+Para las aplicaciones de este trabajo no es de vital importancia la composición exacta de la aleación. Es suficiente con que la composición inicial del lingote utilizado sea se $e/a=1.48$. Como se dijo el parámetro más importante es el valor de $M_s$ de manera que se pueda asegurar un comportamiento pseudoelástico a temperatura ambiente, o a las temperaturas de trabajo. Debido a esto, previo a cada ensayo se realizó una medición de la temperatura de transformación martensítica luego del proceso de fabricación de cada muestra.
 Para llevar a cabo las mediciones se soldó a la muestra una termocupla tipo K. La termocupla se conectó a una punta fría, y esta a su vez a un voltímetro que registraba las mediciones en una computadora. Con un termo con nitrógeno líquido y un calentador de laboratorio a 150 $^\circ C$  se realizaron rampas de calentamiento y enfriamiento. 
 Como se muestra en el gráfico \ref{fig:Ms}, si se gráfica la velocidad de calentamiento o enfriamiento en función de la temperatura, se verá un pico a la temperatura que ocurra la transformación martensítica. Lo mismo sucederá en la transformación inversa de martensita a austenita. De esta forma se puede medir tanto la $M_s$ como la $A_s$.
 
@@ -980,8 +982,8 @@ Como se muestra en el gráfico \ref{fig:Ms}, si se gráfica la velocidad de cale
 
 \begin{figure}
  \centering
- \includegraphics[width=0.5\textwidth]{Img/Procedimiento/Ms.eps}
- \caption{Esquema del gráfico obtenido en la medición de la $M_s$}. 
+ \includegraphics[width=0.5\textwidth]{Img/Procedimiento/Ms1.eps}
+ \caption{Esquema del gráfico obtenido en la medición de la $M_s$ de una muestra  policristalina con una composición de $Cu=75,20$ $\%pp$, $Zn=17,14$ $\%pp$ y $Al=7,66$ $\%pp$.}. 
  \label{fig:Ms}
  \end{figure}
 
@@ -1106,10 +1108,10 @@ ecuación \ref{resist} la cual permite comparar los resultados de los distintos 
 \begin{figure}
  \centering
  \includegraphics[width=0.5\textwidth]{Img/Resultados/RvsTClavo5.eps}
- \caption{Ejemplo de la variación de la resistencia en función de la temperatura al transformar en un ciclo de enfriamiento y calentamiento.} 
+ \caption{Ejemplo de la variación de la resistencia en función de la temperatura al transformar una muestra cilíndrica en un ciclo de enfriamiento y calentamiento. La variación de temperatura se realizó con la cámara ambiental del equipo. El diámetro y largo de la muestra son $5,58\pm0,01$ $mm$ y $26,52$ $mm$ respectivamente y posee una composición de $Cu=75.20 \% pp$, $Zn= 17.44 \% pp$ y $Al=7.66 \%pp $.} 
  \label{fig:RvsTClavo5}
  \end{figure}
-s
+
 
 Donde $\rho$ es la resistividad, $R$ es la resistencia medida de la probeta, $A$ es la sección y $l$ la longitud entre los cables que miden la tensión.
  
@@ -1138,72 +1140,83 @@ de esperarse para cualquier aleación metálica.
 En este capítulo se presentan los resultados obtenidos al aplicar distintos métodos para modificar el tamaño de grano. En la sección \ref{reduccion} se detallan las muestras fabricadas y los resultados obtenidos al intentar reducir el tamaño de grano. En la sección \ref{aumento} se presentan los resultados obtenidos al intentar generar un aumento el tamaño de grano de la aleación. Finalmente en la sección \ref{TamañosConclusion} se presentan las conclusiones a las que se llegaron en este capítulo y el trabajo que debe continuarse a futuro. 
 
 
+
 \subsection{Reducción del tamaño de grano} \label{reduccion}
 
-Como se explicó en la sección \ref{FabClavos}, se encontró en la bibliografía que el método más efectivo para refinar el tamaño de grano es la utilización de $B$ como refinador. En el trabajo realizado por Rit Elst \textit{et al.} \cite{ritelst} se obtuvo para unas concentraciones de boro entre $0.04$ y $0.06$ $\% pp$ un tamaño de grano entre $50$ y $100$ $\mu m$, y para $0.01$ $\%pp$ tamaños entre $1$ y $2$ $mm$. Estos tamaños se obtuvieron luego de fundir la aleación con el agregado de boro y un recocido a $750$ $^\circ C$ durante quince minutos seguido de un temple en agua. El boro reacciona con el aluminio de la aleación formando $AlB_2$ que es el compuesto responsable del efecto refinador. Como en el laboratorio se contaba con $AlB_2$ en forma de polvo se utilizó este compuesto directamente. 
+Como se explicó en la sección \ref{FabClavos}, se encontró en la bibliografía que el método más efectivo para refinar el tamaño de grano es la utilización de $B$ como refinador. En el trabajo realizado por Rit Elst \textit{et al.} \cite{ritelst} se obtuvo para unas concentraciones de boro entre $0.04$ y $0.06$ $\% pp$ un tamaño de grano entre $50$ y $100$ $\mu m$, y para $0.01$ $\%pp$ tamaños entre $1$ y $2$ $mm$. Estos tamaños se obtuvieron luego de fundir la aleación con el agregado de boro y un recocido a $750$ $^\circ C$ durante quince minutos seguido de un temple en agua. El boro reacciona con el aluminio de la aleación formando $AlB_2$ que es el compuesto responsable del efecto refinador. 
+
+A partir del trabajo realizado por Rit Elst \textit{et al.} \cite{ritelst} se decidió seguir la misma metodología para refinar el tamaño de grano de la aleación de las esponjas. Además, como en el laboratorio se contaba con $AlB_2$ en forma de polvo se utilizó este compuesto directamente. Como se explicó en la sección \ref{FabClavos} se comenzó agregando el $AlB_2$ directamente durante la fundición de cada muestra. De esta forma se obtuvieron los $Botones$ que se detallan en la tabla \ref{tab:FabMuestras}. Si bien en estas muestras se obtuvo un refinamiento marcado del tamaño de grano (mayor al $50\%$), no se llegó a los valores buscados. Además se encontró que el $AlB_2$ no es incorporado por la aleación en la fundición por lo que se fue modificando la metodología para resolver este inconveniente. Hay que aclarar que en la bibliografía se cita el B como el mejor compuesto para refinar la estructura pero no se menciona ninguna dificultad en la incorporación.  
+Los resultados obtenidos con las primeras muestras llevó a la búsqueda de algún método que permita la incorporación del polvo refinador. De esta manera se prosiguió realizando, previo a la fundición, la molienda mecánica de la aleación y el polvo refinador. La molienda mecánica es un método utilizado para mezclar y refinar la aleación en estado sólido, esto permite realizar mezclas de aleaciones que en estado líquido no se mezclarían e incluso aumenta los campos de solubilidad de aleaciones. La utilización de la molienda mecánica permitió obtener el tamaño de grano buscado, pero para esto se pasó por distintas etapas hasta llegar al procedimiento óptimo.
+
+En la sección \ref{FabClavos} se detalló la metodología realizada para cada una de las muestras fabricadas. Como el refinamiento obtenido en las muestras que se realizaron por fundición no fue suficiente, se detallará a continuación los resultados obtenidos al combinar molienda mecánica y fundición de distintas probetas, destacando la necesidad de la realización de las muestras anteriores para llegar a la metodología correcta.
+
+
 
 
 \begin{table} 
 \begin{center} 
 \begin{tabular}{@{}lllll@{}} \toprule
-Muestra & $wt \% AlB_2$ & Método de fabricación & $\bar{tg} (mm)$ & $\sigma$ \\ \midrule
- Clavo 5 &  -     & -   & 0.59  & 0.30   \\
- Botón 1    &  0,005 & I   & 0.31 & 0.22  \\
- Clavo 1 &  0,50   & III & 0.16 & 0.08   \\
- Clavo 2 &  0,05  & III & 0.10 & 0.05   \\
- Clavo 3 &  -     & IV  & 0.11 & 0.05   \\
- Clavo 4 &  0,005 & IV  & 0.07 & 0.03   \\
+Muestra & $\%pp AlB_2$ & Método de fabricación & $\bar{tg} (mm)$ & $s$ \\ \midrule
+ Clavo 5 &  -     & -   & 0.587  & 0.301   \\
+ Botón 1    &  0,005 & I   & 0.312 & 0.221  \\
+ Clavo 1 &  0,500   & III & 0.155 & 0.078   \\
+ Clavo 2 &  0,050  & III & 0.102 & 0.052   \\
+ Clavo 3 &  -     & IV  & 0.113 & 0.051   \\
+ Clavo 4 &  0,005 & IV  & 0.069 & 0.029   \\
 \bottomrule
 \end{tabular}
-\caption{Porcentaje de polvo refinador, método de fabricación, valor medio del tamaño de grano ($\bar{tg}$) y desviación media de las distribuciones ($\sigma$) de las distintas muestras fabricadas.}
+\caption{Porcentaje de polvo refinador, método de fabricación, valor medio del tamaño de grano ($\bar{tg}$) y desviación media de las distribuciones ($s$) de las distintas muestras fabricadas.}
 \label{tab:ResClavos}
 \end{center}
 \end{table}
 
 
-En el cuadro \ref{tab:ResClavos} se muestra el valor medio de los tamaños de granos ($\bar{tg}$) que se obtuvieron en cada una de las muestras. Para medir el tamaño de grano se realizaron micrografías de distintas regiones. Luego se dibujaron lineas horizontales y verticales y se midieron los segmentos correspondientes a cada grano que tocaba esas lineas. Las mediciones se llevaron a cabo utilizando el programa \textit{Gwyddion} \cite{Gwyddion}.  El método de fabricación de cada muestra se detalló en la sección \ref{FabClavos}. También se muestra la desviación media de la distribución de tamaño de grano ($\sigma$). En el gráfico \ref{fig:tamaños} se esquematizan estos mismos resultados.
+En el cuadro \ref{tab:ResClavos} se muestra el valor medio de los tamaños de granos ($\bar{tg}$) que se obtuvieron en cada una de las muestras. Para medir el tamaño de grano se realizaron micrografías de distintas regiones. Luego se dibujaron lineas horizontales y verticales y se midieron los segmentos correspondientes a cada grano que tocaba esas lineas. Las mediciones se llevaron a cabo utilizando el programa \textit{Gwyddion} \cite{Gwyddion}.  El método de fabricación de cada muestra se detalló en la sección \ref{FabClavos}. También se muestra la desviación media de la distribución de tamaño de grano ($s$). En el gráfico \ref{fig:tamaños} se esquematizan estos mismos resultados. Se presenta también, a modo de comparación, el tamaño de grano medio obtenido con una muestra fabricada únicamente por fundición (Botón 1).
 
  \begin{figure}[h]
  \centering
  \includegraphics[width=0.9\textwidth]{Img/Resultados/clavos/TamGranos.eps}
- \caption{Valor medio de tamaño de grano ($\bar{tg}$) y desviación media de la distribución ($\sigma$) de cada una de las muestras fabricadas} 
+ \caption{Valor medio de tamaño de grano ($\bar{tg}$) y desviación media de la distribución ($s$) de cada una de las muestras fabricadas} 
  \label{fig:tamaños}
  \end{figure}
-
-A continuación se detallan los resultados obtenidos con cada una de las muestras. La nomenclatura utilizada corresponde a  \textbf{Botón X} cuando la muestra obtenida tiene geometría de botón \ref{fig:boton} y los \textbf{Clavos X} corresponden a muestras cilíndricas de $6$ mm de diámetro aproximadamente y una longitud que puede variar entre $30$ y $100$ mm.
  
- Las muestras \textbf{Botón 1} y \textbf{Botón 2}, para las cuales se mezcló el polvo refinador y una porción de aleación, no incorporaron correctamente el $AlB_2$. Como resultado quedó un botón de la aleación rodeado por el polvo refinador suelto. Luego de realizar un corte transversal y el pulido de la superficie no se observó una disminución significativa del tamaño de grano. Además el tamaño de grano resultó con granos de hasta medio milímetro de diámetro en las dos muestras. En la figura \ref{fig:MicroL1B1} se muestran micrografías de la muestra \textbf{Botón 1} tomadas por microscopía SEM.  
-
-%***************************************************** graficos
-  \begin{figure}% \label{fig:Clavo1}
-    \centering
-    
-    ~ %add desired spacing between images, e. g. ~, \quad, \qquad, \hfill etc. 
-      %(or a blank line to force the subfigure onto a new line)
-    \begin{subfigure}{0.4\textwidth}
-        \includegraphics[width=\textwidth]{Img/Resultados/clavos/L1B1_016.jpg}
-        \caption{}
-        \label{fig:ExpRes}
-    \end{subfigure}
-    \begin{subfigure}{0.4\textwidth}
-        \includegraphics[width=\textwidth]{Img/Resultados/clavos/L1B1_014.jpg}
-        \caption{}
-        \label{fig:ExpStrain}
-    \end{subfigure}
-    \caption{Micrografías tomadas por microscopía SEM del \textbf{Botón 1}. En (a) se distinguen los granos de la aleación y placas de martensita, en (b) se muestra un aumento de las placas. El tamaño de grano es bastante grande y no se observan en la aleación partículas de $AlB_2$.}
-    \label{fig:MicroL1B1}
-    \end{figure}
+ A continuación se detallan los resultados obtenidos con cada una de las muestras. Las muestras descriptas como \textbf{Clavos X} corresponden a muestras cilíndricas de $6$ mm de diámetro aproximadamente y una longitud que puede variar entre $30$ y $100$ mm.
  
- El \textbf{Botón 3} se fabricó fundiendo pastillas de viruta de aleación y polvo de $AlB_2$ prensado. Además, se utilizó cien veces más cantidad de polvo refinador para intentar incorporar por lo menos alguna fracción. Se observó que la aleación escurrió, formando un botón como los citados anteriormente, y junto al botón quedaron las pastillas conteniendo todo el polvo refinador y prácticamente nada de la viruta de aleación. El botón presentó el mismo tamaño de grano que las muestras \textbf{ Botón 1} y \textbf{Botón 2}.
 
-El botón \textbf{Botón 4} se fabricó de la misma manera que el botón \textbf{Botón 3}. La única diferencia en el procedimiento fue que la temperatura utilizada para fundir se controló para no llegar a la transformación $AlB_2 \rightarrow AlB_{12}$, en caso de que esta transformación tuviera algún efecto en la incorporación del refinador. Nuevamente el refinador no fue incorporado y no se vio una reducción significativa del tamaño de grano. También se realizó un corte del botón y se analizó con microscopía SEM para ver si se encontraba alguna partícula de $AlB_2$. No se encontró refinador en las micrografías por lo que se corroboró que el polvo refinador no fue incorporado por la aleación. Las únicas partículas que se encontraron fueron pequeños precipitados que seguramente corresponden a una fase rica en zinc.
+ 
+%  
+%  Las muestras \textbf{Botón 1} y \textbf{Botón 2}, para las cuales se mezcló el polvo refinador y una porción de aleación, no incorporaron correctamente el $AlB_2$. Como resultado quedó un botón de la aleación rodeado por el polvo refinador suelto. Luego de realizar un corte transversal y el pulido de la superficie no se observó una disminución significativa del tamaño de grano. Además el tamaño de grano resultó con granos de hasta medio milímetro de diámetro en las dos muestras. En la figura \ref{fig:MicroL1B1} se muestran micrografías de la muestra \textbf{Botón 1} tomadas por microscopía SEM.  
+% 
+% %***************************************************** graficos
+%   \begin{figure}% \label{fig:Clavo1}
+%     \centering
+%     
+%     ~ %add desired spacing between images, e. g. ~, \quad, \qquad, \hfill etc. 
+%       %(or a blank line to force the subfigure onto a new line)
+%     \begin{subfigure}{0.4\textwidth}
+%         \includegraphics[width=\textwidth]{Img/Resultados/clavos/L1B1_016.jpg}
+%         \caption{}
+%         \label{fig:ExpRes}
+%     \end{subfigure}
+%     \begin{subfigure}{0.4\textwidth}
+%         \includegraphics[width=\textwidth]{Img/Resultados/clavos/L1B1_014.jpg}
+%         \caption{}
+%         \label{fig:ExpStrain}
+%     \end{subfigure}
+%     \caption{Micrografías tomadas por microscopía SEM del \textbf{Botón 1}. En (a) se distinguen los granos de la aleación y placas de martensita, en (b) se muestra un aumento de las placas. Si bien el tamaño de grano disminuyó, es aún superior al buscado. Además no se observan en la aleación partículas de $AlB_2$.}
+%     \label{fig:MicroL1B1}
+%     \end{figure}
+%  
+%  El \textbf{Botón 3} se fabricó fundiendo pastillas de viruta de aleación y polvo de $AlB_2$ prensado. Además, se utilizó cien veces más cantidad de polvo refinador para intentar incorporar por lo menos alguna fracción. Se observó que la aleación escurrió, formando un botón como los citados anteriormente, y junto al botón quedaron las pastillas conteniendo todo el polvo refinador y prácticamente nada de la viruta de aleación. El botón presentó el mismo tamaño de grano que las muestras \textbf{ Botón 1} y \textbf{Botón 2}.
+% 
+% El botón \textbf{Botón 4} se fabricó de la misma manera que el botón \textbf{Botón 3}. La única diferencia en el procedimiento fue que la fundición se realizó a $960 ^\circ C$ para no llegar a la transformación $AlB_2 \rightarrow AlB_{12}$ que ocurre a $975 ^\circ C$, en caso de que esta transformación tuviera algún efecto en la incorporación del refinador. Nuevamente el refinador no fue incorporado y no se vio una reducción significativa del tamaño de grano. También se realizó un corte del botón y se analizó con microscopía SEM para ver si se encontraba alguna partícula de $AlB_2$. No se encontró refinador en las micrografías por lo que se corroboró que el polvo refinador no fue incorporado por la aleación. Las únicas partículas que se encontraron fueron pequeños precipitados que seguramente corresponden a una fase rica en zinc.
+% 
+% 
+% Viendo estos resultados se concluyó que el refinador no puede incorporarse de manera sencilla a la aleación. Por este motivo se realizó la molienda en un molino de bolas de la aleación junto al polvo refinador para favorecer la incorporación por la mezcla, y además un refinamiento del $AlB_2$. Se analizó el polvo obtenido en la molienda con microscopia SEM y EDS. Se realizaron análisis de topografía y de composición con electrones retrodispersados pero no fue posible identificar partículas del polvo refinador. 
+% 
 
 
-Viendo estos resultados se concluyó que el refinador no puede incorporarse de manera sencilla a la aleación. Por este motivo se realizó la molienda en un molino de bolas de la aleación junto al polvo refinador para favorecer la incorporación por la mezcla, y además un refinamiento del $AlB_2$. Se analizó el polvo obtenido en la molienda con microscopia SEM y EDS. Se realizaron análisis de topografía y de composición con electrones retrodispersados pero no fue posible identificar partículas del polvo refinador. 
-
-
-
-Luego se fabricó el \textbf{Clavo 1}. Se prensaron pastillas con el polvo obtenido de la molienda (Figura \ref{fig:PastMolienda}). Como se muestra en la figura \ref{fig: Clavo1}, al fundirlas se observó nuevamente que la aleación escurrió, quedando las pastillas con el polvo refinador y el metal escurrido en la superficie. Se hizo un corte transversal al clavo, y en la zona donde había escurrido la aleación se observaron los granos, los cuales presentaron el primer refinamiento marcado de su tamaño (Figura \ref{fig: MicroClavo1}). Además, si bien hay tamaños de grano variados, el ancho de la distribución también disminuyó.  Se distinguen las pastillas con refinador y la aleación que escurrió envolviendo las pastillas. En la figura \ref{fig: MicroClavo1} se ve un corte transversal del \textbf{Clavo 1}. En la parte izquierda se observa la geometría de la pastilla compuesta principalmente por el polvo refinador y muy pocos granos pequeños de la aleación. A la derecha se distingue claramente la aleación que quedó envolviendo las pastillas. En la figura \ref{fig: SEM1Clavo1} se muestra una imagen tomada con un microscopio electrónico de barrido (SEM) usando electrones retrodispersados donde se distingue la diferencia en la composición de la aleación y la zona donde quedó acumulado el polvo refinador. Los granos de aleación se ven más claros ya que poseen mayor cantidad de Cu y Zn, elementos de mayor número atómico. Por otro lado la zona con el polvo refinador se ve más oscura ya que posee una mayor concentración de Al y B, elementos de menor número atómico. También se realizó un análisis de Espectroscopia dispersiva en energía (EDS) para corroborar las composiciones en cada zona. En la figura \ref{fig: Sem2Clavo1} se ven los granos de la aleación y se distinguen partículas del polvo refinador que quedaron distribuidos en la aleación (pequeños puntos negros). Los círculos más grandes son pequeños poros que luego aumentaron su tamaño al realizar el pulido químico con ácido nítrico al $50 \%$.
+La primera muestra fabricada de este grupo fue el \textbf{Clavo 1}. Se prensaron pastillas con el polvo obtenido de la molienda (Figura \ref{fig:PastMolienda}). Como se muestra en la figura \ref{fig: Clavo1}, al fundirlas se observó que la aleación escurrió, quedando las pastillas con el polvo refinador y el metal escurrido en la superficie. Se hizo un corte transversal al clavo, y en la zona donde había escurrido la aleación se observaron los granos, los cuales presentaron el primer refinamiento marcado de su tamaño (Figura \ref{fig: MicroClavo1}). Además, si bien hay tamaños de grano variados, el ancho de la distribución también disminuyó respecto del obtenido para el \textbf{Botón 1}.  Se distinguen las pastillas con refinador y la aleación que escurrió envolviendo las pastillas. En la figura \ref{fig: MicroClavo1} se ve un corte transversal del \textbf{Clavo 1}. En la parte izquierda se observa la geometría de la pastilla compuesta principalmente por el polvo refinador y muy pocos granos pequeños de la aleación. A la derecha se distingue claramente la aleación que quedó envolviendo las pastillas. En la figura \ref{fig: SEM1Clavo1} se muestra una imagen tomada con un microscopio electrónico de barrido (SEM) usando electrones retrodispersados donde se distingue la diferencia en la composición de la aleación y la zona donde quedó acumulado el polvo refinador. Los granos de aleación se ven más claros ya que poseen mayor cantidad de Cu y Zn, elementos de mayor número atómico. Por otro lado la zona con el polvo refinador se ve más oscura ya que posee una mayor concentración de Al y B, elementos de menor número atómico. También se realizó un análisis de Espectroscopia dispersiva en energía (EDS) para corroborar las composiciones en cada zona. En la figura \ref{fig: Sem2Clavo1} se ven los granos de la aleación y se distinguen partículas del polvo refinador que quedaron distribuidos en la aleación (pequeños puntos negros). Los círculos más grandes son pequeños poros que luego aumentaron su tamaño al realizar el pulido químico con ácido nítrico al $50 \%$.
 
 
 
@@ -1250,7 +1263,7 @@ Por último, se fabricó el  \textbf{Clavo 4}, con $0.005 \%$ en peso de refinad
  
 
 
-Todas estas muestras se compararon con un clavo fabricado anteriormente por el grupo de investigación. Esta muestra, que llamamos \textbf{Clavo 5}, fue fabricada únicamente fundiendo la aleación, sin un proceso de molienda ni el agregado de $AlB_2$. Como se ve en el Cuadro \ref{tab:ResClavos} es la muestra con el mayor tamaño de grano y el mayor ancho de distribución. De esta forma puede verse que en las muestras \textbf{Clavo 3} y \textbf{Clavo 4} se obtuvo una considerable mejora.   
+Todas estas muestras se compararon con un clavo fabricado anteriormente por el grupo de investigación. Esta muestra, que llamamos \textbf{Clavo 5}, fue fabricada únicamente fundiendo la aleación, sin un proceso de molienda ni el agregado de $AlB_2$. Para la caracterización de esta muestra se tomó el clavo, se cortó, se emparejó con electroerosión y luego se realizaron todas las micrografías y mediciones. Como se ve en la tabla \ref{tab:ResClavos} es la muestra con el mayor tamaño de grano y el mayor ancho de distribución. De esta forma puede verse que las muestras \textbf{Clavo 3} y \textbf{Clavo 4} presentan un tamaño de grano de prácticamente un $10 \%$ respecto del tamaño de grano del \textbf{Clavo 5}.   
 
 
 
@@ -1284,12 +1297,32 @@ Todas estas muestras se compararon con un clavo fabricado anteriormente por el g
     \caption{Corte transversal de los distintos clavos fabricados }
     \end{figure}
 
- \begin{figure}
- \centering
- \includegraphics[width=0.9\textwidth]{Img/Resultados/clavos/Clavos_3_4_5.eps}
- \caption{Ciclos de compresión hasta distintos porcentajes de deformación de las diferentes muestras  } 
+
+  \begin{figure}% \label{fig:Clavo1}
+    \centering
+    
+    ~ %add desired spacing between images, e. g. ~, \quad, \qquad, \hfill etc. 
+      %(or a blank line to force the subfigure onto a new line)
+    \begin{subfigure}{0.45\textwidth}
+        \includegraphics[width=\textwidth]{Img/Resultados/clavos/Clavo3Comp.eps}
+    \end{subfigure}
+        \begin{subfigure}{0.45\textwidth}
+        \includegraphics[width=\textwidth]{Img/Resultados/clavos/Clavo4Comp.eps}
+    \end{subfigure}
+    \newline
+    \centering
+        \begin{subfigure}{0.45\textwidth}
+        \includegraphics[width=\textwidth]{Img/Resultados/clavos/Clavo5Comp.eps}
+    \end{subfigure}
+            \begin{subfigure}{0.45\textwidth}
+        \includegraphics[width=\textwidth]{Img/Resultados/Resistencia/Ejblanco.jpg}
+ %       \caption{}%Corte transversal del Clavo 1}
+        \label{fig:EjTensionDef}
+    \end{subfigure} 
+    
+    \caption{Ciclos de compresión hasta distintos porcentajes de deformación de las diferentes muestras fabricadas.}
  \label{fig: Clavos3y4}
- \end{figure}
+    \end{figure}
 
 
 
@@ -1299,30 +1332,19 @@ Todas estas muestras se compararon con un clavo fabricado anteriormente por el g
 
 A partir de los clavos fabricados se cortaron probetas cilíndricas por electroerosión siguiendo el procedimiento descripto en la sección \ref{compresión}. Con estas probetas se realizaron distintos ciclos de compresión para analizar la incidencia de la estructura en el comportamiento mecánico. En los \textbf{Clavos 1} y \textbf{2}, la unión entre pastillas es muy débil, lo que provocó que las probetas se pandearan y quebraran. Por este motivo no fue posible realizar los ensayos de compresión. En el gráfico \ref{fig: Clavos3y4} se muestran los ciclos de deformación de los \textbf{Clavos 3}, \textbf{4} y \textbf{5}. Puede verse que el \textbf{Clavo 5} presenta una mayor recuperación de deformación en los ciclos que llegan a $1$ y $2 \%$. En los ciclos de mayor deformación el comportamiento se va igualando entre los \textbf{Clavos 3} y \textbf{4}.
 
-Todos los ensayos se realizaron a una temperatura $40$ $^\circ C$ por encima de la $M_s$ de cada muestra, con excepción del clavo 4 que se utilizó $46$ $^\circ C$ por encima de su $M_s$. A partir de la ecuación de Clausius Clapeyron las tensiones de transformación deberían ser iguales en los casos en que el $\Delta T$ es el mismo (\textbf{Clavo 3} y \textbf{5}). Puede verse que el \textbf{Clavo 5} transforma a menores tensiones y la pendiente de la zona de transformación es la menor. Esto se debe a que la estructura contiene granos grandes y pocos defectos, lo que facilita la formación y crecimiento de las placas de martensita. Al comparar los \textbf{Clavos 3} y \textbf{4} puede verse que el \textbf{Clavo 3} transforma a mayores tensiones, lo cual puede deberse a una mayor cantidad de partículas de óxido que también actúan como barrera para el avance de la transformación.  
-
-   
-
-
-
-
-\subsection{Aumento del tamaño de grano} \label{aumento}
+Todos los ensayos se realizaron a una temperatura $40$ $^\circ C$ por encima de la $M_s$ de cada muestra, con excepción del clavo 4 que se utilizó $46$ $^\circ C$ por encima de su $M_s$. A partir de la ecuación de Clausius Clapeyron las tensiones de transformación deberían ser iguales en los casos en que el $\Delta T$ es el mismo (\textbf{Clavo 3} y \textbf{5}). Puede verse que el \textbf{Clavo 5} transforma a menores tensiones y la pendiente de la zona de transformación es la menor. Esto se debe a que la estructura contiene granos grandes y pocos defectos, lo que facilita la formación y crecimiento de las placas de martensita. Al comparar los \textbf{Clavos 3} y \textbf{4} puede verse que el \textbf{Clavo 3} transforma a mayores tensiones, lo cual puede deberse a una mayor cantidad de partículas de óxido que también actúan como barrera para el avance de la transformación. De todas maneras las muestras con el menor tamaño de grano presentan una muy buena pseudoplasticidad, siendo adecuada en la fabricación de esponjas pseudoelásticas.  
 
 
 Para comparar los resultados de una esponja con un tamaño de grano reducido, también se intentó obtener una esponja con un tamaño de grano mayor al que se obtiene al finalizar el proceso de fabricación. Para esto se tomó una esponja ya fabricada con las esferas de sílica gel en su estructura (figura \ref{fig:proceso2}). Se colocó en una ampolla de cuarzo con atmósfera de argón de un diámetro  $1 mm$ mayor al de la esponja. Luego se fue fundiendo la esponja con el método utilizado para crecer monocristales, llamado método de Bridgman. El método consiste en colocar una semilla, que le dará a la muestra la orientación cristalina deseada. Se produce en una muestra ya solidificada un gradiente térmico que recorre de una punta a la otra, fundiendo localmente, lo que provoca que la aleación fundida vaya solidificando a medida que se enfría con la orientación de la estructura de la semilla. Cuando la zona fundida recorrió toda la muestra, la probeta habrá solidificado con la misma orientación cristalográfica.
 
  \begin{figure}
  \centering
- \includegraphics[width=0.5\textwidth]{Img/Resultados/EspRota.jpg}
+ \includegraphics[width=0.4\textwidth]{Img/Resultados/EspRota.jpg}
  \caption{Foto del interior de una esponja deteriorada luego de intentar aumentar su tamaño de grano utilizando el método de Bridgman para solidificar monocristales.} 
  \label{fig: EspRota}
  \end{figure}
 
-Para generar un aumento en el tamaño de grano se utilizó este mismo método. Aunque la presencia de las esferas de sílica gel actúa como puntos de nucleación, y además la geometría de la muestra no permite que solidifique como un único cristal. Al utilizar este método se buscaba que el material que se iba fundiendo localmente solidificara con un tamaño de grano mayor al que se obtiene en la fabricación convencional de esponjas.
-
-Una vez finalizado con el proceso se abrió la ampolla de cuarzo, la cual tenía una presión alta de vapor. Por el olor se cree que puede tratarse de vapor de ácido sulfhídrico. Si se repite el proceso, habrá que tener especial precaución por una eventual explosión de la ampolla. Se analizó el proceso de fabricación de las esferas de sílica gel para intentar determinar su procedencia. Las esferas de sílica gel están compuestas por una estructura porosa de óxido de silicio y su alta porosidad es lo que le da la capacidad de absorber la humedad. En algunos casos se le agrega cloruro de cobalto para obtener el efecto de cambio de color entre las esferas secas y con humedad en su interior. Se llegó a la conclusión que el azufre puede provenir de dos fuentes. La sílica gel se fabrica a partir de la neutralización de ácido sulfúrico y silicato de sodio. Si la reacción es incompleta pueden quedar rastros de azufre en las esferas. Por otro lado un subproducto de la reacción es el sulfato de sodio, que a altas temperaturas puede reaccionar con el cobre de la aleación, y a través de una reacción redox también  forma ácido sulfhídrico. 
-
-Luego se intentaron tornear las caras con un torno mecánico, pero al hacerlo la esponja se rompió como se muestra en la figura \ref{fig: EspRota}. En el interior se vio que la estructura estaba muy deteriorada y ya no tenía integridad suficiente para seguir utilizándola. Como la sílica que se utiliza en este método de fabricación de esponjas es comercial y no se puede tener certeza del grado de pureza en la composición de las esferas de sílica gel utilizadas, se concluyó que no es posible utilizar un método en la que se caliente las esferas a tan alta temperatura en una ampolla cerrada. 
+Para generar un aumento en el tamaño de grano se utilizó este mismo método. Aunque la presencia de las esferas de sílica gel actúa como puntos de nucleación, y además la geometría de la muestra no permite que solidifique como un único cristal. Al utilizar este método se buscaba que el material que se iba fundiendo localmente solidificara con un tamaño de grano mayor al que se obtiene en la fabricación convencional de esponjas. Una vez finalizado con el proceso se abrió la ampolla de cuarzo, la cual tenía una presión alta de vapor. Por el olor se cree que puede tratarse de vapor de ácido sulfhídrico. Si se repite el proceso, habrá que tener especial precaución por una eventual explosión de la ampolla. Se analizó el proceso de fabricación de las esferas de sílica gel para intentar determinar su procedencia. Se llegó a la conclusión que el azufre puede provenir de distintas etapas del proceso de fabricación de la sílica gel. Luego se intentaron tornear las caras con un torno mecánico, pero al hacerlo la esponja se rompió como se muestra en la figura \ref{fig: EspRota}. En el interior se vio que la estructura estaba muy deteriorada y ya no tenía integridad suficiente para seguir utilizándola. Como la sílica que se utiliza en este método de fabricación de esponjas es comercial y no se puede tener certeza del grado de pureza en la composición de las esferas de sílica gel utilizadas, se concluyó que la aplicación de este método requerirá el procesamiento de las esferas de sílica gel para elilimar cualquier impureza que puedan tener en su composición. 
 
 
 
@@ -1382,7 +1404,7 @@ Respecto de las características de las aleaciones obtenidas, el \textbf{Clavo 5
         \caption{}
         \label{fig:Ciclos}
     \end{subfigure}
-    \caption{Macrografías donde se señalan distintas fisuras intergranulares que se produjeron en una esponja que se sometió a numerosos ciclos de defomación.}
+    \caption{Macrografías donde se señalan distintas fisuras intergranulares que se produjeron en una esponja que se sometió a numerosos ciclos de compresión hasta un $3\%$ de deformación. La misma posee una composición de $Cu=75,20$ $\%pp$, $Zn=17,14$ $\%pp$ y $Al=7,66$ $\%pp$. Las dimensiones de la esponja son $23,54 \pm0,01$ $mm$ y $30,55 \pm0,01$ $mm$ de diámetro y largo respectivamente, densidad especifica $0,174 \pm 0,035$ y tamaños de poro entre $1,40 $ y $2,80$ $mm$. Las micrografías se hicieron luego de realizar numerosos ciclos de compresión hasta un $3\%$ de deformación.}
     \label{fig:Fisuras}
     \end{figure}
  
@@ -1409,7 +1431,7 @@ Un posible método para analizar la integridad de una esponja es por tomografía
  \begin{figure}
  \centering
  \includegraphics[width=0.95\textwidth]{Img/Resultados/Resistencia/Ciclos.eps}
- \caption{Gráficos obtenidos al realizar ciclos de compresión de una esponja de Cu-Zn-Al hasta $-2\%$ de deformación. Abajo se muestra un gráfico de la deformación en función del tiempo y arriba los correspondientes valores de resistencia. } 
+ \caption{Gráficos obtenidos al realizar ciclos de compresión de una esponja de Cu-Zn-Al hasta $-2\%$ de deformación. Abajo se muestra un gráfico de la deformación en función del tiempo y arriba los correspondientes valores de resistencia. La misma posee una composición de $Cu=75,20$ $\%pp$, $Zn=17,14$ $\%pp$ y $Al=7,66$ $\%pp$. Las dimensiones de la esponja son $23,54 \pm0,01$ $mm$ y $30,55 \pm0,01$ $mm$ de diámetro y largo respectivamente, densidad especifica $0,174 \pm 0,035$ y tamaño de poro $3 \pm 0,01$ $mm$.} 
  \label{fig:CiclosResistencia}
  \end{figure}
 
@@ -1461,7 +1483,7 @@ Se comenzó estudiando el trabajo realizado por Bertolino \cite{resistencia} en 
         \caption{}%Corte transversal del Clavo 1}
         \label{fig:EjTempRes}
     \end{subfigure}    
-    \caption{Gráficos obtenidos al realizar un ensayo con una probeta policristalina manteniendo una tensión de $32$ $MPa$ constante y transformando térmicamente. En \textbf{(a)} los valores obtenidos por el extensómetro en función de la tensión aplicada, en \textbf{(b)} la histéresis de deformación en función de la temperatura y en \textbf{(c)} la correspondiente histéresis de resistencia.}
+    \caption{Gráficos obtenidos al realizar un ensayo con una probeta policristalina manteniendo una tensión de $32$ $MPa$ constante y transformando térmicamente. La probeta posee geometría cilíndrica de diámetro y largo igual a $5,58\pm 0,01$ $mm$ y $26,52\pm0,01$ $mm$. En \textbf{(a)} los valores obtenidos por el extensómetro en función de la tensión aplicada, en \textbf{(b)} la histéresis de deformación en función de la temperatura y en \textbf{(c)} la correspondiente histéresis de resistencia.}
     \label{fig: Ejemplos6b}
     \end{figure}
 
@@ -1597,11 +1619,11 @@ En la tabla \ref{tab:TablaMonocristal} se detallan los valores obtenidos al real
 \begin{center} 
 \begin{tabular}{@{}llllll@{}} \toprule
 Tensión ($MPa$) & $\varepsilon$ ($\%$) &  $f'=\frac{R_M}{R_A}$\\ \midrule
- 0        &  0.76   & 1.27\\
- 1.93       &  0.37   & 1.28\\
- 17.4      &  -7.60  & 1.15\\
- 31.0      &  -7.90  & 1.17\\
- 46.5     &  -8.00  & 1.17  \\
+ 0,00       &  0,76   & 1,27\\
+ 1,93       &  0,37   & 1,28\\
+ 17,40      &  -7,60  & 1,15\\
+ 31,00      &  -7,90  & 1,17\\
+ 46,50     &  -8,00  & 1,17  \\
  Referencia \cite{resistencia}    & 8.00  &  1.73   \\
  \bottomrule
 \end{tabular}
@@ -1618,13 +1640,13 @@ A continuación se aplicó el mismo análisis a las mediciones realizadas con un
 \begin{center} 
 \begin{tabular}{@{}llllll@{}} \toprule
 Tensión (Mpa) & $\varepsilon$ ($\%$) &  $f'=\frac{R_M}{R_A}$\\ \midrule
- 0        &  -0.10   & 1.30\\
- 0       &  -0.60   & 1.27 \\
- 0      &  -0.50   & 1.28 \\
- 2.04      &  -0.90  & 1.27\\
- 18.4    &  -1.60  & 1.24 \\
-32.7      &  -2.60 & 1.21\\
- 49.1     &  -2.50  & 1.23   \\
+ 0,00        &  -0,10   & 1,30\\
+ 0,00       &  -0,60   & 1,27 \\
+ 0,00      &  -0,50   & 1,28 \\
+ 2,04      &  -0,90  & 1,27\\
+ 18,40    &  -1,60  & 1,24 \\
+32,70      &  -2,60 & 1,21\\
+ 49,10     &  -2,50  & 1,23   \\
  \bottomrule
 \end{tabular}
 \caption{Resultados obtenidos al realizar ciclos térmicos de transformación con distintas cargas aplicadas con un policristal de Cu-Zn-Al. En la primera columna se muestran las cargas aplicadas que se mantuvieron constantes durante cada ciclo de transformación, $\varepsilon$ es la deformación máxima registrada por el extensómetro al transformar completamente a martensita, $\frac{R_M}{R_A}$ es el cociente entre la resistencia en estado martensítico y el estado austenítico. También se esquematiza que $f$ corresponde a la pendiente de la recta.}
@@ -1659,7 +1681,7 @@ En el gráfico \ref{fig:PoliMono} puede verse que los puntos obtenidos para el m
  \begin{figure}
  \centering
  \includegraphics[width=0.6\textwidth]{Img/Resultados/Resistencia/HistExplicacion.eps}
- \caption{Esquema del gráfico obtenido al realizar un ciclo térmico de transformación de una esponja de Cu-Zn-Al. El punto 1 corresponde a la resistencia en estado austenítico. El punto 2 corresponde a la resistencia en estado martensítico luego de enfriar la muestra. El punto 3 corresponde a la resistencia en estado austenítico luego de calentar y retransformar a austenita. Finalmente el punto 4 corresponde a la resistencia al enfriar y transformar nuevamente a martensita.} 
+ \caption{Esquema del gráfico obtenido al realizar un ciclo térmico de transformación de una esponja de Cu-Zn-Al. La misma posee una composición de $Cu=75,20$ $\%pp$, $Zn=17,14$ $\%pp$ y $Al=7,66$ $\%pp$. Las dimensiones de la esponja son $23,54 \pm0,01$ $mm$ y $30,55 \pm0,01$ $mm$ de diámetro y largo respectivamente, densidad relativa $0,174 \pm 0,035$ y tamaño de poro $3 \pm 0,01$ $mm$. El punto 1 corresponde a la resistencia en estado austenítico. El punto 2 corresponde a la resistencia en estado martensítico luego de enfriar la muestra. El punto 3 corresponde a la resistencia en estado austenítico luego de calentar y retransformar a austenita. Finalmente el punto 4 corresponde a la resistencia al enfriar y transformar nuevamente a martensita.} 
  \label{fig:HistExplicacion}
  \end{figure}
 
@@ -1685,7 +1707,8 @@ En el gráfico \ref{fig:PoliMono} puede verse que los puntos obtenidos para el m
  \begin{figure}
  \centering
  \includegraphics[width=0.8\textwidth]{Img/Resultados/Resistencia/Histeresis2.eps}
- \caption{Esquema de las distintas fases que se obtienen al realizar un ciclo de transformación térmico y su respectiva curva de resistencia en función de la temperatura.} 
+ \caption{Esquema de las distintas fases que se obtienen al realizar un ciclo de transformación térmico y su respectiva curva de resistencia en función de la temperatura. Se ensayó una esponja de composición $Cu=75,20$ $\%pp$, $Zn=17,14$ $\%pp$ y $Al=7,66$ $\%pp$. Las dimensiones de la esponja son $23,54 \pm0,01$ $mm$ y $30,55 \pm0,01$ $mm$ de diámetro y largo respectivamente, densidad relativa $0,174 \pm 0,035$ y tamaño de poro $3 \pm 0,01$ $mm$.
+ } 
  \label{fig:HistEsquema}
  \end{figure}
 
@@ -1694,13 +1717,16 @@ En el gráfico \ref{fig:PoliMono} puede verse que los puntos obtenidos para el m
   a_i = \frac{A_0}{Ai}
  \end{equation}
 donde $A_0$ corresponde a la sección inicial y $A_i$ corresponde a la sección luego de realizarse el ciclo de transformación $i$. Este parámetro está relacionado a la integridad estructural de la esponja, pero como la estructura es irregular es imposible medir una sección. Sabemos que en los puntos donde se producen fisuras, serán puntos por donde la corriente ya no podrá pasar produciendo un aumento en la resistencia de la esponja. El parámetro $a_i$ dará información del área efectiva que se irá reduciendo a medida que aumente la resistencia. 
- \begin{figure}
+
+\begin{figure}
  \centering
  \includegraphics[width=0.6\textwidth]{Img/Resultados/Resistencia/RED_resultados.eps}
- \caption{Gráficos obtenidos al realizar distintos ciclos térmicos de transformación a una esponja. Primero se realizó el ciclo color negro, luego el rojo y por último el azul.} 
+ \caption{Gráficos obtenidos al realizar distintos ciclos térmicos de transformación a la esponja 1. La misma posee una composición de $Cu=75,20$ $\%pp$, $Zn=17,14$ $\%pp$ y $Al=7,66$ $\%pp$. Las dimensiones de la esponja son $23,16 \pm0,01$ $mm$ y $38,67 \pm0,01$ $mm$ de diámetro y largo respectivamente, densidad relativa $0,151 \pm 0,036$ y tamaño de poro $3 \pm 0,01$ $mm$.
+ Primero se realizó el ciclo color negro, luego el rojo y por último el azul.} 
  \label{fig:RED_resultados}
  \end{figure}
-Al concluir un ciclo de transformación a martensita y volver a austenita, la resistencia estará dada por:
+
+ Al concluir un ciclo de transformación a martensita y volver a austenita, la resistencia estará dada por:
 \begin{equation}
  R^A _i=\rho^A \frac{L_0}{A_i}(1-b_i) + \rho^M \frac{L_0}{A_i}b_i = \rho^A \frac{L_0}{A_i} [1+ b_i (f-1)]
 \end{equation}
@@ -1766,14 +1792,16 @@ Esponja & Ensayo   &    $R^M$    &  $R^A$ &  $A_0/A$ \\ \midrule
 \end{table}
 
 
-En el gráfico \ref{fig:RED_resultados} se muestran las curvas obtenidas en cada ensayo realizado con la esponja. Como fue explicado anteriormente se realizaron ciclos de transformación térmica y se graficó la resistencia en función de la temperatura. A continuación se detalla el estado de la esponja 1 en cada uno de los ensayos realizados: 
+En el gráfico \ref{fig:RED_resultados} se muestran las curvas obtenidas en cada ensayo realizado con la esponja 1. La misma posee una composición de $Cu=75,20$ $\%pp$, $Zn=17,14$ $\%pp$ y $Al=7,66$ $\%pp$. Las dimensiones de la esponja son $23,54 \pm0,01$ $mm$ y $30,55 \pm0,01$ $mm$ de diámetro y largo respectivamente, densidad especifica $ \pm $ y tamaños de poro entre $1,40$ y $2,80$ $mm$.
+ Como fue explicado anteriormente se realizaron ciclos de transformación térmica y se graficó la resistencia en función de la temperatura. 
+A continuación se detalla el estado de la esponja 1 en cada uno de los ensayos realizados: 
 \begin{itemize}
  \item[Ensayo 1:] El primer ciclo se realizó luego de un recocido (a $800$ $^\circ C$ durante media hora) con la esponja en estado austenítico y sin roturas (Curva negra de la figura \ref{fig:RED_resultados}).
  \item[Ensayo 2:] Se realizó un ciclo térmico con una carga aplicada de $4000$ $N$. Al finalizar este ciclo la esponja tendrá martensita retenida y cierto grando de rotura. Seguidamente a este ciclo se realizó un ciclo térmico de transformación sin carga aplicada (Curva roja de la figura \ref{fig:RED_resultados}).
  \item[Ensayo 3:] Se realizaron seis ciclos de compresión hasta $2\%$ de deformación. Seguidamente se realizó un ciclo térmico de transformación (Curva azul de la figura \ref{fig:RED_resultados}).
  \item[Ensayo 4:] Se realizó un nuevo recocido (a $800$ $^\circ C$ durante media hora) y luego un ciclo térmico de transformación. Hay que tomar en cuenta que para realizar un recocido hay que desoldar los cables y soldándolos nuevamente. Las nuevas posiciones pueden provocar una variación en la medición de la resistencia.
  \end{itemize}
-Luego para la esponja 2:
+Luego se analizó la esponja 2, 
 \begin{itemize}
  \item[Ensayo 1:] Se le aplicaron distintas cargas de compresión hasta una deformación de $2\%$ y luego se realizó un ciclo de transformación térmico.
  \item[Ensayo 2:] Se realizó un recocido ($800$ $^\circ C$ durante media hora) y luego se realizó un nuevo ciclo de transformación térmico.
@@ -1886,9 +1914,11 @@ Bertolino G., Gruttadauria  A., Arneodo Larochette P., Castrodeza E.M. , Baruj A
 different densities}.
 Intermetallics 2011; 19: 577 - 585
 
-\bibitem{CuZn} 
-Wikimedia Commons
-\\\texttt{https://commons.wikimedia.org/wiki/File:Cu-Zn-phase-diagram-greek.svg}
+\bibitem{CuZnAl} 
+G. Effenberg, S. Ilyenko 
+\textit{ Ternary Alloy Systems: Phase Diagrams, Crystallographic and Thermodynamic Data · Light Metal Systems. Part 2
+}. 
+Landolt-Börnstein - Group IV Physical Chemistry, Volumen 11A2 2005.
 
 \bibitem{Gwyddion}
 Nečas D., Klapetek P.

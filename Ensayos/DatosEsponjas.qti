@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE qti>
+<qti app="QtiPlot" version="0.9.9.10" dpi="96" arch="Gnu64" script="muParser" windows="1" expand="1">
+	<window type="1" name="Table1" date="2457953.8225655" x="0" y="0" w="1464" h="706" active="1">
+		<tab rows="30" cols="13" labels="0">
+			<col name="Esponja" type="6" num="0" prec="13" plot="1" width="100" stat="0" data="Esp A;Esp B;Esp C;Esp D;Esp Cu;Clavo2;"/>
+			<col name="diametro" type="6" num="0" prec="13" plot="2" width="100" stat="0" data="23.42;23.56;23.54;23.26;14.7;4.83;"/>
+			<col name="radio" type="6" num="0" prec="6" plot="2" width="100" formula="col(&quot;diametro&quot;)/2" stat="0" muparser="1" data="11.71;11.78;11.77;11.63;7.35;2.415;"/>
+			<col name="largo" type="6" num="0" prec="13" plot="2" width="100" stat="0" data="34.22;34.21;30.55;38.67;18.75;24.11;"/>
+			<col name="volumen" type="6" num="0" prec="13" plot="2" width="100" formula="pi*((col(&quot;diametro&quot;)/2)^2)*col(&quot;largo&quot;)" stat="0" muparser="1" data="14741.5675908056;14913.9790187319;13295.785895121;16431.736964588;3182.1879211604;441.754877411535;"/>
+			<col name="peso" type="6" num="0" prec="13" plot="2" width="100" stat="0" data="36.0934;38.8612;34.5412;36.9822;8.3676;6.591;"/>
+			<col name="densidad" type="6" num="0" prec="13" plot="2" width="147" formula="(col(&quot;peso&quot;)/col(&quot;volumen&quot;))*100" stat="0" muparser="1" data="0.244840989790744;0.260568959840901;0.259790585321288;0.225065676743123;0.262951158363668;1.49200390013122;"/>
+			<col name="Des Relativa" type="6" num="0" prec="13" plot="2" width="163" formula="col(&quot;densidad&quot;)/col(&quot;densidad&quot;,6)" stat="0" muparser="1" data="0.164102111106553;0.174643618436912;0.174121921060957;0.150847914488245;0.176240262066702;1;"/>
+			<col name="Epeso" type="6" num="2" prec="13" plot="2" width="171" formula="abs(1/(pi*col(&quot;radio&quot;)^2*col(&quot;largo&quot;)))*0.0001" stat="0" muparser="1" data="6.78353908999273e-09;6.7051187261562e-09;7.52118007832062e-09;6.08578388368251e-09;3.14249197336952e-08;2.26369883193935e-07;"/>
+			<col name="Eradio" type="6" num="0" prec="13" plot="2" width="57" formula="abs((2*col(&quot;peso&quot;))/(pi*col(&quot;radio&quot;)^3*col(&quot;largo&quot;)))*0.01" stat="0" muparser="1" data="4.1817419264004e-06;4.4239212197097e-06;4.41445344641102e-06;3.87043296204855e-06;7.15513356091614e-06;0.000123561399596789;"/>
+			<col name="ELArgo" type="6" num="0" prec="13" plot="2" width="58" formula="abs(col(&quot;peso&quot;)/(pi*col(&quot;radio&quot;)^2*col(&quot;largo&quot;)^2))*0.01" stat="0" muparser="1" data="7.15490911136013e-07;7.61674831455426e-07;8.50378348023857e-07;5.82016231557081e-07;1.40240617793956e-06;6.18831978486613e-06;"/>
+			<col name="ErrorDensidad" type="6" num="0" prec="13" plot="2" width="187" formula="col(&quot;Epeso&quot;)+col(&quot;Eradio&quot;)+col(&quot;ELArgo&quot;)" stat="0" muparser="1" data="4.90401637662641e-06;5.19230116989128e-06;5.27235297451319e-06;4.45853497748932e-06;8.5889646585894e-06;0.000129976089264849;"/>
+			<col name="ErrorDEnsRelativa" type="6" num="0" prec="13" plot="2" width="150" formula="abs(1/ col(&quot;densidad&quot;,6) )*col(&quot;ErrorDensidad&quot;)+abs( col(&quot;densidad&quot;)/(col(&quot;densidad&quot;,6)^6)  )*col(&quot;densidad&quot;,6)" stat="0" muparser="1" data="0.0331190169801244;0.0352464815031923;0.0351412568679245;0.0304440276541461;0.0355709600272996;0.201886652555068;"/>
+		</tab>
+	</window>
+</qti>

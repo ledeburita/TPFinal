@@ -69,58 +69,58 @@
 			</axis>
 		</tab>
 	</window>
-	<window type="3" name="Graph2" date="2457934.7216573" x="952" y="49" w="541" h="446" active="1" dpi="96">
-		<layout cw="533" ch="398" w="400" h="300" left="5" right="5" top="5" bottom="5" rows="1" cols="1" vSpace="5" hSpace="5" hAlign="0" vAlign="0" align="0" common="0" link="0" scale="1" sPrint="0" cmPrint="0" atUnits="1" atdIndex="0" atPolicy="4" alMode="0" luMode="2"/>
-		<tab x="11" y="17" w="499" h="356" autoscale="1" maxMajorTicks="20" gap="1" scaleFont="1">
-			<page x="0.0206379" y="0.0427136" w="0.93621" h="0.894472"/>
+	<window type="3" name="Graph2" date="2457934.7216573" x="1176" y="106" w="613" h="447" active="1" dpi="96">
+		<layout cw="605" ch="399" w="400" h="300" left="5" right="5" top="5" bottom="5" rows="1" cols="1" vSpace="5" hSpace="5" hAlign="0" vAlign="0" align="0" common="0" link="0" scale="1" sPrint="0" cmPrint="0" atUnits="1" atdIndex="0" atPolicy="4" alMode="0" luMode="2"/>
+		<tab x="12" y="17" w="566" h="357" autoscale="1" maxMajorTicks="20" gap="1" scaleFont="1">
+			<page x="0.0198347" y="0.0426065" w="0.935537" h="0.894737"/>
 			<frame bg="#ffffff,0"/>
-			<canvas x="64" y="24" w="433" h="301" fixRatio="0" bg="#ffffff,0"/>
+			<canvas x="79" y="27" w="482" h="286" fixRatio="0" bg="#ffffff,0"/>
 			<grid xAxis="2" yAxis="0">
 				<majx lc="#c0c0c0" lw="1" ls="0"/>
 				<minx lc="#c0c0c0" lw="1" ls="2"/>
 				<majy lc="#c0c0c0" lw="1" ls="0"/>
 				<miny lc="#c0c0c0" lw="1" ls="2"/>
 			</grid>
-			<curve type="1" z="21" table="Monocristal2" x="6" y="M/A" from="0" to="-1" line="0" lc="#000000" lw="1" ls="0" brc="#000000" brs="0">
+			<curve type="1" z="21" table="Monocristal2" x="6" y="M/A" from="0" to="-1" line="0" lc="#000000" lw="1" ls="0" brc="#000000" brs="0" on="0">
 				<symbol style="1" size="7" lc="#000000" lw="1" ls="0" brc="#000000"/>
 			</curve>
 			<curve type="1" z="22" table="Policristal2" x="6" y="M/A" from="0" to="-1" line="0" lc="#ff0000" lw="1" ls="0" brc="#000000" brs="0">
-				<symbol style="3" size="9" lc="#ff0000" lw="1" ls="0" brc="#ff0000"/>
+				<symbol style="3" size="11" lc="#008080" lw="1" ls="0" brc="#008000"/>
 			</curve>
-			<curve type="19" z="23" name="LinearSlopeFit1" f="0" y="A*x" from="0.8" to="1.1" points="2" line="1" lc="#ff0000" lw="1" ls="10" brc="#000000" brs="0">
+			<curve type="19" z="23" name="LinearSlopeFit1" f="0" y="A*x" from="0.8" to="1.1" points="2" line="1" lc="#008000" lw="1" ls="10" brc="#000000" brs="0">
 				<param name="A" val="1.29028358861032"/>
 			</curve>
-			<curve type="19" z="24" name="LinearSlopeFit2" f="0" y="A*x" from="0.8" to="1.1" points="2" line="1" lc="#000000" lw="1" ls="10" brc="#000000" brs="0">
+			<curve type="19" z="24" name="LinearSlopeFit2" f="0" y="A*x" from="0.8" to="1.1" points="2" line="1" lc="#000000" lw="1" ls="10" brc="#000000" brs="0" on="0">
 				<param name="A" val="1.3171521304379"/>
 			</curve>
 			<axis id="0" on="1" type="0" format="1" prec="1" lw="1">
-				<div from="1" to="1.5" step="0" maj="6" min="1" type="0"/>
+				<div from="1.1" to="1.4" step="0" maj="7" min="1" type="0"/>
 				<ticks maj="1" majl="8" min="1" minl="5"/>
-				<title text="f'=R&lt;sub&gt;M&lt;/sub&gt; /R&lt;sub&gt;A" color="#000000" font="Ubuntu,12,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="219.734"/>
-				<labels space="4" font="Ubuntu,10.0782,-1,5,50,0,0,0,0,0"/>
+				<title text="f'=R&lt;sub&gt;M&lt;/sub&gt; /R&lt;sub&gt;A" color="#000000" font="Ubuntu,17.1818,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="315.016"/>
+				<labels space="4" font="Ubuntu,13.3636,-1,5,50,0,0,0,0,0"/>
 			</axis>
 			<axis id="1" on="0" type="0" format="0" prec="6" lw="1">
 				<div from="1.1" to="1.8" step="0" maj="8" min="5" type="0"/>
 				<ticks maj="1" majl="8" min="1" minl="5"/>
-				<title text="%(?Y)" color="#000000" font="Ubuntu,10.0782,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="35.6562"/>
-				<labels space="4" font="Ubuntu,10.0782,-1,5,50,0,0,0,0,0"/>
+				<title text="%(?Y)" color="#000000" font="Ubuntu,9.53903,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="35.6562"/>
+				<labels space="4" font="Ubuntu,9.53903,-1,5,50,0,0,0,0,0"/>
 			</axis>
 			<axis id="2" on="1" type="0" format="1" prec="2" lw="1">
-				<div from="0.8" to="1.1" step="0" maj="7" min="1" type="0"/>
+				<div from="0.9" to="1.05" step="0" maj="4" min="1" type="0"/>
 				<ticks maj="1" majl="8" min="1" minl="5"/>
-				<title text="(1+ε) &lt;sup&gt;2&lt;/sup&gt;" color="#000000" font="Ubuntu,12,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="147.625"/>
-				<labels space="4" font="Ubuntu,10.0782,-1,5,50,0,0,0,0,0"/>
+				<title text="(1+ε) &lt;sup&gt;2&lt;/sup&gt;" color="#000000" font="Ubuntu,17.1818,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="211.375"/>
+				<labels space="4" font="Ubuntu,13.3636,-1,5,50,0,0,0,0,0"/>
 			</axis>
 			<axis id="3" on="0" type="0" format="0" prec="6" lw="1">
 				<div from="0.8" to="1.2" step="0" maj="9" min="5" type="0"/>
 				<ticks maj="1" majl="8" min="1" minl="5"/>
-				<title text="%(?X)" color="#000000" font="Ubuntu,10.0782,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="35.8438"/>
-				<labels space="4" font="Ubuntu,10.0782,-1,5,50,0,0,0,0,0"/>
+				<title text="%(?X)" color="#000000" font="Ubuntu,9.53903,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="35.8438"/>
+				<labels space="4" font="Ubuntu,9.53903,-1,5,50,0,0,0,0,0"/>
 			</axis>
-			<item type="5" x="1.07708333333333" y="1.39" r="1.07708333333333" b="1.34666666666667" lc="#000000" lw="1" ls="0" start="0" end="0" at="0"/>
-			<item type="5" x="1.07777777777778" y="1.34666666666667" r="1.04444444444444" b="1.34666666666667" lc="#000000" lw="1" ls="0" start="0" end="0" at="0"/>
-			<item type="2" x="1.02847222222222" y="1.09333333333333" frame="0" lc="#000000" lw="1" ls="0" bg="#ffffff,0" onTop="1" at="0" on="1" auto="1" font="Ubuntu,10.0782,-1,5,50,0,0,0,0,0" text="\l(1) Monocristal&#10;\l(2) Policristal"/>
-			<item type="2" x="1.07569444444444" y="1.38666666666667" frame="0" lc="#000000" lw="1" ls="0" bg="#ffffff,0" onTop="1" at="0" on="1" font="Ubuntu,11,-1,5,50,0,0,0,0,0" text="f"/>
+			<item type="5" x="1.03506944444444" y="1.33939393939394" r="1.03506944444444" b="1.31313131313131" lc="#000000" lw="1" ls="0" start="0" end="0" at="0"/>
+			<item type="5" x="1.03472222222222" y="1.31313131313131" r="1.01805555555556" b="1.31313131313131" lc="#000000" lw="1" ls="0" start="0" end="0" at="0"/>
+			<item type="2" x="1.01413721413721" y="1.15578947368421" frame="0" lc="#000000" lw="1" ls="0" bg="#ffffff,0" onTop="1" at="0" on="1" auto="1" font="Ubuntu,9.53903,-1,5,50,0,0,0,0,0" text="\l(2) Policristal"/>
+			<item type="2" x="1.03534303534304" y="1.32421052631579" frame="0" lc="#000000" lw="1" ls="0" bg="#ffffff,0" onTop="1" at="0" on="1" font="Ubuntu,15,-1,5,50,0,0,0,0,0" text="f"/>
 		</tab>
 	</window>
 </qti>
